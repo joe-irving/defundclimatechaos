@@ -1,0 +1,40 @@
+title: Defund Climate Chaos
+email:
+tagline: "#StopTheMoney"
+description: Without money, oil and gas companies  will not function. So lets stop the money flowing.
+baseurl: '/defundclimatechaos'
+url: 'https://joe.irving.me.uk'
+theme: jekyll-rebellion
+permalink: pretty
+logo:
+logo_light:
+logo_square:
+brand_color: "#fbd2d3"
+accent_color: "#fc0000"
+invert_accent_text: false
+bold_font: Raleway-Bold
+font: Raleway
+instagram:
+twitter:
+facebook:
+
+copyright_notice: ''
+collections:
+  posts:
+    permalink: "/news/:title/"
+defaults:
+- scope:
+    path: google1c899b51019de383.html
+  values:
+    sitemap: false
+- scope:
+    path: admin/index.html
+  values:
+    sitemap: false
+map:
+  lat: # 50
+  lng:
+plugins:
+- jekyll-feed
+- jekyll-liquify
+- jekyll-leaflet
