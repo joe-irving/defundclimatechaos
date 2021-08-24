@@ -28,20 +28,17 @@ blocks:
 
     A day of action against the financing of fossil fuel. If the money stops, they stop.
   buttons:
-    - text: More
-      target: /what
+    - text: Act
+      target: /act
 - type: image
   heading: When?
-  button:
-    - text: More
-      target: /when
   text: |-
     The day of action will be on the 29th October 2021
 - type: image
   heading: How?
   buttons:
     - text: More
-      target: /how
+      target: /act
   text: |-
     [Some links to sign up page, map, events, trainings]
 - type: image
