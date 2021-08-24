@@ -15,13 +15,16 @@ invert_accent_text: true
 bold_font: Raleway-Bold
 font: Raleway
 instagram:
-twitter:
+twitter: \#
 facebook:
 
 copyright_notice: ''
 collections:
   posts:
     permalink: "/news/:title/"
+  faqs:
+    output: true
+    permalink: "/faqs/:title/"
 defaults:
 - scope:
     path: google1c899b51019de383.html
