@@ -11,7 +11,7 @@ logo_light:
 logo_square:
 brand_color: "#fbd2d3"
 accent_color: "#fc0000"
-invert_accent_text: false
+invert_accent_text: true
 bold_font: Raleway-Bold
 font: Raleway
 instagram:
