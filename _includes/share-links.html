@@ -1,0 +1,8 @@
+<div class="social-links">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | relative_url | url_encode }}" title="Facebook">
+        {% include logo-facebook %}
+    </a>
+    <a href="https://twitter.com/intent/tweet?text={{ page.summary  }}&url={{ site.url }}{{ page.url | relative_url | url_encode }}{% if site.twitter contains 'http' %}&via={{ site.twitter | url_encode }}{% endif %}" title="Twitter">
+        {% include logo-twitter %}
+    </a>
+</div>

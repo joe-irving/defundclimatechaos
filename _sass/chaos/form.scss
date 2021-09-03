@@ -1,0 +1,89 @@
+// @import "/assets/css/Chaos-style.scss";
+
+.target:target{
+  display: block;
+
+}
+.target{
+  display: none;
+  color: $accent-color;
+}
+button.Chaos-Button{
+  border: 0;
+  font-size: 1em;
+}
+input[type="submit"], button{
+  all: none;
+  margin: $spacing-unit auto;
+}
+// Action network resets
+#can_embed_form {
+  list-style: none;
+  form{
+    ul{
+      list-style: none;
+    }
+    li {
+      &::marker &::before{
+        display: none;
+      }
+
+    }
+    .check_radio_field{
+      >*{
+        display: block;
+      }
+    }
+  }
+  #logo_wrap{
+    display: none;
+  }
+}
+.Chaos-Form{
+
+  div.input.text{
+    margin: $spacing-unit*1.5 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  input[required], textarea[required] {
+    & + label::after{
+          content: " *";
+          color: $brand-color;
+  }
+  }
+  input[type="email"], input[type="text"], input[type="tel"], textarea{
+    border-radius: 0;
+    width: 100%;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: $accent-color;
+    font-size: $base-font-size;
+    font-family: $base-font-stack;
+    &:focus{
+      border-color: $brand-color;
+      border-bottom-width: 3px;
+      outline-color: $brand-color;
+    }
+  }
+  input[type="submit"], button{
+    margin: $spacing-unit auto;
+  }
+  textarea{
+    max-width: 100%;
+    &.expand:focus{
+      height: 40vh;
+    }
+  }
+  button{
+    font-size: 1em;
+  }
+  .form-submit-message:target{
+    display: block;
+  }
+  .form-submit-message{
+    display: none;
+  }
+}

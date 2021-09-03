@@ -1,11 +1,12 @@
+{% capture blocks %}
+{% for block in page.blocks %}
+  {% include block.html block=block %}
+{% endfor %}
+{% endcapture %}
 <!DOCTYPE html>
 {% include head.html %}
 <body>
-    <div class="Landing-Header">
-      <svg viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
-        <text class=hashtag x=10 y=70 textLength=220>#{{ page.hashtag | upcase }}</text>
-      </svg>
-    </div>
+    {% include header.html %}
 
     <main class="Chaos-Main">
 
@@ -45,7 +46,11 @@
             </div>
         {% endif %}
 
+        {% unless page.blocks_after %}{{blocks}}{% endunless %}
+
         {{ content }}
+
+        {% if page.blocks_after %}{{blocks}}{% endif %}
 
         {% if page.end_quote %}
         <div class="Chaos-Section Chaos-PullQuote">

@@ -1,0 +1,115 @@
+@mixin block-height {
+  &:not(.full){
+    min-height: $block-height;
+  }
+  &.full{
+    min-height: 100vh;
+  }
+}
+@mixin big-header {
+  margin-top: $spacing-unit * 3;
+  font-size: calc(min( 80pt, 15vw));
+  text-transform: uppercase;
+  font-family: 'Druk Condensed';
+  letter-spacing: 0.02em;
+  strong,b,.bold{
+    // border-bottom-color: $brand-text-color-invert;
+    // border-bottom-width: 1em;
+    text-decoration: underline;
+  }
+}
+.Chaos-Block{
+  &.header{
+    h1{
+      strong,b,.bold{
+        color: $accent-color;
+      }
+      @include big-header;
+    }
+    text-align: center;
+  }
+  .border-bottom{
+    $border-width: $spacing-unit * 10;
+    position: relative;
+    z-index: 2;
+    top:  $border-width;
+    height: $border-width;
+    width: 100%;
+    background-color: none; /* Used if the image is unavailable */
+    background-position: bottom;
+    background-size: auto $border-width;
+    &.reflect {
+      -moz-transform: scaleY(-1);
+      -o-transform: scaleY(-1);
+      -webkit-transform: scaleY(-1);
+      transform: scaleY(-1);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+    }
+  }
+  &:not(.text){
+    @include block-height;
+    > .half{
+      @include block-height;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .content{
+        padding: $spacing-unit * 2 $spacing-unit ;
+        max-width: $content-width-wide;
+        margin: 0 auto;
+
+      }
+    }
+    .panel{
+      @include block-height;
+
+      background: $brand-color no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      position: relative;
+      > div{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .background{
+        background-color: $brand-color;
+      }
+      .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+          @include big-header;
+          color: $brand-text-color;
+        }
+      }
+    }
+    #Chaos-Map{
+      height: $block-height;
+    }
+    &.half:nth-of-type(even){
+      flex-direction: row-reverse;
+    }
+
+  }
+}
+
+@media only screen and (min-width: $half-width * 2) {
+  .Chaos-Block{
+    &.half{
+      display: flex;
+      > .half{
+        width: 50%;
+        min-height: $block-height;
+      }
+    }
+  }
+}

@@ -1,12 +1,26 @@
 ---
 layout: home
 hashtag: defundclimatechaos
-top_quote: Without money, oil and gas companies  will not function. So lets stop the money flowing.
-top_image: https://lh3.googleusercontent.com/fife/AAWUweXJvIueO2a6Gbuhgq4zPFDdaMbO9s28CKrIlr3cyFiIUVyjlqHmAVb-J_D7RAtvY_ghaWiMqQp6ImIJYCzkvnLqGf2ns5QTbN8kpFoQYpSv3Y2Q4oI8E-cXvDnOUc30jjzq6pOeltGKkUxOTYN84LyobGkhaeuCZ5QFs5SVXjqszdBjOqxI0mdGzbqCU-nB5XjQbEVMfgyahZr85Itip4bH0kWpKsbLsv_xFPY8HEa4oEio5f2ABZ8BH1HKnvUyZIThdSbGev9at6KCsZSAyVQUKGAAUd3VI5uCzgf5uEfK9AC5aCddIvlLiPHCLxIzPGK0fAnUApo6lDhZGvQpS-b9t1OljgQCerBTtgRMT1qHhSOPEr4bAM6AQuEBzlpsExhrqVWRfLJ5M5yr4F5tfrGKZV5vj5R08Opdr8cHCAp9hc-5n9dkLhgQ-EdUpp61EXENinE5CkpseBn5GTQteXCabiTcmLrCTaxNOHbDUczEhQyTmLNeOZQtn4roSac-Q_9AZyKsBTYa5AZJoyrSP4ZL8shQ5GvKoXYW-9SVjxHKGDp5SCo2TssxG_O6IQF-oqMAyx_gqSofveKM3E7EHx_5JaJCOG8uOZuxCJiZRqnRe9lbcnaLCk4uZMhYsq2d5UyhHOVEoIzZ6yJr4FCj6CC4GLZzevayklZs3KgWTOqCmJSnTcomVk0iCyw-pN82QukpOVCi0QzEmZaxXXkEsmV1Ipus2-GZyfI=w1366-h627-ft
+#top_quote: Without money, oil and gas companies  will not function. So lets stop the money flowing.
 jump:
   text: Act now
   target: how
 blocks:
+- type: header
+  text: |-
+    # If we can stop the flow of money, we can **stop the flow of oil and gas**
+
+    Banks, asset managers and insurers are funding the climate crisis,
+    pumping billions of pounds into fossil fuels. But we are rising up: ahead of
+    of the UN climate conference, on October 29<sup>th</sup> groups around the
+    world are demanding they stop.
+  buttons:
+    - text: Act now
+      target: "#how"
+  full: true
+  border_bottom:
+    image: https://bankonourfuture.uk/wp-content/themes/fundourfuture/assets/images/money-border.gif
+    reflect: true
 - type: image
   #heading: Why?
   image: https://climatevisuals.org/cdn/climateoutreach/previews/3/6582ae48669f690738d153c2e8cde381/0/39a583367217fcee4ade0542cf340150/757.jpg
@@ -24,7 +38,6 @@ blocks:
   #heading_background: true
   #heading: What?
   text: |-
-    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/form/get-stop-cambo-updates?format=js&source=widget'></script><div id='can-form-area-get-stop-cambo-updates' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
     # What?
 
     A day of action against the financing of fossil fuel. If the money stops, they stop.

@@ -1,0 +1,269 @@
+.Chaos-Section {
+    padding: 10vh 0;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    &:first-of-type {
+        padding-top: $action-bar-height-mobile + 50;
+
+        @media screen and (min-width: $on-small) {
+            padding-top: $action-bar-height + 50;
+        }
+    }
+    .social-links {
+        a {
+            text-decoration: none;
+
+            svg {
+                transition: 0.2s;
+                fill: $brand-text-color;
+                height: 38px;
+
+                &:hover{ fill: $brand-color;
+                    path, .st0 {
+                        fill: $accent-color;
+                    }
+                }
+
+                path, .st0 { fill: invert($brand-text-color); }
+            }
+        }
+
+    }
+}
+
+.Chaos-Wrapper-Wide{
+    max-width: -webkit-calc(#{$content-width-wide} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width-wide} - (#{$spacing-unit}));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+}
+
+.Chaos-Wrapper-Narrow{
+    max-width: -webkit-calc(#{$content-width-narrow} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width-narrow} - (#{$spacing-unit}));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+}
+
+.Chaos-Main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    display: block; //Defaults to 'inline' in IE 11
+}
+
+.Chaos-Big-Picture {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+}
+
+.Chaos-Half-Picture {
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    height: 45vh;
+}
+
+.Chaos-Near-Bottom {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+
+.Chaos-Flex-Line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Chaos-Demand{
+  background-color: $background-color;
+  box-shadow: 0 5px 10px $shadow-color;
+  padding: $spacing-unit;
+  padding-bottom: $spacing-unit /2;
+  margin: $spacing-unit;
+  max-width: 280px;
+  width: 90%;
+}
+
+.Chaos-Button {
+    display: inline-block;
+    background-color: $brand-color;
+    color: $brand-text-color;
+    padding: $spacing-unit * 0.2 $spacing-unit $spacing-unit * 0.2 $spacing-unit;
+    border-radius: $rounding;
+    font-family: $header-font-stack;
+    font-size: $base-font-size * 1.5;
+    transition:  0.3s  ease-in-out;
+    font-weight: normal;
+    text-transform: uppercase;
+    &:hover {
+        text-decoration: none;
+        background-color: $brand-color-dark;
+    }
+    &:visited {
+        color: $accent-text-color;
+    }
+}
+
+.Chaos-PullQuote {
+    background-color: $brand-color;
+    color: $brand-text-color;
+    font-family: $header-font-stack;
+    text-align: center;
+    padding: 130px 0 100px 0;
+
+    h1 {
+        text-align: left;
+        margin: 1em 0;
+        font-size: $base-font-size * 1.25 ;
+    }
+
+    @media screen and (min-width: 400px) {
+        h1 { font-size: $base-font-size * 1.5;}
+    }
+
+    @media screen and (min-width: 800px) {
+        h1 { font-size: $base-font-size * 2; }
+    }
+}
+
+.Chaos-Post-Info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    padding-top: $spacing-unit*4;
+    font-size: $small-font-size;
+
+    > .box {
+        padding: 0 $spacing-unit*2;
+        flex: 0 1 300px;
+    }
+}
+
+.Chaos-Blog-List{
+    li {
+        list-style-type: none;
+        counter-increment: list;
+        position: relative;
+        margin-left: 2.5em;
+    }
+
+    li:before {
+        font-weight: bold;
+        position: absolute;
+        left: -2.6em;
+        width: 2em;
+        text-align: right;
+        color: $text-color;
+        font-family: $header-font-stack;
+        font-size: 2em;
+    }
+}
+
+.Chaos-Blog-Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-color;
+    box-shadow: 0 5px 10px $shadow-color;
+    padding: $spacing-unit;
+    padding-bottom: $spacing-unit /2;
+    margin: $spacing-unit;
+    max-width: $content-width-wide;
+    width: 90%;
+
+    & > img {
+        margin: $spacing-unit 0 $spacing-unit/2 0;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+
+        .date {
+            flex-basis: 60px;
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: $header-font-stack;
+            padding-right: $spacing-unit;
+
+            .day-number {
+                font-size: $base-font-size * 2;
+                border-bottom: 4px solid $accent-color;
+                line-height: 1;
+            }
+
+            .month {
+                font-size: $small-font-size; //$base-font-size * 0.8;
+                color: $text-color-light;
+            }
+        }
+
+        .description {
+            line-height: 1;
+            width: 100%;
+            font-size: $small-font-size;
+
+            h3, h4 {
+                margin-top: 5px;
+            }
+
+            .bottom-line {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Tweet formatting */
+.tweet > p, .tweet > p *{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: normal;
+}
+.card.tweet {
+  background-color: #15202b;
+}
+.card.tweet:hover {
+  background-color: #15202b;
+  box-shadow: 0 0 10px 0 #15202b;
+}
+.tweet .at, .tweet .hashtag{
+  color: rgb(27, 149, 224);
+}
+/* Event box formatting */
+a.card:hover{
+  color: inherit;
+}
+section.card{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 1vh;
+  padding-left: 1vw;
+  transition: 100ms;
+  border-radius: 7px;
+}
