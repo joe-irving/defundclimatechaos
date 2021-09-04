@@ -1,10 +1,5 @@
 ---
 layout: home
-hashtag: defundclimatechaos
-#top_quote: Without money, oil and gas companies  will not function. So lets stop the money flowing.
-jump:
-  text: Act now
-  target: how
 blocks:
 - type: header
   text: |-
@@ -56,9 +51,10 @@ blocks:
   buttons:
     - text: All FAQs
       target: /faqs
+- type: text
+  text: |-
+    # Credits
 
+    * ["Why?" Image](https://climatevisuals.org/groupitem/20/):  G.M.B. Akash / Panos Pictures
+    * ["What?" Image](https://flic.kr/p/p3LM3R): taken by Shadia Fayne Wood at the Peoples Climate March NYC. Source: [survivalmediaagency.com](https://survivalmediaagency.com)
 ---
-# Credits
-
-* ["Why?" Image](https://climatevisuals.org/groupitem/20/):  G.M.B. Akash / Panos Pictures
-* ["What?" Image](https://flic.kr/p/p3LM3R): taken by Shadia Fayne Wood at the Peoples Climate March NYC. Source: [survivalmediaagency.com](https://survivalmediaagency.com)
