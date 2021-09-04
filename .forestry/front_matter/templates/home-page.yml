@@ -5,6 +5,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: home
+  hidden: true
 - type: field_group_list
   name: blocks
   label: blocks
