@@ -1,0 +1,53 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: hashtag
+  label: hashtag
+- type: field_group
+  name: jump
+  label: jump
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: target
+    label: target
+- type: field_group_list
+  name: blocks
+  label: blocks
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: textarea
+    name: text
+    label: text
+  - type: field_group_list
+    name: buttons
+    label: buttons
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: target
+      label: target
+  - type: boolean
+    name: full
+    label: full
+  - type: field_group
+    name: border_bottom
+    label: border_bottom
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: boolean
+      name: reflect
+      label: reflect
