@@ -20,9 +20,9 @@ fields:
       - image
       source:
         type: simple
-        section: 
-        file: 
-        path: 
+        section:
+        file:
+        path:
     label: Type of Block
   - type: textarea
     name: text
@@ -54,3 +54,5 @@ fields:
     - type: boolean
       name: reflect
       label: reflect
+pages:
+- index.md
