@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/resources.yml
   label: Resources
-  match: "**/*"
 - type: directory
   path: _faqs
   label: FAQs
@@ -16,7 +15,6 @@ sections:
 - type: document
   path: index.md
   label: Home Page
-  match: "**/*"
 - type: jekyll-posts
   label: News
   create: all
