@@ -19,7 +19,7 @@ blocks:
       target: "#how"
   full: true
   border_bottom:
-    image: https://bankonourfuture.uk/wp-content/themes/fundourfuture/assets/images/money-border.gif
+    image: /assets/images/money-border.gif
     reflect: true
 - type: image
   #heading: Why?
@@ -30,13 +30,8 @@ blocks:
 
     Without the backing of banks and insurers, fossil fuel extraction projects
     would cease.
-  buttons:
-    - text: More
-      target: /why
 - type: image
   image: https://live.staticflickr.com/3854/15127575129_096a839142_c.jpg
-  #heading_background: true
-  #heading: What?
   text: |-
     # What?
 
@@ -51,7 +46,7 @@ blocks:
 - type: image
   heading: How?
   buttons:
-    - text: More
+    - text: Act Now
       target: /act
   text: |-
     [Some links to sign up page, map, events, trainings]
