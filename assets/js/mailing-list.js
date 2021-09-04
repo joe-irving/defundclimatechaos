@@ -2,6 +2,12 @@ $(document).ready(function() {
   $('#action-network-form').osdi({
     endpoint: "https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures",
     body: function() {
+      if ($('#action-network-opt-in').is(":checked")){
+        var email_subbed = "subscribed"
+      }else{
+        var email_subbed = null
+      }
+      console.log(email_subbed)
       return {
           "person" : {
             "given_name" : $('#action-network-form-first').val(),

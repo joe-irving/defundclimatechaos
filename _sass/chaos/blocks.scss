@@ -18,8 +18,28 @@
     text-decoration: underline;
   }
 }
+@mixin header-images {
+  @media screen and (max-width: $content-width-wide * 1.6){
+    background-image: none;
+  }
+  @media screen and (min-width: $content-width-wide * 1.6){
+
+    background-repeat: no-repeat;
+    background-size: $content-width-wide /2;
+    @media screen and (min-width: $content-width-wide * 2){
+      background-size: calc(50vw - #{$content-width-wide /2 }) auto;
+    }
+  }
+}
 .Chaos-Block{
   &.header{
+    background-image: url('/assets/images/home-header-bankers.png');
+    background-position: right;
+    @include  header-images;
+    .Chaos-Section{
+      background-image: url('/assets/images/home-header-bankers-mirror.png');
+      background-position: left;
+      @include header-images;
     h1{
       strong,b,.bold{
         color: $accent-color;
@@ -27,6 +47,11 @@
       @include big-header;
     }
     text-align: center;
+
+  }
+
+
+
   }
   .border-bottom{
     $border-width: $spacing-unit * 10;
