@@ -9,12 +9,28 @@ fields:
   name: blocks
   label: blocks
   fields:
-  - type: text
-    name: type
-    label: type
+  - name: type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - header
+      - text
+      - image
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Type of Block
   - type: textarea
     name: text
     label: text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: field_group_list
     name: buttons
     label: buttons
