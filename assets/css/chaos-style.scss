@@ -156,7 +156,7 @@ $on-large:         {{ site.theme_large | default: 1300 }}px !default;
 
 // Fonts
 $base-font-stack: "Aktiv Grotesk Corp",system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   16pt !default;
+$base-font-size:   15pt !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.5 !default;
 $header-font-stack: "Druk Text","Helvetica Neue",Helvetica,Arial,sans-serif;

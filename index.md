@@ -1,7 +1,8 @@
 ---
 layout: home
-nav_hide: true
+nav_hide: false
 blocks:
+- type: logos
 - type: header
   text: |-
     # If we can stop the flow of money, we can **stop the flow of oil and gas**
@@ -58,4 +59,5 @@ blocks:
 
     * ["Why?" Image](https://climatevisuals.org/groupitem/20/):  G.M.B. Akash / Panos Pictures
     * ["What?" Image](https://flic.kr/p/p3LM3R): taken by Shadia Fayne Wood at the Peoples Climate March NYC. Source: [survivalmediaagency.com](https://survivalmediaagency.com)
+
 ---

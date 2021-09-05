@@ -1,3 +1,5 @@
 # For mapping block types to the include snippets
 - type: map
   include: map.html
+- type: logos
+  include: partner-list.html

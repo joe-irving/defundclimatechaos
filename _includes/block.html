@@ -1,6 +1,6 @@
 {% assign type = include.block.type %}
 {% assign image = include.block.image %}
-{% assign heading = include.block.heading | liquify | markdownify %}
+{% assign heading = include.block.heading | liquify | markdownify | strip %}
 {% assign block_data = site.data.blocks | where: "type", type | first  %}
 {% assign blocks = block_data | map: "type" %}
 {% assign text =  include.block.text | markdownify | liquify | strip %}
@@ -37,7 +37,7 @@
       <div class="{{type}} panel {% if include.block.full %}full{% endif %} {% if half == true %}half{% endif %}"{% if image and image != '' %} style="background-image:url('{{ image | relative_url }}')"{% endif %}>
         <div class="background" {% if include.block.heading_background == true %}style="opacity:0.5;"{% elsif type=='image' %}style="opacity:0;"{% endif %}>
           {% if blocks contains type %}
-            {% include {{ block_data.include }} %}
+            {% include {{ block_data.include }}  %}
           {% endif %}
         </div>
         {% if heading and heading != '' %}

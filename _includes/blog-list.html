@@ -42,10 +42,14 @@
                         {% elsif post.excerpt %}
                           <p>{{ post.excerpt }}</p>
                         {% elsif post.description %}
-                          <div class="snippet" >
-                            {{ post.description | truncatewords : 5  | liquify | markdownify }}
-                          </div>
-                          <div class="full" >{{ post.description | liquify | markdownify }}</div>
+                          {% if include.accordian %}
+                            <div class="snippet" >
+                              {{ post.description | truncatewords : 5  | liquify | markdownify }}
+                            </div>
+                            <div class="full" >{{ post.description | liquify | markdownify }}</div>
+                          {% else %}
+                            <div>{{ post.description | liquify | markdownify }}</div>
+                          {% endif %}
                         {% endif %}
                       </div>
                 </div>

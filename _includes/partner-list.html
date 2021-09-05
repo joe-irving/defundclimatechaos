@@ -1,0 +1,15 @@
+<div class="Chaos-Logo-List">
+  {% for org in site.data.partners %}
+    <div class="Choas-Logo-Item">
+      <a href="{{  org.website }}">
+        <img
+          href="{{  org.website }}"
+          width="{{ org.logo.width }}"
+          height="{{ org.logo.height }}"
+          src="{{ org.logo[0].url }}"
+          alt="{{ org.name }}"
+          title="{{ org.name }}">
+      </a>
+    </div>
+  {% endfor %}
+</div>

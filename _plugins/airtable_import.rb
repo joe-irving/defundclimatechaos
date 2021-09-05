@@ -11,7 +11,6 @@ module Airtable
     def generate(site)
       return unless site.config['airtable']
       # Get API key from environment
-      puts ENV.keys
       api_key = ENV['AIRTABLE_API_KEY']
       # Pass in api key to client
       @client = Airtable::Client.new(api_key)
@@ -19,10 +18,10 @@ module Airtable
         # Pass in the app key and table name
         @table = @client.table(conf['app'], conf['table'])
         # Get records where the Published field is checked
-        @records = @table.records(:filterByFormula => "Published", :limit => 100)
+        @records = @table.records(:filterByFormula => "Published",:fields => conf['fields'], :limit => 100)
         # Extract data to a hash
         data = @records.map { |record| record.attributes }
-        puts data.to_yaml
+        # puts data.to_yaml
         site.data[name] = data
       end
     end

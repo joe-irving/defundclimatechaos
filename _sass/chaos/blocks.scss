@@ -8,7 +8,7 @@
 }
 @mixin big-header {
   margin-top: $spacing-unit * 3;
-  font-size: calc(min(min( 80pt, 15vw),10vh));
+  font-size: calc(max(55px,min(min( 80pt, 15vw),10vh)));
   text-transform: uppercase;
   font-family: 'Druk Condensed';
   letter-spacing: 0.02em;
