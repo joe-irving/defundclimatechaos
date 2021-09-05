@@ -11,6 +11,7 @@ module Airtable
     def generate(site)
       return unless site.config['airtable']
       # Get API key from environment
+      puts ENV.to_yaml
       api_key = ENV['AIRTABLE_API_KEY']
       # Pass in api key to client
       @client = Airtable::Client.new(api_key)
