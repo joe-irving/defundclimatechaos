@@ -8,7 +8,7 @@
 }
 @mixin big-header {
   margin-top: $spacing-unit * 3;
-  font-size: calc(min( 80pt, 15vw));
+  font-size: calc(min(min( 80pt, 15vw),10vh));
   text-transform: uppercase;
   font-family: 'Druk Condensed';
   letter-spacing: 0.02em;
@@ -19,10 +19,10 @@
   }
 }
 @mixin header-images {
-  @media screen and (max-width: $content-width-wide * 1.6){
+  @media screen and (max-width: $content-width-wide * 1.75){
     background-image: none;
   }
-  @media screen and (min-width: $content-width-wide * 1.6){
+  @media screen and (min-width: $content-width-wide * 1.75){
 
     background-repeat: no-repeat;
     background-size: $content-width-wide /2;
@@ -32,11 +32,19 @@
   }
 }
 .Chaos-Block{
+  &.header.first.full{
+    height: 100vh;
+  }
   &.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url('/assets/images/home-header-bankers.png');
     background-position: right;
     @include  header-images;
     .Chaos-Section{
+      padding-top: $action-bar-height-mobile;
+      padding-bottom: 0;
       background-image: url('/assets/images/home-header-bankers-mirror.png');
       background-position: left;
       @include header-images;

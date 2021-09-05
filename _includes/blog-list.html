@@ -16,7 +16,7 @@
     <div class="Chaos-Blog-List">
     {% endif %}
 
-    <div class="Chaos-Blog-Item {% if include.accordian %}accordian{% endif %}">
+    <div class="Chaos-Blog-Item {% if include.accordian %}accordian{% endif %} {% if forloop.first %}first{%endif %}">
         <div class="top">
                 {% if include.date!=false %}
                 <div class="date">
@@ -26,7 +26,7 @@
                 {% endif %}
                 {% assign post_id = post.title | slugify  %}
                 <div class="description" id="{{ post_id }}">
-                    {% if post.url  %}title{% assign url = post.url | relative_url  %}
+                    {% if post.url  %}{% assign url = post.url | relative_url  %}
                     {% else %}{% assign url = "#" | append: post_id   %}{% endif %}
                     <h4><a href="{{ url }}">{{ post.title }}</a></h4>
                     {% if post.authors %}

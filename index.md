@@ -1,5 +1,6 @@
 ---
 layout: home
+nav_hide: true
 blocks:
 - type: header
   text: |-

@@ -62,13 +62,12 @@
     {% endif %}
   {% endif %}
   {% if block.border_bottom.image and block.border_bottom.image != '' %}
-    <div class="border-bottom" style="background-image:url('{{ block.border_bottom.image | relative_url }}')">
-
+    <div class="border-bottom-container">
+      <div class="border-bottom" style="background-image:url('{{ block.border_bottom.image | relative_url }}')"></div>
+      {% if block.border_bottom.reflect %}
+      <div class="border-bottom reflect" style="background-image:url('{{ block.border_bottom.image | relative_url }}')"></div>
+      {% endif %}
     </div>
-    {% if block.border_bottom.reflect %}
-      <div class="border-bottom reflect" style="background-image:url('{{ block.border_bottom.image | relative_url }}')">
 
-      </div>
-    {% endif %}
   {% endif %}
 </div>

@@ -14,7 +14,7 @@ instagram:
 twitter:
 facebook:
 
-google_analytics: G-LR3ETXLRXT
+# google_analytics: G-LR3ETXLRXT
 
 copyright_notice: ''
 collections:
@@ -24,16 +24,21 @@ collections:
     output: true
     permalink: "/faqs/:title/"
 defaults:
-- scope:
-    path: google2b8ceaa38de54302.html
-  values:
-    sitemap: false
-- scope:
-    path: admin/index.html
-  values:
-    sitemap: false
-- scope:
-    path: assets/fonts/aktiv-grotesk/demo.html
+  - scope:
+      path: google2b8ceaa38de54302.html
+    values:
+      sitemap: false
+  - scope:
+      path: admin/index.html
+    values:
+      sitemap: false
+
+airtable:
+  faqs:
+    app:   app9apHbqOifmolTX
+    table: tblJHaJ0bOGLiXs9Q
+
+
 map:
   lat: # 50
   lng:
