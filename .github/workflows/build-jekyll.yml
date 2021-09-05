@@ -23,7 +23,7 @@ jobs:
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: jeffreytse/jekyll-deploy-action@master
         env: 
-          AIRTABLE_API_KEY: {{ env.AIRTABLE_API_KEY }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
         with:
           provider: 'github'
           token: ${{ secrets.GH_TOKEN }} # It's your Personal Access Token(PAT)
