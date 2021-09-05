@@ -11,8 +11,10 @@ logo_square: /assets/logo.svg
 invert_brand_text: true
 invert_accent_text: true
 instagram:
-twitter: \#
+twitter: 
 facebook:
+
+
 
 copyright_notice: ''
 collections:
@@ -23,7 +25,7 @@ collections:
     permalink: "/faqs/:title/"
 defaults:
 - scope:
-    path: google1c899b51019de383.html
+    path: google2b8ceaa38de54302.html
   values:
     sitemap: false
 - scope:
