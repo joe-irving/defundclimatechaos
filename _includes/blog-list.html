@@ -16,7 +16,7 @@
     <div class="Chaos-Blog-List">
     {% endif %}
 
-    <div class="Chaos-Blog-Item">
+    <div class="Chaos-Blog-Item {% if include.accordian %}accordian{% endif %}">
         <div class="top">
                 {% if include.date!=false %}
                 <div class="date">
@@ -24,8 +24,11 @@
                     <span class="month">{{ post.date | date: "%b" }}</span>
                 </div>
                 {% endif %}
-                <div class="description">
-                    <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+                {% assign post_id = post.title | slugify  %}
+                <div class="description" id="{{ post_id }}">
+                    {% if post.url  %}title{% assign url = post.url | relative_url  %}
+                    {% else %}{% assign url = "#" | append: post_id   %}{% endif %}
+                    <h4><a href="{{ url }}">{{ post.title }}</a></h4>
                     {% if post.authors %}
                     <span>
                         {% for a in post.authors %}
@@ -33,11 +36,18 @@
                         {% endfor %}
                     </span>
                     {%endif%}
-                    <p>{% if post.summary %}
-                            {{ post.summary }}
-                        {% else if post.excerpt %}
-                            {{ post.excerpt }}
-                        {% endif %}</p>
+                    <div class="summary" >
+                      {% if post.summary %}
+                          <p>{{ post.summary }}</p>
+                        {% elsif post.excerpt %}
+                          <p>{{ post.excerpt }}</p>
+                        {% elsif post.description %}
+                          <div class="snippet" >
+                            {{ post.description | truncatewords : 5  | liquify | markdownify }}
+                          </div>
+                          <div class="full" >{{ post.description | liquify | markdownify }}</div>
+                        {% endif %}
+                      </div>
                 </div>
             </div>
             {% if post.image %}

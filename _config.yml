@@ -11,10 +11,8 @@ logo_square: /assets/logo.svg
 invert_brand_text: true
 invert_accent_text: true
 instagram:
-twitter: 
+twitter:
 facebook:
-
-
 
 copyright_notice: ''
 collections:
@@ -32,6 +30,8 @@ defaults:
     path: admin/index.html
   values:
     sitemap: false
+- scope:
+    path: assets/fonts/aktiv-grotesk/demo.html
 map:
   lat: # 50
   lng:

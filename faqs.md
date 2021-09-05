@@ -5,5 +5,5 @@ order: 2
 ---
 # Frequently Asked Questions
 
-{% assign posts = site.faqs %}
-{% include blog-list.html date=false %}
+{% assign posts = site.data.faqs %}
+{% include blog-list.html date=false accordian=true %}
