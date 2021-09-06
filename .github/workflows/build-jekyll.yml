@@ -4,7 +4,13 @@ on:
   push:
     branches:
       - master  # Here source code branch is `master`, it could be other branch
-
+  schedule:
+    - cron: "46/60 * * * *"
+  workflow_dispatch:
+    inputs:
+      published:
+        required: true
+        
 
 jobs:
   build_and_deploy:
