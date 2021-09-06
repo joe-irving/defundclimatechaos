@@ -255,6 +255,25 @@
     }
 }
 
+.Chaos-Logo-List {
+  $item-width: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .Chaos-Logo-Item{
+    img{
+      filter: grayscale(100%);
+      width: $item-width;
+      height: auto;
+      transition: filter 0.5s;
+      &:hover{
+        filter: grayscale(0);
+      }
+    }
+  }
+}
+
+
 /* Tweet formatting */
 .tweet > p, .tweet > p *{
   font-family: Arial, Helvetica, sans-serif;

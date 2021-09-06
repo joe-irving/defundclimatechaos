@@ -2,7 +2,7 @@
 layout: home
 nav_hide: false
 blocks:
-- type: logos
+
 - type: header
   text: |-
     # If we can stop the flow of money, we can **stop the flow of oil and gas**
@@ -19,15 +19,6 @@ blocks:
     image: /assets/images/money-border.gif
     reflect: true
 - type: image
-  #heading: Why?
-  image: https://climatevisuals.org/cdn/climateoutreach/previews/3/6582ae48669f690738d153c2e8cde381/0/39a583367217fcee4ade0542cf340150/757.jpg
-  #heading_background: true
-  text: |-
-    # Why?
-
-    Without the backing of banks and insurers, fossil fuel extraction projects
-    would cease.
-- type: image
   image: https://live.staticflickr.com/3854/15127575129_096a839142_c.jpg
   text: |-
     # What?
@@ -40,6 +31,13 @@ blocks:
   heading: When?
   text: |-
     The day of action will be on the 29th October 2021
+- type: image
+  image: https://climatevisuals.org/cdn/climateoutreach/previews/3/6582ae48669f690738d153c2e8cde381/0/39a583367217fcee4ade0542cf340150/757.jpg
+  text: |-
+    # Why?
+
+    Without the backing of banks and insurers, fossil fuel extraction projects
+    would cease.
 - type: image
   heading: How?
   buttons:
@@ -59,5 +57,9 @@ blocks:
 
     * ["Why?" Image](https://climatevisuals.org/groupitem/20/):  G.M.B. Akash / Panos Pictures
     * ["What?" Image](https://flic.kr/p/p3LM3R): taken by Shadia Fayne Wood at the Peoples Climate March NYC. Source: [survivalmediaagency.com](https://survivalmediaagency.com)
+- type: text
+  wide: true
+  text: |-
 
+    {% include partner-list.html %}
 ---

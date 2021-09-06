@@ -32,6 +32,8 @@
               {{ buttons }}
           {% unless include.block.wide %}</div>{% endunless %}
       </div>
+    {% elsif type == "logos" %}
+      {% include partner-list.html %}
     {% else %}
 
       <div class="{{type}} panel {% if include.block.full %}full{% endif %} {% if half == true %}half{% endif %}"{% if image and image != '' %} style="background-image:url('{{ image | relative_url }}')"{% endif %}>
