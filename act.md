@@ -1,12 +1,16 @@
 ---
 title: Act
 order: 1
-layout: default
+layout: page
 main_nav_exclude: false
-blocks:
-  - type: text
-    text: |-
-      # Joining the day of action
-
-      {%- include signup-form.html -%}
+image: /assets/images/og-image.png
 ---
+# Joining the day of action
+
+## Map
+
+A map of all actions is coming soon...
+
+## Sign Up for updates
+
+<div>{%- include signup-form.html -%}</div>

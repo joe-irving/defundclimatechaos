@@ -1,6 +1,6 @@
 ---
 layout: home
-nav_hide: false
+image: /assets/images/og-image.png
 blocks:
 
 - type: header
@@ -9,7 +9,7 @@ blocks:
 
     Banks, asset managers and insurers are funding the climate crisis,
     pumping billions of pounds into fossil fuels. But we are rising up: ahead of
-    of the UN climate conference, on October 29<sup>th</sup> groups around the
+    of the UN climate conference, on **October 29<sup>th</sup>** groups around the
     world are demanding they stop.
   buttons:
     - text: Act now
@@ -52,14 +52,15 @@ blocks:
     - text: All FAQs
       target: /faqs
 - type: text
+  wide: true
+  text: |-
+
+    {% include partner-list.html %}
+- type: text
   text: |-
     # Credits
 
     * ["Why?" Image](https://climatevisuals.org/groupitem/20/):  G.M.B. Akash / Panos Pictures
     * ["What?" Image](https://flic.kr/p/p3LM3R): taken by Shadia Fayne Wood at the Peoples Climate March NYC. Source: [survivalmediaagency.com](https://survivalmediaagency.com)
-- type: text
-  wide: true
-  text: |-
 
-    {% include partner-list.html %}
 ---

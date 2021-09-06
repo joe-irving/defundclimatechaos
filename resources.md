@@ -2,6 +2,7 @@
 layout: page
 title: Resources
 order: 3
+image: /assets/images/og-image.png
 ---
 # Resources
 

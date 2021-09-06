@@ -2,6 +2,7 @@
 layout: page
 title: FAQs
 order: 2
+image: /assets/images/og-image.png
 ---
 # Frequently Asked Questions
 

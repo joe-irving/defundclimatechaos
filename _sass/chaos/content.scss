@@ -19,9 +19,10 @@
                 fill: $brand-text-color;
                 height: 38px;
 
-                &:hover{ fill: $brand-color;
-                    path, .st0 {
-                        fill: $accent-color;
+                &:hover{
+                  fill: $brand-color;
+                  path, .st0 {
+                        fill: $brand-text-color;
                     }
                 }
 

@@ -38,19 +38,32 @@ airtable:
     app:   app9apHbqOifmolTX
     table: tblJHaJ0bOGLiXs9Q
     view:  viwMR1I5H8JtypsIR
+  resources:
+    app:   app9apHbqOifmolTX
+    table: tblGAJiIeFlD6PxNI
+    view:  viwBQ8s617LvMdODw
   partners:
     app:   app9apHbqOifmolTX
     table: tbl3erzSL6dZfNkZi
     view:  viwcwyl4ejOXEUaS0
     fields:
-      - name
-      - website
-      - logo
-  resources:
+      - Name
+      - Website
+      - Logo
+  posts:
     app:   app9apHbqOifmolTX
-    table: tblGAJiIeFlD6PxNI
-    view:  viwRXFQxb4NleEPPf
-
+    table: tbluLxNnxcePzY4iN
+    view:  viwlLkcEaTIKV99bx
+    fields:
+      - Content
+      - Title
+      - Date
+      - Summary
+      - Image
+    collection:
+      slug: title
+      layout: post
+      content: content
 
 map:
   lat: # 50

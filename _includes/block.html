@@ -24,7 +24,7 @@
 {% endfor %}
 {% endcapture %}
 
-<div class="Chaos-Block {% if half == true %}half{% endif %} {{type}} {% if include.block.full %}full{% endif %}">
+<div class="Chaos-Block {% if half == true %}half{% endif %} {{type}} {% if include.block.full %}full{% endif %} {% if block.border_bottom.reflect %}shift{% endif %}">
     {% if type == 'text' or type == 'header' %}
       <div class="Chaos-Section">
           {% unless include.block.wide %}<div class="Chaos-Wrapper-Wide">{% endunless %}
