@@ -4,6 +4,10 @@
     padding: 60px 0 20px 0;
     font-size: $small-font-size;
 
+    li {
+      color:  $background-color;
+    }
+
     a {
         color: white;
         text-decoration: underline;
@@ -25,7 +29,7 @@
 
         .site-title {
             flex: 1 0 auto;
-            
+
         }
 
         .main-logo{
@@ -33,13 +37,13 @@
             max-width: 161px;
             padding: $spacing-unit 0;
         }
-    
+
         .social-links {
             a {
                 text-decoration: none;
 
                 svg {
-                    transition: 0.2s; 
+                    transition: 0.2s;
                     fill: $background-color;
                     height: 38px;
 
@@ -59,7 +63,7 @@
 
     nav {
         padding: $spacing-unit*2 0 $spacing-unit*3 0;
-       
+
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

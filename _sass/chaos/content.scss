@@ -102,6 +102,7 @@
     background-color: $brand-color;
     color: $brand-text-color;
     padding: $spacing-unit * 0.2 $spacing-unit $spacing-unit * 0.2 $spacing-unit;
+    margin: $spacing-unit 0;
     border-radius: $rounding;
     font-family: $header-font-stack;
     font-size: $base-font-size * 1.5;
@@ -185,6 +186,20 @@
     max-width: $content-width-wide;
     width: 90%;
 
+    .header-line{
+      display: flex;
+      justify-content: space-between;
+      svg{
+        display: none;
+        width: $base-font-size * 0.75;
+        height: $base-font-size * 0.75;
+        path{
+          stroke: $brand-color;
+          fill:  $brand-color;
+        }
+      }
+    }
+
     &.accordian{
       .description {
         .summary {
@@ -192,9 +207,15 @@
           > .snippet {display: block;}
         }
         &:target{
+          line-height: normal;
           .summary {
             > .full{display: block;}
             > .snippet {display: none;}
+          }
+          .header-line{
+            svg {
+              display: block;
+            }
           }
         }
       }

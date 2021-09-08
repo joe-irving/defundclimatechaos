@@ -23,6 +23,8 @@ collections:
   faqs:
     output: true
     permalink: "/faqs/:title/"
+  trainings:
+    output: true
 defaults:
   - scope:
       path: google2b8ceaa38de54302.html
@@ -64,6 +66,23 @@ airtable:
       slug: title
       layout: post
       content: content
+  trainings:
+    app:   app9apHbqOifmolTX
+    table: tblr8deZvWPtDpT8z
+    view: viwmoConiofljNaYn
+    fields:
+      - Content
+      - Title
+      - Summary
+      - Image
+      - Booking link
+      - Start date
+      - End date
+    collection:
+      slug: title
+      layout: event
+      content: content
+
 
 map:
   lat: # 50

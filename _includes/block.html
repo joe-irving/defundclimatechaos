@@ -32,8 +32,6 @@
               {{ buttons }}
           {% unless include.block.wide %}</div>{% endunless %}
       </div>
-    {% elsif type == "logos" %}
-      {% include partner-list.html %}
     {% else %}
 
       <div class="{{type}} panel {% if include.block.full %}full{% endif %} {% if half == true %}half{% endif %}"{% if image and image != '' %} style="background-image:url('{{ image | relative_url }}')"{% endif %}>
@@ -43,11 +41,6 @@
           {% endif %}
         </div>
         {% if heading and heading != '' %}
-        <!-- <div class="Chaos-Section Chaos-PullQuote">
-            <div class="Chaos-Wrapper-Wide">
-                <h1>{{ heading }}</h1>
-            </div>
-        </div> -->
           <div class="heading" id="{{ include.block.heading | liquify| slugify | downcase }}">
             <h1>{{ heading }}</h1>
           </div>

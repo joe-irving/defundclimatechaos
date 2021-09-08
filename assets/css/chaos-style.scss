@@ -10,8 +10,8 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 
+// $text-color:  {{ site.brand_color | default: "#DD0000" }} !default;
 $text-color:       $black-color !default;
-
 
 {% if site.invert_brand_text %}
     $brand-text-color: $white-color !default;
@@ -26,12 +26,13 @@ $text-color:       $black-color !default;
 {% else %}
     $accent-text-color: $black-color !default;
 {% endif %}
-$text-color-light: lighten($text-color, 18%);
-$background-color: {{ site.background_color | default: "$white-color" }} !default;
+
 $brand-color:       {{ site.brand_color | default: "#DD0000" }} !default;
 $brand-color-dark: darken($brand-color, 15%) !default;
 $accent-color:      {{ site.accent_color | default: "#DD0000" }} !default;
 $accent-color-dark: darken($accent-color, 15%) !default;
+$text-color-light: lighten($text-color, 18%);
+$background-color: {{ site.background_color | default: "$white-color" }} !default;
 
 $on-tiny:          {{ site.theme_tiny | default: 250 }}px !default;
 $on-small:         {{ site.theme_small | default: 425 }}px !default;
@@ -156,7 +157,7 @@ $on-large:         {{ site.theme_large | default: 1300 }}px !default;
 
 // Fonts
 $base-font-stack: "Aktiv Grotesk Corp",system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   15pt !default;
+$base-font-size:   14pt !default;
 $base-font-weight: 400 !default;
 $base-line-height: 1.5 !default;
 $header-font-stack: "Druk Text","Helvetica Neue",Helvetica,Arial,sans-serif;

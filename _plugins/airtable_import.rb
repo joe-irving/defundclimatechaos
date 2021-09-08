@@ -42,11 +42,13 @@ module Airtable
                 end
               end
               content = item[conf['collection']['content']]
-              puts content
-              path = File.join(site.source, "_#{name}", "#{Jekyll::Utils.slugify(item[slug_field])}.md")
+              #puts content
+              slug = Jekyll::Utils.slugify(item[slug_field])
+              path = File.join(site.source, "_#{name}", "#{slug}.md")
               doc = Jekyll::Document.new(path, collection: new_collection, site: site)
-              item.merge!({ 'layout' => layout })
+              item.merge!({ 'layout' => layout, 'slug' => slug })
               doc.merge_data!(item.except('id'))
+              # puts item.except('id').to_yaml
               doc.content = content
               new_collection.docs << doc
               # puts "ITEM"

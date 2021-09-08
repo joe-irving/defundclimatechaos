@@ -1,3 +1,5 @@
+$border-width: $spacing-unit * 7;
+
 @mixin block-height {
   &:not(.full){
     min-height: $block-height;
@@ -27,12 +29,15 @@
     background-repeat: no-repeat;
     background-size: $content-width-wide /2;
     @media screen and (min-width: $content-width-wide * 2){
-      background-size: calc(50vw - #{$content-width-wide /2 }) auto;
+      // background-size: calc(50vw - #{$content-width-wide /2 }) auto;
     }
   }
 }
 .Chaos-Block{
-
+  &.shift{
+    position: relative;
+    top: $border-width;
+  }
   &.header.first.full{
     height: 100vh;
   }
@@ -40,15 +45,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url('/assets/images/home-header-bankers.png');
+    // background-image: url('/assets/images/home-header-bankers.png');
     background-position: right;
     @include  header-images;
     .Chaos-Section{
-      padding-top: $action-bar-height-mobile;
-      padding-bottom: 0;
-      background-image: url('/assets/images/home-header-bankers-mirror.png');
+      flex-grow: 1;
+      // padding-top: $action-bar-height-mobile;
+      // padding-bottom: 0;
+      height: 100%;
+      padding: 0;
+      background-image: url('/assets/images/money-faucet.png');
       background-position: left;
       @include header-images;
+
+      display: flex;
+      .Chaos-Wrapper-Wide{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
     h1{
       strong,b,.bold{
         color: $accent-color;
@@ -63,10 +78,9 @@
 
   }
   .border-bottom{
-    $border-width: $spacing-unit * 10;
     position: relative;
     z-index: 2;
-    top:  $border-width;
+    top:  0;
     height: $border-width;
     width: 100%;
     background-color: none; /* Used if the image is unavailable */
@@ -82,12 +96,14 @@
     }
   }
   &:not(.text){
+
     @include block-height;
     > .half{
       @include block-height;
       display: flex;
       flex-direction: column;
       justify-content: center;
+
       .content{
         padding: $spacing-unit * 2 $spacing-unit ;
         max-width: $content-width-wide;
@@ -97,8 +113,10 @@
     }
     .panel{
       @include block-height;
-
-      background: $brand-color no-repeat center center;
+      &.image{
+        min-height: 35vh;
+      }
+      background: $background-color no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

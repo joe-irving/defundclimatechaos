@@ -11,6 +11,15 @@
 
             {% include social-links.html %}
         </div>
+        <div class="Credits">
+          {% for c in page.credits %}
+            {% if forloop.first %}
+            <h1>Credits</h1>
+            <ul>{% endif %}
+              <li><a href="{{ c.link }}">{{ c.name }}</a>: {{ c.info | markdownify }}</li>
+            {% if forloop.last %}</ul>{% endif %}
+          {% endfor %}
+        </div>
         <nav>
             <div class="col">
                 {%- for path in page_paths -%}
