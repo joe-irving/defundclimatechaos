@@ -4,12 +4,12 @@
       display: flex;
     }
   }
-  &.even{
+  &.odd{
     .Chaos-Section{
       flex-direction: row-reverse;
     }
   }
-  &.invert,&.even{
+  &.invert,&.odd{
     background-color: $brand-color;
     .Chaos-Form{
       label{
