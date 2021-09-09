@@ -2,6 +2,10 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
+- buttons: []
+  text: "# FAQs\n\n{% assign posts = site.data.faqs %}  \n{% include blog-list.html
+    date=false accordian=true %}"
+  decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
 - buttons:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13583
@@ -30,6 +34,27 @@ blocks:
 
     Climate justice demands that we shut off the money pipeline to oil, coal and gas immediately.
   decoration: "![](/assets/images/alarm.png)"
+- buttons: []
+  text: "## Get trained\n\n{% assign posts = site.trainings %}  \n{% assign date_field
+    = \"start_date\" %}  \n{% include blog-list.html date_field=date_field limit=3
+    %}\n\n[See all upcoming trainings...](/trainings)"
+  decoration: "![](/assets/images/05_DarrenCullen_HSBC_Norwich2021-1200.jpg)"
+- buttons: []
+  text: "## Resources\n\nHere are all the resources you’ll need to join or organise
+    an action of your own to #DefundClimateChaos on October 29 (and beyond!):\n\n{%
+    assign posts = site.data.resources %}  \n{% include blog-list.html date=false
+    %}"
+  decoration: ''
+- buttons: []
+  text: "## News\n\n{% assign posts = site.posts %}  \n{% include blog-list.html limit=3
+    \ %}\n\n[See all news...](/news)"
+  decoration: "![](/assets/images/20190502_085500.jpg)"
+- buttons: []
+  text: |-
+    ## Email Updates
+
+    {% include signup-form.html %}
+  decoration: "![](/assets/images/nurses_positive_money.jpg)"
 credits: ''
 header:
   text: |-
