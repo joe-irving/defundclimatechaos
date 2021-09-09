@@ -55,6 +55,12 @@ blocks:
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/nurses_positive_money.jpg)"
+- buttons: []
+  text: |-
+    # Partners
+
+    {% include partner-list.html %}
+  decoration: ''
 credits: ''
 header:
   text: |-
