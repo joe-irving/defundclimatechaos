@@ -46,7 +46,7 @@ blocks:
   decoration: "![](/assets/images/20190502_085500.jpg)"
 - buttons: []
   text: |-
-    ## Act
+    # Act
 
     Sign up to join the global mobilisation.
 
