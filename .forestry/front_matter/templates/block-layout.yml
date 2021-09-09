@@ -1,4 +1,70 @@
 ---
 label: Block Layout
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: page
+  hidden: true
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: Image displayed on link preveiws
+- name: blocks
+  type: field_group_list
+  fields:
+  - name: buttons
+    type: field_group_list
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text
+    - name: target
+      type: text
+      config:
+        required: false
+      label: target
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Buttons
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  - name: decoration
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Decoration
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Blocks
+- name: credits
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Credits
