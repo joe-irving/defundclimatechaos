@@ -9,9 +9,9 @@
 {% include head.html %}
 <body>
     {% include header.html %}
-    <main class="Chaos-Main">
+    <main class="Chaos-Main" {% if  page.background_image.size > 0 %}style="background-image:url('{{page.background_image | relative_url}}')"{% endif %}>
 
-        {% if page.top_image %}
+        {% if page.top_image.size > 0  %}
             {% if layout.image_big %}
                 <div class="Chaos-Section Chaos-Big-Picture" style="background-image:url('{{page.top_image | relative_url}}')"></div>
             {% else %}
@@ -27,7 +27,10 @@
         {% endif %}
 
         {% if page.header %}
-        <div class="Chaos-Big-Header  {% if page.header.border_bottom.reflect %}shift{% endif %}">
+        <div
+        class="Chaos-Big-Header  {% if page.header.border_bottom.reflect %}shift{% endif %} {% if page.header.full %}full{% endif %}"
+        style="background-image: url('{{ page.header.image.link }}');background-position-x: {{ page.header.image.location }};"
+        >
           <div class="Chaos-Section">
             <div class="Chaos-Wrapper-Wide">
               {{ page.header.text | liquify | markdownify }}
@@ -62,7 +65,7 @@
             </div>
         {% endif %}
 
-        {% if page.top_quote %}
+        {% if page.top_quote.size > 0 %}
             <div class="Chaos-Section Chaos-PullQuote">
                 <div class="Chaos-Wrapper-Wide">
                     <h1>{{ page.top_quote | liquify }}</h1>
@@ -71,6 +74,7 @@
         {% endif %}
 
         {% unless page.blocks_after %}{{blocks}}{% endunless %}
+
 
         {{ content }}
 

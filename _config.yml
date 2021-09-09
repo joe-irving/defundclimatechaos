@@ -15,7 +15,7 @@ twitter:
 facebook:
 
 nav_links:
-  - url: "#act"
+  - url: "/#act"
     title: Act
 
 future: true
@@ -24,7 +24,7 @@ future: true
 copyright_notice: ''
 collections:
   posts:
-    permalink: "/news/:title/"
+    permalink: "/stories/:title/"
   faqs:
     output: true
     permalink: "/faqs/:title/"

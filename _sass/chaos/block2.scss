@@ -9,7 +9,7 @@
       flex-direction: row-reverse;
     }
   }
-  &.invert,&.odd{
+  &.invert,&.even{
     background-color: $brand-color;
     .Chaos-Form{
       label{

@@ -58,6 +58,10 @@ blocks:
   decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
 credits: ''
 header:
+  full: true
+  image:
+    link: '/assets/images/money-faucet.png'
+    location: left
   text: |-
     # Turn off the money pipeline to fossil fuels. Now.
 

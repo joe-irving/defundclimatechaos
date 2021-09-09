@@ -59,6 +59,8 @@
     flex: 1 0 auto;
     flex-direction: column;
     display: block; //Defaults to 'inline' in IE 11
+    background: $background-color no-repeat center right;
+    background-size: calc(min(#{$content-width-wide },50vw));
 }
 
 .Chaos-Big-Picture {
@@ -97,6 +99,9 @@
   max-width: 280px;
   width: 90%;
 }
+.Chaos-Background-Filter{
+  background-color: rgba($background-color,0.5);
+}
 @mixin big-header {
   margin-top: $spacing-unit * 3;
   font-size: calc(max(55px,min(min( 80pt, 15vw),10vh)));
@@ -111,7 +116,7 @@
 }
 @mixin header-images {
   @media screen and (max-width: $content-width-wide * 1.75){
-    background-image: none;
+    background-size:0;
   }
   @media screen and (min-width: $content-width-wide * 1.75){
 
@@ -124,11 +129,15 @@
 }
 $border-width: $spacing-unit * 7;
 .Chaos-Big-Header{
+  min-height: 50vh;
+  &.full{
+    min-height: 100vh;
+  }
   &.shift{
     position: relative;
     top: $border-width;
   }
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -156,7 +165,7 @@ $border-width: $spacing-unit * 7;
     flex-grow: 1;
     height: 100%;
     padding: 0;
-    background-image: url('/assets/images/money-faucet.png');
+    // background-image: url('/assets/images/money-faucet.png');
     background-position: left;
     @include header-images;
 
