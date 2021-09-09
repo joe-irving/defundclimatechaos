@@ -26,7 +26,7 @@ input[type="submit"], button{
     font-size: $base-font-size;
     font-family: $base-font-stack;
     background-color: $background-color;
-    background-color: rgba(0,0,0,0);
+    // background-color: rgba(0,0,0,0);
   }
   div.input.text{
     margin: $spacing-unit*1.5 $spacing-unit * 1.4;

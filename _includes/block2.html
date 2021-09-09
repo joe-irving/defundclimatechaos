@@ -1,0 +1,7 @@
+<div class="Chaos-Section">
+  {% for col in include.block.columns %}
+    <div class="Chaos-Wrapper-Wide Chaos-Wrapper">
+      {{ col | liquify | markdownify }}
+    </div>
+  {% endfor %}
+</div>

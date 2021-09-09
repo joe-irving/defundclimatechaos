@@ -1,0 +1,37 @@
+.Chaos-Block-2 {
+  @media screen and (min-width: $content-width-wide * 1.5){
+    .Chaos-Section{
+      display: flex;
+    }
+  }
+  &.even{
+    .Chaos-Section{
+      flex-direction: row-reverse;
+    }
+  }
+  &.invert,&.even{
+    background-color: $brand-color;
+    .Chaos-Form{
+      label{
+        color: $brand-text-color;
+      }
+    }
+    .Chaos-Wrapper{
+      > p,> h1,> h2,> h3,> h4,> h5,> h6,> a{
+        color: $brand-text-color;
+        > a{
+          color: $brand-text-color;
+        }
+      }
+    }
+  }
+  img{
+    box-shadow: $spacing-unit $spacing-unit $brand-color;
+  }
+  .Chaos-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // color: $brand-color;
+  }
+}

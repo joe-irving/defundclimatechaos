@@ -1,6 +1,8 @@
 {% capture blocks %}
-{% for block in page.blocks %}
-  {% include block.html block=block %}
+{% for block in page.blocks2 %}
+<div class="Chaos-Block-2 {% cycle 'odd', 'even' %}  {% if block.invert %}invert{% endif %}">
+  {% include block2.html block=block %}
+</div>
 {% endfor %}
 {% endcapture %}
 <!DOCTYPE html>
@@ -23,6 +25,24 @@
                 </div>
             </div>
             {% endif %}
+        {% endif %}
+
+        {% if page.header %}
+        <div class="Chaos-Big-Header  {% if page.header.border_bottom.reflect %}shift{% endif %}">
+          <div class="Chaos-Section">
+            <div class="Chaos-Wrapper-Wide">
+              {{ page.header.text | liquify | markdownify }}
+            </div>
+          </div>
+          {% if page.header.border_bottom.image %}
+            <div class="border-bottom-container">
+              <div class="border-bottom" style="background-image:url('{{ page.header.border_bottom.image | relative_url }}')"></div>
+              {% if page.header.border_bottom.reflect %}
+              <div class="border-bottom reflect" style="background-image:url('{{ page.header.border_bottom.image | relative_url }}')"></div>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
         {% endif %}
 
         {% if page.contents_links %}
