@@ -5,15 +5,33 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: page
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: number
   name: order
-  label: order
+  label: Navigation order
 - type: file
   name: image
-  label: image
+  label: Image in link previews
 - type: file
   name: top_image
-  label: top_image
+  label: 'Header Image '
+  description: The image that fits above the content
+- name: top_quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Top Quote
+  description: The quote that appears before the content
+- name: background_image
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image
