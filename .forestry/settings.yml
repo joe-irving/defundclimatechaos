@@ -29,6 +29,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
+  - AIRTABLE_API_KEY=keyd5v8cFVspwAV6N
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
