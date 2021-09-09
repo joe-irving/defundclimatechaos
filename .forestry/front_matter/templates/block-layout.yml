@@ -68,3 +68,5 @@ fields:
     schema:
       format: markdown
   label: Credits
+pages:
+- example.md.md
