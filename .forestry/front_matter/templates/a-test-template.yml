@@ -1,0 +1,90 @@
+---
+label: a test template
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: image
+  label: image
+- type: field_group_list
+  name: credits
+  label: credits
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: info
+    label: info
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: textarea
+    name: text
+    label: text
+  - type: field_group_list
+    name: buttons
+    label: buttons
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: target
+      label: target
+  - type: field_group
+    name: border_bottom
+    label: border_bottom
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: boolean
+      name: reflect
+      label: reflect
+- type: field_group_list
+  name: blocks2
+  label: blocks2
+  fields:
+  - type: list
+    name: columns
+    label: columns
+- type: field_group_list
+  name: blocks
+  label: blocks
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: textarea
+    name: text
+    label: text
+  - type: field_group_list
+    name: buttons
+    label: buttons
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: target
+      label: target
+  - type: boolean
+    name: full
+    label: full
+  - type: field_group
+    name: border_bottom
+    label: border_bottom
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: boolean
+      name: reflect
+      label: reflect
