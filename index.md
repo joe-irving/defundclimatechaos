@@ -41,12 +41,14 @@ blocks:
     %}"
   decoration: ''
 - buttons: []
-  text: "## News\n\n{% assign posts = site.posts %}  \n{% include blog-list.html limit=3
-    \ %}\n\n[See all news...](/news)"
+  text: "## Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
+    limit=3  %}\n\n[See all news...](/news)"
   decoration: "![](/assets/images/20190502_085500.jpg)"
 - buttons: []
   text: |-
-    ## Email Updates
+    ## Act
+
+    Sign up to join the global mobilisation.
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/nurses_positive_money.jpg)"
