@@ -1,0 +1,19 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: number
+  name: order
+  label: order
+- type: file
+  name: image
+  label: image
+- type: file
+  name: top_image
+  label: top_image
