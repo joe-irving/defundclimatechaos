@@ -41,7 +41,7 @@ blocks:
     %}"
   decoration: ''
 - buttons: []
-  text: "## Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
+  text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
     limit=3  %}\n\n[See all news...](/news)"
   decoration: "![](/assets/images/20190502_085500.jpg)"
 - buttons: []
