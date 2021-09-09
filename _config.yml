@@ -14,6 +14,10 @@ instagram:
 twitter:
 facebook:
 
+nav_links:
+  - url: "#act"
+    title: Act
+
 future: true
 # google_analytics: G-LR3ETXLRXT
 
