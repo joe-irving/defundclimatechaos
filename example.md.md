@@ -2,10 +2,6 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
-- buttons: []
-  text: "# FAQs\n\n{% assign posts = site.data.faqs %}  \n{% include blog-list.html
-    date=false accordian=true %}"
-  decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
 - buttons:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13583
@@ -55,6 +51,10 @@ blocks:
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/nurses_positive_money.jpg)"
+- buttons: []
+  text: "# FAQs\n\n{% assign posts = site.data.faqs %}  \n{% include blog-list.html
+    date=false accordian=true %}"
+  decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
 - buttons: []
   text: |-
     # Partners
