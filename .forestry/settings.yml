@@ -8,8 +8,10 @@ sections:
   path: index.md
   label: Home Page
 - type: jekyll-posts
-  label: News
+  label: Stoires
   create: all
+  templates:
+  - stories
 - type: jekyll-pages
   label: Pages
   create: all
