@@ -1,4 +1,40 @@
 ---
 label: Stories
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: post
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
