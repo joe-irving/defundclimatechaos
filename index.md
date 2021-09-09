@@ -66,6 +66,5 @@ header:
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
-published: true
 
 ---

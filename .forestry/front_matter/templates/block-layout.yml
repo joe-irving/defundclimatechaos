@@ -114,5 +114,5 @@ fields:
       format: markdown
   label: Credits
 pages:
-- example.md.md
+- index.md
 - index.md
