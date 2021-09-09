@@ -1,10 +1,11 @@
 ---
 layout: page
-title: News
-order: 3
-image: /assets/images/og-image.png
+title: Stories
+order: "3"
+image: "/assets/images/og-image.png"
+
 ---
-# News
+# Stories
 
 {% assign posts = site.posts %}
 {% include blog-list.html %}
