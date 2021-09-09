@@ -64,5 +64,3 @@ fields:
         block?
       label: Reflect?
     label: Image border at the bottom of this block
-pages:
-- index.md
