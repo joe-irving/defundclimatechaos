@@ -16,6 +16,8 @@ blocks:
     On October 29, people around the world are joining together to demand that bankers, insurers and fund managers **Defund Climate Chaos**.
 
     It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
+
+    {{ buttons }}
 - buttons:
   - target: "#faqs"
     text: Read more
