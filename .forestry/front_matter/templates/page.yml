@@ -40,3 +40,4 @@ fields:
   label: Main Nav Exclude
 pages:
 - resources.md
+- trainings.md
