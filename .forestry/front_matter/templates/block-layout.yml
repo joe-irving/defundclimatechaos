@@ -98,6 +98,20 @@ fields:
     max: 
     labelField: 
   label: Blocks
+- name: invert
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - odd
+    - even
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Invert Color For Blocks which are...
 - name: credits
   type: textarea
   default: ''
