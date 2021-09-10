@@ -63,7 +63,7 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    {% include counter %}
+    {% include counter.html %}
 
     # Turn off the money pipeline to fossil fuels. Now.
 
