@@ -43,7 +43,7 @@ blocks:
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
     limit=3 thumbnail=true date=false %}\n\n[See all news...](/news)"
-  decoration: ""
+  decoration: ''
 - buttons: []
   text: |-
     # Act
@@ -72,5 +72,6 @@ header:
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
+invert: even
 
 ---
