@@ -43,3 +43,12 @@ fields:
   config:
     required: false
   label: Slug
+- name: credits
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Credits
