@@ -37,5 +37,6 @@ fields:
     field: main_nav_exclude
     value: false
 pages:
+- news.md
 - resources.md
 - trainings.md

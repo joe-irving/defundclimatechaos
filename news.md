@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Stories
-order: "3"
+order: 3
 image: "/assets/images/og-image.png"
+top_image: ''
+top_quote: ''
+main_nav_exclude: false
 
 ---
 # Stories
