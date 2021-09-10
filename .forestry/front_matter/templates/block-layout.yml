@@ -9,12 +9,6 @@ fields:
   label: layout
   default: page
   hidden: true
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
-  description: Image displayed on link preveiws
 - name: header
   type: field_group
   config: {}
@@ -113,6 +107,12 @@ fields:
     schema:
       format: markdown
   label: Credits
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: Image displayed on link preveiws
 pages:
 - index.md
 - index.md
