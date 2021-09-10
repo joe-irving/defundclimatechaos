@@ -10,12 +10,6 @@ fields:
 - type: text
   name: title
   label: Title
-- type: number
-  name: order
-  label: Navigation order
-- type: file
-  name: image
-  label: Image in link previews
 - type: file
   name: top_image
   label: 'Header Image '
@@ -30,14 +24,18 @@ fields:
       format: markdown
   label: Top Quote
   description: The quote that appears before the content
-- name: background_image
-  type: file
-  config:
-    maxSize: 64
-  label: Background Image
+- type: file
+  name: image
+  label: Image in link previews
 - name: main_nav_exclude
   type: boolean
   label: Main Nav Exclude
+- type: number
+  name: order
+  label: Navigation order
+  showOnly:
+    field: main_nav_exclude
+    value: false
 pages:
 - resources.md
 - trainings.md
