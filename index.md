@@ -42,8 +42,8 @@ blocks:
   decoration: ''
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
-    limit=3  %}\n\n[See all news...](/news)"
-  decoration: "![](/assets/images/20190502_085500.jpg)"
+    limit=3 date=false  %}\n\n[See all news...](/news)"
+  decoration: ''
 - buttons: []
   text: |-
     # Act
@@ -60,7 +60,7 @@ credits: ''
 header:
   full: true
   image:
-    link: '/assets/images/money-faucet.png'
+    link: "/assets/images/money-faucet.png"
     location: left
   text: |-
     # Turn off the money pipeline to fossil fuels. Now.
