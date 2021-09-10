@@ -35,5 +35,8 @@ fields:
   config:
     maxSize: 64
   label: Background Image
+- name: main_nav_exclude
+  type: boolean
+  label: Main Nav Exclude
 pages:
 - resources.md
