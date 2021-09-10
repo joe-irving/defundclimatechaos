@@ -9,12 +9,19 @@
       flex-direction: row-reverse;
     }
   }
-  &.invert,&.even{
+  &.invert{
     background-color: $brand-color;
     .Chaos-Form{
       label{
         color: $brand-text-color;
+        &::after{
+          color:$brand-text-color;
+        }
       }
+    }
+    .Chaos-Button{
+      background-color: $background-color;
+      color: $brand-color;
     }
     .Chaos-Wrapper{
       > p,> h1,> h2,> h3,> h4,> h5,> h6,> a{

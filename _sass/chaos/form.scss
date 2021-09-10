@@ -10,6 +10,8 @@
 }
 button.Chaos-Button{
   border: 0;
+  padding-top: $spacing-unit * 0.7;
+  padding-bottom: $spacing-unit * 0.5;
 }
 input[type="submit"], button{
   all: none;

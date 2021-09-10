@@ -1,6 +1,8 @@
+{% capture odd_classes %}odd {% if page.invert == "odd" %}invert{% endif %}{% endcapture %}
+{% capture even_classes %}even {% if page.invert == "even" %}invert{% endif %}{% endcapture %}
 {% capture blocks %}
 {% for block in page.blocks %}
-<div class="Chaos-Block-2 {% cycle 'odd', 'even' %}  {% if block.invert %}invert{% endif %}">
+<div class="Chaos-Block-2 {% cycle odd_classes, even_classes %}  {% if block.invert %}invert{% endif %}">
   {% include block2.html block=block %}
 </div>
 {% endfor %}
