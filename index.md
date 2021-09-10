@@ -42,7 +42,7 @@ blocks:
   decoration: ''
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
-    limit=3 thumbnail=true date=false %}\n\n[See all news...](/news)"
+    limit=3 thumbnail=true date=false alternate_direction=true %}\n\n[See all news...](/news)"
   decoration: ''
 - buttons: []
   text: |-

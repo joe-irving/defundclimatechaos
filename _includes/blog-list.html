@@ -29,8 +29,13 @@
     <div class="Chaos-Blog-List">
     {% endif %}
 
-    <div class="Chaos-Blog-Item {% if include.accordian %}accordian{% endif %} {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
-        <div class="top">
+    <div
+    class="Chaos-Blog-Item
+    {% if include.accordian %}accordian{% endif %}
+    {% if forloop.first %}first{%endif %}
+
+    " id="{{ post_id }}-close">
+        <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">
                 {% if include.date!=false %}
                 <div class="date">
                     <span class="day-number">{{ post[date_field] | date: "%e" }}</span>

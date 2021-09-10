@@ -317,6 +317,7 @@ $border-width: $spacing-unit * 7;
     .top {
         display: flex;
         flex-direction: row;
+        &.reverse{flex-direction: row-reverse;}
         align-items: center;
         width: 100%;
 
@@ -346,8 +347,8 @@ $border-width: $spacing-unit * 7;
         }
 
         .thumbnail{
-          max-width: 30%;
-          padding: 10px;
+          max-width: 33%;
+          padding: $spacing-unit;
           img {
             box-shadow: none;
           }

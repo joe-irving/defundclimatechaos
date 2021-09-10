@@ -60,6 +60,7 @@ img {
 }
 
 figure {
+    box-shadow: $spacing-unit $spacing-unit $brand-color;
     & > img {
         display: block;
         margin-left: 50%;
