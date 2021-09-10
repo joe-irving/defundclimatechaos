@@ -57,6 +57,15 @@ fields:
 - name: blocks
   type: field_group_list
   fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
   - name: buttons
     type: field_group_list
     fields:
@@ -75,15 +84,6 @@ fields:
       max: 
       labelField: 
     label: Buttons
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Text
   - name: decoration
     type: textarea
     default: ''
