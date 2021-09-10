@@ -345,6 +345,14 @@ $border-width: $spacing-unit * 7;
             }
         }
 
+        .thumbnail{
+          max-width: 30%;
+          padding: 10px;
+          img {
+            box-shadow: none;
+          }
+        }
+
         .description {
 
             line-height: 1;

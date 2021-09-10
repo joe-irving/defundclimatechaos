@@ -37,6 +37,11 @@
                     <span class="month">{{ post[date_field] | date: "%b" }}</span>
                 </div>
                 {% endif %}
+                {% if include.thumbnail and post.image.size > 1 %}
+                <div class="thumbnail">
+                  <a href="{{ post.url | relative_url  }}"><img title="{{post.title}}"  src="{{ post.image  | relative_url  }}" /></a>
+                </div>
+                {% endif %}
 
                 <div class="description" id="{{ post_id }}">
 
@@ -76,7 +81,7 @@
                       </div>
                 </div>
             </div>
-            {% if post.image %}
+            {% if post.image.size > 0 and include.thumbnail!=true %}
             <a href="{{ post.url | relative_url  }}"><img src="{{ post.image  | relative_url  }}" /></a>
             {% endif %}
             <div style="width: 100%">
