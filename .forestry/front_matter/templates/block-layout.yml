@@ -100,7 +100,7 @@ fields:
   label: Blocks
 - name: invert
   type: select
-  default: []
+  default: even
   config:
     required: false
     options:
