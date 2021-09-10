@@ -42,8 +42,8 @@ blocks:
   decoration: ''
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
-    limit=3 date=false  %}\n\n[See all news...](/news)"
-  decoration: ''
+    limit=3 thumbnail=true %}\n\n[See all news...](/news)"
+  decoration: "![](/assets/images/20190502_085500.jpg)"
 - buttons: []
   text: |-
     # Act
