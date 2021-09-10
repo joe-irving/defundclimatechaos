@@ -3,7 +3,11 @@ title: Act
 order: 1
 layout: page
 main_nav_exclude: true
-image: /assets/images/og-image.png
+image: "/assets/images/og-image.png"
+top_image: ''
+top_quote: ''
+credits: ''
+
 ---
 # Joining the day of action
 

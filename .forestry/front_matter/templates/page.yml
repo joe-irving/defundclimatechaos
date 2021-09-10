@@ -46,6 +46,7 @@ fields:
       format: markdown
   label: Credits
 pages:
+- act.md
 - faqs.md
 - news.md
 - resources.md
