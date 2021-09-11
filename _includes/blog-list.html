@@ -30,15 +30,7 @@
     {% endif %}
 
     <div
-    class="Chaos-Blog-Item
-    {% if include.accordian %}accordian{% endif %}
-    {% if forloop.first %}first{%endif %}
-
-    " id="{{ post_id }}-close">
-        {% if include.accordian %}
-          <input class="Chaos-Accordion-Toggle" type=checkbox id="{{post_id}}">
-          <label for="{{post_id}}">
-        {% endif %}
+    class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
         <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">
                 {% if include.date!=false %}
                 <div class="date">
@@ -55,13 +47,6 @@
                 <div class="description" id="{{ post_id }}REMOVE">
                     <div class="header-line">
                       <h3><a href="{{ url }}">{{ post.title }}</a></h3>
-                      {% if include.accordian %}
-                      <a href="#{{ post_id }}-close" onclick="function(e){e.preventDefault();}">
-                        <svg width="49" height="49"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490">
-                            <path d="M386.813 0L245 141.812 103.188 0 0 103.188 141.813 245 0 386.812l103.187 103.187L245 348.187 386.813 490 490 386.812 348.187 244.999 490 103.187z"></path>
-                        </svg>
-                      </a>
-                      {% endif %}
                     </div>
 
                     {% if post.authors %}
@@ -77,19 +62,13 @@
                         {% elsif post.excerpt %}
                           <p>{{ post.excerpt }}</p>
                         {% elsif post.description %}
-                          {% if include.accordian %}
                             <div class="snippet" >
                               {{ post.description | truncatewords : 15  | liquify | markdownify }}
                             </div>
-                            <div class="full" >{{ post.description | liquify | markdownify }}</div>
-                          {% else %}
-                            <div>{{ post.description | liquify | markdownify }}</div>
-                          {% endif %}
                         {% endif %}
                       </div>
                 </div>
             </div>
-            {% if include.accordian %}</label>{% endif %}
             {% if post.image.size > 0 and include.thumbnail!=true %}
             <a href="{{ post.url | relative_url  }}"><img src="{{ post.image  | relative_url  }}" /></a>
             {% endif %}

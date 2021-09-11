@@ -273,13 +273,12 @@ $border-width: $spacing-unit * 7;
     margin: $spacing-unit;
     max-width: $content-width-wide;
     width: 90%;
-    transition: all .35s;
+
 
     .header-line{
       display: flex;
       justify-content: space-between;
       svg{
-        display: none;
         width: $base-font-size * 0.75;
         height: $base-font-size * 0.75;
         path{
@@ -289,51 +288,7 @@ $border-width: $spacing-unit * 7;
       }
     }
 
-    &.accordian{
-      input.Chaos-Accordion-Toggle{
-        display: none;
-      }
-      input.Chaos-Accordion-Toggle:checked{
-        background-color: red;
-        + label{
-          transition: all .35s;
-          div.top{
-           .description{
-             line-height: normal;
-             .summary {
-               > .full{display: block;}
-               > .snippet {display: none;}
-             }
-             .header-line{
-               svg {
-                 display: block;
-               }
-             }
-           }
-         }
-        }
-      }
-      .description {
-        .summary {
-          > .full{display: none;}
-          > .snippet {display: block;}
-        }
-        &:target{
-          line-height: normal;
-          .summary {
-            > .full{display: block;}
-            > .snippet {display: none;}
-          }
-          .header-line{
-            svg {
-              display: block;
-            }
-          }
-        }
-      }
-    }
-
-    & > a > img {
+    .content img, .top img {
       margin: $spacing-unit 0 $spacing-unit/2 0;
       box-shadow: none;
     }
@@ -397,6 +352,48 @@ $border-width: $spacing-unit * 7;
             }
         }
     }
+}
+
+.Chaos-Accordion{
+  .content{
+    display: none;
+  }
+  input.Chaos-Accordion-Toggle{
+    display: none;
+    + label{
+      .thumbnail{
+        display: block;
+      }
+      .header-line::after {
+        content: "\276F";
+        width: 1em;
+        height: 1em;
+        text-align: center;
+        transition: all .35s;
+        color: $brand-color;
+      }
+    }
+    &:checked{
+      + label{
+        // background-color: darken($background-color,10%);
+        // text-decoration: underline;
+        .header-line::after {
+          transform: rotate(90deg);
+        }
+        .summary{
+          display: none;
+        }
+        .thumbnail{
+          display: none;
+        }
+      }
+      ~ .content{
+        display: block;
+      }
+
+    }
+  }
+
 }
 
 .Chaos-Logo-List {

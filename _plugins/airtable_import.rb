@@ -8,6 +8,21 @@ module Airtable
   class Generator < ::Jekyll::Generator
     priority :medium
 
+    def parse_data(data)
+      data_parse = []
+      data.each do |item|
+        # Extract attachments to just their URL
+        item.each do |key,val|
+          if val.kind_of?(Array)
+            if val[0]['url']
+              item[key] = val[0]['url']
+            end
+          end
+        end
+        data_parse.push(item)
+      end
+      data_parse
+    end
     def generate(site)
       return unless site.config['airtable']
       # Get API key from environment
@@ -21,7 +36,7 @@ module Airtable
         @records = @table.records(:view => conf['view'],:fields => conf['fields'], :limit => 100)
         # Extract data to a hash
         data = @records.map { |record| record.attributes }
-
+        parsed_data = parse_data(data)
         if conf['collection']
           slug_field = conf['collection']['slug']
           layout = conf['collection']['layout']
@@ -31,16 +46,8 @@ module Airtable
             new_collection = Jekyll::Collection.new(site, name)
           end
           # new_collection = Jekyll::Collection.new(site, name)
-          data.each do |item|
+          parsed_data.each do |item|
             if item[slug_field] and item[slug_field] != ''
-              # Extract attachments to just their URL
-              item.each do |key,val|
-                if val.kind_of?(Array)
-                  if val[0]['url']
-                    item[key] = val[0]['url']
-                  end
-                end
-              end
               content = item[conf['collection']['content']]
               #puts content
               slug = Jekyll::Utils.slugify(item[slug_field])

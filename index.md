@@ -53,9 +53,8 @@ blocks:
     {% include signup-form.html %}
   decoration: "![](/assets/images/nurses_positive_money.jpg)"
 - buttons: []
-  text: "# FAQs\n\n{% assign posts = site.data.faqs %}  \n{% include blog-list.html
-    date=false accordian=true %}"
-  decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
+  text: "# FAQs\n\n{% include accordion.html data=site.data.faqs %}"
+  decoration: ""
 credits: ''
 header:
   full: true
