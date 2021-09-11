@@ -45,6 +45,11 @@ fields:
     schema:
       format: markdown
   label: Credits
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
 pages:
 - act.md
 - faqs.md
