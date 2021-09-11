@@ -12,4 +12,4 @@ published: false
 ---
 # Partners
 
-{% assign posts = site.data.partners %}{% include blog-list.html %}
+{% assign posts = site.data.partners %}{% include blog-list.html thumbnail=true alternate_direction=true %}
