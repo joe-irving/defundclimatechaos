@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url: https://hooks.slack.com/services/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
+webhook_url: ''
 sections:
 - type: document
   path: index.md
