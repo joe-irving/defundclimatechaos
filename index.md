@@ -53,8 +53,18 @@ blocks:
     {% include signup-form.html %}
   decoration: "![](/assets/images/nurses_positive_money.jpg)"
 - buttons: []
-  text: "# FAQs\n\n{% include accordion.html data=site.data.faqs %}"
-  decoration: ""
+  text: |-
+    # FAQs
+
+    {% include accordion.html data=site.data.faqs %}
+  decoration: ''
+- text: "# Partners"
+  buttons:
+  - text: Register
+    target: https://airtable.com/shrgvGc0v5EnhbWxu
+  - target: "/partners"
+    text: See all partners
+  decoration: "![](/assets/images/positive_money.jpg)"
 credits: ''
 header:
   full: true
