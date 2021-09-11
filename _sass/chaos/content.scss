@@ -397,19 +397,19 @@ $border-width: $spacing-unit * 7;
 }
 
 .Chaos-Logo-List {
-  $item-width: 200px;
+  $item-width: 100px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   .Chaos-Logo-Item{
     img{
-      filter: grayscale(100%);
-      width: $item-width;
-      height: auto;
+      filter: brightness(10);
+      height: $item-width;
+      width: auto;
       transition: filter 0.5s;
       box-shadow: 0;
       &:hover{
-        filter: grayscale(0);
+        filter: none;
       }
     }
   }

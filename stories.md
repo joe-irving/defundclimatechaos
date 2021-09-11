@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stories
-order: 3
+order: 2
 image: "/assets/images/og-image.png"
 top_image: ''
 top_quote: ''
