@@ -403,7 +403,7 @@ $border-width: $spacing-unit * 7;
   flex-wrap: wrap;
   .Chaos-Logo-Item{
     img{
-      filter: brightness(10);
+      filter: grayscale(50%);
       height: $item-width;
       width: auto;
       transition: filter 0.5s;

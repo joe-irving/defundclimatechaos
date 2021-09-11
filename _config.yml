@@ -60,20 +60,6 @@ airtable:
       - URL
       - Image
       - Summary
-  posts:
-    app:   app9apHbqOifmolTX
-    table: tbluLxNnxcePzY4iN
-    view:  viwlLkcEaTIKV99bx
-    fields:
-      - Content
-      - Title
-      - Date
-      - Summary
-      - Image
-    collection:
-      slug: title
-      layout: post
-      content: content
   trainings:
     app:   app9apHbqOifmolTX
     table: tblr8deZvWPtDpT8z
