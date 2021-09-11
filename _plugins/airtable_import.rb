@@ -16,7 +16,6 @@ module Airtable
           if val.kind_of?(Array)
             if val[0]['url']
               item[key] = val[0]['url']
-              item[key+"_airtable"] = val
             end
           end
         end
