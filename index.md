@@ -58,7 +58,10 @@ blocks:
 
     {% include accordion.html data=site.data.faqs %}
   decoration: ''
-- text: "# Partners"
+- text: |-
+    # Partners
+
+    This day of action is made of an ecosystem of groups from all around the UK.
   buttons:
   - text: Register
     target: https://airtable.com/shrgvGc0v5EnhbWxu
