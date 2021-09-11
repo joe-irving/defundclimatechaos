@@ -63,7 +63,7 @@ blocks:
   - text: Register
     target: https://airtable.com/shrgvGc0v5EnhbWxu
   - target: "/partners"
-    text: See all partners
+    text: See all
   decoration: "![](/assets/images/positive_money.jpg)"
 credits: ''
 header:
