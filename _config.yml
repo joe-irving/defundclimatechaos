@@ -56,9 +56,10 @@ airtable:
     table: tbl3erzSL6dZfNkZi
     view:  viwcwyl4ejOXEUaS0
     fields:
-      - Name
-      - Website
-      - Logo
+      - Title
+      - URL
+      - Image
+      - Summary
   posts:
     app:   app9apHbqOifmolTX
     table: tbluLxNnxcePzY4iN
