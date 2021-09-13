@@ -43,6 +43,23 @@ function hasScrolled()
     lastScrollTop = scrollPos;
 }
 
+// Open Accordion if targeted
+function openAccordion(target_id){
+  var target = $(target_id);
+  var checkbox = target.find("input.Chaos-Accordion-Toggle")
+  console.log(checkbox)
+  checkbox.prop("checked",true);
+}
+// Linked externally
+$( document ).ready(function(){
+  openAccordion(window.location.hash);
+});
+// Linked internally
+$("a").on("click", function(){
+  console.log(this)
+  openAccordion(this.hash);
+});
+
 
 {% if site.counter %}
 // Counter

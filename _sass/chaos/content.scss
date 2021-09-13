@@ -104,10 +104,11 @@
 }
 @mixin big-header {
   margin-top: $spacing-unit * 3;
-  font-size: calc(max(55px,min(min( 80pt, 15vw),10vh)));
+  // font-size: calc(max(55px,min(min( 80pt, 15vw),10vh)));
+  font-size: 3.5em;
   text-transform: uppercase;
-  font-family: 'Druk Condensed';
-  letter-spacing: 0.02em;
+  // font-family: 'Druk Text';
+  letter-spacing: -0.02em;
   strong,b,.bold{
     // border-bottom-color: $brand-text-color-invert;
     // border-bottom-width: 1em;
@@ -354,7 +355,10 @@ $border-width: $spacing-unit * 7;
     }
 }
 
-.Chaos-Accordion{
+.Chaos-Accordion-Item{
+  // border-bottom: 1px solid $brand-color;
+  margin: $spacing-unit 0;
+  width: 100%;
   .content{
     display: none;
   }
@@ -364,6 +368,26 @@ $border-width: $spacing-unit * 7;
       .thumbnail{
         display: block;
       }
+      img{
+        box-shadow: none;
+      }
+      .header-line{
+        h3{
+          margin: 0;
+        }
+        padding:  $spacing-unit 0;
+        display: flex;
+        justify-content: space-between;
+        svg{
+          width: $base-font-size * 0.75;
+          height: $base-font-size * 0.75;
+          padding-right: $spacing-unit;
+          path{
+            stroke: $brand-color;
+            fill:  $brand-color;
+          }
+        }
+      }
       .header-line::after {
         content: "\276F";
         width: 1em;
@@ -371,6 +395,7 @@ $border-width: $spacing-unit * 7;
         text-align: center;
         transition: all .35s;
         color: $brand-color;
+        padding-left: $spacing-unit;
       }
     }
     &:checked{
@@ -380,11 +405,8 @@ $border-width: $spacing-unit * 7;
         .header-line::after {
           transform: rotate(90deg);
         }
-        .summary{
-          display: none;
-        }
-        .thumbnail{
-          display: none;
+        .content{
+          display: block;
         }
       }
       ~ .content{

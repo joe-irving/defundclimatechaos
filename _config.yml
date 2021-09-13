@@ -63,7 +63,7 @@ airtable:
   trainings:
     app:   app9apHbqOifmolTX
     table: tblr8deZvWPtDpT8z
-    view: viwmoConiofljNaYn
+    view:  viwmoConiofljNaYn
     fields:
       - Content
       - Title
