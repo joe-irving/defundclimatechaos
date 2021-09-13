@@ -3,6 +3,7 @@
     <div class="Chaos-Logo-Item">
       <a href="{{  org.url }}" target="_blank">
         <img
+          class="{% if include.background == 'light' %}darken{% else %}lighten{% endif %}"
           src="{{ org.image }}"
           alt="{{ org.title }} Logo"
           title="{{ org.title }}"

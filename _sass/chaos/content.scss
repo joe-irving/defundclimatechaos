@@ -419,6 +419,14 @@ $border-width: $spacing-unit * 7;
 }
 
 .Chaos-Logo-List {
+  @media screen and (min-width: $content-width-wide){
+    width: 100vw;
+    left: calc(-50vw + #{ $content-width-wide / 2});
+    position: relative;
+  }
+}
+
+.Chaos-Logo-List {
   $item-width: 100px;
   display: flex;
   justify-content: space-around;
@@ -426,7 +434,10 @@ $border-width: $spacing-unit * 7;
   .Chaos-Logo-Item{
     img{
       filter: grayscale(50%);
-      height: $item-width;
+      &.darken{
+        filter: grayscale(100%);
+      }
+      max-height: $item-width;
       width: auto;
       transition: filter 0.5s;
       box-shadow: 0;
@@ -436,6 +447,7 @@ $border-width: $spacing-unit * 7;
     }
   }
 }
+
 .Chaos-Event-Date{
   text-align: center;
   font-style: italic;
