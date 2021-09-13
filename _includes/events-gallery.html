@@ -9,7 +9,7 @@
   {% else %}
     {% assign date_field = 'date' %}
   {% endif %}
-{% for post in posts limit:limit  %}
+{% for post in events limit:limit  %}
     {% capture this_year %}{{ post[date_field]| date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post[date_field] | date: "%B" }}{% endcapture %}
     {% capture this_day %}{{ post[date_field] | date: "%d" }}{% endcapture %}
@@ -21,16 +21,17 @@
     {% else %}{% assign url = "#" | append: post_id   %}{% endif %}
 
     {% if forloop.first %}
-        {% comment %}
             <!-- Not including month and year at the top -->
-            <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-            <h3 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h3>
-        {% endcomment %}
-    <div class="Chaos-Blog-List">
+            <!-- <h1 id="{{ this_year }}-ref">{{this_year}}</h2> -->
+            <h1 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h1>
+    <div class="Chaos-Blog-List Chaos-Events-Gallery">
     {% endif %}
 
     <div
     class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
+    {% if post.image.size > 0 and include.thumbnail!=true %}
+    <a href="{{ post.url | relative_url  }}"><img src="{{ post.image  | relative_url  }}" /></a>
+    {% endif %}
         <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">
                 {% if include.date!=false %}
                 <div class="date">
@@ -71,9 +72,7 @@
                       </div>
                 </div>
             </div>
-            {% if post.image.size > 0 and include.thumbnail!=true %}
-            <a href="{{ post.url | relative_url  }}"><img src="{{ post.image  | relative_url  }}" /></a>
-            {% endif %}
+
             <div style="width: 100%">
             {% if post.categories.size > 0 %}
                 <span style="float: right;">Categories:
@@ -91,18 +90,14 @@
     {% else %}
         {% if this_year != next_year %}
         </div>
-        {% comment %}
-        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-        <h3 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
-        {% endcomment %}
-        <div class="Chaos-Blog-List">
+        <h1 id="{{ next_year }}-ref">{{next_year}}</h1>
+        <h1 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h1>
+        <div class="Chaos-Blog-List  Chaos-Events-Gallery">
         {% else %}
             {% if this_month != next_month %}
             </div>
-            {% comment %}
-            <h3 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
-            {% endcomment %}
-            <div class="Chaos-Blog-List">
+            <h1 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h1>
+            <div class="Chaos-Blog-List  Chaos-Events-Gallery">
             {% endif %}
         {% endif %}
     {% endif %}

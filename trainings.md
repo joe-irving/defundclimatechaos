@@ -12,5 +12,5 @@ background_image: ''
 ---
 # Trainings
 
-{% assign posts = site.trainings %}
-{% include blog-list.html %}
+{% assign events = site.trainings | sort: "date" %}
+{% include events-gallery.html %}

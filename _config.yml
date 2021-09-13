@@ -32,6 +32,8 @@ collections:
     permalink: "/faqs/:title/"
   trainings:
     output: true
+  actions:
+    output: true
 defaults:
   - scope:
       path: google2b8ceaa38de54302.html
@@ -76,7 +78,9 @@ airtable:
       slug: title
       layout: event
       content: content
-
+jekyll_get_json:
+  - data: events
+    json: 'https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json'
 
 map:
   lat: # 50
@@ -85,3 +89,4 @@ plugins:
 - jekyll-feed
 - jekyll-liquify
 - jekyll-leaflet
+- jekyll-get-json

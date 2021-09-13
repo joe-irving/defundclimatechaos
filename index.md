@@ -31,8 +31,12 @@ blocks:
     Climate justice demands that we shut off the money pipeline to oil, coal and gas immediately.
   decoration: "![](/assets/images/alarm.png)"
 - buttons: []
-  text: "# Training and Action Planning Sessions\n\n{% assign posts = site.trainings
-    %}  \n{% include blog-list.html  limit=3 %}\n\n[See all upcoming trainings...](/trainings)"
+  text: |-
+    # Training and Action Planning Sessions
+
+    {% assign posts = site.trainings | sort: "date" %}{% include blog-list.html  limit=3 %}
+
+    [See all upcoming trainings...](/trainings)
   decoration: "![](/assets/images/street-mural.png)"
 - buttons: []
   text: "## Resources\n\nHere are all the resources you’ll need to join or organise
