@@ -33,7 +33,7 @@ blocks:
 - buttons: []
   text: "# Training and Action Planning Sessions\n\n{% assign posts = site.trainings
     %}  \n{% include blog-list.html  limit=3 %}\n\n[See all upcoming trainings...](/trainings)"
-  decoration: "![](/assets/images/05_DarrenCullen_HSBC_Norwich2021-1200.jpg)"
+  decoration: "![](/assets/images/street-mural.png)"
 - buttons: []
   text: "## Resources\n\nHere are all the resources you’ll need to join or organise
     an action of your own to #DefundClimateChaos on October 29 (and beyond!):\n\n{%
