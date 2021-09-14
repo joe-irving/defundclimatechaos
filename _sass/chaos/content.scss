@@ -59,8 +59,13 @@
     flex: 1 0 auto;
     flex-direction: column;
     display: block; //Defaults to 'inline' in IE 11
-    background: $background-color no-repeat center right;
-    background-size: calc(min(#{$content-width-wide },50vw));
+    background: $background-color repeat center top;
+    background-size: 100vw auto;
+    &.background-image{
+      .Chaos-Section{
+          background-color: rgba($background-color, 0.5)
+      }
+    }
 }
 
 .Chaos-Big-Picture {

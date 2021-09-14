@@ -34,10 +34,23 @@ blocks:
   text: |-
     # Training and Action Planning Sessions
 
-    {% assign posts = site.trainings | sort: "date" %}{% include blog-list.html  limit=3 %}
+    ## This week
+
+    {% assign posts_dates = site.trainings | sort: "date" | map: "date" %}
+    {% assign no_posts = 0 %}
+    {% assign now_week = 'now | date: "%W" %}
+    {% for date in posts_dates %}
+      {% assign post_week = date | date: "%W" %}
+      {% if post_week == now_week %}
+        {% assign no_posts = no_posts | plus: 1 %}
+      {% endif  %}
+    {% endfor %}
+    {% assign posts = site.trainings | sort: "date" %}
+    {% include blog-list.html summary=false limit=no_posts %}
 
     [See all upcoming trainings...](/trainings)
-  decoration: "![](/assets/images/street-mural.png)"
+  decoration: ""
+  background_image: /assets/images/street-mural.png
 - buttons: []
   text: "## Resources\n\nHere are all the resources you’ll need to join or organise
     an action of your own to #DefundClimateChaos on October 29 (and beyond!):\n\n{%

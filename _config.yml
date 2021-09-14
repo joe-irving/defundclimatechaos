@@ -23,7 +23,7 @@ nav_links:
 future: true
 # google_analytics: G-LR3ETXLRXT
 
-copyright_notice: ''
+copyright_notice: 'With thanks to [David Gundry](https://www.davidgundry.co.uk/) for the base theme.'
 collections:
   posts:
     permalink: "/stories/:title/"

@@ -51,6 +51,7 @@
                     <div class="header-line">
                       <h3><a href="{{ url }}">{{ post.title }}</a></h3>
                     </div>
+                    <p><time>{{ post.date | date: "%l:%M %p" }}</time> to <time>{{ post.end_date | date: "%l:%M %p" }}</time></p>
 
                     {% if post.authors %}
                     <span>
@@ -59,6 +60,7 @@
                         {% endfor %}
                     </span>
                     {%endif%}
+                    {% comment %}
                     <div class="summary" >
                       {% if post.summary %}
                           <p>{{ post.summary }}</p>
@@ -70,6 +72,7 @@
                             </div>
                         {% endif %}
                       </div>
+                      {% endcomment %}
                 </div>
             </div>
 

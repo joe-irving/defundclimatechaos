@@ -9,8 +9,20 @@
       flex-direction: row-reverse;
     }
   }
-  &.invert{
+  &.background-image{
+    .Chaos-Section{
+      background-color: rgba($background-color,0.5);
+    }
+    &.invert{
+        .Chaos-Section{
+          background-color: rgba($brand-color,0.5);
+        }
+    }
+  }
+  &.invert > .Chaos-Section{
     background-color: $brand-color;
+
+
     .Chaos-Form{
       label{
         color: $brand-text-color;

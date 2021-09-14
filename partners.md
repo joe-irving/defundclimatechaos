@@ -12,7 +12,7 @@ credits: ''
 ---
 # Partners
 
-Here are just some of the groups and organisations that are part of the Defund Climate Chaos coalition. Please [register your group here](https://airtable.com/shrgvGc0v5EnhbWxu).
+Here are just some of the groups and organisations that are part of the Defund Climate Chaos coalition. Please [register your group here](#register-group).
 
 {% include partner-list.html background='light' %}
 

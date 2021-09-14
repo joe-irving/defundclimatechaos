@@ -7,7 +7,7 @@ order:
 image: ''
 top_image: ''
 top_quote: ''
-background_image: ''
+background_image: 'assets/images/street-mural.png'
 
 ---
 # Trainings

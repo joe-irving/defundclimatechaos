@@ -12,9 +12,9 @@ module Jekyll
       output="<div class=\"Chaos-Flex-Line\">"
       @input.each do |button|
         button_split = button.split("|")
-        
+
       end
-      output += "<\div>"
+      output += "</div>"
     end
   end
 end

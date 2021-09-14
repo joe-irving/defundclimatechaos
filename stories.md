@@ -11,4 +11,4 @@ credits: ''
 ---
 # Stories
 
-{% assign posts = site.posts %} {% include blog-list.html date=false thumbnail=true %}
+{% assign posts = site.posts %} {% include blog-list.html date=false  %}

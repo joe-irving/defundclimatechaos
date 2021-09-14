@@ -2,7 +2,7 @@
 {% capture even_classes %}even {% if page.invert == "even" %}invert{% endif %}{% endcapture %}
 {% capture blocks %}
 {% for block in page.blocks %}
-<div class="Chaos-Block-2 {% cycle odd_classes, even_classes %}  {% if block.invert %}invert{% endif %}">
+<div class="Chaos-Block-2 {% cycle odd_classes, even_classes %} {% if block.background_image.size > 1 %}background-image{% endif %} {% if block.invert %}invert{% endif %}"  {% if block.background_image.size > 1 %}style="background-image: url('{{ block.background_image }}')"{% endif %}>
   {% include block2.html block=block %}
 </div>
 {% endfor %}
@@ -11,7 +11,7 @@
 {% include head.html %}
 <body>
     {% include header.html %}
-    <main class="Chaos-Main" {% if  page.background_image.size > 0 %}style="background-image:url('{{page.background_image | relative_url}}')"{% endif %}>
+    <main class="Chaos-Main {% if  page.background_image.size > 0 %}background-image{% endif %}" {% if  page.background_image.size > 0 %}style="background-image:url('{{page.background_image | relative_url}}')"{% endif %}>
 
         {% if page.top_image.size > 0  %}
             {% if layout.image_big %}
@@ -102,7 +102,6 @@
     {% include footer.html %}
 </body>
 <script src={{ "/assets/js.js"  | relative_url  }}></script>
-<script src="{{ '/assets/js/actions-map.js' | relative_url }}"></script>
 {% if page.hide_nav %}
 <script type="text/javascript">
   document.onload = function(e){
