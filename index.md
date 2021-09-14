@@ -49,8 +49,8 @@ blocks:
     {% include blog-list.html summary=false limit=no_posts %}
 
     [See all upcoming trainings...](/trainings)
-  decoration: ""
-  background_image: /assets/images/street-mural.png
+  decoration: ''
+  background_image: "/assets/images/street-mural.png"
 - buttons: []
   text: "## Resources\n\nHere are all the resources you’ll need to join or organise
     an action of your own to #DefundClimateChaos on October 29 (and beyond!):\n\n{%
@@ -81,7 +81,7 @@ blocks:
     This day of action is made of an ecosystem of groups from all around the UK.
   buttons:
   - text: Register
-    target: https://airtable.com/shrgvGc0v5EnhbWxu
+    target: "/partners/#register-group"
   - target: "/partners"
     text: See all
   decoration: "![](/assets/images/positive_money.jpg)"

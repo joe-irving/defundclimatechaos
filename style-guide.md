@@ -2,6 +2,7 @@
 layout: page
 title: Style
 main_nav_exclude: true
+
 ---
 # Digital Identity
 
@@ -17,24 +18,32 @@ tagline.
 1. Main red: #DD0000
 2. Pale background colour: #FFF0E3
 3. Font for block letters, headings: "Druk Text Web"
-1. Font for body, paragraph text: aktiv-grotesk.
-  * This body font is very close to your device's system fonts, and we use a bit of CSS to tell browsers to fallback to whatever system font their device uses:
-    ```css
-    html, body, p {
-      font-family: aktiv-grotesk, system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-    ```
-5. [#DefundClimateChaos PNG](/assets/images/logo.png)
-  * For SVG: the SVG is copied below. You can copy it directly into your
-    site’s HTML or
-    [save it as a file](https://defundclimatechaos.uk/assets/logo.svg).
-  * To change the colour of the logo, you can use the SVG version and change
-    the colour by opening that file, or in your favourite image editing tool.
+4. Font for body, paragraph text: aktiv-grotesk.
+
+* This body font is very close to your device's system fonts, and we use a bit of CSS to tell browsers to fallback to whatever system font their device uses:
+
+  ```css
+  html, body, p {
+    font-family: aktiv-grotesk, system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  ```
+
+1. [#DefundClimateChaos PNG](/assets/images/logo.png)
+
+* For SVG: the SVG is copied below. You can copy it directly into your
+  site’s HTML or
+  [save it as a file](https://defundclimatechaos.uk/assets/logo.svg).
+* To change the colour of the logo, you can use the SVG version and change
+  the colour by opening that file, or in your favourite image editing tool.
 
 The visual identity for the Defund Climate Chaos digital plan can be described
 as **"severe, but not dreadful."** The deep red and the heading font are serious and authoritative, but not sensational or chaotic. Things are very bad and we need to make big changes, but we don't want people to shut down or burn out. The cream coloured background, and smooth readable body font offer space to think and act, but don't diminish the seriousness of the subject at hand.
 
 We recommend you pick a few options that **work with your group’s brand and visual identity**. E.g. if your brand has a really distinctive font, keep that, but use this red and cream colour scheme and the common tagline. Or if you have distinctive colours, keep your colors and use the other properties like fonts and messaging.
+
+## Pictures
+
+![](/assets/images/money-faucet.png)![](/assets/images/alarm.png)![](/assets/images/og-image.png)![](/assets/images/logo.png)![](/assets/images/home-header-bankers.png)
 
 ## SVG Source Code
 
@@ -68,5 +77,4 @@ We recommend you pick a few options that **work with your group’s brand and vi
     l-0.7,6.1h4.4l-0.5,4.9h-4.4l-1.4,11.5h-5.8l1.3-11.5H10.1z M11.4,14.7l-0.7,6.1h3.8l0.7-6.1H11.4z">
   </path>
 </svg>
-
 ```
