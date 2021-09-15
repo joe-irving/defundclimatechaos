@@ -53,7 +53,6 @@ function updateActionsList(actions){
   for (i in actions){
     var id = actions[i]["browser_url"].replace("https://actionnetwork.org/events/","") ;
     actionslisthtml = actionslisthtml.concat(`
-      <input type="radio" name="Actions-List" value="${ id }" id="${ id }-radio"/>
       <div class="Chaos-Blog-Item Action"  id="${ id }">
         <div class="top ">
           <div class="description">
@@ -90,7 +89,7 @@ function markerClicked(e){
  var thisMarker = e.target.actionData.slug ;
 
  $(`#${ lastMarker }`).removeClass('first');
- $(`#${ thisMarker }`).addClass('first'); 
+ $(`#${ thisMarker }`).addClass('first');
 
   // updateActionBox()
 }

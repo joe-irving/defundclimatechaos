@@ -427,7 +427,7 @@ $border-width: $spacing-unit * 7;
 
 .Chaos-Logo-List {
   @media screen and (min-width: $content-width-wide){
-    width: 100vw;
+    width: 96vw;
     left: calc(-50vw + #{ $content-width-wide / 2});
     position: relative;
   }
@@ -460,7 +460,7 @@ $border-width: $spacing-unit * 7;
   flex-wrap: wrap;
   justify-content: center;
   @media screen and (min-width: $content-width-wide){
-    width: 100vw;
+    width: 95vw;
     left: calc(-50vw + #{ $content-width-wide / 2});
     position: relative;
   }

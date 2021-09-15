@@ -1,3 +1,6 @@
+{% if include.block.map %}
+<iframe src="/actions" class="Chaos-Map" id="map"></iframe>
+{% else %}
 <div class="Chaos-Section">
   {% capture buttons %}
   {% for button in include.block.buttons %}
@@ -16,3 +19,4 @@
   </div>
   {% endif %}
 </div>
+{% endif %}

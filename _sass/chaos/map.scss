@@ -24,17 +24,11 @@
       @media screen and (min-width: 900px){
         flex-direction: column;
         max-width: 30vw;
+        overflow-y: scroll;
+        overflow-x: auto;
       }
       max-height: 100vh;
-      overflow: scroll;
-      input {
-        display: none;
-        &:checked{
-          + .Action{
-
-          }
-        }
-      }
+      overflow-x: scroll;
       .Action{
         &.first{
           box-shadow: 0 5px 10px $brand-color;
@@ -47,4 +41,11 @@
       }
     }
   }
+}
+#map{
+    height: 95vh;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
 }
