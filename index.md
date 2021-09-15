@@ -2,11 +2,16 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
+- map: true
+  text: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13583
   - text: Join an action
-    target: "https://actionnetwork.org/event_campaigns/defundclimatechaos-global-day-of-action"
+    target: https://actionnetwork.org/event_campaigns/defundclimatechaos-global-day-of-action
   decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
   text: |-
     # What’s happening?
@@ -16,6 +21,8 @@ blocks:
     On October 29, people around the world are joining together to demand that bankers, insurers and fund managers **Defund Climate Chaos**.
 
     It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
+  map: false
+  background_image: ''
 - buttons:
   - target: "#faqs"
     text: Read more
@@ -30,6 +37,8 @@ blocks:
 
     Climate justice demands that we shut off the money pipeline to oil, coal and gas immediately.
   decoration: "![](/assets/images/alarm.png)"
+  map: false
+  background_image: ''
 - buttons: []
   text: |-
     # Training and Action Planning Sessions
@@ -58,14 +67,23 @@ blocks:
     [See all upcoming trainings...](/trainings)
   decoration: ''
   background_image: "/assets/images/street-mural.png"
+  map: false
 - buttons: []
-  text: "## Resources\n\nHere are all the resources you’ll need to join or organise
-    an action of your own to #DefundClimateChaos on October 29 (and beyond!):\n\n{% include resources.html %}"
+  text: |-
+    ## Resources
+
+    Here are all the resources you’ll need to join or organise an action of your own to #DefundClimateChaos on October 29 (and beyond!):
+
+    {% include resources.html %}
   decoration: ''
+  map: false
+  background_image: ''
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
     limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/news)"
   decoration: ''
+  map: false
+  background_image: ''
 - buttons: []
   text: |-
     # Act
@@ -74,12 +92,16 @@ blocks:
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/nurses_positive_money.jpg)"
+  map: false
+  background_image: ''
 - buttons: []
   text: |-
     # FAQs
 
     {% include accordion.html data=site.data.faqs %}
   decoration: ''
+  map: false
+  background_image: ''
 - text: |-
     # Partners
 
@@ -90,6 +112,8 @@ blocks:
   - target: "/partners"
     text: See all
   decoration: "![](/assets/images/positive_money.jpg)"
+  map: false
+  background_image: ''
 credits: ''
 header:
   full: true
