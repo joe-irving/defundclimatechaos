@@ -2,11 +2,6 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
-- map: true
-  text: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
 - buttons:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13583
@@ -22,6 +17,11 @@ blocks:
 
     It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
   map: false
+  background_image: ''
+- map: true
+  text: ''
+  buttons: []
+  decoration: ''
   background_image: ''
 - buttons:
   - target: "#faqs"
