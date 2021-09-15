@@ -57,6 +57,9 @@ fields:
 - name: blocks
   type: field_group_list
   fields:
+  - name: map
+    type: boolean
+    label: map
   - name: text
     type: textarea
     default: ''
@@ -84,6 +87,8 @@ fields:
       max: 
       labelField: 
     label: Buttons
+    showOnly:
+      field: map
   - name: decoration
     type: textarea
     default: ''
@@ -93,6 +98,15 @@ fields:
       schema:
         format: markdown
     label: Decoration
+    showOnly:
+      field: map
+  - name: background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
+    showOnly:
+      field: map
   config:
     min: 
     max: 
