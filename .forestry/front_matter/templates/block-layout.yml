@@ -57,6 +57,9 @@ fields:
 - name: blocks
   type: field_group_list
   fields:
+  - name: map
+    type: boolean
+    label: map
   - name: text
     type: textarea
     default: ''
@@ -97,9 +100,6 @@ fields:
     label: Decoration
     showOnly:
       field: map
-  - name: map
-    type: boolean
-    label: map
   - name: background_image
     type: file
     config:
