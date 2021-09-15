@@ -30,10 +30,9 @@ var markerCluster = L.markerClusterGroup();
 for (i in actionsData["events"]){
   var markerLocation = actionsData["events"][i]["location"]["location"];
   var newMarker = L.marker([markerLocation["latitude"], markerLocation["longitude"]],{});
-  // newMarker.feature = {
-  //   properties:actionsData["events"][i]
-  // }
-  newMarker.on("mouseover", markerClicked);
+  newMarker.actionData = actionsData["events"][i]
+  newMarker.actionData['slug'] = actionsData["events"][i]["browser_url"].replace("https://actionnetwork.org/events/","")
+  newMarker.on("click",markerClicked );
   newMarker.addTo(markerCluster);
 }
 markerCluster.addTo(actionsMap)
@@ -50,16 +49,18 @@ function getVisablePoints(bounds){
   return events
 }
 function updateActionsList(actions){
-  var actionslisthtml = "<ul>";
+  var actionslisthtml = "";
   for (i in actions){
+    var id = actions[i]["browser_url"].replace("https://actionnetwork.org/events/","") ;
     actionslisthtml = actionslisthtml.concat(`
-      <div class="Chaos-Blog-Item">
+      <input type="radio" name="Actions-List" value="${ id }" id="${ id }-radio"/>
+      <div class="Chaos-Blog-Item Action"  id="${ id }">
         <div class="top ">
           <div class="description">
             <div class="header-line">
               <h3><a target="_blank" href="${actions[i]["browser_url"]}">${ actions[i]["title"] }</a></h3>
             </div>
-            <p>${actions[i]["location"]["venue"]}, ${actions[i]["location"]["address_lines"][0]}</p>
+            <p>${actions[i]["location"]["venue"]}, ${actions[i]["location"]["address_lines"][0]}, ${actions[i]["location"]["locality"]}</p>
           </div>
         </div>
       </div>
@@ -69,7 +70,7 @@ function updateActionsList(actions){
       break
     }
   }
-  actionslisthtml = actionslisthtml.concat("</ul>");
+  // actionslisthtml = actionslisthtml.concat("</ul>");
   $('.Action-List').html(actionslisthtml);
 }
 function updateActionBox(action){
@@ -85,7 +86,12 @@ function mapMoved() {
   // updateActionBox(actions[0]);
 }
 function markerClicked(e){
-  console.log(e);
+ var lastMarker = $(`.Action-List .Action.first`).attr('id');
+ var thisMarker = e.target.actionData.slug ;
+
+ $(`#${ lastMarker }`).removeClass('first');
+ $(`#${ thisMarker }`).addClass('first'); 
+
   // updateActionBox()
 }
 
