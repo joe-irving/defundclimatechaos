@@ -6,7 +6,7 @@ blocks:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13583
   - text: Join an action
-    target: "#map"
+    target: "https://actionnetwork.org/event_campaigns/defundclimatechaos-global-day-of-action"
   decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
   text: |-
     # What’s happening?
@@ -34,6 +34,8 @@ blocks:
   text: |-
     # Training and Action Planning Sessions
 
+    {% comment %}
+
     ## This week
 
     {% assign posts_dates = site.trainings | sort: "date" | map: "date" %}
@@ -48,14 +50,17 @@ blocks:
     {% assign posts = site.trainings | sort: "date" %}
     {% include blog-list.html summary=false limit=no_posts %}
 
+    {% endcomment %}
+
+    {% assign events = site.trainings | sort: "date" %}
+    {% include events-gallery.html %}
+
     [See all upcoming trainings...](/trainings)
   decoration: ""
   background_image: /assets/images/street-mural.png
 - buttons: []
   text: "## Resources\n\nHere are all the resources you’ll need to join or organise
-    an action of your own to #DefundClimateChaos on October 29 (and beyond!):\n\n{%
-    assign posts = site.data.resources %}  \n{% include blog-list.html date=false
-    %}"
+    an action of your own to #DefundClimateChaos on October 29 (and beyond!):\n\n{% include resources.html %}"
   decoration: ''
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html

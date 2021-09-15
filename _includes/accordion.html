@@ -10,23 +10,16 @@
     {% assign date_field = 'date' %}
   {% endif %}
 {% for post in include.data limit:limit  %}
-    {% capture this_year %}{{ post[date_field]| date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post[date_field] | date: "%B" }}{% endcapture %}
-    {% capture this_day %}{{ post[date_field] | date: "%d" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous[date_field] | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous[date_field] | date: "%B" }}{% endcapture %}
 
-    {% assign post_id = post.title | slugify  %}
+
 
     {% if forloop.first %}
-        {% comment %}
-            <!-- Not including month and year at the top -->
-            <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-            <h3 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h3>
-        {% endcomment %}
     <div class="Chaos-Accordion">
     {% endif %}
 
+    {% include single-accordion.html description=post.description title=post.title image=post.image %}
+
+    {% comment %}
     <div
     class="Chaos-Accordion-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}">
         <input class="Chaos-Accordion-Toggle" type=checkbox id="{{post_id}}-checkbox">
@@ -70,7 +63,7 @@
     </div>
     </div>
 
-
+    {% endcomment %}
     {% if forloop.last %}
         </div>
     {% else %}

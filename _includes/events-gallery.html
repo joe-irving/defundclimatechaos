@@ -13,9 +13,9 @@
     {% capture this_year %}{{ post[date_field]| date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post[date_field] | date: "%B" }}{% endcapture %}
     {% capture this_day %}{{ post[date_field] | date: "%d" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous[date_field] | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous[date_field] | date: "%B" }}{% endcapture %}
-
+    {% capture next_year %}{{ post.next[date_field] | date: "%Y" }}{% endcapture %}
+    {% capture next_month %}{{ post.next[date_field] | date: "%B" }}{% endcapture %}
+    
     {% assign post_id = post.title | slugify  %}
     {% if post.url  %}{% assign url = post.url | relative_url  %}
     {% else %}{% assign url = "#" | append: post_id   %}{% endif %}
@@ -60,7 +60,7 @@
                         {% endfor %}
                     </span>
                     {%endif%}
-                    {% comment %}
+                    {% if include.summary %}
                     <div class="summary" >
                       {% if post.summary %}
                           <p>{{ post.summary }}</p>
@@ -72,7 +72,7 @@
                             </div>
                         {% endif %}
                       </div>
-                      {% endcomment %}
+                      {% endif %}
                 </div>
             </div>
 

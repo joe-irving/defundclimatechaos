@@ -464,6 +464,9 @@ $border-width: $spacing-unit * 7;
     left: calc(-50vw + #{ $content-width-wide / 2});
     position: relative;
   }
+  .top{
+    padding: $spacing-unit;
+  }
   > .Chaos-Blog-Item{
     padding: 0;
     max-width: $on-small;
