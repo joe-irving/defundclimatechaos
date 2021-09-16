@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-leaflet", "~> 0.2.1"
   gem 'jekyll-sitemap'
   gem "jekyll-seo-tag", "~> 2.1"
+  gem "jekyll-menus"
 end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

@@ -1,0 +1,12 @@
+header:
+  - url: /#map
+    title: Act
+  - url: /#resources
+    title: Resources
+footer:
+  - url: /partners
+    title: Partners
+  - url: /resources
+    title: Resources
+  - url: /trainings
+    title: Trainings

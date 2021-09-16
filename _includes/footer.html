@@ -22,34 +22,9 @@
         </div>
         <nav>
             <div class="col">
-                {%- for path in page_paths -%}
-                    {%- assign my_page = site.pages | where: "path", path | first -%}
-                    {% assign excluded_layout = false %}
-                    {% for tag in site.main_nav_exclude_layouts %}
-                        {% if tag == my_page.layout %}
-                            {% assign excluded_layout = true %}
-                        {% endif %}
-                    {% endfor %}
-
-                    {%- unless my_page.main_nav_exclude or excluded_layout -%}
-                        {%- if my_page.title -%}
-                            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                        {%- endif -%}
-                    {% endunless %}
-                {%- endfor -%}
-            </div>
-            <div class="col">
-                    {% for page in site.footer_include_pages %}
-                        <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-                    {% endfor %}
-                    {%- for path in page_paths -%}
-                        {%- assign my_page = site.pages | where: "path", path | first -%}
-                        {%- if my_page.footer_nav_include -%}
-                            {%- if my_page.title -%}
-                            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                            {%- endif -%}
-                        {% endif %}
-                    {%- endfor -%}
+              {% for link in site.menus.footer %}
+                <a class="page-link" href="{{ link.url }}">{{ link.title | escape }}</a>
+              {% endfor %}
             </div>
         </nav>
     </div>
