@@ -81,7 +81,7 @@ blocks:
     limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/news)"
   decoration: ''
   map: false
-  background_image: ''
+  background_image: "/assets/images/bank-of-england-810x476-dusk.jpeg"
 - buttons: []
   text: |-
     # Act
