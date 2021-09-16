@@ -55,3 +55,5 @@ fields:
     schema:
       format: markdown
   label: Summary
+pages:
+- _resources/how-to-make-fake-blood.md
