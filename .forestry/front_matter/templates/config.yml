@@ -20,6 +20,7 @@ fields:
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: text
   name: background_color
   label: background_color
@@ -49,10 +50,10 @@ fields:
   label: facebook
 - type: text
   name: counter
-  label: counter
+  label: Count down to...
 - type: field_group_list
   name: nav_links
-  label: nav_links
+  label: Navigation Links
   fields:
   - type: text
     name: url
@@ -60,6 +61,9 @@ fields:
   - type: text
     name: title
     label: title
+  description: Extra links added to the main navigation bar (i.e. links that are not
+    pages)<br><br>To add/remove any other links to the nav just toggle Main Nav Exclude
+    off or on for the relevant pages
 - type: boolean
   name: future
   label: future
@@ -204,6 +208,7 @@ fields:
   - type: text
     name: json
     label: json
+  hidden: true
 - type: field_group
   name: map
   label: map
@@ -214,6 +219,8 @@ fields:
   - type: text
     name: lng
     label: lng
+  hidden: true
 - type: list
   name: plugins
   label: plugins
+  hidden: true
