@@ -42,6 +42,19 @@ function hasScrolled()
 
     lastScrollTop = scrollPos;
 }
+// Share button
+function sharePage(e){
+  console.log(e)
+  console.log(e.currentTarget.attributes.share_title.value)
+  navigator = window.navigator;
+  navigator.share({
+    title: e.currentTarget.attributes.share_title.value,
+    text: e.currentTarget.attributes.share_text.value,
+    url: e.currentTarget.attributes.share_url.value
+  })
+}
+$('.Web-Share-Button').on('click',sharePage)
+
 
 // Open Accordion if targeted
 function openAccordion(target_id){
@@ -53,6 +66,10 @@ function openAccordion(target_id){
 // Linked externally
 $( document ).ready(function(){
   openAccordion(window.location.hash);
+  navigator = window.navigator;
+  if (!navigator.canShare){
+    // $('.Web-Share-Button').addClass('hide')
+  }
 });
 // Linked internally
 $("a").on("click", function(){

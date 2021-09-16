@@ -21,6 +21,9 @@ id="{{ post_id }}">
         {% endif %}
     </label>
     <div class="content">
+      {% if include.share_buttons %}
+        {% include share-links.html page=post %}
+      {% endif %}
       {% if include.content %}
         {{ include.content }}
       {% endif %}

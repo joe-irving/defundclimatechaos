@@ -10,6 +10,24 @@ var actionsMap = L.map("Chaos-Map",{
                     zoomControl: true,
                     preferCanvas: false,
                 });
+var customMarker = L.icon({
+    iconUrl: "/assets/images/fist_pointer_shadow.png",
+    shadowUrl: "/assets/images/red_fist_marker.png",
+    iconSize: [70,125],
+    shadowSize: [125,125],
+    iconAnchor:   [35,125], // point of the icon which will correspond to marker's location
+    shadowAnchor: [0,125],  // the same for the shadow
+    popupAnchor:  [0, -125] // point from which the popup should open relative to the iconAnchor
+})
+
+var redMarker = new L.Icon({
+ iconUrl: '/assets/marker-icon-red.png',
+ shadowUrl: '/assets/marker-shadow.png',
+ iconSize: [25, 41],
+ iconAnchor: [12, 41],
+ popupAnchor: [1, -34],
+ shadowSize: [41, 41]
+});
 
 var titleLayer = L.tileLayer(
   "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",{
@@ -29,7 +47,7 @@ var markerCluster = L.markerClusterGroup();
 
 for (i in actionsData["events"]){
   var markerLocation = actionsData["events"][i]["location"]["location"];
-  var newMarker = L.marker([markerLocation["latitude"], markerLocation["longitude"]],{});
+  var newMarker = L.marker([markerLocation["latitude"], markerLocation["longitude"]],{icon: redMarker});
   newMarker.actionData = actionsData["events"][i]
   newMarker.actionData['slug'] = actionsData["events"][i]["browser_url"].replace("https://actionnetwork.org/events/","")
   newMarker.on("click",markerClicked );
@@ -52,6 +70,11 @@ function updateActionsList(actions){
   var actionslisthtml = "";
   for (i in actions){
     var id = actions[i]["browser_url"].replace("https://actionnetwork.org/events/","") ;
+    var start = new Date(actions[i]["start_date"]);
+    var options = { hour: 'numeric', minute: 'numeric' }
+    var startTime = new Intl.DateTimeFormat('en-GB', options).format(start)
+    var options = { weekday: 'short', month: 'short', day: 'numeric' }
+    var startDate = new Intl.DateTimeFormat('en-GB', options).format(start)
     actionslisthtml = actionslisthtml.concat(`
       <div class="Chaos-Blog-Item Action"  id="${ id }">
         <div class="top ">
@@ -59,7 +82,8 @@ function updateActionsList(actions){
             <div class="header-line">
               <h3><a target="_blank" href="${actions[i]["browser_url"]}">${ actions[i]["title"] }</a></h3>
             </div>
-            <p>${actions[i]["location"]["venue"]}, ${actions[i]["location"]["address_lines"][0]}, ${actions[i]["location"]["locality"]}</p>
+            <p><time>${ startTime }</time> on ${ startDate }</p>
+            <address>${actions[i]["location"]["venue"]}, ${actions[i]["location"]["address_lines"][0]}, ${actions[i]["location"]["locality"]}</address>
           </div>
         </div>
       </div>

@@ -9,6 +9,10 @@ top_quote: ''
 credits: ''
 
 ---
+{% for a in site.actions %}
+  {{ a | jsonify }}
+{% endfor %}
+
 # Joining the day of action
 
 ## Actions

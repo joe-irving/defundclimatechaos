@@ -11,7 +11,7 @@ module JsonCollection
         doc = Jekyll::Document.new(path, collection: events_collection, site: site)
         doc.merge_data!(event)
         doc.merge_data!({"layout":"event"})
-        doc.content = event["description"]
+        # doc.content = event["description"]
 
         events_collection.docs << doc
       end

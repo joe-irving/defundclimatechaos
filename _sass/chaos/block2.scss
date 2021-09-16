@@ -10,12 +10,14 @@
     }
   }
   &.background-image{
+    background: $background-color no-repeat center center;
+    background-size: cover;
     .Chaos-Section{
-      background-color: rgba($background-color,0.5);
+      background-color: rgba($background-color,0.8);
     }
     &.invert{
         .Chaos-Section{
-          background-color: rgba($brand-color,0.5);
+          background-color: rgba($brand-color,0.8);
         }
     }
   }
@@ -32,7 +34,7 @@
 
       }
     }
-    
+
     .Chaos-Form{
       label{
         color: $brand-text-color;

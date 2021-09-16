@@ -13,4 +13,4 @@ top_quote: ''
     #location: right
 ---
 {% assign posts = site.data.resources %}
-{% include blog-list.html date=false %}
+{% include blog-list.html date=false share_buttons=true %}
