@@ -51,6 +51,10 @@ fields:
   config:
     required: false
   label: Permalink
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - faqs.md
 - partners.md
