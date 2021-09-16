@@ -33,9 +33,9 @@ blocks:
 
     We all know that the climate crisis means code red for humanity. We see its raging fires, floods and storms around us every day now.
 
-    Yet whilst the planet literally burns, the world’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. They are failing us all.
+    Yet whilst the planet literally burns, the world’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. Barclays, HSBC, Lloyds to name just a few - they are failing us.
 
-    Climate justice demands that we shut off the money pipeline to oil, coal and gas immediately.
+    Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
   decoration: "![](/assets/images/alarm.png)"
   map: false
   background_image: ''
