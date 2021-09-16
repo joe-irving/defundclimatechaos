@@ -11,9 +11,9 @@ blocks:
   text: |-
     # What’s happening?
 
-    On the eve of UN climate talks in Glasgow, people-powered actions and climate justice memorials will make it clear - in location and message alike - at whose doorstep the blame for the loss and damage of climate injustice lies.
-
     On October 29, people around the world are joining together to demand that bankers, insurers and fund managers **Defund Climate Chaos**.
+
+    On the eve of UN climate talks in Glasgow, people will take action and lay climate justice memorials to make it clear - in location and message alike - at whose doorstep the blame for climate injustice lies.
 
     It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
   map: false
