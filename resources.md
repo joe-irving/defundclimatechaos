@@ -9,5 +9,7 @@ main_nav_exclude: false
 credits: ''
 
 ---
+# Resources
+
 {% assign posts = site.data.resources %}
 {% include blog-list.html date=false share_buttons=true %}
