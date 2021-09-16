@@ -125,7 +125,9 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    #### Countdown to 29 October:   {% include counter.html %}
+    #### Countdown to 29 October:
+
+    ### {% include counter.html %}
 
     # Turn off the money pipeline to fossil fuels. Now.
 
