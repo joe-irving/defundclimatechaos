@@ -280,7 +280,11 @@ $border-width: $spacing-unit * 7;
     max-width: $content-width-wide;
     width: 90%;
 
-
+    .social-links{
+      display: flex;
+      justify-content: center;
+      gap: $spacing-unit;
+    }
     .header-line{
       display: flex;
       justify-content: space-between;
@@ -459,9 +463,9 @@ $border-width: $spacing-unit * 7;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  @media screen and (min-width: $content-width-wide){
-    width: 95vw;
-    left: calc(-50vw + #{ $content-width-wide / 2});
+  @media screen and (min-width: $content-width-wide * 1.5){
+    width: $content-width-wide * 1.5;
+    left:  $content-width-wide * -0.25 ;
     position: relative;
   }
   .top{
