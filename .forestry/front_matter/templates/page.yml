@@ -52,8 +52,6 @@ fields:
     required: false
   label: Permalink
 pages:
-- act.md
-- action-guide.md
 - faqs.md
 - partners.md
 - resources.md
