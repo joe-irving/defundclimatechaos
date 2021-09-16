@@ -120,9 +120,9 @@ header:
   image:
     link: "/assets/images/money-faucet.png"
     location: left
-  text: "#### {% include counter.html %} \n\n#### until 29 October 2021\n\n# Turn
-    off the money pipeline to fossil fuels. Now.\n\nUK banks, investors and insurers
-    are pumping billions of pounds into fossil fuels that worsen the climate crisis.\n\nOn
+  text: "#### Countdown to 29 October 2021 {% include counter.html %} \n\n# Turn off
+    the money pipeline to fossil fuels. Now.\n\nUK banks, investors and insurers are
+    pumping billions of pounds into fossil fuels that worsen the climate crisis.\n\nOn
     **October 29th**, ahead of UN climate talks, groups around the world and UK are
     rising up to demand that the UK government and corporations **#DefundClimateChaos**."
   buttons:
