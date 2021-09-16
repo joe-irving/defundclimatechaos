@@ -94,7 +94,9 @@ blocks:
   background_image: ''
 - buttons: []
   text: |-
-    # FAQs
+    # Find out more
+
+    Some frequently asked questions and answers
 
     {% include accordion.html data=site.data.faqs %}
   decoration: ''
