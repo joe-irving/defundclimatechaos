@@ -7,7 +7,7 @@
   {% if include.date_field %}
     {% assign date_field = include.date_field %}
   {% else %}
-    {% assign date_field = 'date' %}
+    {% assign date_field = 'start_date' %}
   {% endif %}
 {% for post in events limit:limit  %}
     {% capture this_year %}{{ post[date_field]| date: "%Y" }}{% endcapture %}
@@ -51,7 +51,7 @@
                     <div class="header-line">
                       <h3><a href="{{ url }}">{{ post.title }}</a></h3>
                     </div>
-                    <p><time>{{ post.date | date: "%l:%M %p" }}</time> to <time>{{ post.end_date | date: "%l:%M %p" }}</time></p>
+                    <p><time>{{ post.start_date | date: "%l:%M %p" }}</time> to <time>{{ post.end_date | date: "%l:%M %p" }}</time></p>
 
                     {% if post.authors %}
                     <span>

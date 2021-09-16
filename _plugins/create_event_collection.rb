@@ -9,9 +9,9 @@ module JsonCollection
         slug = Jekyll::Utils.slugify(event["title"])
         path = File.join(site.source, "_#{collection_name}", "#{slug}-#{i}.md")
         doc = Jekyll::Document.new(path, collection: events_collection, site: site)
+        event['layout'] = 'an-event'
         doc.merge_data!(event)
-        doc.merge_data!({"layout":"event"})
-        # doc.content = event["description"]
+        doc.content = event["description"]
 
         events_collection.docs << doc
       end

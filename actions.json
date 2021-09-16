@@ -1,7 +1,8 @@
 ---
 ---
 {
-  "events":{% for a in site.actions %}
-    {{ a | jsonify }}{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  "events":[
+  {% for a in site.actions %}
+  {{ a | jsonify }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}]
 }

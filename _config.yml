@@ -69,7 +69,7 @@ airtable:
     - Summary
     - Image
     - Booking link
-    - Date
+    - Start Date
     - End date
     collection:
       slug: title

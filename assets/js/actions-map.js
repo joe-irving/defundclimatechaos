@@ -1,7 +1,17 @@
 ---
 ---
 // Map
-var actionsData = {{ site.data.events | jsonify }};
+$(document).ready(function(){
+  console.log("ready")
+})
+var actionsData = {
+  "events":[
+  {% for a in site.actions %}
+  {{ a | jsonify }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}]
+};
+
+console.log(actionsData);
 
 var actionsMap = L.map("Chaos-Map",{
                     center: [55.0006601,-2.7039512],
@@ -80,7 +90,7 @@ function updateActionsList(actions){
         <div class="top ">
           <div class="description">
             <div class="header-line">
-              <h3><a target="_blank" href="${actions[i]["browser_url"]}">${ actions[i]["title"] }</a></h3>
+              <h3><a target="_parent" href="${actions[i]["url"]}">${ actions[i]["title"] }</a></h3>
             </div>
             <p><time>${ startTime }</time> on ${ startDate }</p>
             <address>${actions[i]["location"]["venue"]}, ${actions[i]["location"]["address_lines"][0]}, ${actions[i]["location"]["locality"]}</address>

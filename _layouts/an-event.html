@@ -1,0 +1,15 @@
+---
+layout: event
+---
+{%if page.featured_image_url %}
+<img src="{{ page.featured_image_url }}" alt="">
+{% endif %}
+{{ content }}
+{% unless page.embed.error %}
+<h2>Book</h2>
+   {{page.embed.embed_standard_layout_only_styles}}
+{% else %}
+<div class="Chaos-Flex-Line">
+  <a href="{{ page.browser_url }}"><span class="Chaos-Button">Book</span></a>
+</div>
+{% endunless %}
