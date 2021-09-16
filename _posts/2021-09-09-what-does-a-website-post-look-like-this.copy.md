@@ -1,16 +1,13 @@
 ---
 layout: post
-title: What does a website post look like? This.-(copy)
-date: 2021-09-09T23:00:00.000+00:00
+title: Coal activists take climate memorial to Lloyd's doorstep
+date: 2021-09-19 23:00:00 +0000
 image: "/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg"
-summary: 'UK banks, asset managers and insurers are pumping billions of pounds into
-  fossil fuels that worsen the climate crisis. '
+summary: 'Ahead of 29 October, several groups like Coal Action Network have been testing
+  out creative new tactics like climate memorials to highlight Lloyd''s role insuring
+  projects like the Adani mine in Australia. See how they got on and what they learnt. '
 
 ---
-UK banks, asset managers and insurers are pumping billions of pounds into fossil fuels that worsen the climate crisis. Ahead of the UN climate talks, on October 29th groups around the world and UK are rising up to demand that that the UK government and corporations **#DefundClimateChaos**.
+Andy to add copy
 
-UK banks, asset managers and insurers are pumping billions of pounds into fossil fuels that worsen the climate crisis. Ahead of the UN climate talks, on October 29th groups around the world and UK are rising up to demand that that the UK government and corporations **#DefundClimateChaos**.
-
-UK banks, asset managers and insurers are pumping billions of pounds into fossil fuels that worsen the climate crisis. Ahead of the UN climate talks, on October 29th groups around the world and UK are rising up to demand that that the UK government and corporations **#DefundClimateChaos**.
-
-![](/assets/images/nurses_positive_money.jpg)
+![](/assets/images/23-04-21-lloyds-london-coal-protest-gareth-morris-08.jpg)
