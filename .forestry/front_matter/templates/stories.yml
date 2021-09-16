@@ -41,7 +41,7 @@ fields:
 - name: slug
   type: text
   config:
-    required: false
+    required: true
   label: Slug
 - name: credits
   type: textarea
