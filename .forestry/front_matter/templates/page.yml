@@ -30,6 +30,7 @@ fields:
 - name: main_nav_exclude
   type: boolean
   label: Main Nav Exclude
+  description: Exclude page from navigation
 - type: number
   name: order
   label: Navigation order
