@@ -434,20 +434,22 @@ $border-width: $spacing-unit * 7;
 
 }
 
-.Chaos-Logo-List {
-  @media screen and (min-width: $content-width-wide){
-    width: 96vw;
-    left: calc(-50vw + #{ $content-width-wide / 2});
-    position: relative;
-  }
-}
 
 .Chaos-Logo-List {
+  @media screen and (min-width: $content-width-wide){
+    $excesswidth:70vw;
+    width: $excesswidth;
+    left: calc(#{ $excesswidth * -0.5 } + #{ $content-width-wide / 2});
+    position: relative;
+  }
   $item-width: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   .Chaos-Logo-Item{
+    flex: 1 0 21%;
+    display: flex;
+    justify-content: center;
     img{
       filter: grayscale(50%);
       &.darken{
