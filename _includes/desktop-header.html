@@ -2,7 +2,7 @@
     <div class="edgePadding"></div>
     {% include site-title.html %}
     <div class="centralPadding"></div>
-    {% for link in site.nav_links %}
+    {% for link in site.data.nav_jump_links %}
       <a class="page-link" href="{{ link.url }}">{{ link.title | escape }}</a><div class="withinPadding"></div>
     {% endfor %}
     {%- for path in page_paths -%}

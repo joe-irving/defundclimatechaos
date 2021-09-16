@@ -26,7 +26,7 @@
     <div class="mobile-drawer-container">
         <div class="mobile-drawer">
             <div class="mobile-nav">
-                {% for link in site.nav_links %}
+                {% for link in site.data.nav_jump_links %}
                   <a class="page-link" href="{{ link.url }}">{{ link.title | escape }}</a>
                 {% endfor %}
                 {%- for path in page_paths  -%}
