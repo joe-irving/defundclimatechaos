@@ -4,44 +4,39 @@ title: Style
 main_nav_exclude: true
 
 ---
-# Digital Identity
+# Visual Style
 
-To join in with the #DefundClimateChaos digital presence, you're welcome to
-pick up any of the branding elements from this site and reuse/remix them into
-your own.
+To help tie together the many diverse groups and actions taking place around the world on October 29, we invite UK groups to use any of the #DefundClimateChaos visual style elements as you choose.  
 
-You should use your own site with your own forms and user interactions,
-and make them a part of the broader campaign by adopting some or all of the
-5 properties of the visual identity: 2 colors, fonts, a logo and a hashtag or
-tagline.
+This could be in your action props and memorial design or digitally in any website, newsletter or social media content you wish to share. 
 
-1. Main red: #DD0000
-2. Pale background colour: #FFF0E3
-3. Font for block letters, headings: "Druk Text Web"
-4. Font for body, paragraph text: aktiv-grotesk.
+We encourage groups to maintain their own visual identity but pick and choose any elements of this style which you think will match and help connect you to a much wider day of action that will receive siginificant coverage globally.  
 
-* This body font is very close to your device's system fonts, and we use a bit of CSS to tell browsers to fallback to whatever system font their device uses:
+### Key Elements
 
-  ```css
-  html, body, p {
-    font-family: aktiv-grotesk, system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  ```
+The visual identity used by Defund Climate Chaos includes two key colours, 2 fonts and a few simple graphic elements.
 
-1. [#DefundClimateChaos PNG](/assets/images/logo.png)
+#### Colours
 
-* For SVG: the SVG is copied below. You can copy it directly into your
-  site’s HTML or
-  [save it as a file](https://defundclimatechaos.uk/assets/logo.svg).
-* To change the colour of the logo, you can use the SVG version and change
-  the colour by opening that file, or in your favourite image editing tool.
+**Main red:** #DD0000
 
-The visual identity for the Defund Climate Chaos digital plan can be described
-as **"severe, but not dreadful."** The deep red and the heading font are serious and authoritative, but not sensational or chaotic. Things are very bad and we need to make big changes, but we don't want people to shut down or burn out. The cream coloured background, and smooth readable body font offer space to think and act, but don't diminish the seriousness of the subject at hand.
+**Pale background:** #FFF0E3
 
-We recommend you pick a few options that **work with your group’s brand and visual identity**. E.g. if your brand has a really distinctive font, keep that, but use this red and cream colour scheme and the common tagline. Or if you have distinctive colours, keep your colors and use the other properties like fonts and messaging.
+#### Fonts
 
-## Pictures
+**For block letters and headings:** "Druk Text Web"
+
+**For body and caption text:** aktiv-grotesk.
+
+#### Logos
+
+[#DefundClimateChaos PNG](/assets/images/logo.png) or  [.SVG](https://defundclimatechaos.uk/assets/logo.svg). 
+
+The visual identity for the Defund Climate Chaos digital plan can be described as **"severe, but not dreadful."** The deep red and the heading font are serious and authoritative, but not sensational or chaotic. Things are very bad and we need to make big changes, but we don't want people to shut down or burn out. The cream coloured background, and smooth readable body font offer space to think and act, but don't diminish the seriousness of the subject at hand.
+
+## Graphics you can use
+
+Right click to Save As
 
 ![](/assets/images/money-faucet.png)![](/assets/images/alarm.png)![](/assets/images/og-image.png)![](/assets/images/logo.png)![](/assets/images/home-header-bankers.png)
 
