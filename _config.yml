@@ -7,7 +7,7 @@ description: Without money, oil and gas companies  will not function. So lets st
 url: https://defundclimatechaos.uk
 permalink: pretty
 background_color: "#FFF0E3"
-logo: "/assets/logo_long_uncondenced.svg"
+logo: "/assets/logo_long.svg"
 logo_light: "/assets/logo_light.svg"
 logo_square: "/assets/logo.svg"
 invert_brand_text: true
@@ -25,11 +25,12 @@ copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) 
 collections:
   posts:
     permalink: "/stories/:title/"
+  faqs:
+    output: true
+    permalink: "/faqs/:title/"
   trainings:
     output: true
   actions:
-    output: true
-  resources:
     output: true
 defaults:
 - scope:
