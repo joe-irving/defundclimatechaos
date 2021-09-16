@@ -24,7 +24,7 @@ blocks:
   decoration: ''
   background_image: ''
 - buttons:
-  - target: "#faqs"
+  - target: "#what-s-happening-on-october-29th"
     text: Read more
   text: |-
     # Why?
