@@ -64,6 +64,7 @@ fields:
   description: Extra links added to the main navigation bar (i.e. links that are not
     pages)<br><br>To add/remove any other links to the nav just toggle Main Nav Exclude
     off or on for the relevant pages
+  hidden: true
 - type: boolean
   name: future
   label: future
