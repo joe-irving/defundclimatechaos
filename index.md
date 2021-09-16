@@ -79,7 +79,7 @@ blocks:
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
     limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/news)"
-  decoration: "![](/assets/images/city-of-london-bank-of-england.jpeg)"
+  decoration: "![](/assets/images/street-mural.png)"
   map: false
   background_image: ''
 - buttons: []
