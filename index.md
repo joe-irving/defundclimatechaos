@@ -89,7 +89,7 @@ blocks:
     Sign up to get all the latest news, updates and materials you'll need as we get closer to October 29
 
     {% include signup-form.html %}
-  decoration: "![](/assets/images/nurses_positive_money.jpg)"
+  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)![](/assets/images/nurses_positive_money.jpg)"
   map: false
   background_image: ''
 - buttons: []
