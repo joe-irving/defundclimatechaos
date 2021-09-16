@@ -107,7 +107,7 @@ blocks:
 - text: |-
     # Partners
 
-    This day of action is supported by a number of UK groups.  We also work closely with allied networks [all around the world](http://defundclimatechaos.org).
+    This day of action is supported by a number of UK groups.  We are working closely with allied networks all around the world as part of the [Defund Climate Chaos global day of action](http://defundclimatechaos.org).
   buttons:
   - text: Add your group
     target: "/partners/#register-group"
