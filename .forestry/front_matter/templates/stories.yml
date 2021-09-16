@@ -52,3 +52,7 @@ fields:
     schema:
       format: markdown
   label: Credits
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
