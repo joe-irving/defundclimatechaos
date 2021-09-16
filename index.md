@@ -7,7 +7,7 @@ blocks:
     target: https://actionnetwork.org/events/new?event_campaign_id=13583
   - text: Join an action
     target: "#map"
-  decoration: "![](/assets/images/03_BusStop_StandardChartered_Liverpool_2021-1024x768.jpeg)"
+  decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
   text: |-
     # What’s happening?
 
