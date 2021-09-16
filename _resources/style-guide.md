@@ -1,14 +1,18 @@
 ---
 layout: page
-title: Style
+title: Visual style guide
 main_nav_exclude: true
-
+summary: Unifying logo, colours, fonts and graphic elements to connect our actions together globally
+tags:
+- "Media and messaging"
+- "Art"
+image: /assets/images/og-image.png
 ---
 # Visual Style
 
 To help tie together the many diverse groups and actions taking place around the world on October 29, we invite UK groups to use any of the #DefundClimateChaos visual style elements as you choose.  
 
-This could be in your action props and memorial design or digitally in any website, newsletter or social media content you wish to share. 
+This could be in your action props and memorial design or digitally in any website, newsletter or social media content you wish to share.
 
 We encourage groups to maintain their own visual identity but pick and choose any elements of this style which you think will match. We think this will help connect your group to the wider day of action that will receive significant coverage globally.  
 
@@ -30,7 +34,7 @@ The visual identity used by Defund Climate Chaos includes two key colours, 2 fon
 
 #### Logos
 
-[#DefundClimateChaos PNG](/assets/images/logo.png) or  [.SVG](https://defundclimatechaos.uk/assets/logo.svg). 
+[#DefundClimateChaos PNG](/assets/images/logo.png) or  [.SVG](https://defundclimatechaos.uk/assets/logo.svg).
 
 The visual identity for the Defund Climate Chaos digital plan can be described as **"severe, but not dreadful."** The deep red and the heading font are serious and authoritative, but not sensational or chaotic. Things are very bad and we need to make big changes, but we don't want people to shut down or burn out. The cream coloured background, and smooth readable body font offer space to think and act, but don't diminish the seriousness of the subject at hand.
 

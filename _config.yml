@@ -29,6 +29,8 @@ collections:
     output: true
   actions:
     output: true
+  resources:
+    output: true
 defaults:
 - scope:
     path: google2b8ceaa38de54302.html

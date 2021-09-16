@@ -299,7 +299,7 @@ $border-width: $spacing-unit * 7;
       }
     }
 
-    .content img, .top img {
+    .content img, .top img, > a > img {
       margin: $spacing-unit 0 $spacing-unit/2 0;
       box-shadow: none;
     }
@@ -344,6 +344,9 @@ $border-width: $spacing-unit * 7;
           img {
             box-shadow: none;
           }
+        }
+        img {
+          box-shadow: none;
         }
 
         .description {
