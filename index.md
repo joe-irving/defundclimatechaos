@@ -84,9 +84,9 @@ blocks:
   background_image: "/assets/images/bank-of-england-810x476-dusk.jpeg"
 - buttons: []
   text: |-
-    # Act
+    # Stay updated
 
-    Sign up to join the global mobilisation.
+    Sign up to get all the latest news, updates and materials you'll need as we get closer to October 29
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/nurses_positive_money.jpg)"
