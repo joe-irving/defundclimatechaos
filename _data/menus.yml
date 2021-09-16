@@ -1,0 +1,21 @@
+---
+footer:
+- url: "/trainings"
+  title: Trainings
+  weight: 2
+- url: "/resources"
+  title: Resources
+  weight: 3
+- url: "/partners"
+  title: Partners
+  weight: 4
+header:
+- url: "/#stories"
+  weight: 3
+  title: Stories
+- url: "/#map"
+  title: Act
+  weight: 1
+- url: "/#resources"
+  title: Resources
+  weight: 2

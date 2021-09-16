@@ -7,6 +7,9 @@ top_image: "/assets/images/positive_money.jpg"
 top_quote: ''
 main_nav_exclude: false
 credits: ''
+menu:
+  footer:
+    weight: 1
 
 ---
 # Stories
