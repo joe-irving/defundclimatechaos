@@ -55,6 +55,15 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
 pages:
 - faqs.md
 - partners.md
