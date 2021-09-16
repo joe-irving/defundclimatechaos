@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-{% assign start_day = page.date | date:  "%j" %}
+{% assign start_day = page.start_date | date:  "%j" %}
 {% assign end_day = page.end_date | date: "%j" %}
 
 {% if start_day < end_day %}
