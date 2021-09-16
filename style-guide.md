@@ -10,7 +10,7 @@ To help tie together the many diverse groups and actions taking place around the
 
 This could be in your action props and memorial design or digitally in any website, newsletter or social media content you wish to share. 
 
-We encourage groups to maintain their own visual identity but pick and choose any elements of this style which you think will match and help connect you to a much wider day of action that will receive siginificant coverage globally.  
+We encourage groups to maintain their own visual identity but pick and choose any elements of this style which you think will match. We think this will help connect your group to the wider day of action that will receive significant coverage globally.  
 
 ### Key Elements
 
