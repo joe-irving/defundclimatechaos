@@ -1,11 +1,11 @@
 ---
-label: Page
+label: Resource
 hide_body: false
 fields:
 - type: text
   name: layout
   label: layout
-  default: page
+  default: post
   hidden: true
 - type: text
   name: title
@@ -36,11 +36,12 @@ fields:
     schema:
       format: markdown
   label: Credits
-- name: permalink
+- name: slug
   type: text
   config:
     required: false
-  label: Permalink
+  label: Slug
+  description: custom resource slug
 - name: tags
   type: tag_list
   default: []
@@ -55,9 +56,3 @@ fields:
       format: markdown
   label: Summary
 pages:
-- _resources/how-to-make-a-blood-paper-paint-bomb.md
-- faqs.md
-- partners.md
-- resources.md
-- stories.md
-- trainings.md
