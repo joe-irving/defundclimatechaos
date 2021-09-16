@@ -68,7 +68,7 @@ blocks:
   map: false
 - buttons: []
   text: |-
-    ## Resources
+    # Resources
 
     Here are all the resources you’ll need to join or organise an action of your own to #DefundClimateChaos on October 29 (and beyond!):
 
@@ -129,6 +129,6 @@ header:
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
-invert: even
+invert: odd
 
 ---
