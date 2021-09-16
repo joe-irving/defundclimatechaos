@@ -66,7 +66,7 @@ blocks:
 
     [See all upcoming trainings...](/trainings)
   decoration: ''
-  background_image: "/assets/images/street-mural.png"
+  background_image: "/assets/images/180809-sfe-climatemarchpreview_4-1024x768.jpeg"
   map: false
 - buttons: []
   text: |-
