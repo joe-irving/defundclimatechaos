@@ -107,7 +107,7 @@ blocks:
 - text: |-
     # Partners
 
-    This day of action is made of an ecosystem of groups from all around the UK.
+    This day of action is between a number of UK groups working closely with allied networks [all around the world](http://defundclimatechaos.org).
   buttons:
   - text: Register
     target: "/partners/#register-group"
