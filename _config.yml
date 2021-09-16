@@ -25,9 +25,6 @@ copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) 
 collections:
   posts:
     permalink: "/stories/:title/"
-  faqs:
-    output: true
-    permalink: "/faqs/:title/"
   trainings:
     output: true
   actions:
