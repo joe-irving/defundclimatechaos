@@ -1,29 +1,27 @@
+---
 title: Defund Climate Chaos
-email:
+email: ''
 tagline: "#StopTheMoney"
-description: Without money, oil and gas companies  will not function. So lets stop the money flowing.
-url: 'https://defundclimatechaos.uk'
+description: Without money, oil and gas companies  will not function. So lets stop
+  the money flowing.
+url: https://defundclimatechaos.uk
 permalink: pretty
 background_color: "#FFF0E3"
-logo: /assets/logo_long.svg
-logo_light: /assets/logo_light.svg
-logo_square: /assets/logo.svg
+logo: "/assets/logo_long.svg"
+logo_light: "/assets/logo_light.svg"
+logo_square: "/assets/logo.svg"
 invert_brand_text: true
 invert_accent_text: true
-instagram:
-twitter:
-facebook:
+instagram: ''
+twitter: ''
+facebook: ''
 counter: 29-Oct-2021 10am
-
-
 nav_links:
-  - url: "/#act"
-    title: Act
-
+- url: "/#act"
+  title: Act
 future: true
-# google_analytics: G-LR3ETXLRXT
-
-copyright_notice: 'With thanks to [David Gundry](https://www.davidgundry.co.uk/) for the base theme.'
+copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) for
+  the base theme.
 collections:
   posts:
     permalink: "/stories/:title/"
@@ -35,56 +33,54 @@ collections:
   actions:
     output: true
 defaults:
-  - scope:
-      path: google2b8ceaa38de54302.html
-    values:
-      sitemap: false
-  - scope:
-      path: admin/index.html
-    values:
-      sitemap: false
-
+- scope:
+    path: google2b8ceaa38de54302.html
+  values:
+    sitemap: false
+- scope:
+    path: admin/index.html
+  values:
+    sitemap: false
 airtable:
   faqs:
-    app:   app9apHbqOifmolTX
+    app: app9apHbqOifmolTX
     table: tblJHaJ0bOGLiXs9Q
-    view:  viwMR1I5H8JtypsIR
+    view: viwMR1I5H8JtypsIR
   resources:
-    app:   app9apHbqOifmolTX
+    app: app9apHbqOifmolTX
     table: tblGAJiIeFlD6PxNI
-    view:  viwBQ8s617LvMdODw
+    view: viwBQ8s617LvMdODw
   partners:
-    app:   app9apHbqOifmolTX
+    app: app9apHbqOifmolTX
     table: tbl3erzSL6dZfNkZi
-    view:  viwcwyl4ejOXEUaS0
+    view: viwcwyl4ejOXEUaS0
     fields:
-      - Title
-      - URL
-      - Image
-      - Summary
+    - Title
+    - URL
+    - Image
+    - Summary
   trainings:
-    app:   app9apHbqOifmolTX
+    app: app9apHbqOifmolTX
     table: tblr8deZvWPtDpT8z
-    view:  viwmoConiofljNaYn
+    view: viwmoConiofljNaYn
     fields:
-      - Content
-      - Title
-      - Summary
-      - Image
-      - Booking link
-      - Date
-      - End date
+    - Content
+    - Title
+    - Summary
+    - Image
+    - Booking link
+    - Date
+    - End date
     collection:
       slug: title
       layout: event
       content: content
 jekyll_get_json:
-  - data: events
-    json: 'https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json'
-
+- data: events
+  json: https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json
 map:
-  lat: # 50
-  lng:
+  lat: ''
+  lng: ''
 plugins:
 - jekyll-feed
 - jekyll-liquify

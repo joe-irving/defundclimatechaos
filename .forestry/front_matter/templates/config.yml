@@ -224,3 +224,5 @@ fields:
   name: plugins
   label: plugins
   hidden: true
+pages:
+- _config.yml
