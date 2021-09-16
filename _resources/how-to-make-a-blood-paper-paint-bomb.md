@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 tags:
 - Art
 title: How to make a blood paper paint bomb
@@ -10,6 +10,7 @@ main_nav_exclude: false
 order: 
 credits: ''
 summary: Woooooo
+slug: ''
 published: false
 
 ---

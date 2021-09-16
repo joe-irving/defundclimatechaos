@@ -55,3 +55,5 @@ fields:
     schema:
       format: markdown
   label: Summary
+pages:
+- _resources/how-to-make-a-blood-paper-paint-bomb.md
