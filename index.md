@@ -79,9 +79,9 @@ blocks:
 - buttons: []
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
     limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/news)"
-  decoration: ''
+  decoration: "![](/assets/images/city-of-london-bank-of-england.jpeg)"
   map: false
-  background_image: "/assets/images/bank-of-england-810x476-dusk.jpeg"
+  background_image: ''
 - buttons: []
   text: |-
     # Stay updated
