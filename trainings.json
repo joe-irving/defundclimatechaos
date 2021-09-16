@@ -1,8 +1,0 @@
----
----
-{
-  "trainings":[
-  {% for t in site.trainings %}
-  {{ t | jsonify }}{% unless forloop.last %},{% endunless %}
-  {% endfor %}]
-}

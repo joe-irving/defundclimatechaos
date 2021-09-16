@@ -10,6 +10,8 @@ module JsonCollection
         path = File.join(site.source, "_#{collection_name}", "#{slug}-#{i}.md")
         doc = Jekyll::Document.new(path, collection: events_collection, site: site)
         event['layout'] = 'an-event'
+
+        
         doc.merge_data!(event)
         doc.content = event["description"]
 

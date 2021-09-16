@@ -1,20 +1,35 @@
 ---
-layout: event
+layout: post
 ---
+
 {%if page.featured_image_url %}
 <img src="{{ page.featured_image_url }}" alt="">
 {% endif %}
+
+
+
+<h2>What?</h2>
+
 {{ content }}
+
+
+<h2>Where?</h2>
+
+<address class="">
+  {{ page.location.venue }},
+  {% for l in page.location.address_lines %}{{ l }},{% endfor %}
+  {{ page.location.locality  }},
+  {{ page.location.postal_code  }}
+</address>
+<p><a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{ page.location.location.latitude }}%2C{{ page.location.location.longitude }}">Get directions...</a></p>
+<div id="Single-Action-Map" map_location="{{ page.location | jsonify | url_encode | replace: "+", "%20" }}"></div>
+<script type="text/javascript" src="/assets/js/an-event-page.js"> </script>
+
+<h2 id="book">How?</h2>
 {% unless page.embed.error %}
-
-<div id="Single-Action-Map">
-
-</div>
-
-<h2>Book</h2>
-   {{page.embed.embed_standard_layout_only_styles}}
+{{page.embed.embed_standard_layout_only_styles}}
 {% else %}
 <div class="Chaos-Flex-Line">
-  <a href="{{ page.browser_url }}"><span class="Chaos-Button">Book</span></a>
+  <a href="{{ page.browser_url }}"><span class="Chaos-Button">Sign Up</span></a>
 </div>
 {% endunless %}

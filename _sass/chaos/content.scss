@@ -365,6 +365,10 @@ $border-width: $spacing-unit * 7;
         }
     }
 }
+#Single-Action-Map{
+  height: calc( min(50vh, 400px) );
+  z-index: 1;
+}
 
 .Chaos-Accordion-Item{
   // border-bottom: 1px solid $brand-color;

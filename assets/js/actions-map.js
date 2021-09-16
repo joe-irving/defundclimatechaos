@@ -1,6 +1,6 @@
 ---
 ---
-// Map
+// Main Map
 $(document).ready(function(){
   console.log("ready")
 })
@@ -163,6 +163,4 @@ $('#Postcode-Form-Input').on("keyup", function(e){
       }
     })
   });
-
-
 })
