@@ -111,9 +111,9 @@ blocks:
     target: "/partners/#register-group"
   - target: "/partners"
     text: See all
-  decoration: "![](/assets/images/positive_money.jpg)"
+  decoration: ''
   map: false
-  background_image: ''
+  background_image: "/assets/images/barclays-greenpeace-j-rizak.jpeg"
 credits: ''
 header:
   full: true
