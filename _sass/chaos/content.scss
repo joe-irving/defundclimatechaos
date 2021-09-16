@@ -439,13 +439,13 @@ $border-width: $spacing-unit * 7;
 
 
 .Chaos-Logo-List {
-  $excesswidth:70vw;
-  @media screen and (min-width: $content-width-wide *0.7){
-    width: $excesswidth;
-    left: calc(#{ $excesswidth * -0.5 } + #{ $content-width-wide / 2});
-    position: relative;
-  }
-  $item-width: 100px;
+  // $excesswidth:70vw;
+  // @media screen and (min-width: $content-width-wide *0.7){
+  //   width: $excesswidth;
+  //   left: calc(#{ $excesswidth * -0.5 } + #{ $content-width-wide / 2});
+  //   position: relative;
+  // }
+  // $item-width: 100px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -453,6 +453,7 @@ $border-width: $spacing-unit * 7;
     flex: 1 0 21%;
     display: flex;
     justify-content: center;
+    align-items: center;
     img{
       filter: grayscale(50%);
       &.darken{
