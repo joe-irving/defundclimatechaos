@@ -41,6 +41,24 @@ blocks:
   text: |-
     # Training and Action Planning Sessions
 
+    {% comment %}
+
+    ## This week
+
+    {% assign posts_dates = site.trainings | sort: "date" | map: "date" %}
+    {% assign no_posts = 0 %}
+    {% assign now_week = 'now | date: "%W" %}
+    {% for date in posts_dates %}
+      {% assign post_week = date | date: "%W" %}
+      {% if post_week == now_week %}
+        {% assign no_posts = no_posts | plus: 1 %}
+      {% endif  %}
+    {% endfor %}
+    {% assign posts = site.trainings | sort: "date" %}
+    {% include blog-list.html summary=false limit=no_posts %}
+
+    {% endcomment %}
+
     {% assign events = site.trainings | sort: "date" %}
     {% include events-gallery.html %}
 
@@ -94,7 +112,7 @@ blocks:
   - text: Register
     target: "/partners/#register-group"
   - target: "/partners"
-    text: See all
+    text: See all partners
   decoration: "![](/assets/images/barclays-greenpeace-j-rizak.jpeg)"
   map: false
   background_image: ''
