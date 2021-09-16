@@ -68,6 +68,7 @@ fields:
 - type: boolean
   name: future
   label: future
+  hidden: true
 - type: text
   name: copyright_notice
   label: copyright_notice
