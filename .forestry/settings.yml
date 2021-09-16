@@ -7,14 +7,23 @@ sections:
 - type: document
   path: index.md
   label: Home Page
+- type: jekyll-pages
+  label: All Pages
+  create: all
+- type: heading
+  label: Collections
+- type: directory
+  path: _resources
+  label: Resources
+  create: all
+  match: "**/*"
+  templates:
+  - page
 - type: jekyll-posts
   label: Stories
   create: all
   templates:
   - stories
-- type: jekyll-pages
-  label: Pages
-  create: all
 - type: heading
   label: Config
 - type: document
