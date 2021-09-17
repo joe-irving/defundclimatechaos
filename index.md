@@ -78,14 +78,6 @@ blocks:
   decoration: ''
   map: false
   background_image: ''
-- buttons:
-  - text: Share a story
-    target: mailto:stories@defundclimatechaos.uk
-  text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
-    limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/news)"
-  decoration: "![](/assets/images/23-04-21-lloyds-london-coal-protest-gareth-morris-19.jpg)"
-  map: false
-  background_image: ''
 - buttons: []
   text: |-
     # Stay updated
@@ -94,6 +86,14 @@ blocks:
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
+  map: false
+  background_image: ''
+- buttons:
+  - text: Share a story
+    target: mailto:stories@defundclimatechaos.uk
+  text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
+    limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/news)"
+  decoration: "![](/assets/images/23-04-21-lloyds-london-coal-protest-gareth-morris-19.jpg)"
   map: false
   background_image: ''
 - buttons: []
