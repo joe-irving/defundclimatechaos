@@ -1,4 +1,4 @@
-{% capture text %}{% if include.page.summary.size > 1 %}{{ include.page.summary }}{% elsif include.page.description.size > 1 %}{{ include.page.description }}{% endif %}{% endcapture %}
+{% capture text %}{% if include.page.summary.size > 1 %}{{ include.page.summary }}{% endif %}{% endcapture %}
 {% capture url %}{% unless include.page.url contains "://" %}{{ site.url }}{{ include.page.url | relative_url}}{% else %}{{ include.page.url }}{% endunless %}{% endcapture %}
 {% capture title %}{{ include.page.title }}{% endcapture %}
 

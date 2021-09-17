@@ -11,16 +11,16 @@ layout: post
 
 {% if start_day < end_day %}
 <p class="Chaos-Event-Date">
-  <time>{{ page.date | date: "%k:%M %A %e %B" }}</time>
+  <time>{{ page.start_date | date: "%k:%M %A %e %B" }}</time>
   to
   <time>{{ page.end_date | date: "%k:%M %A %e %B" }}</time>
 </p>
 {% else %}
 <p class="Chaos-Event-Date">
-  {{ page.date | date: "%A %e %B" }}
+  {{ page.start_date | date: "%A %e %B" }}
 </p>
 <p class="Chaos-Event-Date">
-  <time>{{ page.date | date: "%k:%M" }}</time>{% if page.end_date %}
+  <time>{{ page.start_date | date: "%k:%M" }}</time>{% if page.end_date %}
   to
   <time>{{ page.end_date | date: "%k:%M" }}</time>{% endif %}
 </p>

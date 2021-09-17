@@ -81,9 +81,9 @@ function updateActionsList(actions){
   for (i in actions){
     var id = actions[i]["browser_url"].replace("https://actionnetwork.org/events/","") ;
     var start = new Date(actions[i]["start_date"]);
-    var options = { hour: 'numeric', minute: 'numeric' }
+    var options = { hour: 'numeric', minute: 'numeric',timeZone: "UTC" }
     var startTime = new Intl.DateTimeFormat('en-GB', options).format(start)
-    var options = { weekday: 'short', month: 'short', day: 'numeric' }
+    var options = { weekday: 'short', month: 'short', day: 'numeric',timeZone: "UTC"  }
     var startDate = new Intl.DateTimeFormat('en-GB', options).format(start)
     actionslisthtml = actionslisthtml.concat(`
       <div class="Chaos-Blog-Item Action"  id="${ id }">

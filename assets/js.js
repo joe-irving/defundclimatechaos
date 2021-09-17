@@ -49,8 +49,8 @@ function sharePage(e){
   navigator = window.navigator;
   navigator.share({
     title: e.currentTarget.attributes.share_title.value,
-    text: e.currentTarget.attributes.share_text.value,
-    url: e.currentTarget.attributes.share_url.value
+    text: e.currentTarget.attributes.share_text.value ,
+    url: e.currentTarget.attributes.share_url.value  
   })
 }
 $('.Web-Share-Button').on('click',sharePage)

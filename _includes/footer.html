@@ -30,11 +30,12 @@
     </div>
     <div class="">
     </div>
-        <p>
-          This site was created by <a href="https://tippingpointuk.org">Tipping Point UK</a>,
-          for the Defund Climate Chaos UK Coalition.
-          {% if site.copyright_notice %}
-              {{ site.copyright_notice | liquify | markdownify }}
-          {% endif %}
-        </p>
+    <p>
+      This site was created by <a href="https://tippingpointuk.org">Tipping Point UK</a>,
+      for the Defund Climate Chaos UK Coalition.
+      {% if site.copyright_notice %}
+          {{ site.copyright_notice | liquify | markdownify }}
+      {% endif %}
+    </p>
+    <p>Last site build: {{ 'now' | date: "%D %T" }}</p>
 </footer>
