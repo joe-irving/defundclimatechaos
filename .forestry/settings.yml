@@ -8,6 +8,7 @@ sections:
   path: index.md
   label: Home Page
 - type: directory
+  path: *
   label: All Pages
   create: all
   match: "**/*"
