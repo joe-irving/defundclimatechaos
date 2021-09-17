@@ -92,7 +92,7 @@ blocks:
   - text: Share a story
     target: mailto:stories@defundclimatechaos.uk
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
-    limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/news)"
+    limit=4 thumbnail=true date=false alternate_direction=true %}\n\n[See all stories...](/stories)"
   decoration: "![](/assets/images/23-04-21-lloyds-london-coal-protest-gareth-morris-19.jpg)"
   map: false
   background_image: ''
