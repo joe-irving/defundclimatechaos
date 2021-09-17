@@ -7,13 +7,14 @@ sections:
 - type: document
   path: index.md
   label: Home Page
-- type: jekyll-pages
+- type: directory
   label: All Pages
   create: all
+  match: "**/*"
   exclude:
-    - /actions.html
-    - /google2b8ceaa38de54302.html
-    - /index.md
+    - actions.html
+    - google2b8ceaa38de54302.html
+    - index.md
 - type: heading
   label: Collections
 - type: directory
