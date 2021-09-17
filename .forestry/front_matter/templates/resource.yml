@@ -10,6 +10,10 @@ fields:
 - type: text
   name: title
   label: Title
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - type: file
   name: top_image
   label: 'Header Image '
@@ -42,10 +46,6 @@ fields:
     required: false
   label: Slug
   description: custom resource slug
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
 - name: summary
   type: textarea
   default: ''
@@ -56,5 +56,4 @@ fields:
       format: markdown
   label: Summary
 pages:
-- _resources/how-to-make-a-thing.md
 - _resources/how-to-make-a-thing.md
