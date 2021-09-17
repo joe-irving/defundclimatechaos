@@ -89,6 +89,8 @@ blocks:
   map: false
   background_image: ''
 - buttons:
+  - text: See all
+    target: "/stories"
   - text: Share a story
     target: mailto:stories@defundclimatechaos.uk
   text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
