@@ -8,14 +8,16 @@ sections:
   path: index.md
   label: Home Page
 - type: directory
-  path: .
+  path: ''
   label: All Pages
   create: all
-  match: "**/*"
-  exclude:
-    - actions.html
-    - google2b8ceaa38de54302.html
-    - index.md
+  match: "**/*.md"
+  exclude: _*/**
+  templates:
+  - stories
+  - block-layout
+  - page
+  - resource
 - type: heading
   label: Collections
 - type: directory
