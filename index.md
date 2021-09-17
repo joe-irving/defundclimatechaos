@@ -90,7 +90,7 @@ blocks:
   text: |-
     # Stay updated
 
-    Sign up to get all the latest news, updates and materials you'll need as we get closer to October 29
+    Sign up to get all the latest news, updates and materials you'll need to take action on October 29
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
