@@ -11,6 +11,8 @@ slug: 'By XR Buddhists '
 credits: ''
 
 ---
+By Extinction Rebellion Buddhists
+
 Despite its stated commitment to [reduce its lending to move to net zero emissions by 2050](https://home.barclays/society/our-position-on-climate-change/), Barclays has actually [increased their lending to fossil fuels projects last year](https://www.cityam.com/barclays-fossil-fuel-financing-increases-despite-net-zero-pledge/).
 
 Barclays has invested almost[ $145bn in fossil fuel industries since the Paris Agreement](https://www.ran.org/bankingonclimatechaos2021/) on Climate Change in 2015. Barclays is the biggest investor in fossil fuel projects of any bank in Europe and seventh biggest in the world. The bank’s investments are also impacting indigenous communities in the USA and elsewhere, and increasing deforestation.
