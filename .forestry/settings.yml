@@ -11,8 +11,8 @@ sections:
   path: ''
   label: All Pages
   create: all
-  match: "**/*"
-  exclude: "*.html"
+  match: "**/*.md"
+  exclude: _*/**
   templates:
   - stories
   - block-layout
