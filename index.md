@@ -39,32 +39,14 @@ blocks:
   decoration: "![](/assets/images/alarm.png)"
   map: false
   background_image: ''
-- buttons: []
+- buttons:
+    - text: All trainings
+      target: /trainings
   text: |-
     # Training and Action Planning Sessions
 
-    {% comment %}
-
-    ## This week
-
-    {% assign posts_dates = site.trainings | sort: "date" | map: "date" %}
-    {% assign no_posts = 0 %}
-    {% assign now_week = 'now | date: "%W" %}
-    {% for date in posts_dates %}
-      {% assign post_week = date | date: "%W" %}
-      {% if post_week == now_week %}
-        {% assign no_posts = no_posts | plus: 1 %}
-      {% endif  %}
-    {% endfor %}
-    {% assign posts = site.trainings | sort: "date" %}
-    {% include blog-list.html summary=false limit=no_posts %}
-
-    {% endcomment %}
-
-    {% assign events = site.trainings | sort: "date" %}
-    {% include events-gallery.html %}
-
-    [See all upcoming trainings...](/trainings)
+    {% assign events = site.trainings | sort: "start_date" %}
+    {% include events-gallery.html date_field='start_date' %}
   decoration: ''
   background_image: "/assets/images/41363513_1776146282501405_6945596299618025472_o-600x600.jpeg"
   map: false

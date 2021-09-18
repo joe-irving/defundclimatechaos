@@ -12,5 +12,5 @@ background_image: 'assets/images/street-mural.png'
 ---
 # Trainings
 
-{% assign events = site.trainings | sort: "date" %}
-{% include events-gallery.html summary=true %}
+{% assign events = site.trainings | sort: "start_date" %}
+{% include events-gallery.html summary=true date_field='start_date' %}
