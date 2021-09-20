@@ -26,10 +26,21 @@
               fill: $brand-color;
               path:not(.circle), .st0 {
                     fill: $brand-text-color;
+                    &.outline{
+                      fill: none;
+                      stroke: $brand-text-color;
+                    }
                 }
             }
 
-            path:not(.circle), .st0 { fill: invert($brand-text-color); }
+            path:not(.circle), .st0 {
+              fill: invert($brand-text-color);
+              &.outline{
+                fill: none;
+                stroke: invert($brand-text-color);
+                stroke-width: 6px;
+              }
+            }
         }
     }
 

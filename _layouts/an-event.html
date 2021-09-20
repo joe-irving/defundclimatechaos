@@ -47,6 +47,11 @@ layout: post
 <h2 id="book">How?</h2>
 {% unless page.embed.error %}
 {{page.embed.embed_standard_layout_only_styles}}
+{% elsif page.browser_url %}
+{%  assign an_event_slug = page.browser_url | split: "://" | last | split: "/" | last %}
+<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
+<script src='https://actionnetwork.org/widgets/v4/event/{{ an_event_slug }}?format=js&source=widget'></script>
+<div id='can-event-area-{{ an_event_slug }}' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
 {% else %}
 <div class="Chaos-Flex-Line">
   <a href="{{ page.browser_url }}"><span class="Chaos-Button">Sign Up</span></a>

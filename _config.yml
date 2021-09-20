@@ -1,9 +1,14 @@
 ---
 title: Defund Climate Chaos
 email: fossilfinace@defundclimatechaos.uk
-tagline: 29th October Day of Action
-description: Without money, oil and gas companies  will not function. So lets stop
-  the money flowing.
+tagline: Turn off the money pipeline to fossil fuels. Now.
+description: |-
+  UK banks, investors and insurers are pumping billions of pounds into fossil
+  fuels that worsen the climate crisis.
+
+  On October 29th, ahead of UN climate talks, groups around the world and
+  UK are rising up to demand that the UK government and corporations
+  #DefundClimateChaos.
 url: https://defundclimatechaos.uk
 permalink: pretty
 background_color: "#FFF0E3"
@@ -17,9 +22,6 @@ twitter: ''
 facebook: ''
 counter: 29-Oct-2021 10am
 timezone: Europe/London
-nav_links:
-- url: "/#map"
-  title: Act
 future: true
 copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) for
   the base theme.
