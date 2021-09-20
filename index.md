@@ -4,7 +4,7 @@ image: "/assets/images/og-image.png"
 blocks:
 - buttons:
   - text: Register an action
-    target: https://actionnetwork.org/events/new?event_campaign_id=13583
+    target: https://actionnetwork.org/events/new?event_campaign_id=13806
   - text: Join an action
     target: "#map"
   decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
