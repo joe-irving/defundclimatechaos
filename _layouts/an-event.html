@@ -1,14 +1,16 @@
 ---
 layout: post
 ---
-
+{% capture image %}
 {%if page.featured_image_url %}
 <img src="{{ page.featured_image_url }}" alt="">
 {% endif %}
+{% endcapture %}
 
 {% assign start_day = page.start_date | date:  "%j" %}
 {% assign end_day = page.end_date | date: "%j" %}
 
+{% capture date %}
 {% if start_day < end_day %}
 <p class="Chaos-Event-Date">
   <time>{{ page.start_date | date: "%k:%M %A %e %B" }}</time>
@@ -25,15 +27,9 @@ layout: post
   <time>{{ page.end_date | date: "%k:%M" }}</time>{% endif %}
 </p>
 {% endif %}
+{% endcapture %}
 
-
-<h2>What?</h2>
-
-{{ content }}
-
-
-<h2>Where?</h2>
-
+{% capture address %}
 <address class="">
   {{ page.location.venue }},
   {% for l in page.location.address_lines %}{{ l }},{% endfor %}
@@ -41,10 +37,14 @@ layout: post
   {{ page.location.postal_code  }}
 </address>
 <p><a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{ page.location.location.latitude }}%2C{{ page.location.location.longitude }}">Get directions...</a></p>
+{% endcapture %}
+{% capture map %}
 <div id="Single-Action-Map" map_location="{{ page.location | jsonify | url_encode | replace: "+", "%20" }}"></div>
 <script type="text/javascript" src="/assets/js/an-event-page.js"> </script>
+{% endcapture %}
 
-<h2 id="book">How?</h2>
+
+{% capture form %}
 {% unless page.embed.error %}
 {{page.embed.embed_standard_layout_only_styles}}
 {% elsif page.browser_url %}
@@ -57,3 +57,7 @@ layout: post
   <a href="{{ page.browser_url }}"><span class="Chaos-Button">Sign Up</span></a>
 </div>
 {% endunless %}
+{% endcapture %}
+
+{% assign t = site.templates | where: "title", "an-event" | first  %}
+{{ t.content | liquify | markdownify }}
