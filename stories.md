@@ -9,7 +9,7 @@ main_nav_exclude: false
 credits: ''
 menu:
   footer:
-    weight: 1
+    weight: 4
 
 ---
 # Stories
