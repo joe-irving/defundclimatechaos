@@ -34,6 +34,11 @@ sections:
   - stories
 - type: heading
   label: Config
+- type: directory
+  path: _templates
+  label: Templates
+  create: all
+  match: "**/*"
 - type: document
   path: _config.yml
   label: Main Site Config

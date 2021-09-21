@@ -18,11 +18,13 @@ blocks:
     It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
   map: false
   background_image: ''
+  id: what
 - map: true
   text: ''
   buttons: []
   decoration: ''
   background_image: ''
+  id: ''
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -39,6 +41,7 @@ blocks:
   decoration: "![](/assets/images/alarm.png)"
   map: false
   background_image: ''
+  id: why
 - buttons:
   - text: All trainings
     target: "/trainings"
@@ -50,6 +53,7 @@ blocks:
   decoration: ''
   background_image: "/assets/images/41363513_1776146282501405_6945596299618025472_o-600x600.jpeg"
   map: false
+  id: organise
 - buttons: []
   text: |-
     # Resources
@@ -60,6 +64,7 @@ blocks:
   decoration: ''
   map: false
   background_image: ''
+  id: ''
 - buttons: []
   text: |-
     # Get updates
@@ -72,6 +77,7 @@ blocks:
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   map: false
   background_image: ''
+  id: join
 - buttons:
   - text: See all
     target: "/stories"
@@ -82,6 +88,7 @@ blocks:
   decoration: "![](/assets/images/23-04-21-lloyds-london-coal-protest-gareth-morris-19.jpg)"
   map: false
   background_image: ''
+  id: stories
 - buttons: []
   text: |-
     # Find out more
@@ -92,6 +99,7 @@ blocks:
   decoration: ''
   map: false
   background_image: ''
+  id: faqs
 - text: |-
     # Partners
 
@@ -104,6 +112,7 @@ blocks:
   decoration: "![](/assets/images/barclays-greenpeace-j-rizak.jpeg)"
   map: false
   background_image: ''
+  id: partners
 credits: ''
 header:
   full: true
