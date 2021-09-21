@@ -1,6 +1,6 @@
 ---
 title: Defund Climate Chaos
-email: fossilfinace@defundclimatechaos.uk
+email: fossilfinance@defundclimatechaos.uk
 tagline: Turn off the money pipeline to fossil fuels. Now.
 description: |-
   UK banks, investors and insurers are pumping billions of pounds into fossil
@@ -20,7 +20,7 @@ invert_accent_text: true
 instagram: ''
 twitter: ''
 facebook: ''
-counter: 29-Oct-2021 10am
+counter: 29-Oct-2021 9am
 timezone: Europe/London
 future: true
 copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) for
@@ -93,3 +93,4 @@ plugins:
 - jekyll-liquify
 - jekyll-leaflet
 - jekyll-get-json
+nav_links: []

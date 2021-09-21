@@ -2,11 +2,14 @@
 layout: page
 title: Visual style guide
 main_nav_exclude: true
-summary: Unifying logo, colours, fonts and graphic elements to connect our actions together globally
+summary: Unifying logo, colours, fonts and graphic elements to connect our actions
+  together globally
 tags:
-- "Media and messaging"
-- "Art"
-image: /assets/images/og-image.png
+- Media and messaging
+- Art
+image: "/assets/images/og-image.png"
+slug: visuals
+
 ---
 # Visual Style
 
