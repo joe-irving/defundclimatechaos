@@ -10,6 +10,9 @@ footer:
   title: Partners
   weight: 1
 header:
+- url: "/trainings"
+  weight: 3
+  title: Trainings
 - url: "/#resources"
   title: Resources
   weight: 2
