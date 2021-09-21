@@ -39,6 +39,8 @@ sections:
   label: Templates
   create: all
   match: "**/*"
+  templates:
+  - template
 - type: document
   path: _config.yml
   label: Main Site Config
