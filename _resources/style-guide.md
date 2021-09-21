@@ -8,7 +8,7 @@ tags:
 - Media and messaging
 - Art
 image: "/assets/images/og-image.png"
-slug: style
+slug: visuals
 
 ---
 # Visual Style
