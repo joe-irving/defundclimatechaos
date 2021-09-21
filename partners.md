@@ -8,13 +8,15 @@ main_nav_exclude: true
 footer_nav_include: true
 order: 
 credits: ''
+tags: []
+summary: ''
 
 ---
 # Partners
 
-Here are just some of the groups and organisations that are taking part in the Defund Climate Chaos global day of action within the UK. 
+Here are just some of the groups and organisations that are taking part in the Defund Climate Chaos global day of action within the UK.
 
-Please [register your group here](#register-group) if you support the call to action
+Please [register your group here](#register-your-groups-support) if you support the call to action
 
 {% include partner-list.html background='light' %}
 
