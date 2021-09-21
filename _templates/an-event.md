@@ -1,6 +1,7 @@
 ---
 title: Action Network Event
 slug: an-event
+
 ---
 {{ image }}
 {{ date }}
