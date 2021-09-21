@@ -53,7 +53,7 @@ blocks:
   decoration: ''
   background_image: "/assets/images/41363513_1776146282501405_6945596299618025472_o-600x600.jpeg"
   map: false
-  id: organise
+  id: trainings
 - buttons: []
   text: |-
     # Resources
