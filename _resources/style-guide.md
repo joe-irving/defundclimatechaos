@@ -31,7 +31,7 @@ The visual identity used by Defund Climate Chaos includes two key colours, 2 fon
 
 #### Fonts
 
-**For block letters and headings:** "Druk Text Web"
+**For block letters and headings:** "Druk Text Web" ([.woff](/assets/fonts/druk/DrukText-Super-Web.woff),[.woff2](/assets/fonts/druk/DrukText-Super-Web.woff2))
 
 **For body and caption text:** aktiv-grotesk.
 
