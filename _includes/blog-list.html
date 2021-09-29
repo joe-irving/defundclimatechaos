@@ -17,8 +17,16 @@
     {% capture next_month %}{{ post.previous[date_field] | date: "%B" }}{% endcapture %}
 
     {% assign post_id = post.title | slugify  %}
-    {% if post.url  %}{% assign url = post.url | relative_url  %}
-    {% else %}{% assign url = "#" | append: post_id   %}{% endif %}
+    {% if post.url  %}
+      {% assign url = post.url | relative_url  %}
+      {% assign first_url_letter = post.url | slice: 0 %}
+      {% if post.url contains site.url or first_url_letter == "/"  %}
+        {% assign is_internal = true %}
+      {% endif %}
+    {% else %}
+      {% assign url = "#" | append: post_id   %}
+      {% assign is_internal = true %}
+    {% endif %}
 
     {% if forloop.first %}
         {% comment %}
@@ -30,7 +38,7 @@
     {% endif %}
 
     <div
-    class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
+    class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}">
         <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">
                 {% if include.date!=false %}
                 <div class="date">
@@ -48,7 +56,7 @@
 
                 <div class="description">
                     <div class="header-line">
-                      <h3><a href="{{ url }}">{{ post.title }}</a></h3>
+                      <h3><a {% unless is_internal %}target="_blank"{% endunless %} href="{{ url }}">{{ post.title }}</a></h3>
                     </div>
                     {% if include.share_buttons %}
                       {% include share-links.html page=post %}
@@ -76,7 +84,7 @@
                 </div>
             </div>
             {% if post.image.size > 0 and include.thumbnail!=true %}
-            <a href="{{ post.url | relative_url  }}"><img src="{{ post.image  | relative_url  }}" /></a>
+            <a {% unless is_internal %}target="_blank"{% endunless %} href="{{ post.url | relative_url  }}"><img src="{{ post.image  | relative_url  }}" /></a>
             {% endif %}
             <div style="width: 100%">
             {% if post.categories.size > 0 %}
