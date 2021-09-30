@@ -6,12 +6,13 @@ module JsonCollection
       collection_name="actions"
       events_collection = Jekyll::Collection.new(site, collection_name)
       site.data["events"]["events"].each_with_index do |event,i|
-        slug = Jekyll::Utils.slugify(event["title"])
-        path = File.join(site.source, "_#{collection_name}", "#{slug}-#{i}.md")
+        slug = event['browser_url'].gsub("https://actionnetwork.org/events/","")
+        puts slug
+        path = File.join(site.source, "_#{collection_name}", "#{slug}.md")
         doc = Jekyll::Document.new(path, collection: events_collection, site: site)
         event['layout'] = 'an-event'
         event['image'] = event['featured_image_url']
-        puts event['image']
+        # puts event['image']
 
         doc.merge_data!(event)
         doc.content = event["description"]

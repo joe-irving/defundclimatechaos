@@ -1,10 +1,7 @@
 #can_embed_form{
   #can_embed_form_inner{
-    .last_line{
+    > *:not(form){
       display: none;
-      + h4{
-        display: none;
-      }
     }
     #action_welcome_message{
       #action_welcome_message_inner{
