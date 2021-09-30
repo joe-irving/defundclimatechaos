@@ -31,11 +31,11 @@ blocks:
   text: |-
     # Why?
 
-    ## With enough people power, we can force financiers to defund climate chaos. Join us.
+    ## **With enough people power, we can force financiers to defund climate chaos. Join us.**
 
-    We've all heard that the climate crisis means "**code red for humanity**". We see the reality raging around us with floods, wildfires and storms every day.
+    We’ve all heard that the climate crisis means “**code red for humanity**”. We see the reality raging around us with floods, wildfires and storms every day.
 
-    Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds** to name just a few - they are failing us.
+    Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they are failing us.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
   decoration: "![](/assets/images/alarm.png)"
