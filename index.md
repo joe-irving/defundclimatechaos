@@ -11,9 +11,9 @@ blocks:
   text: |-
     # What’s happening?
 
-    On October 29, people around the world are joining together to demand that bankers, insurers and fund managers **Defund Climate Chaos**.
+    On October 29, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
 
-    On the eve of UN climate talks in Glasgow, people will lay climate justice memorials outside the UK's biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
+    On the eve of UN climate talks, led by communities on the frontline of climate impacts, people will lay climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
 
     It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
   map: false
@@ -31,11 +31,11 @@ blocks:
   text: |-
     # Why?
 
-    ## With enough people power, we can force financiers to defund climate chaos. Join us.
+    ## **With enough people power, we can force financiers to defund climate chaos. Join us.**
 
-    We've all heard that the climate crisis means "**code red for humanity**". We see the reality raging around us with floods, wildfires and storms every day.
+    We’ve all heard that the climate crisis means “**code red for humanity**”. We see the reality raging around us with floods, wildfires and storms every day.
 
-    Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds** to name just a few - they are failing us.
+    Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they are failing us.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
   decoration: "![](/assets/images/alarm.png)"
@@ -119,11 +119,14 @@ header:
   image:
     link: "/assets/images/money-faucet.png"
     location: left
-  text: "#### Countdown to 29 October: {% include counter.html %} \n\n# Turn off the
-    money pipeline to fossil fuels. Now.\n\nUK banks, investors and insurers are pumping
-    billions of pounds into fossil fuels that worsen the climate crisis.\n\nOn **October
-    29th**, ahead of UN climate talks, groups around the world and UK are rising up
-    to demand that the UK government and corporations **#DefundClimateChaos**."
+  text: |-
+    #### Countdown to 29 October: {% include counter.html %}
+
+    # Turn off the money pipeline to fossil fuels. Now.
+
+    UK banks, investors and insurers are fuelling climate chaos by pumping billions of pounds into fossil fuels each year.
+
+    On **October 29th**, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
   buttons:
   - text: Act Now
     target: "#map"
