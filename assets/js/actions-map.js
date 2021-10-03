@@ -91,6 +91,7 @@ function updateActionsList(actions){
           <div class="description">
             <div class="header-line">
               <h3><a target="_parent" href="${actions[i]["url"]}">${ actions[i]["title"] }</a></h3>
+              <a target="_parent" href="${actions[i]["url"]}"><span class="Chaos-Button">Join</span></a>
             </div>
             <p><time>${ startTime }</time> on ${ startDate }</p>
             <address>${actions[i]["location"]["venue"]}, ${actions[i]["location"]["address_lines"][0]}, ${actions[i]["location"]["locality"]}</address>
