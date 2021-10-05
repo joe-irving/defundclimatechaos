@@ -32,7 +32,7 @@
       .Action{
         &.first{
           box-shadow: 0 5px 10px $brand-color;
-          order: -1;
+          order: -2;
         }
         @media screen and (min-width: 900px){
           flex-basis: auto;
@@ -48,4 +48,7 @@
     border: none;
     padding: 0;
     margin: 0;
+}
+#national-climate-justice-memorial{
+  order: -1;
 }
