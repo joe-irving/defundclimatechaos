@@ -71,6 +71,7 @@ airtable:
     - URL
     - Image
     - Summary
+    - Invert Logo Colour
   trainings:
     app: app9apHbqOifmolTX
     table: tblr8deZvWPtDpT8z
