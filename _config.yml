@@ -25,6 +25,11 @@ timezone: Europe/London
 future: true
 copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) for
   the base theme.
+defaults:
+- scope:
+    path: ''
+  values:
+    image: "/assets/images/og-image.png"
 collections:
   posts:
     permalink: "/stories/:title/"

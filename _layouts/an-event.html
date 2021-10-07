@@ -1,10 +1,16 @@
 ---
-layout: post
+layout: page
 ---
 {% capture image %}
 {%if page.featured_image_url %}
 <img src="{{ page.featured_image_url }}" alt="">
 {% endif %}
+{% endcapture %}
+
+{% capture title %}{{ page.title }}{% endcapture %}
+
+{% capture share_buttons %}
+<div class="Chaos-Flex-Line">{% include share-links.html page=page %}</div>
 {% endcapture %}
 
 {% assign start_day = page.start_date | date:  "%j" %}
