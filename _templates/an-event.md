@@ -9,7 +9,7 @@ slug: an-event
 {{ image }}
 {{ date }}
 
-## How
+## RSVP
 
 {{form}}
 
