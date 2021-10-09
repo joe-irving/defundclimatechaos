@@ -4,9 +4,10 @@
 $(document).ready(function(){
   console.log("ready")
 })
+{% assign actions = site.actions | sort: "start_date" %}
 var actionsData = {
   "events":[
-  {% for a in site.actions %}
+  {% for a in actions %}
   {{ a | jsonify }}{% unless forloop.last %},{% endunless %}
   {% endfor %}]
 };
