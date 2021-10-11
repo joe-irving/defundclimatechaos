@@ -10,21 +10,20 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2.0"
 
 gem 'bigdecimal'
-gem 'activesupport'
+# gem 'activesupport'
 gem "json"
 
 gem "jekyll-get-json", "~> 1.0"
 
 # Theme
-gem "jekyll-chaos", path: "/home/joe/Documents/Work/TippingPointUK/jekyll-chaos/"
+gem 'jekyll-theme-chaos', '~> 0.1.0'
+
 
 
 # If you have any plugins, put them here!
-# group :jekyll_plugins do
-#   # gem "jekyll-feed", "~> 0.12"
-#   # gem "jekyll-liquify", "~> 0.0.2"
-#   # gem "jekyll-leaflet", "~> 0.2.1"
-# end
+group :jekyll_plugins do
+  gem 'jekyll-airtable-import', '~> 0.1.0'
+end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do

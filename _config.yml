@@ -10,7 +10,7 @@ description: |-
   UK are rising up to demand that the UK government and corporations
   #DefundClimateChaos.
 url: https://defundclimatechaos.uk
-theme: jekyll-chaos
+theme: jekyll-theme-chaos
 permalink: pretty
 background_color: "#FFF0E3"
 logo: "/assets/logo_long_uncondenced.svg"
@@ -94,6 +94,5 @@ jekyll_get_json:
 - data: events
   json: https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json
 plugins:
-- jekyll-feed
-- jekyll-liquify
 - jekyll-get-json
+- jekyll-airtable-import
