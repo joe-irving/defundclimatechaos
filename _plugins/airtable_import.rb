@@ -26,14 +26,18 @@ module Airtable
     def generate(site)
       return unless site.config['airtable']
       # Get API key from environment
-      api_key = ENV['AIRTABLE_API_KEY']
+      if ENV['AIRTABLE_API_KEY']
+        api_key = ENV['AIRTABLE_API_KEY']
+      else
+        warn "No airtable api key found. Make sure your key is available as AIRTABLE_API_KEY in the local environment."
+      end
       # Pass in api key to client
       @client = Airtable::Client.new(api_key)
       site.config['airtable'].each do |name, conf|
         # Pass in the app key and table name
         @table = @client.table(conf['app'], conf['table'])
         # Get records where the Published field is checked
-        @records = @table.records(:view => conf['view'],:fields => conf['fields'], :limit => 100)
+        @records = @table.all(:view => conf['view'],:fields => conf['fields'])
         # Extract data to a hash
         data = @records.map { |record| record.attributes }
         parsed_data = parse_data(data)
@@ -67,6 +71,11 @@ module Airtable
           site.collections[name] = new_collection
         else
           site.data[name] = data
+          if conf['combine'] and site.collections.key?(name)
+            site.collections[name].docs.each do |document|
+              site.data[name].append(document)
+            end
+          end
         end
       end
     end
