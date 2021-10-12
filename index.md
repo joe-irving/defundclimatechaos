@@ -8,14 +8,13 @@ blocks:
   - text: Join an action
     target: "#map"
   decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
-  text: |-
-    # What’s happening?
-
-    On October 29, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
-
-    On the eve of UN climate talks, led by communities on the frontline of climate impacts, people will lay climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
-
-    It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
+  text: "# What’s happening?\n\nOn October 29, the youth climate movement is rising
+    up to demand that bankers, insurers and fund managers **Defund Climate Chaos**.\n\nJust
+    before the Glasgow climate talks, join communities on the frontlines of climate
+    breakdown in laying climate justice memorials outside the UK’s biggest funders
+    of fossil fuel projects. \n\nIt’s past time to turn off the money pipeline to
+    oil, coal and gas companies and for UK finance to start investing in climate justice
+    and a safer future for us all."
   map: false
   background_image: ''
   id: what
