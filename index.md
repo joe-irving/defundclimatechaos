@@ -7,7 +7,7 @@ blocks:
     target: https://actionnetwork.org/events/new?event_campaign_id=13806
   - text: Join an action
     target: "#map"
-  decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
+  decoration: "![](/assets/images/image-2021-10-10-at-9-13-11-am.png)![](/assets/images/image-2021-10-10-at-9-13-11-am.png)"
   text: "# What’s happening?\n\nOn October 29, the youth climate movement is rising
     up to demand that bankers, insurers and fund managers **Defund Climate Chaos**.\n\nJust
     before the Glasgow climate talks, join communities on the frontlines of climate
