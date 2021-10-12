@@ -97,7 +97,7 @@ blocks:
     target: "/partners/#register-group"
   - target: "/partners"
     text: See all partners
-  decoration: ''
+  decoration: "![](/assets/images/gb84256-web-res.jpg)"
   map: false
   background_image: ''
   id: partners
