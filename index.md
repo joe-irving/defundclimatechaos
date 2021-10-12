@@ -51,7 +51,7 @@ blocks:
     {% assign events = site.trainings | sort: "start_date" %}
     {% include events-gallery.html date_field='start_date' %}
   decoration: ''
-  background_image: "/assets/images/41363513_1776146282501405_6945596299618025472_o-600x600.jpeg"
+  background_image: "/assets/images/xr-shrewsbury-hsbc-brandalism.jpeg"
   map: false
   id: trainings
 - buttons: []
