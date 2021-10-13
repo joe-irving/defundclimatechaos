@@ -7,7 +7,6 @@ module JsonCollection
       events_collection = Jekyll::Collection.new(site, collection_name)
       site.data["events"]["events"].each_with_index do |event,i|
         slug = event['browser_url'].gsub("https://actionnetwork.org/events/","")
-        puts slug
         path = File.join(site.source, "_#{collection_name}", "#{slug}.md")
         doc = Jekyll::Document.new(path, collection: events_collection, site: site)
         event['layout'] = 'an-event'
