@@ -9,7 +9,7 @@ blocks:
     target: "#map"
   decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
   text: |-
-    # What’s happening?
+    # What’s happening? 
 
     On October 29, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
 
