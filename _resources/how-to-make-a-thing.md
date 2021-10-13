@@ -44,12 +44,12 @@ Here’s how to make your own and join in.
 
 ### Step 3 - Light your lantern at 6pm
 
-* Tell your friends and neighbours and encourage them to make lanterns too
-* At 6pm on Friday 29th October, light your lantern for the first time - in your window, on your doorstep or at one of several [vigils and memorial events](https://defundclimatechaos.uk/#map).
+* Tell your friends and neighbours and encourage them to make their own lanterns
+* At 6pm on Friday 29th October, light your lantern in your window, on your doorstep or at one of several [vigils and memorial events](https://defundclimatechaos.uk/#map).
   * If you want to join with others, [organise your own memorial](https://defundclimatechaos.uk/#resources)
-* Take a picture or short video of yourself and your lantern and share it on social media using #ClimateMemorial and #DefundClimateChaos
-  * You can also submit your best photo **here**
+* Share a picture or short video message with your lantern on social media using **#ClimateMemorial** and **#DefundClimateChaos**
+  * You can also **submit your best photo** [**here**](https://airtable.com/shrCvUWA9EhoEnjhf)
 
-Just days before world leaders gather in Glasgow for last-chance COP26 climate talks, climate justice memorials will be laid outside some of the UK institutions with the most outsized impact on fuelling the climate crisis: banks, insurers and investors who fund fossil fuels.
+Just days before world leaders gather in Glasgow for last-chance COP26 climate talks, climate justice memorials will be laid outside some of the UK institutions with the most outsized impact on fuelling the climate crisis: banks, insurers and investors who fund fossil fuels.  Find out more at [defundclimatechaos.uk](defundclimatechaos.uk)
 
-We invite you to light your lantern for climate justice every evening from 6pm on Friday 29th until the end of the COP26 climate talks on November 12th.   [Add your lantern to the UK map here](https://actionnetwork.org/events/new?event_campaign_id=13806) if you welcome others coming by to see it or to join you.  
+We invite you to light your lantern for climate justice **every evening from 6pm on Friday 29th until the end of the COP26** climate talks on November 12th.   

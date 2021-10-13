@@ -7,15 +7,14 @@ blocks:
     target: https://actionnetwork.org/events/new?event_campaign_id=13806
   - text: Join an action
     target: "#map"
-  decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
-  text: |-
-    # What’s happening?
-
-    On October 29, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
-
-    On the eve of UN climate talks, led by communities on the frontline of climate impacts, people will lay climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
-
-    It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
+  decoration: "![](/assets/images/image-2021-10-10-at-9-13-11-am.png)"
+  text: "# What’s happening?\n\nOn October 29, the youth climate movement is rising
+    up to demand that bankers, insurers and fund managers **Defund Climate Chaos**.\n\nJust
+    before the Glasgow climate talks, join communities on the frontlines of climate
+    breakdown in laying climate justice memorials outside the UK’s biggest funders
+    of fossil fuel projects. \n\nIt’s past time to turn off the money pipeline to
+    oil, coal and gas companies and for UK finance to start investing in climate justice
+    and a safer future for us all."
   map: false
   background_image: ''
   id: what
@@ -33,9 +32,9 @@ blocks:
 
     ## **With enough people power, we can force financiers to defund climate chaos. Join us.**
 
-    We’ve all heard that the climate crisis means “**code red for humanity**”. We see the reality raging around us with floods, wildfires and storms every day.
+    The climate crisis means “**code red for humanity**”. We see the reality raging around us with floods, wildfires and storms every day.
 
-    Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they are failing us.
+    Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they still fund fossil fuels.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
   decoration: "![](/assets/images/alarm.png)"
@@ -51,7 +50,7 @@ blocks:
     {% assign events = site.trainings | sort: "start_date" %}
     {% include events-gallery.html date_field='start_date' %}
   decoration: ''
-  background_image: "/assets/images/41363513_1776146282501405_6945596299618025472_o-600x600.jpeg"
+  background_image: "/assets/images/xr-shrewsbury-hsbc-brandalism.jpeg"
   map: false
   id: trainings
 - buttons: []
@@ -78,17 +77,6 @@ blocks:
   map: false
   background_image: ''
   id: join
-- buttons:
-  - text: See all
-    target: "/stories"
-  - text: Share a story
-    target: mailto:stories@defundclimatechaos.uk
-  text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
-    limit=4 thumbnail=true date=false alternate_direction=true %}"
-  decoration: "![](/assets/images/23-04-21-lloyds-london-coal-protest-gareth-morris-19.jpg)"
-  map: false
-  background_image: ''
-  id: stories
 - buttons: []
   text: |-
     # Find out more
@@ -109,7 +97,7 @@ blocks:
     target: "/partners/#register-group"
   - target: "/partners"
     text: See all partners
-  decoration: "![](/assets/images/barclays-greenpeace-j-rizak.jpeg)"
+  decoration: "![](/assets/images/gb84256-web-res.jpg)"
   map: false
   background_image: ''
   id: partners
