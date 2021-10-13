@@ -11,7 +11,7 @@ blocks:
   text: |-
     # What’s happening?
 
-    On October 29, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
+    Today, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
 
     On the eve of UN climate talks, led by communities on the frontline of climate impacts, people will lay climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
 
