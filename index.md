@@ -9,7 +9,7 @@ blocks:
     target: "#map"
   decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
   text: |-
-    # What’s happening? 
+    # What’s happening?
 
     On October 29, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
 
@@ -120,13 +120,11 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    #### Countdown to 29 October: {% include counter.html %}
-
     # Turn off the money pipeline to fossil fuels. Now.
 
     UK banks, investors and insurers are fuelling climate chaos by pumping billions of pounds into fossil fuels each year.
 
-    On **October 29th**, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
+    Today, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
   buttons:
   - text: Act Now
     target: "#map"
