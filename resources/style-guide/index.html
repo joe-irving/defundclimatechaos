@@ -1,0 +1,305 @@
+
+
+
+<!DOCTYPE html>
+<head lang="en-GB">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet Mapping -->
+    <link rel="stylesheet" href="/assets/css/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="/assets/css/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script src="/assets/js/leaflet.markercluster-src.js"></script>
+
+
+    <script type="text/javascript" src="/assets/js/jquery.js"></script><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Visual style guide | Defund Climate Chaos</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Visual style guide" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Visual Style" />
+<meta property="og:description" content="Visual Style" />
+<link rel="canonical" href="https://defundclimatechaos.uk/resources/style-guide/" />
+<meta property="og:url" content="https://defundclimatechaos.uk/resources/style-guide/" />
+<meta property="og:site_name" content="Defund Climate Chaos" />
+<meta property="og:image" content="https://defundclimatechaos.uk/assets/images/og-image.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-15T16:51:47+01:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://defundclimatechaos.uk/assets/images/og-image.png" />
+<meta property="twitter:title" content="Visual style guide" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"headline":"Visual style guide","dateModified":"2021-10-15T16:51:47+01:00","datePublished":"2021-10-15T16:51:47+01:00","description":"Visual Style","mainEntityOfPage":{"@type":"WebPage","@id":"https://defundclimatechaos.uk/resources/style-guide/"},"@type":"BlogPosting","image":"https://defundclimatechaos.uk/assets/images/og-image.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://defundclimatechaos.uk/assets/logo_long_uncondenced.svg"}},"url":"https://defundclimatechaos.uk/resources/style-guide/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/chaos-style.css">
+    <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://defundclimatechaos.uk/feed.xml" title="Defund Climate Chaos" /><!-- ODSI Library -->
+    <script type="text/javascript">
+      !function(a,b,c,d){"use strict";function h(b,c){this.$element=a(b),this.settings=a.extend({},f,c),this._defaults=f,this._name=e,this.init(this.$element),this.submit=function(){this.form_submit(this.$element,this)}}var e="osdi",f={autoresponse:!0,done:function(){},fail:function(){},always:function(){},status:"subscribed",immediate:!1,ajax_options:{type:"POST",dataType:"json",contentType:"application/json"}};a.extend(h.prototype,{init:function(a){this.validate_form(a)&&this.form_submit(a,this)},validate_form:function(a){return!!a.is("form")||(console.log("JQUERY OSDI ERROR: The DOM element passed to the jQuery OSDI plugin is not a form. The jQuery OSDI plugin only supports form elements."),!1)},form_submit:function(a,b){b.settings.immediate?b.submit_handler(a,b):a.on("submit",function(){return b.submit_handler(a,b),!1})},submit_handler:function(b,c){if(c.validate_submit(b)){var d,e,f,g,h,i;d=c.create_body(b),e=c.settings.endpoint&&""!=c.settings.endpoint?"function"==typeof c.settings.endpoint?c.settings.endpoint():c.settings.endpoint:b.attr("action"),f={url:e,data:JSON.stringify(d)},f="function"==typeof c.settings.ajax_options?a.extend(f,c.settings.ajax_options()):a.extend(f,c.settings.ajax_options),g=c.settings.done,h=c.settings.fail,i=c.settings.always,c.perform_ajax(f,g,h,i)}},validate_submit:function(a){return!(!this.validate_endpoint(a)||!this.validate_add_tags())},validate_endpoint:function(a){return!(!this.settings.endpoint&&!a.attr("action"))||(console.log("JQUERY OSDI ERROR: An endpoint is required. Either set the endpoint option with a string when calling the jQuery OSDI plugin, or give your form an action attribute with the endpoint as its value."),!1)},validate_add_tags:function(){return!this.settings.add_tags||("function"==typeof this.settings.add_tags?!(!a.isArray(this.settings.add_tags())||!this.settings.add_tags().length>0)||(console.log("JQUERY OSDI ERROR: The add_tags option is not a valid array of at least one element. You must pass an array with at least one element to the jQuery OSDI plugin to add tags."),!1):!(!a.isArray(this.settings.add_tags)||!this.settings.add_tags.length>0)||(console.log("JQUERY OSDI ERROR: The add_tags option is not a valid array of at least one element. You must pass an array with at least one element to the jQuery OSDI plugin to add tags."),!1))},create_body:function(b){var c,d,e,f,g,h,i,j;if(this.settings.body)c="function"==typeof this.settings.body?this.settings.body():this.settings.body;else{if(c={person:{}},"function"==typeof this.settings.autoresponse?this.settings.autoresponse()===!0&&(d={triggers:{autoresponse:{enabled:!0}}}):this.settings.autoresponse&&this.settings.autoresponse===!0&&(d={triggers:{autoresponse:{enabled:!0}}}),a.extend(c,d),this.settings.add_tags&&(j="function"==typeof this.settings.add_tags?{add_tags:this.settings.add_tags()}:{add_tags:this.settings.add_tags},a.extend(c,j)),b.find(':input[name="family_name"]').length&&b.find(':input[name="family_name"]').val()&&(c.person.family_name=a.isArray(b.find(':input[name="family_name"]').val())?b.find(':input[name="family_name"]').val().pop():b.find(':input[name="family_name"]').val()),b.find(':input[name="given_name"]').length&&b.find(':input[name="given_name"]').val()&&(c.person.given_name=a.isArray(b.find(':input[name="given_name"]').val())?b.find(':input[name="given_name"]').val().pop():b.find(':input[name="given_name"]').val()),b.find(':input[name="email_address"]').length&&b.find(':input[name="email_address"]').val()){var k=a.isArray(b.find(':input[name="email_address"]').val())?b.find(':input[name="email_address"]').val().pop():b.find(':input[name="email_address"]').val();e={email_addresses:[{address:k}]},a.extend(c.person,e),"function"==typeof this.settings.status?this.settings.status()!==!1&&(c.person.email_addresses[0].status=this.settings.status()):this.settings.status!==!1&&(c.person.email_addresses[0].status=this.settings.status)}if((b.find(':input[name="street"]').length&&b.find(':input[name="street"]').val()||b.find(':input[name="locality"]').length&&b.find(':input[name="locality"]').val()||b.find(':input[name="region"]').length&&b.find(':input[name="region"]').val()||b.find(':input[name="postal_code"]').length&&b.find(':input[name="postal_code"]').val()||b.find(':input[name="country"]').length&&b.find(':input[name="country"]').val())&&(f={},b.find(':input[name="street"]').length&&b.find(':input[name="street"]').val()&&(f.address_lines=[a.isArray(b.find(':input[name="street"]').val())?b.find(':input[name="street"]').val().pop():b.find(':input[name="street"]').val()]),b.find(':input[name="locality"]').length&&b.find(':input[name="locality"]').val()&&(f.locality=a.isArray(b.find(':input[name="locality"]').val())?b.find(':input[name="locality"]').val().pop():b.find(':input[name="locality"]').val()),b.find(':input[name="region"]').length&&b.find(':input[name="region"]').val()&&(f.region=a.isArray(b.find(':input[name="region"]').val())?b.find(':input[name="region"]').val().pop():b.find(':input[name="region"]').val()),b.find(':input[name="postal_code"]').length&&b.find(':input[name="postal_code"]').val()&&(f.postal_code=a.isArray(b.find(':input[name="postal_code"]').val())?b.find(':input[name="postal_code"]').val().pop():b.find(':input[name="postal_code"]').val()),b.find(':input[name="country"]').length&&b.find(':input[name="country"]').val()&&(f.country=a.isArray(b.find(':input[name="country"]').val())?b.find(':input[name="country"]').val().pop():b.find(':input[name="country"]').val()),g={postal_addresses:[f]},a.extend(c.person,g)),b.find(':input[name="phone_number"]').length&&b.find(':input[name="phone_number"]').val()){var l=a.isArray(b.find(':input[name="phone_number"]').val())?b.find(':input[name="phone_number"]').val().pop():b.find(':input[name="phone_number"]').val();h={phone_numbers:[{number:l}]},a.extend(c.person,h)}b.find(':input[name^="custom["]').length&&(i={},a.each(b.find(':input[name^="custom["]').serializeArray(),function(){""!=this.value&&(i[this.name.replace(/^custom\[|\]$/g,"")]=this.value)}),a.isEmptyObject(i)||(c.person.custom_fields=i))}return c},perform_ajax:function(b,c,d,e){a.ajax(b).done(function(a,b,d){c(a,b,d)}).fail(function(a,b,c){d(a,b,c)}).always(function(a,b,c){e(a,b,c)})}}),a.fn[e]=function(b){return this.each(function(){a.data(this,"plugin_"+e)?a.data(this,"plugin_"+e).submit():a.data(this,"plugin_"+e,new h(this,b))})}}(jQuery,window,document);
+    </script>
+  </head>
+
+<body>
+    <header class="Chaos-Header nav-visible"><div class="mobile">
+    <div class="edgePadding"></div>
+
+    <div class="centralPadding"></div>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    
+    <label class="open-menu" for="nav-trigger" title="Open menu">
+        <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+        </span>
+    </label>
+    <label class="close-menu" for="nav-trigger" title="Close menu">
+        <span class="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490">
+                <path d="M386.813 0L245 141.812 103.188 0 0 103.188 141.813 245 0 386.812l103.187 103.187L245 348.187 386.813 490 490 386.812 348.187 244.999 490 103.187z"/>
+            </svg>
+        </span>
+    </label>
+
+    <a class="site-title" rel="author" href="/" title="Defund Climate Chaos">
+    
+        <img class="main-logo" src="/assets/logo_long_uncondenced.svg" alt="Defund Climate Chaos"/>
+    
+    
+        <img class="logo-square" src="/assets/logo.svg" alt="Defund Climate Chaos"/>
+    
+</a>
+
+    <div class="edgePadding"></div>
+    <div class="mobile-drawer-container">
+        <div class="mobile-drawer">
+            <div class="mobile-nav">
+                
+                  <a class="page-link" href="/#map">Take Action</a>
+                
+                  <a class="page-link" href="/#resources">Resources</a>
+                
+                  <a class="page-link" href="/#join">Updates</a>
+                
+                  <a class="page-link" href="/#trainings">Trainings</a>
+                
+            </div>
+            <div class="padding"></div>
+            
+            <div class="social-links">
+    
+    
+    
+</div>
+
+        </div>
+    </div>
+    <label class="scrim" for="nav-trigger"></div>
+</div>
+
+    <nav class="desktop">
+    <div class="edgePadding"></div>
+    <a class="site-title" rel="author" href="/" title="Defund Climate Chaos">
+    
+        <img class="main-logo" src="/assets/logo_long_uncondenced.svg" alt="Defund Climate Chaos"/>
+    
+    
+        <img class="logo-square" src="/assets/logo.svg" alt="Defund Climate Chaos"/>
+    
+</a>
+
+    <div class="centralPadding"></div>
+    
+      <a class="page-link" href="/#map">Take Action</a>
+      
+          <div class="withinPadding"></div>
+      
+    
+      <a class="page-link" href="/#resources">Resources</a>
+      
+          <div class="withinPadding"></div>
+      
+    
+      <a class="page-link" href="/#join">Updates</a>
+      
+          <div class="withinPadding"></div>
+      
+    
+      <a class="page-link" href="/#trainings">Trainings</a>
+      
+          <div class="withinPadding"></div>
+      
+    
+
+    <div class="social-links-padding"></div>
+    <div class="social-links">
+    
+    
+    
+</div>
+
+
+    
+
+    <div class="edgePadding"></div>
+</nav>
+
+</header>
+
+    <main class="Chaos-Main " >
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+
+
+        
+
+<div class="Chaos-Section">
+    <div class="Chaos-Wrapper-Wide">
+        <h1 id="visual-style">Visual Style</h1>
+
+<p>To help tie together the many diverse groups and actions taking place around the world on October 29, we invite UK groups to use any of the #DefundClimateChaos visual style elements as you choose.</p>
+
+<p>This could be in your action props and memorial design or digitally in any website, newsletter or social media content you wish to share.</p>
+
+<p>We encourage groups to maintain their own visual identity but pick and choose any elements of this style which you think will match. We think this will help connect your group to the wider day of action that will receive significant coverage globally.</p>
+
+<h3 id="key-elements">Key Elements</h3>
+
+<p>The visual identity used by Defund Climate Chaos includes two key colours, 2 fonts and a few simple graphic elements.</p>
+
+<h4 id="colours">Colours</h4>
+
+<p><strong>Main red:</strong> #DD0000</p>
+
+<p><strong>Pale background:</strong> #FFF0E3</p>
+
+<h4 id="fonts">Fonts</h4>
+
+<p><strong>For block letters and headings:</strong> “Druk Text Web” (<a href="/assets/fonts/druk/DrukText-Super-Web.woff">.woff</a>,<a href="/assets/fonts/druk/DrukText-Super-Web.woff2">.woff2</a>)</p>
+
+<p><strong>For body and caption text:</strong> aktiv-grotesk.</p>
+
+<h4 id="logos">Logos</h4>
+
+<p><a href="/assets/images/logo.png">#DefundClimateChaos PNG</a> or  <a href="https://defundclimatechaos.uk/assets/logo.svg">.SVG</a>.</p>
+
+<p>The visual identity for the Defund Climate Chaos digital plan can be described as <strong>“severe, but not dreadful.”</strong> The deep red and the heading font are serious and authoritative, but not sensational or chaotic. Things are very bad and we need to make big changes, but we don’t want people to shut down or burn out. The cream coloured background, and smooth readable body font offer space to think and act, but don’t diminish the seriousness of the subject at hand.</p>
+
+<h2 id="graphics-you-can-use">Graphics you can use</h2>
+
+<p>Right click to Save As</p>
+
+<p><img src="/assets/images/money-faucet.png" alt="" /><img src="/assets/images/alarm.png" alt="" /><img src="/assets/images/og-image.png" alt="" /><img src="/assets/images/logo.png" alt="" /><img src="/assets/images/home-header-bankers.png" alt="" /></p>
+
+<h2 id="svg-source-code">SVG Source Code</h2>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">width=</span><span class="s">"1949"</span> <span class="na">height=</span><span class="s">"1218"</span> <span class="na">version=</span><span class="s">"1.0"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">xmlns:xlink=</span><span class="s">"http://www.w3.org/1999/xlink"</span> <span class="na">x=</span><span class="s">"0px"</span> <span class="na">y=</span><span class="s">"0px"</span> <span class="na">viewBox=</span><span class="s">"0 0 194.9 121.8"</span> <span class="na">style=</span><span class="s">"enable-background:new 0 0 194.9 121.8;"</span> <span class="na">xml:space=</span><span class="s">"preserve"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">"text/css"</span><span class="nt">&gt;</span>
+    <span class="nc">.st0</span><span class="p">{</span><span class="py">fill</span><span class="p">:</span><span class="m">#DD0000</span><span class="p">;}</span>
+  <span class="nt">&lt;/style&gt;</span>
+  <span class="nt">&lt;path</span> <span class="na">class=</span><span class="s">"st0"</span> <span class="na">d=</span><span class="s">"M46.9,0c6.9,0,10.3,3,10.3,10.2V27c0,7.2-3.5,10.2-10.1,10.2H31.5V0H46.9z M44,29.2c1.8,0,2.4-0.8,2.4-3.1V10.8
+    c0-2.1-0.6-3-2.4-3h-1.9v21.3H44z M80.1,8.7h-9.5v5h8.2v8.8h-8.2v6h9.8v8.8H60.5V0h19.6V8.7z M102.5,0v8.7h-9.3v5h7.9v8.8h-7.9v14.8
+    H83.1V0H102.5z M105,27.4V0h10.4v25.8c0,1.8,0.6,2.8,2.2,2.8c1.6,0,2.2-1,2.2-2.8V0H130v27.4c0,5.8-3.8,10.5-11.7,10.5h-1.7
+    C108.1,37.9,105,33.3,105,27.4z M149.6,20.1c-0.2-2.8-0.2-4.1-0.2-7.3V0h8.5v37.2h-9l-5.5-15.7c-0.8-2.2-1.4-4.4-1.8-6
+    c0.1,1.8,0.2,4.2,0.2,7.3v14.3h-8.6V0h10l4.4,13.6C148.7,16.5,149.2,18.5,149.6,20.1z M176.8,0c6.9,0,10.3,3,10.3,10.2V27
+    c0,7.2-3.5,10.2-10.1,10.2h-15.6V0H176.8z M174,29.2c1.8,0,2.4-0.8,2.4-3.1V10.8c0-2.1-0.6-3-2.4-3h-1.9v21.3H174z M46,68.7v-5.6
+    h10.1v6.3c0,5.5-2.9,10.4-11.3,10.4h-1.8c-8.7,0-11.9-4.2-11.9-11.6V52.8c0-7,3-11.4,11.8-11.4h1.8c8.1,0,11.3,3.8,11.3,10v5.2H46
+    v-4.5c0-1.5-0.5-2.5-2.1-2.5c-1.6,0-2,1-2,2.5v16.6c0,1.8,0.4,2.7,2,2.7C45.5,71.4,46,70.4,46,68.7z M69.6,70h7.9v9.3H59.1V42h10.6
+    V70z M80,79.2V42h10.6v37.2H80z M107.1,79.2l-3-13.6c-1-4.6-1.6-8-2-10.5c0.1,2.7,0.2,6.2,0.2,11v13.1H94V42h11.9l2.2,12.3
+    c0.6,3.2,1,5.3,1.1,6.8c0.2-1.4,0.5-3.5,1.1-6.8l2.3-12.3h11.6v37.2h-8.6V66.2c0-4.8,0.1-8.2,0.2-11c-0.5,2.5-1.1,5.9-2.1,10.5
+    l-3,13.6H107.1z M135.7,74.4l-0.6,4.9h-9l5.8-37.2h13.8l6.4,37.2h-10l-0.7-4.9H135.7z M140.3,66.7l-0.7-5c-0.5-3.8-0.8-6.8-1-9.2
+    c-0.2,2.5-0.5,5.5-1.1,9.2l-0.7,5H140.3z M151,50.5V42h21.7v8.5h-5.9v28.8h-10V50.5H151z M194.7,50.7h-9.5v5h8.2v8.8h-8.2v6h9.8v8.8
+    h-19.9V42h19.6V50.7z M46,110.7v-5.6h10.1v6.3c0,5.5-2.9,10.4-11.3,10.4h-1.8c-8.7,0-11.9-4.2-11.9-11.6V94.8c0-7,3-11.4,11.8-11.4
+    h1.8c8.1,0,11.3,3.8,11.3,10v5.2H46v-4.5c0-1.5-0.5-2.5-2.1-2.5c-1.6,0-2,1-2,2.5v16.6c0,1.8,0.4,2.7,2,2.7
+    C45.5,113.4,46,112.4,46,110.7z M69.7,84v12.7H74V84h10.6v37.2H74V107h-4.3v14.3H59.1V84H69.7z M96,116.4l-0.6,4.9h-9L92.1,84h13.8
+    l6.4,37.2h-10l-0.7-4.9H96z M100.6,108.7l-0.7-5c-0.5-3.8-0.8-6.8-1-9.2c-0.2,2.5-0.6,5.5-1.1,9.2l-0.7,5H100.6z M127.1,121.8h-1.8
+    c-8.6,0-12.1-4.7-12.1-11.2V94.7c0-7,3.5-11.2,12.1-11.2h1.8c8.3,0,12.1,4.2,12.1,11.2v15.8C139.2,117.2,135.3,121.8,127.1,121.8z
+     M126.2,92.1c-1.7,0-2.2,1-2.2,2.8v15.5c0,1.8,0.6,2.7,2.2,2.7c1.5,0,2.2-0.9,2.2-2.7V94.9C128.5,93.2,127.9,92.1,126.2,92.1z
+     M141.4,112.6v-4.4h9.8v3.4c0,1.4,0.6,2.2,2.2,2.2c1.5,0,2.2-0.8,2.2-2.5v-0.3c0-2.2-1-3-2.9-4.2l-5-3.2c-3.8-2.4-5.9-5.2-5.9-10v-1
+    c0-5.8,3.5-9.2,11.6-9.2h1.4c8.7,0,11.2,3.5,11.2,8.5v3.2h-9.8v-2.2c0-1.5-0.7-2.2-2-2.2c-1.5,0-2.2,0.7-2.2,2.1v0.1
+    c0,1.6,0.9,2.3,2.7,3.5l5,3.2c4.4,2.8,6.8,5.4,6.8,10.8v1.1c0,5.7-3.4,10.4-12.2,10.4h-1.4C144.2,121.8,141.4,118,141.4,112.6z
+     M10.1,25.7L8.8,37.2H3l1.3-11.5H0l0.6-4.9h4.3l0.6-6.1H1.2l0.5-4.9h4.3L7.2,0H13l-1.1,9.8h3.9L16.9,0h5.9l-1.2,9.8h4.3l-0.5,4.9H21
+    l-0.7,6.1h4.4l-0.5,4.9h-4.4l-1.4,11.5h-5.8l1.3-11.5H10.1z M11.4,14.7l-0.7,6.1h3.8l0.7-6.1H11.4z"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/path&gt;</span>
+<span class="nt">&lt;/svg&gt;</span>
+</code></pre></div></div>
+
+    </div>
+</div>
+
+
+
+        
+
+        
+    </main>
+
+    <footer class="Chaos-Footer">
+    <div class="Chaos-Wrapper-Narrow">
+        <div class="logo-line">
+            <a class="site-title" rel="author" href="/" title="Defund Climate Chaos">
+                
+                    <img class="main-logo" src="/assets/logo_light.svg" alt="Defund Climate Chaos"/>
+                
+            </a>
+
+            <div class="social-links">
+    
+    
+    
+</div>
+
+        </div>
+        <div class="Credits">
+          
+        </div>
+        <nav>
+            <div class="col">
+              
+                <a class="page-link" href="/partners">Partners</a>
+              
+                <a class="page-link" href="/resources">Resources</a>
+              
+                <a class="page-link" href="/trainings">Trainings</a>
+              
+                <a class="page-link" href="/stories/">Stories</a>
+              
+                <a class="page-link" href="/#join">Sign Up</a>
+              
+            </div>
+        </nav>
+    </div>
+    <div class="">
+    </div>
+    <p>
+      This site was created by <a href="https://tippingpointuk.org">Tipping Point UK</a>,
+      for the Defund Climate Chaos UK Coalition.
+      
+          <p>With thanks to <a href="https://www.davidgundry.co.uk/">David Gundry</a> for the base theme.</p>
+
+      
+    </p>
+    <p>Last site build: 10/15/21 16:51:50</p>
+</footer>
+
+</body>
+<script src=/assets/js.js></script>
+
+</html>
