@@ -18,12 +18,10 @@ blocks:
   map: false
   background_image: ''
   id: what
-- map: true
-  text: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
-  id: ''
+- text: |-
+    # Actions
+
+    {% assign actions = site.actions | sort: "start_date" %}{% include timeline.html data=actions %}
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -110,5 +108,4 @@ header:
     image: "/assets/images/money-border.gif"
     reflect: true
 invert: odd
-
 ---
