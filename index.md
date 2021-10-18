@@ -21,7 +21,14 @@ blocks:
 - text: |-
     # Actions
 
+    This is the timeline of actions on the 29th October:
+
     {% assign actions = site.actions | sort: "start_date" %}{% include timeline.html data=actions %}
+  map: false
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -108,4 +115,5 @@ header:
     image: "/assets/images/money-border.gif"
     reflect: true
 invert: odd
+
 ---
