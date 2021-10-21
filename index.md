@@ -25,7 +25,7 @@ blocks:
 
     {% assign actions = site.actions | sort: "start_date" %}{% include timeline.html data=actions %}
   map: false
-  id: ''
+  id: actions
   buttons: []
   decoration: ''
   background_image: ''
