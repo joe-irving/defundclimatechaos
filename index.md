@@ -110,7 +110,7 @@ header:
     On **October 29th**, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
   buttons:
   - text: Act Now
-    target: "#map"
+    target: "#actions"
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
