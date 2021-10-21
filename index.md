@@ -6,7 +6,7 @@ blocks:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13806
   - text: Join an action
-    target: "#map"
+    target: "#actions"
   decoration: "![](/assets/images/image-2021-10-10-at-9-13-11-am.png)"
   text: "# What’s happening?\n\nOn October 29, the youth climate movement is rising
     up to demand that bankers, insurers and fund managers **Defund Climate Chaos**.\n\nJust
