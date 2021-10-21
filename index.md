@@ -2,29 +2,11 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
-- buttons:
-  - text: Register an action
-    target: https://actionnetwork.org/events/new?event_campaign_id=13806
-  - text: Join an action
-    target: "#map"
-  decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
-  text: |-
-    # What’s happening?
-
-    Today, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
-
-    On the eve of UN climate talks, led by communities on the frontline of climate impacts, people will lay climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
-
-    It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
-  map: false
-  background_image: ''
-  id: what
-- map: true
-  text: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
-  id: ''
+- text: |-
+    <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+    <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+    <ul class="juicer-feed" data-feed-id="defundclimatechaos" data-per="15"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer.io</a></h1></ul>
+  wide: true
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
