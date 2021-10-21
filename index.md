@@ -19,6 +19,15 @@ blocks:
   map: false
   background_image: ''
   id: what
+- buttons: []
+  text: |-
+    # Add your tribute
+
+    {% include signup-form.html %}
+  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
+  map: false
+  background_image: ''
+  id: join
 - map: true
   text: ''
   buttons: []
@@ -58,26 +67,13 @@ blocks:
   text: |-
     # Resources
 
-    Here are all the resources you’ll need to join or organise an action of your own to #DefundClimateChaos on October 29 (and beyond!):
+    Want to keep organising to #DefundClimateChaos beyond today.   Here's all the resources you’ll need to keep taking action throughout COP26 and beyond
 
     {% include resources.html %}
   decoration: ''
   map: false
   background_image: ''
   id: ''
-- buttons: []
-  text: |-
-    # Get updates
-
-    Sign up to get all the latest news and materials you'll need to take action on October 29.
-
-    [Find an event on the map](https://defundclimatechaos.uk/#map) to attend near you or [sign up to host your own event](https://actionnetwork.org/events/04aef390f9ed2e182154029889a339e3e6b27d36/edit).
-
-    {% include signup-form.html %}
-  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
-  map: false
-  background_image: ''
-  id: join
 - buttons: []
   text: |-
     # Find out more
@@ -115,8 +111,8 @@ header:
 
     Today, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
   buttons:
-  - text: Act Now
-    target: "#map"
+  - text: Add to the memorial
+    target: "#tribute"
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
