@@ -2,6 +2,15 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
+- map: false
+  text: |-
+    # Latest highlights
+
+    \[social media feeds aggregated\]
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13806
