@@ -2,17 +2,6 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
-- map: false
-  text: |-
-    # What's next?
-
-    COP26 opens on Sunday in Glasgow
-
-    6th November - Global Day for Climate Justice - marches and rallies around the world. \[link\]
-  id: ''
-  buttons: []
-  decoration: ''
-  background_image: "/assets/images/main-logo-gda.jpeg"
 - buttons:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13806
@@ -45,6 +34,17 @@ blocks:
   decoration: ''
   background_image: ''
   id: ''
+- map: false
+  text: |-
+    # What's next?
+
+    COP26 opens on Sunday in Glasgow
+
+    6th November - Global Day for Climate Justice - marches and rallies around the world. \[link\]
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: "/assets/images/main-logo-gda.jpeg"
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -66,7 +66,7 @@ blocks:
   - text: All trainings
     target: "/trainings"
   text: |-
-    # Training and Action Planning Sessions
+    # Upcoming events
 
     {% assign events = site.trainings | sort: "start_date" %}
     {% include events-gallery.html date_field='start_date' %}
