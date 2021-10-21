@@ -12,7 +12,7 @@ blocks:
   id: ''
   buttons: []
   decoration: ''
-  background_image: ''
+  background_image: "/assets/images/main-logo-gda.jpeg"
 - buttons:
   - text: Register an action
     target: https://actionnetwork.org/events/new?event_campaign_id=13806
