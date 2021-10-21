@@ -1,4 +1,17 @@
 ---
+header:
+- url: "/#trainings"
+  weight: 4
+  title: Trainings
+- url: "/#join"
+  weight: 3
+  title: Updates
+- url: "/#resources"
+  title: Resources
+  weight: 2
+- url: "/#actions"
+  title: Take Action
+  weight: 1
 footer:
 - url: "/#join"
   weight: 5
@@ -11,17 +24,4 @@ footer:
   weight: 2
 - url: "/partners"
   title: Partners
-  weight: 1
-header:
-- url: "/#trainings"
-  weight: 4
-  title: Trainings
-- url: "/#join"
-  weight: 3
-  title: Updates
-- url: "/#resources"
-  title: Resources
-  weight: 2
-- url: "/#map"
-  title: Take Action
   weight: 1
