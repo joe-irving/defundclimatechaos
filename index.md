@@ -18,12 +18,13 @@ blocks:
   map: false
   background_image: ''
   id: what
+- map: true
 - text: |-
-    # Actions
+    # London Actions
 
-    This is the timeline of actions on the 29th October:
+    This is the timeline of actions in London on the 29th October:
 
-    {% assign actions = site.actions | sort: "start_date" %}{% include timeline.html data=actions %}
+    {% assign actions = site.actions | where: "london",true| sort: "start_date" %}{% include timeline.html data=actions %}
   map: false
   id: actions
   buttons: []
