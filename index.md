@@ -17,7 +17,7 @@ blocks:
     e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
     </script>
-  id: ''
+  id: highlights
   buttons: []
   decoration: ''
   background_image: ''
