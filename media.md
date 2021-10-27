@@ -9,7 +9,6 @@ image: ''
 credits: ''
 permalink: media
 summary: Press contacts, interview requests, latest news and multimedia assets
-published: false
 
 ---
 # Media contact
