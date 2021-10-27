@@ -9,6 +9,10 @@ image: ''
 credits: ''
 permalink: media
 summary: Press contacts, interview requests, latest news and multimedia assets
+menu:
+  header:
+    weight: 4
+    title: Press
 
 ---
 # Media contact
@@ -80,4 +84,4 @@ The global day of action will be a moment to honour their memories and ensure th
 
 **For footage and images from the day of action pls see** [**here**](https://350org.widencollective.com/portals/nkryeayx/PeopletotheFrontportal)
 
-(1) [Climate Change Linked to 5 Million Deaths a Year, New Study Shows](https://www.bloomberg.com/news/articles/2021-07-07/climate-change-linked-to-5-million-deaths-a-year-new-study-shows) 
+(1) [Climate Change Linked to 5 Million Deaths a Year, New Study Shows](https://www.bloomberg.com/news/articles/2021-07-07/climate-change-linked-to-5-million-deaths-a-year-new-study-shows)

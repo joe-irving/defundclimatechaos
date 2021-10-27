@@ -1,21 +1,24 @@
 ---
-footer:
-- url: "/#join"
-  weight: 5
-  title: Sign Up
-- url: "/trainings"
-  title: Trainings
-  weight: 3
-- url: "/resources"
+header:
+- url: "/act/#resources"
   title: Resources
+  weight: 3
+- url: "/"
+  title: Live
   weight: 2
+- url: "/act"
+  title: Take Action
+  weight: 1
+footer:
 - url: "/partners"
   title: Partners
   weight: 1
-header:
-- url: "/act"
-  title: Take Action
-- url: "/"
-  title: Live
-- url: "/act/#resources"
+- url: "/resources"
   title: Resources
+  weight: 2
+- url: "/trainings"
+  title: Trainings
+  weight: 3
+- url: "/#join"
+  weight: 5
+  title: Sign Up
