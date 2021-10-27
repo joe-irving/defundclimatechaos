@@ -8,7 +8,7 @@ top_quote: '"For me, this is personal. I know the families in Bulacan, Philippin
 image: ''
 credits: ''
 permalink: media
-summary: Press contacts, latest news and multimedia assets
+summary: Press contacts, interview requests, latest news and multimedia assets
 published: false
 
 ---
