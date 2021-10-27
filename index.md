@@ -10,9 +10,14 @@ blocks:
     target: "/media"
   decoration: ''
   background_image: ''
-- embed: |-
-    {% include curator.html %}
-
+  embed: ''
+- embed: "{% include curator.html %}"
+  map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 credits: ''
 header:
   full: true
@@ -27,7 +32,7 @@ header:
     help spread the word online using **#DefundClimateChaos**."
   buttons:
   - text: Latest highlights
-    target: "#highlights"
+    target: "#feed"
   - text: Add to the memorial
     target: "#tribute"
   border_bottom:
