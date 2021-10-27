@@ -144,6 +144,8 @@ header:
 
     Join us in person if you can, light a lantern for climate justice at 6pm and help spread the word online using **#DefundClimateChaos**.
   buttons:
+  - text: Latest highlights
+    target: "#highlights"
   - text: Add to the memorial
     target: "#tribute"
   border_bottom:
