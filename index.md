@@ -2,11 +2,37 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
-- text: |-
-    <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
-    <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-    <ul class="juicer-feed" data-feed-id="defundclimatechaos" data-per="15"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer.io</a></h1></ul>
-  wide: true
+- embed: |-
+    <!-- Place <div> tag where you want the feed to appear -->
+    <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+    <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+    <script type="text/javascript">
+    /* curator-feed-default-feed-layout */
+    (function(){
+    var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+    i.src = "https://cdn.curator.io/published/6c7a9bd6-3d0a-407a-964c-3357a547bf40.js";
+    e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+    })();
+    </script>
+- buttons: []
+  text: |-
+    # Join the movement
+
+    As the COP26 discussions begin in Glasgow, we start our
+
+    On 6th November, we come back together to at the National Climate Justice memorial
+    as part of the [global day for climate justice](https://cop26coalition.org/gda/). Sign
+    up below to be part of the London action, and see the [map](https://cop26coalition.org/map/)
+    for all the other actions.
+
+    {%  assign an_event_slug = "https://actionnetwork.org/events/london-global-day-of-action-for-climate-justice-6th-nov" | split: "://" | last | split: "/" | last %}
+    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
+    <script src='https://actionnetwork.org/widgets/v4/event/{{ an_event_slug }}?format=js&source=widget'></script>
+    <div id='can-event-area-{{ an_event_slug }}' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
+  map: false
+  background_image: ''
+  id: join
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -24,18 +50,6 @@ blocks:
   map: false
   background_image: ''
   id: why
-- buttons:
-  - text: All trainings
-    target: "/trainings"
-  text: |-
-    # Training and Action Planning Sessions
-
-    {% assign events = site.trainings | sort: "start_date" %}
-    {% include events-gallery.html date_field='start_date' %}
-  decoration: ''
-  background_image: "/assets/images/xr-shrewsbury-hsbc-brandalism.jpeg"
-  map: false
-  id: trainings
 - buttons: []
   text: |-
     # Resources
@@ -47,19 +61,7 @@ blocks:
   map: false
   background_image: ''
   id: ''
-- buttons: []
-  text: |-
-    # Get updates
 
-    Sign up to get all the latest news and materials you'll need to take action on October 29.
-
-    [Find an event on the map](https://defundclimatechaos.uk/#map) to attend near you or [sign up to host your own event](https://actionnetwork.org/events/04aef390f9ed2e182154029889a339e3e6b27d36/edit).
-
-    {% include signup-form.html %}
-  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
-  map: false
-  background_image: ''
-  id: join
 - buttons: []
   text: |-
     # Find out more
@@ -97,8 +99,8 @@ header:
 
     Today, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
   buttons:
-  - text: Act Now
-    target: "#map"
+  - text: Join us
+    target: "#join"
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
