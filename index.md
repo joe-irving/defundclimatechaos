@@ -55,7 +55,7 @@ blocks:
   id: ''
   buttons:
   - target: https://cop26coalition.org/gda/
-    text: 6 November COP26 actions
+    text: Find an action near you on 6 November
   decoration: ''
   background_image: "/assets/images/main-logo-gda.jpeg"
 - buttons:
