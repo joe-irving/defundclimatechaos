@@ -1,7 +1,7 @@
 {% if include.block.map %}
 <iframe src="/actions" class="Chaos-Map" id="map"></iframe>
 {% elsif include.block.embed.size > 0 %}
-{{ include.block.embed }}
+{{ include.block.embed | liquify }}
 {% else %}
 <div class="Chaos-Section">
   {% capture buttons %}

@@ -13,9 +13,9 @@ footer:
   title: Partners
   weight: 1
 header:
-- url: "/#join"
+- url: "/act"
   title: Take Action
-- url: "/#feed"
-  title: Updates
-- url: "/#resources"
+- url: "/"
+  title: Live
+- url: "/act/#resources"
   title: Resources
