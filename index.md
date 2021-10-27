@@ -2,7 +2,10 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
-- embed: |-
+- map: false
+  text: |-
+    # Latest highlights
+
     <!-- Place <div> tag where you want the feed to appear -->
     <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
     <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
@@ -14,16 +17,22 @@ blocks:
     e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
     </script>
-- buttons: []
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+- buttons:
+  - text: Register an action
+    target: https://actionnetwork.org/events/new?event_campaign_id=13806
+  - text: Join an action
+    target: "#map"
+  decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
   text: |-
     # Join the movement
 
-    As the COP26 discussions begin in Glasgow, we start our
+    Today, the youth climate movement around the world are rising in their thousands with over 100 actions demanding that bankers, insurers and fund managers **Defund Climate Chaos**.
 
-    On 6th November, we come back together to at the National Climate Justice memorial
-    as part of the [global day for climate justice](https://cop26coalition.org/gda/). Sign
-    up below to be part of the London action, and see the [map](https://cop26coalition.org/map/)
-    for all the other actions.
+    On the eve of UN climate talks, communities on the frontline of climate impacts are laying climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
 
     {%  assign an_event_slug = "https://actionnetwork.org/events/london-global-day-of-action-for-climate-justice-6th-nov" | split: "://" | last | split: "/" | last %}
     <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
@@ -32,7 +41,37 @@ blocks:
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   map: false
   background_image: ''
+  id: what
+- buttons: []
+  text: |-
+    # Add your tribute
+
+    {% include signup-form.html %}
+  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
+  map: false
+  background_image: ''
   id: join
+- map: true
+  text: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+  id: ''
+- map: false
+  text: "# What's next? 6 November\n\nCOP26 opens on Sunday in Glasgow and on 6th
+    November the COP26 coalition have called a [Global Day for Climate Justice](https://cop26coalition.org/gda/)
+    with mass marches, rallies and actions around the world. \n\n### In Glasgow? \n\n[Join
+    the Global Day of Action for Climate Justice in Glasgow]() from 11.30am\n\n###
+    In London? \n\nJoin us back at the Bank of England at 12pm on 6th November for
+    the [Climate Reparations Block](). \n\n### Other cities?\n\n[Join Global Day for
+    Climate Justice where you are](https://cop26coalition.org/gda/) - 100s of marches
+    and rallies around the world. "
+  id: ''
+  buttons:
+  - target: https://cop26coalition.org/gda/
+    text: Find an action near you on 6 November
+  decoration: ''
+  background_image: "/assets/images/main-logo-gda.jpeg"
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -50,18 +89,29 @@ blocks:
   map: false
   background_image: ''
   id: why
+- buttons:
+  - text: All trainings
+    target: "/trainings"
+  text: |-
+    # Upcoming events
+
+    {% assign events = site.trainings | sort: "start_date" %}
+    {% include events-gallery.html date_field='start_date' %}
+  decoration: ''
+  background_image: "/assets/images/xr-shrewsbury-hsbc-brandalism.jpeg"
+  map: false
+  id: trainings
 - buttons: []
   text: |-
     # Resources
 
-    Here are all the resources you’ll need to join or organise an action of your own to #DefundClimateChaos on October 29 (and beyond!):
+    Want to keep organising to #DefundClimateChaos beyond today.   Here's all the resources you’ll need to keep taking action throughout COP26 and beyond
 
     {% include resources.html %}
   decoration: ''
   map: false
   background_image: ''
   id: ''
-
 - buttons: []
   text: |-
     # Find out more
@@ -99,8 +149,8 @@ header:
 
     Today, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
   buttons:
-  - text: Join us
-    target: "#join"
+  - text: Add to the memorial
+    target: "#tribute"
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true

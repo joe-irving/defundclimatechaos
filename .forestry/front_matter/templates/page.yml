@@ -56,6 +56,7 @@ fields:
   label: Summary
 pages:
 - faqs.md
+- media.md
 - partners.md
 - resources.md
 - stories.md
