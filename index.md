@@ -6,7 +6,17 @@ blocks:
   text: |-
     # Latest highlights
 
+
+  id: highlights
+  buttons: []
+  decoration: ''
+  background_image: ''
+  buttons:
+    - text: Press Release
+      target: /media
+- embed: |-
     <!-- Place <div> tag where you want the feed to appear -->
+    <div id="feed"></div>
     <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
     <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
     <script type="text/javascript">
@@ -17,15 +27,12 @@ blocks:
     e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
     </script>
-  id: highlights
-  buttons: []
-  decoration: ''
-  background_image: ''
+
 - buttons:
-  - text: Register an action
-    target: https://actionnetwork.org/events/new?event_campaign_id=13806
-  - text: Join an action
+  - text: Act today
     target: "#map"
+  - text: What next?
+    target: "#next"
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   text: |-
     # Join the movement
@@ -33,29 +40,25 @@ blocks:
     Today, the youth climate movement around the world are rising in their thousands with over 100 actions demanding that bankers, insurers and fund managers **Defund Climate Chaos**.
 
     On the eve of UN climate talks, communities on the frontline of climate impacts are laying climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
-
-    {%  assign an_event_slug = "https://actionnetwork.org/events/london-global-day-of-action-for-climate-justice-6th-nov" | split: "://" | last | split: "/" | last %}
-    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
-    <script src='https://actionnetwork.org/widgets/v4/event/{{ an_event_slug }}?format=js&source=widget'></script>
-    <div id='can-event-area-{{ an_event_slug }}' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
-  map: false
-  background_image: ''
-  id: what
-- buttons: []
-  text: |-
-    # Add your tribute
-
-    {% include signup-form.html %}
-  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   map: false
   background_image: ''
   id: join
 - map: true
-  text: ''
-  buttons: []
-  decoration: ''
+- buttons:
+    - text: See map
+      target: "#tribute-map"
+  text: |-
+    # Add your tribute
+
+    Add your tribute to the National Climate Memorial today, and see it appear below on the map.
+
+    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/form/your-message-for-the-national-climate-justice-memorial?format=js&source=widget'></script><div id='can-form-area-your-message-for-the-national-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+  decoration: "![](/assets/images/alarm.png)"
+  map: false
   background_image: ''
-  id: ''
+  id: tribute
+- embed: |-
+    <iframe src="/boe-memorial" id="tribute-map" class="Chaos-Map" style="height: 80vh;width: 100%;border: none;padding: 0;margin: 0;"  height=100% width=100% frameborder="0"></iframe>
 - map: false
   text: |-
     # What's next? 6 November
@@ -64,7 +67,11 @@ blocks:
 
     ### In Glasgow?
 
-    [Join the Global Day of Action for Climate Justice in Glasgow]() from 11.30am
+    Join the Global Day of Action for Climate Justice in Glasgow from 11.30am:
+
+    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
+    <script src='https://actionnetwork.org/widgets/v4/event/glasgow-global-day-of-action-for-climate-justice-6th-nov?format=js&source=widget'></script>
+    <div id='can-event-area-glasgow-global-day-of-action-for-climate-justice-6th-nov' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
 
     ### In London?
 
@@ -73,7 +80,7 @@ blocks:
     ### Other cities?
 
     [Join Global Day for Climate Justice where you are](https://cop26coalition.org/gda/) - 100s of marches and rallies around the world.
-  id: ''
+  id: 'next'
   buttons:
   - target: https://cop26coalition.org/gda/
     text: Find an action near you on 6 November
@@ -92,7 +99,7 @@ blocks:
     Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they still fund fossil fuels.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
-  decoration: "![](/assets/images/alarm.png)"
+  decoration:
   map: false
   background_image: ''
   id: why
@@ -122,6 +129,8 @@ blocks:
     # Partners
 
     This day of action is supported by a number of UK groups.  We are working closely with allied networks all around the world as part of the [Defund Climate Chaos global day of action](http://defundclimatechaos.org).
+
+    {% include partner-list.html background='light' %}
   buttons:
   - text: Add your group
     target: "/partners/#register-group"
