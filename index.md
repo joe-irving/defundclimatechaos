@@ -26,7 +26,7 @@ blocks:
     target: https://actionnetwork.org/events/new?event_campaign_id=13806
   - text: Join an action
     target: "#map"
-  decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
+  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   text: |-
     # Join the movement
 
@@ -38,7 +38,6 @@ blocks:
     <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
     <script src='https://actionnetwork.org/widgets/v4/event/{{ an_event_slug }}?format=js&source=widget'></script>
     <div id='can-event-area-{{ an_event_slug }}' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
-  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   map: false
   background_image: ''
   id: what
@@ -151,11 +150,11 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    # Turn off the money pipeline to fossil fuels. Now.
+    # It's happening now
 
-    UK banks, investors and insurers are fuelling climate chaos by pumping billions of pounds into fossil fuels each year.
+    Throughout the day, as thousands of people rise up around the world, we'll bring you all the latest from actions outside the UK banks, investors and insurers  fuelling climate chaos.
 
-    Today, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
+    Join us in person if you can, light a lantern for climate justice at 6pm and help spread the word online using **#DefundClimateChaos**.
   buttons:
   - text: Add to the memorial
     target: "#tribute"
