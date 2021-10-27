@@ -86,6 +86,7 @@ jekyll_get_json:
 plugins:
 - jekyll-get-json
 - jekyll-airtable-import
+- jekyll-menus
 nav_links: []
 map:
   lat: ''
