@@ -58,20 +58,28 @@ blocks:
   background_image: ''
   id: ''
 - map: false
-  text: "# What's next? 6 November\n\nCOP26 opens on Sunday in Glasgow and on 6th
-    November the COP26 coalition have called a [Global Day for Climate Justice](https://cop26coalition.org/gda/)
-    with mass marches, rallies and actions around the world. \n\n### In Glasgow? \n\n[Join
-    the Global Day of Action for Climate Justice in Glasgow]() from 11.30am\n\n###
-    In London? \n\nJoin us back at the Bank of England at 12pm on 6th November for
-    the [Climate Reparations Block](). \n\n### Other cities?\n\n[Join Global Day for
-    Climate Justice where you are](https://cop26coalition.org/gda/) - 100s of marches
-    and rallies around the world. "
+  text: |-
+    # What's next? 6 November
+
+    COP26 opens on Sunday in Glasgow and on 6th November the COP26 coalition have called a [Global Day for Climate Justice](https://cop26coalition.org/gda/) with mass marches, rallies and actions around the world.
+
+    ### In Glasgow?
+
+    [Join the Global Day of Action for Climate Justice in Glasgow]() from 11.30am
+
+    ### In London?
+
+    Join us back at the Bank of England at 12pm on 6th November for the [Climate Reparations Block](https://climatereparations.uk/#join).
+
+    ### Other cities?
+
+    [Join Global Day for Climate Justice where you are](https://cop26coalition.org/gda/) - 100s of marches and rallies around the world.
   id: ''
   buttons:
   - target: https://cop26coalition.org/gda/
     text: Find an action near you on 6 November
-  decoration: ''
-  background_image: "/assets/images/main-logo-gda.jpeg"
+  decoration: "![](/assets/images/main-logo-gda.jpeg)"
+  background_image: ''
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
