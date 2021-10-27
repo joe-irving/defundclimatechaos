@@ -96,18 +96,6 @@ blocks:
   map: false
   background_image: ''
   id: why
-- buttons:
-  - text: All trainings
-    target: "/trainings"
-  text: |-
-    # Upcoming events
-
-    {% assign events = site.trainings | sort: "start_date" %}
-    {% include events-gallery.html date_field='start_date' %}
-  decoration: ''
-  background_image: "/assets/images/xr-shrewsbury-hsbc-brandalism.jpeg"
-  map: false
-  id: trainings
 - buttons: []
   text: |-
     # Resources
