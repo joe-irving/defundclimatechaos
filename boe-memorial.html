@@ -1,0 +1,49 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    <link rel="stylesheet" href="https://lloydsclimatememorial.org/assets/css/map.css">
+    <!-- Leaflet Mapping -->
+    <link rel="stylesheet" href="https://lloydsclimatememorial.org/assets/css/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="https://lloydsclimatememorial.org/assets/css/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script src="https://lloydsclimatememorial.org/assets/js/leaflet.markercluster-src.js"></script>
+    <script src="https://lloydsclimatememorial.org/assets/js/papaparse.min.js" charset="utf-8"></script>
+    <div class="Chaos-Wrapper">
+      <div class="Chaos-Section">
+
+      </div>
+    </div>
+    <div class="Message-Map-Container">
+      <div id="Message-Map"></div>
+      <div class="Message-Map-Overlay">
+        <div class="Message-List">
+        </div>
+      </div>
+    </div>
+    <script src="https://lloydsclimatememorial.org/assets/js/message-map.js"></script>
+    <script type="text/javascript">
+      var messagesCsvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTG7LxKOhrHP3u6cLZzFmlakidNv2y2ATAu_7WyeL5xnv9VCIGTd72mYRj8OBxBzLoYXdpQkUtmSud7/pub?gid=2082787978&single=true&output=csv";
+      let messagesData;
+
+      Papa.parse(messagesCsvUrl, {
+        download: true,
+        header: true,
+        complete: function(results) {
+          messagesData = results.data.filter( function(l){
+            return l['location'] != "";
+          });
+          buildMap();
+        }
+      });
+    </script>
+  </body>
+</html>
