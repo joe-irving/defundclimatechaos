@@ -57,19 +57,19 @@ Among those planning to take part in the Day of Action are Greta Thunberg; Vanes
 
 **Steve Melia, activist and former VP of Bank of America stated:**
 
-"While fossil fuel companies are obvious culprits of climate destruction, there’s a villain behind the scenes: the financial institutions who support them. Banks need to stop lending and insuring the companies extracting fossil fuels. Many people are unaware that their savings or pensions are invested in dirty assets. Fossil fuel investments are like the sub-prime mortgages which triggered the global recession in the late 2000s. Their value will collapse at some point in the future - the only thing we can't predict is when."
+> "While fossil fuel companies are obvious culprits of climate destruction, there’s a villain behind the scenes: the financial institutions who support them. Banks need to stop lending and insuring the companies extracting fossil fuels. Many people are unaware that their savings or pensions are invested in dirty assets. Fossil fuel investments are like the sub-prime mortgages which triggered the global recession in the late 2000s. Their value will collapse at some point in the future - the only thing we can't predict is when."
 
 **Joseph Sikulu, Pacific Climate Warriors said:**
 
-"Financial institutions that continue to invest in dirty fossil fuel projects are also investing in the destruction of our islands and our homes. It’s time for the corporations who have caused this crisis to be held accountable. The science is clear. We need to do everything we can to limit global warming to 1.5 degrees, the survival of our islands depends on that. To get there we need to defund the climate chaos. "
+> "Financial institutions that continue to invest in dirty fossil fuel projects are also investing in the destruction of our islands and our homes. It’s time for the corporations who have caused this crisis to be held accountable. The science is clear. We need to do everything we can to limit global warming to 1.5 degrees, the survival of our islands depends on that. To get there we need to defund the climate chaos. "
 
 **Mitzi Jonelle Tan, activist said:**
 
-‘For me this is personal. I know the families in Bulacan, Philippines forced from their homes because of a project funded by Standard Chartered Bank. That’s why I’ve travelled thousands of miles to stand on the steps of the bank’s HQ in the City of London and demand they defund fossil fuel.’
+> ‘For me this is personal. I know the families in Bulacan, Philippines forced from their homes because of a project funded by Standard Chartered Bank. That’s why I’ve travelled thousands of miles to stand on the steps of the bank’s HQ in the City of London and demand they defund fossil fuel.’
 
 Teams of specially trained activists will create giant murals and memorials to remember the 5 million people killed by extreme weather every year. Their lives will be commemorated with climate justice lanterns, testimonies and murals painted with ash from forest fires and mud from recent floods.
 
-Climate change has already taken the lives of millions of people around the world. Extreme weather has been linked to nearly 10% of global deaths - resulting in around five million deaths every year.
+Climate breakdown has already taken the lives of millions of people around the world. Extreme weather has been linked to nearly 10% of global deaths - resulting in around five million deaths every year. (1)
 
 The global day of action will be a moment to honour their memories and ensure that they did not die in vain. Activists will call on financial institutions to honour them by committing to cease funding fossil fuels.
 
@@ -81,5 +81,4 @@ The global day of action will be a moment to honour their memories and ensure th
 
 **For footage and images from the day of action pls see** [**here**](https://350org.widencollective.com/portals/nkryeayx/PeopletotheFrontportal)
 
-Sources:  
-[Climate Change Linked to 5 Million Deaths a Year, New Study Shows](https://www.bloomberg.com/news/articles/2021-07-07/climate-change-linked-to-5-million-deaths-a-year-new-study-shows) 
+(1) [Climate Change Linked to 5 Million Deaths a Year, New Study Shows](https://www.bloomberg.com/news/articles/2021-07-07/climate-change-linked-to-5-million-deaths-a-year-new-study-shows) 
