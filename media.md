@@ -71,7 +71,7 @@ Teams of specially trained activists will create giant murals and memorials to r
 
 Climate breakdown has already taken the lives of millions of people around the world. Extreme weather has been linked to nearly 10% of global deaths - resulting in around five million deaths every year. (1)
 
-The global day of action will be a moment to honour their memories and ensure that they did not die in vain. Activists will call on financial institutions to honour them by committing to cease funding fossil fuels.
+The global day of action will be a moment to honour their memories and ensure that they did not die in vain. Activists will call on financial institutions to honour them by committing to cease funding fossil fuels on the eve of COP26 climate negotiations.
 
 **ENDS**
 
