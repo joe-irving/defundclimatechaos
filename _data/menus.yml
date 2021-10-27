@@ -4,7 +4,7 @@ header:
   title: Resources
   weight: 3
 - url: "/"
-  title: " \U0001F534 Live"
+  title: "\U0001F534 Live"
   weight: 2
 - url: "/act"
   title: Take Action
