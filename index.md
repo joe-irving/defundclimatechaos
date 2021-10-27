@@ -3,17 +3,13 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - map: false
-  text: |-
-    # Latest highlights
-
-
+  text: "# Latest highlights"
   id: highlights
-  buttons: []
+  buttons:
+  - text: Press Release
+    target: "/media"
   decoration: ''
   background_image: ''
-  buttons:
-    - text: Press Release
-      target: /media
 - embed: |-
     {% include curator.html %}
 
