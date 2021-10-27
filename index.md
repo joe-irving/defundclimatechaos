@@ -3,17 +3,13 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - map: false
-  text: |-
-    # Latest highlights
-
-
+  text: "# Latest highlights"
   id: highlights
-  buttons: []
+  buttons:
+  - text: Press Release
+    target: "/media"
   decoration: ''
   background_image: ''
-  buttons:
-    - text: Press Release
-      target: /media
 - embed: |-
     <!-- Place <div> tag where you want the feed to appear -->
     <div id="feed"></div>
@@ -27,7 +23,12 @@ blocks:
     e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
     })();
     </script>
-
+  map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
   - text: Act today
     target: "#map"
@@ -44,9 +45,14 @@ blocks:
   background_image: ''
   id: join
 - map: true
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
-    - text: See map
-      target: "#tribute-map"
+  - text: See map
+    target: "#tribute-map"
   text: |-
     # Add your tribute
 
@@ -57,8 +63,14 @@ blocks:
   map: false
   background_image: ''
   id: tribute
-- embed: |-
-    <iframe src="/boe-memorial" id="tribute-map" class="Chaos-Map" style="height: 80vh;width: 100%;border: none;padding: 0;margin: 0;"  height=100% width=100% frameborder="0"></iframe>
+- embed: '<iframe src="/boe-memorial" id="tribute-map" class="Chaos-Map" style="height:
+    80vh;width: 100%;border: none;padding: 0;margin: 0;"  height=100% width=100% frameborder="0"></iframe>'
+  map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - map: false
   text: |-
     # What's next? 6 November
@@ -67,7 +79,7 @@ blocks:
 
     ### In Glasgow?
 
-    Join the Global Day of Action for Climate Justice in Glasgow from 11.30am:
+    Join the [Global Day of Action for Climate Justice in Glasgow](https://actionnetwork.org/events/glasgow-global-day-of-action-for-climate-justice-6th-nov "Glasgow March for climate justice") from 11.30am:
 
     <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
     <script src='https://actionnetwork.org/widgets/v4/event/glasgow-global-day-of-action-for-climate-justice-6th-nov?format=js&source=widget'></script>
@@ -80,7 +92,7 @@ blocks:
     ### Other cities?
 
     [Join Global Day for Climate Justice where you are](https://cop26coalition.org/gda/) - 100s of marches and rallies around the world.
-  id: 'next'
+  id: next
   buttons:
   - target: https://cop26coalition.org/gda/
     text: Find an action near you on 6 November
@@ -99,7 +111,7 @@ blocks:
     Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they still fund fossil fuels.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
-  decoration:
+  decoration: ''
   map: false
   background_image: ''
   id: why
