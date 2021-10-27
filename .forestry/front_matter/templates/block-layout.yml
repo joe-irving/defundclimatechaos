@@ -112,6 +112,15 @@ fields:
     label: Background Image
     showOnly:
       field: map
+  - name: embed
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Embed
   config:
     min: 
     max: 
