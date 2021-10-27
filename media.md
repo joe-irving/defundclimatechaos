@@ -3,7 +3,8 @@ layout: page
 tags: []
 title: 'Media '
 top_image: ''
-top_quote: '"quote from the memorial"'
+top_quote: '"For me, this is personal. I know the families in Bulacan, Philippines
+  forced from their homes because of a project funded by Standard Chartered Bank"'
 image: ''
 credits: ''
 permalink: media
