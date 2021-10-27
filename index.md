@@ -56,8 +56,8 @@ blocks:
   buttons:
   - target: https://cop26coalition.org/gda/
     text: Find an action near you on 6 November
-  decoration: ''
-  background_image: "/assets/images/main-logo-gda.jpeg"
+  decoration: "![](/assets/images/main-logo-gda.jpeg)"
+  background_image: ''
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
