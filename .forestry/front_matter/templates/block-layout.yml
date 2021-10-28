@@ -156,5 +156,6 @@ fields:
   label: Image
   description: Image displayed on link preveiws
 pages:
+- act.md
 - index.md
 - index.md

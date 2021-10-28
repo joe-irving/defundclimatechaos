@@ -20,10 +20,17 @@ blocks:
   map: false
   background_image: ''
   id: join
+  embed: ''
 - map: true
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+  embed: ''
 - buttons:
-    - text: See map
-      target: "#tribute-map"
+  - text: See map
+    target: "#tribute-map"
   text: |-
     # Add your tribute
 
@@ -34,8 +41,15 @@ blocks:
   map: false
   background_image: ''
   id: tribute
-- embed: |-
-    <iframe src="/boe-memorial" id="tribute-map" class="Chaos-Map" style="height: 80vh;width: 100%;border: none;padding: 0;margin: 0;"  height=100% width=100% frameborder="0"></iframe>
+  embed: ''
+- embed: '<iframe src="/boe-memorial" id="tribute-map" class="Chaos-Map" style="height:
+    80vh;width: 100%;border: none;padding: 0;margin: 0;"  height=100% width=100% frameborder="0"></iframe>'
+  map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - map: false
   text: |-
     # What's next? 6 November
@@ -57,12 +71,13 @@ blocks:
     ### Other cities?
 
     [Join Global Day for Climate Justice where you are](https://cop26coalition.org/gda/) - 100s of marches and rallies around the world.
-  id: 'next'
+  id: next
   buttons:
   - target: https://cop26coalition.org/gda/
     text: Find an action near you on 6 November
   decoration: "![](/assets/images/main-logo-gda.jpeg)"
   background_image: ''
+  embed: ''
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -76,10 +91,11 @@ blocks:
     Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they still fund fossil fuels.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
-  decoration:
+  decoration: ''
   map: false
   background_image: ''
   id: why
+  embed: ''
 - buttons: []
   text: |-
     # Resources
@@ -91,6 +107,7 @@ blocks:
   map: false
   background_image: ''
   id: ''
+  embed: ''
 - buttons: []
   text: |-
     # Find out more
@@ -102,6 +119,7 @@ blocks:
   map: false
   background_image: ''
   id: faqs
+  embed: ''
 - text: |-
     # Partners
 
@@ -117,7 +135,14 @@ blocks:
   map: false
   background_image: ''
   id: partners
+  embed: ''
 credits: ''
 invert: even
+header:
+  text: ''
+  buttons: []
+  border_bottom:
+    image: ''
+    reflect: false
 
 ---
