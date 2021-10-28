@@ -2,7 +2,6 @@
 layout: page
 image: "/assets/images/dcc-og-image.jpeg"
 blocks:
-
 - map: false
   text: "# Latest highlights"
   id: highlights
@@ -98,7 +97,7 @@ blocks:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
   text: |-
-    # Why #DefundClimateChoas?
+    # Why?
 
     ## **With enough people power, we can force financiers to defund climate chaos. Join us.**
 
@@ -152,7 +151,6 @@ blocks:
   background_image: ''
   id: partners
   embed: ''
-
 credits: ''
 header:
   full: true
