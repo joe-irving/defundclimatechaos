@@ -1,14 +1,14 @@
 ---
 header:
-- url: "/act/#resources"
-  title: Resources
-  weight: 3
+- url: "/#join"
+  title: Act
+  weight: 1
 - url: "/#feed"
   title: "\U0001F534 Live"
   weight: 2
-- url: "/act"
-  title: Act
-  weight: 1
+- url: "/#resources"
+  title: Resources
+  weight: 3
 footer:
 - url: "/partners"
   title: Partners
