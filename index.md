@@ -1,6 +1,6 @@
 ---
 layout: page
-image: "/assets/images/og-image.png"
+image: "/assets/images/dcc-og-image.jpeg"
 blocks:
 - map: false
   text: "# Latest highlights"
