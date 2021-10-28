@@ -4,7 +4,8 @@ tags: []
 title: 'Media '
 top_image: ''
 top_quote: '"For me, this is personal. I know the families in Bulacan, Philippines
-  forced from their homes because of a project funded by Standard Chartered Bank"'
+  forced from their homes because of a project funded by Standard Chartered Bank"
+  Mitzi Tan, Fridays for Future Philippines'
 image: ''
 credits: ''
 permalink: media
@@ -17,7 +18,7 @@ menu:
 ---
 # Media contact
 
-For all press enquiries, interviews and bookings please contact Tommy Vickerstaff [tommy.vickerstaff@350.org](mailto:tommy.vickerstaff@350.org) / 07854 047446 or [dayofaction@89up.org](mailto:dayofaction@89up.org) 
+For all press enquiries, interviews and bookings please contact Tommy Vickerstaff [tommy.vickerstaff@350.org](mailto:tommy.vickerstaff@350.org) / 07854 047446 or [dayofaction@89up.org](mailto:dayofaction@89up.org)
 
 ## Spokespeople
 
@@ -42,8 +43,8 @@ Available for download and media use at this [multimedia portal](https://350org.
 * **Young campaigners put global finance centre stage on the eve of UN Climate Change Conference to stop the flow of money into fossil fuel extraction for good**
 * **Activists reveal banks have poured $3.8 trillion into fossil fuel extraction since the 2015 Paris agreement.**
 * **Protests will be held at over 50 locations across the planet as part of the biggest climate finance action in history - including major global financial centres across Europe and North America, Africa and Australia**
-* **Communities from the climate frontlines will travel to the City of London to take the fight to the doorsteps of the big banks and insurers funding fossil fuels around the world.** 
-* **Giant murals will be painted in global financial centres using ash from houses and forests destroyed in wildfires.** 
+* **Communities from the climate frontlines will travel to the City of London to take the fight to the doorsteps of the big banks and insurers funding fossil fuels around the world.**
+* **Giant murals will be painted in global financial centres using ash from houses and forests destroyed in wildfires.**
 * **Activists will take part in climate memorials outside major banks and insurers with a candle-lit vigil taking place at the Bank of England.**
 
 Thousands of people are set to take part in more than 50 protests spanning 26 countries and every continent on the planet - in a truly global initiative - to demand the global financial system stops the flow of money into fossil fuels. The protests will take place at major global financial centres London, New York, Frankfurt as well as other locations from Manila to San Francisco, São Paulo to Nairobi, the South Pacific and across Europe.
