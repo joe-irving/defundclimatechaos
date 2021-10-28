@@ -19,6 +19,11 @@ blocks:
   background_image: ''
   id: what
 - map: true
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - text: |-
     # London Actions
 
@@ -102,9 +107,9 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    #### Countdown to 29 October: {% include counter.html %}
+    ### Turn off the money pipeline to fossil fuels. Now.
 
-    # Turn off the money pipeline to fossil fuels. Now.
+    # {% include counter.html %}
 
     UK banks, investors and insurers are fuelling climate chaos by pumping billions of pounds into fossil fuels each year.
 
