@@ -17,6 +17,8 @@ blocks:
     Today, the youth climate movement around the world are rising in their thousands with over 100 actions demanding that bankers, insurers and fund managers **Defund Climate Chaos**.
 
     On the eve of UN climate talks, communities on the frontline of climate impacts are laying climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
+
+    {% include signup-form.html %}
   map: false
   background_image: ''
   id: join
