@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Press
+image: /assets/images/og-image.png
 ---
 # Press details
 
