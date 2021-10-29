@@ -8,6 +8,7 @@ header:
   weight: 2
 - url: "https://350org.widencollective.com/portals/nkryeayx/DefundClimateChaos"
   title: "Submit Photos"
+  weight: 3
 footer:
 - url: "/partners"
   title: Partners
