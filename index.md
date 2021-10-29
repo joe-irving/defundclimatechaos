@@ -18,6 +18,17 @@ blocks:
   buttons: []
   decoration: ''
   background_image: ''
+- text: |-
+    # London Actions
+
+    This is the timeline of actions in London on the 29th October:
+
+    {% assign actions = site.actions | where: "london",true| sort: "start_date" %}{% include timeline.html data=actions %}
+  map: false
+  id: actions
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
   - text: Act today
     target: "#map"
