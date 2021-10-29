@@ -6,9 +6,6 @@ header:
 - url: "/#feed"
   title: "\U0001F534 Live"
   weight: 2
-- url: "/#resources"
-  title: Resources
-  weight: 3
 footer:
 - url: "/partners"
   title: Partners

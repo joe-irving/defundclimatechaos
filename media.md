@@ -12,7 +12,7 @@ permalink: media
 summary: Press contacts, interview requests, latest news and multimedia assets
 menu:
   header:
-    weight: 4
+    weight: 3
     title: Press
 
 ---
