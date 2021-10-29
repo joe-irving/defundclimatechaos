@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Submit photos/videos
+menu:
+  header:
+    title: Submit Photos
+    weight: 3
+
 ---
 # Add your photos in this portal:
 
