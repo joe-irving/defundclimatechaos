@@ -1,0 +1,18 @@
+{% for t in include.data %}
+{% capture minutes %}{{ t.start_date | default: t.date | date: "%M" }}{% endcapture %}
+<div class="Chaos-Blog-Item Choas-Timeline-Item">
+  <div class="top ">
+    <div class="date">
+        <span class="day-number">{{ t.start_date | default: t.date | date: "%k" }}{% if minutes != "00" %} {{ minutes }}{% endif %}</span>
+        <span class="month">{{ t.start_date | default: t.date | date: "%p" }}</span>
+    </div>
+    <div class="description">
+      <div class="header-line">
+        <h3><a href="{{ t.url }}">{{t.title}}</a></h3>
+        <a href="{{ t.url }}"><span class="Chaos-Button">Join</span></a>
+      </div>
+      <address>{{ t.location.venue }}, {{t["location"]["address_lines"][0]}}, {{t["location"]["locality"]}}</address>
+    </div>
+  </div>
+</div>
+{% endfor %}
