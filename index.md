@@ -43,9 +43,7 @@ blocks:
   decoration: ''
   background_image: ''
   embed: ''
-- buttons:
-  - text: See map
-    target: "#tribute-map"
+- buttons: []
   text: |-
     # Add your tribute
 
