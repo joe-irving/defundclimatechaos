@@ -36,7 +36,7 @@ Available for download and media use at this [multimedia portal](https://350org.
 
 ## Press Release
 
-# **EMBARGOED UNTIL 00.01 FRIDAY 29TH OCTOBER**
+###### **FRIDAY 29TH OCTOBER**
 
 ## **Greta joins campaigners in City of London to demand Big Finance defunds fossil fuels**
 
@@ -47,15 +47,15 @@ Available for download and media use at this [multimedia portal](https://350org.
 * **Giant murals will be painted in global financial centres using ash from houses and forests destroyed in wildfires.**
 * **Activists will take part in climate memorials outside major banks and insurers with a candle-lit vigil taking place at the Bank of England.**
 
-Thousands of people are set to take part in more than 50 protests spanning 26 countries and every continent on the planet - in a truly global initiative - to demand the global financial system stops the flow of money into fossil fuels. The protests will take place at major global financial centres London, New York, Frankfurt as well as other locations from Manila to San Francisco, São Paulo to Nairobi, the South Pacific and across Europe.
+Thousands of people are set to take part in more than 100 protests spanning 26 countries and every continent on the planet - in a truly global initiative - to demand the global financial system stops the flow of money into fossil fuels. The protests will take place at major global financial centres London, New York, Frankfurt as well as other locations from Manila to San Francisco, São Paulo to Nairobi, the South Pacific and across Europe.
 
-The Day of Action is set to be the largest climate finance protest in history. The organisers from 15 movements represent millions of people from the South Pacific to the Arctic. They will take part in climate memorials outside Standard Chartered, Barclays, Lloyds of London and the Bank of England in London. In the US the focus of protests will be JPMorgan Chase, Citibank, and Blackrock. While in Frankfurt, Germany, it will target Deutsche Bank, Commerzbank, Sparkasse, and the European Central Bank.
+The Day of Action is the largest climate finance protest in history. The organisers from 15 movements represent millions of people from the South Pacific to the Arctic. They will take part in climate memorials outside Standard Chartered, Barclays, Lloyds of London and the Bank of England in London. In the US the focus of protests will be JPMorgan Chase, Citibank, and Blackrock. While in Frankfurt, Germany, it will target Deutsche Bank, Commerzbank, Sparkasse, and the European Central Bank.
 
 World leaders signed the Paris Agreement in 2015, committing to limit the rise in global temperatures to 1.5°C. To get there The International Energy Authority (IEA) says there can be no further exploration of oil and gas after this year. That’s the minimum.
 
 But since the 2015 Paris Agreement, banks have provided $3.8 trillion in loans and investment for projects extracting new fossil fuels from the ground,
 
-IMAGES AND FOOTAGE COLLECTED ON THE DAY WILL BE AVAILABLE [HERE](https://350org.widencollective.com/portals/nkryeayx/PeopletotheFrontportal)
+IMAGES AND FOOTAGE COLLECTED ON THE DAY ARE AVAILABLE [HERE](https://350org.widencollective.com/portals/nkryeayx/PeopletotheFrontportal)
 
 Among those planning to take part in the Day of Action are Greta Thunberg; Vanessa Nakate; Steve Melia, a former Bank of America executive; The Pacific Climate Warriors, an indigenous community travelling from the Pacific Islands; and Mitzi Jonelle Tan, a young fridays for Future activist from the Philippines. All tare aking part in City of London actions throughout the day. Please get in touch for first bids.
 
