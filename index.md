@@ -69,6 +69,10 @@ blocks:
 
     COP26 opens on Sunday in Glasgow and on 6th November the COP26 coalition have called a [Global Day for Climate Justice](https://cop26coalition.org/gda/) with mass marches, rallies and actions around the world.
 
+    ### In London?
+
+    Join us back at the Bank of England at 12pm on 6th November for the [Climate Reparations Block](https://climatereparations.uk/#join).
+
     ### In Glasgow?
 
     Join the Global Day of Action for Climate Justice in Glasgow from 11.30am:
@@ -76,10 +80,6 @@ blocks:
     <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
     <script src='https://actionnetwork.org/widgets/v4/event/glasgow-global-day-of-action-for-climate-justice-6th-nov?format=js&source=widget'></script>
     <div id='can-event-area-glasgow-global-day-of-action-for-climate-justice-6th-nov' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
-
-    ### In London?
-
-    Join us back at the Bank of England at 12pm on 6th November for the [Climate Reparations Block](https://climatereparations.uk/#join).
 
     ### Other cities?
 
