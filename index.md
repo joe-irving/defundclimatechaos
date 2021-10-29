@@ -47,7 +47,7 @@ blocks:
   text: |-
     # Add your tribute
 
-    Add your tribute to the National Climate Memorial today, and see it appear below on the map.
+    Add your tribute to the National Climate Memorial today, and it could be read out during the memorial - also see it appear below on the map!
 
     <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/form/your-message-for-the-national-climate-justice-memorial?format=js&source=widget'></script><div id='can-form-area-your-message-for-the-national-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
   decoration: "![](/assets/images/alarm.png)"
