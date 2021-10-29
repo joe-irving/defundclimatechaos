@@ -73,6 +73,9 @@ blocks:
 
     Join us back at the Bank of England at 12pm on 6th November for the [Climate Reparations Block](https://climatereparations.uk/#join).
 
+    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/climate-reparations-bloc?format=js&source=widget'></script><div id='can-event-area-climate-reparations-bloc' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
+
     ### In Glasgow?
 
     Join the Global Day of Action for Climate Justice in Glasgow from 11.30am:
