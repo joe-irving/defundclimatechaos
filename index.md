@@ -67,13 +67,6 @@ blocks:
   background_image: ''
   id: join
   embed: ''
-- map: true
-  text: ''
-  id: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
-  embed: ''
 - buttons: []
   text: |-
     # Add your tribute
