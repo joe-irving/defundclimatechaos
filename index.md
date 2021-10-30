@@ -178,6 +178,8 @@ header:
     can, light a lantern for climate justice at 6pm and help spread the word online
     using **#DefundClimateChaos**."
   buttons:
+  - text: What's next?
+    target: https://cop26coalition.org/gda/
   - text: Socials to share
     target: "#feed"
   - text: Add to the memorial
