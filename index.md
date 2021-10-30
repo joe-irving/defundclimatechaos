@@ -29,6 +29,7 @@ blocks:
   buttons: []
   decoration: ''
   background_image: ''
+  embed: ''
 - buttons:
   - text: Act today
     target: "#map"
@@ -38,11 +39,11 @@ blocks:
   text: |-
     # Join the movement
 
-    Today, the youth climate movement around the world are rising in their thousands with over 100 actions demanding that bankers, insurers and fund managers **Defund Climate Chaos**.
+    On 29th October, the youth climate movement around the world rose in their thousands at over 100 actions demanding that bankers, insurers and fund managers **Defund Climate Chaos**.
 
     {% include signup-form.html %}
 
-    On the eve of UN climate talks, communities on the frontline of climate impacts are laying climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
+    On the eve of UN climate talks, communities on the frontline of climate impacts laid climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
   map: false
   background_image: ''
   id: join
