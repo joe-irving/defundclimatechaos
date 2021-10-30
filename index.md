@@ -170,14 +170,15 @@ header:
   image:
     link: "/assets/images/money-faucet.png"
     location: left
-  text: "# It's happening now\n\nThroughout the day, as thousands of people rise up
-    around the world, we'll bring you all the latest from actions outside the UK banks,
-    investors and insurers fuelling climate chaos. Today we remember, we resist and
-    we rise with all those on the frontlines of the climate crisis who seek justice.
-    \n\nJoin us in person if you can, light a lantern for climate justice at 6pm and
-    help spread the word online using **#DefundClimateChaos**."
+  text: "# What a whirlwind!\n\nOctober 29th was the largest day of action against
+    fossil finance in history.  Throughout the day, people rose up in their thousands
+    around the world outside major banks, investors and insurers fuelling climate
+    chaos. \n\nHere in the UK  remember, we resist and we rise with all those on the
+    frontlines of the climate crisis who seek justice.\n\nJoin us in person if you
+    can, light a lantern for climate justice at 6pm and help spread the word online
+    using **#DefundClimateChaos**."
   buttons:
-  - text: Latest highlights
+  - text: Socials to share
     target: "#feed"
   - text: Add to the memorial
     target: "#tribute"
