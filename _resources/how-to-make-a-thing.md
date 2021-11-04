@@ -3,7 +3,7 @@ layout: post
 tags:
 - Art
 title: Make a climate justice lantern in 3 steps
-top_image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_39.jpg"
+top_image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_29.jpg"
 top_quote: ''
 image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_39.jpg"
 credits: ''
