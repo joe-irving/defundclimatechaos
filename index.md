@@ -172,16 +172,16 @@ header:
   text: |-
     # What a whirlwind!
 
-    October 29th was the largest day of action against fossil finance in history.  Throughout the day, people rose up in their thousands around the world outside major banks, investors and insurers fuelling climate chaos.
+    ##### October 29th was the largest day of action against fossil finance in history.  Throughout the day, people rose up in their thousands around the world outside major banks, investors and insurers fuelling climate chaos.
 
-    Here in the UK  remember, we resist and we rise with all those on the frontlines of the climate crisis who seek justice.
+    ##### Here in the UK, we remember, we resist and we rise with all those on the frontlines of the climate crisis who seek justice. Join us.
   buttons:
   - text: What's next?
     target: https://cop26coalition.org/gda/
   - text: Share highlights
     target: "#feed"
-  - text: Add to the memorial
-    target: "#tribute"
+  - text: Join Us
+    target: "/act"
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
