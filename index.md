@@ -3,6 +3,15 @@ layout: page
 image: "/assets/images/dcc-og-image.jpeg"
 blocks:
 - map: false
+  text: ''
+  id: ''
+  buttons:
+  - text: Share on Facebook
+    target: 'https://www.facebook.com/watch/?v=2178596408947820 '
+  decoration: ''
+  background_image: ''
+  embed: ''
+- map: false
   text: "# Latest highlights"
   id: highlights
   buttons:
