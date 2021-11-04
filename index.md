@@ -142,7 +142,7 @@ blocks:
     Some frequently asked questions and answers
 
     {% include accordion.html data=site.data.faqs %}
-  decoration: ''
+  decoration: "![](/assets/images/greta-tweet-about-29th-october-strike.jpeg)"
   map: false
   background_image: ''
   id: faqs
