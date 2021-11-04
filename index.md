@@ -9,7 +9,7 @@ blocks:
     insurers and fund managers and demanded climate justice for their frontline communities. "
   id: ''
   buttons:
-  - text: Share on Instagram
+  - text: Instagram
     target: 'https://www.instagram.com/p/CVqhynShUZ0/ '
   - text: Twitter
     target: 'https://twitter.com/TippingPointorg/status/1454538402485972999 '
