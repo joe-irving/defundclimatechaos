@@ -3,7 +3,10 @@ layout: page
 image: "/assets/images/dcc-og-image.jpeg"
 blocks:
 - map: false
-  text: ''
+  text: "October 29th was historic - and it was only the beginning of a movement rising
+    around the world to Defund Climate Chaos together.  \n\nWatch this powerful climate
+    memorial outside the Bank of England when Pacific islanders called out the banks,
+    insurers and fund managers and demanded climate justice for their frontline communities. "
   id: ''
   buttons:
   - text: Share on Instagram
@@ -181,5 +184,6 @@ header:
     image: "/assets/images/money-border.gif"
     reflect: true
 invert: odd
+published: false
 
 ---
