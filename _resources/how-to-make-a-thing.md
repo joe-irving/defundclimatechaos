@@ -30,7 +30,7 @@ Here’s how to make your own and join in.
 
 ### Step one - Design your lantern
 
-* Think about the climate crisis, the people, places and things that you want to protect. Pick something personal to you or that touched you.
+* Think about the climate crisis, the people, places and things that you want to protect. Pick something personal to you or that touched you. Perhaps you'll[ find some inspiration in this powerful audio montage](https://soundcloud.com/user-234996713/defund-climate-chaos-soundscap)?
 * Think of a simple a design mixing colours, words and images that will shine through lantern.  Think about how your words or design will shine through when lit from the inside.
 * Prepare your materials, eg. using strips of coloured tissue paper, cut outs from [this newspaper](https://bit.ly/ClimateLanternPack), pens and thin paper.
 
