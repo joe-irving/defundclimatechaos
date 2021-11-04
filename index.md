@@ -10,7 +10,7 @@ blocks:
   id: ''
   buttons:
   - text: YouTube
-    target: https://youtu.be/0_Oj6v5Wb80
+    target: https://youtu.be/gP88uUEdQjw
   - text: Instagram
     target: 'https://www.instagram.com/p/CVqhynShUZ0/ '
   - text: Twitter
