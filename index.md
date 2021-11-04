@@ -6,6 +6,8 @@ blocks:
   text: ''
   id: ''
   buttons:
+  - text: Share on Instagram
+    target: 'https://www.instagram.com/p/CVqhynShUZ0/ '
   - text: Share on Twitter
     target: 'https://twitter.com/TippingPointorg/status/1454538402485972999 '
   - text: Share on Facebook
