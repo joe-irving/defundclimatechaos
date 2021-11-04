@@ -17,9 +17,7 @@ blocks:
     target: 'https://twitter.com/TippingPointorg/status/1454538402485972999 '
   - text: Facebook
     target: 'https://www.facebook.com/watch/?v=2178596408947820 '
-  decoration: '    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+  decoration: "![](/assets/images/screenshot-2021-11-04-at-12-31-50.png)"
   background_image: ''
   embed: ''
 - map: false
@@ -188,6 +186,5 @@ header:
     image: "/assets/images/money-border.gif"
     reflect: true
 invert: odd
-published: false
 
 ---
