@@ -1,6 +1,6 @@
 {% for t in include.data %}
 {% capture minutes %}{{ t.start_date | default: t.date | date: "%M" }}{% endcapture %}
-<div class="Chaos-Blog-Item Choas-Timeline-Item">
+<div class="Chaos-Blog-Item Chaos-Timeline-Item" data-datetime="{{ t.start_date | date: "%s" }}">
   <div class="top ">
     <div class="date">
         <span class="day-number">{{ t.start_date | default: t.date | date: "%k" }}{% if minutes != "00" %} {{ minutes }}{% endif %}</span>
@@ -16,3 +16,16 @@
   </div>
 </div>
 {% endfor %}
+<script type="text/javascript">
+  let actionsTimeline = document.getElementsByClassName('Chaos-Timeline-Item');
+  console.log(actionsTimeline)
+  for (let i = 0; i < actionsTimeline.length ; i++){
+    var actionDate = actionsTimeline[i].getAttribute('data-datetime');
+    console.log(actionDate)
+    var now = new Date()
+    console.log(actionDate < now)
+    if (actionDate && actionDate < now){
+      actionsTimeline[i].style.display = 'none';
+    }
+  }
+</script>

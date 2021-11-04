@@ -80,6 +80,9 @@ airtable:
       slug: title
       layout: event
       content: content
+  news:
+    app: app9apHbqOifmolTX
+    table: tblhRWieWf2wUnEvg
 jekyll_get_json:
 - data: events
   json: https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json

@@ -22,7 +22,8 @@ gem 'jekyll-theme-chaos', git: "https://github.com/tippingpointuk/jekyll-theme-c
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-airtable-import', '~> 0.1.0'
+  gem 'jekyll-airtable-import', '~> 0.1.1'
+  gem "jekyll-linkpreview"
 end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

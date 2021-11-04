@@ -1,0 +1,5 @@
+{% for item in site.data.news %}
+{% if item.link %}
+{% linkpreview item.link %}
+{% endif %}
+{% endfor %}

@@ -1,0 +1,30 @@
+<div
+class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
+{% if post.image.size > 0 and include.thumbnail!=true %}
+<a href="{{ link_url  }}"><img src="{{ link_image  }}" /></a>
+{% endif %}
+    <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">
+            {% if include.thumbnail and post.image.size > 1 %}
+            <!-- <a href="{{ url   }}" class="thumbnail"> -->
+              <div class="thumbnail" style="background-image:url('{{ link_image  | relative_url  }}')">
+                <!-- <a href="{{ url   }}"><img title="{{post.title}}"  src="{{ post.image  | relative_url  }}" /></a> -->
+              </div>
+            <!-- </a> -->
+            {% endif %}
+
+            <div class="description">
+                <div class="header-line">
+                  <h3><a href="{{ link_url }}">{{ link_description }}</a></h3>
+                </div>
+                <p><time>{{ post.start_date | date: "%l:%M %p" }}</time> to <time>{{ post.end_date | date: "%l:%M %p" }}</time></p>
+
+
+                {% if link_description %}
+                <div class="summary" >
+                  {{ link_description }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+</div>
