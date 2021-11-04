@@ -170,7 +170,7 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    # What a whirlwind!
+    # #DefundClimateChaos
 
     #### October 29th was the largest day of action against fossil finance in history.  Throughout the day, people rose up in their thousands around the world outside major banks, investors and insurers fuelling climate chaos.
 
