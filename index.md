@@ -17,8 +17,9 @@ blocks:
     target: 'https://twitter.com/TippingPointorg/status/1454538402485972999 '
   - text: Facebook
     target: 'https://www.facebook.com/watch/?v=2178596408947820 '
-  decoration: |-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  decoration: <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   background_image: ''
   embed: ''
 - map: false
@@ -173,9 +174,9 @@ header:
   text: |-
     # What a whirlwind!
 
-    ##### October 29th was the largest day of action against fossil finance in history.  Throughout the day, people rose up in their thousands around the world outside major banks, investors and insurers fuelling climate chaos.
+    #### October 29th was the largest day of action against fossil finance in history.  Throughout the day, people rose up in their thousands around the world outside major banks, investors and insurers fuelling climate chaos.
 
-    ##### Here in the UK, we remember, we resist and we rise with all those on the frontlines of the climate crisis who seek justice. Join us.
+    #### Here in the UK, we remember, we resist and we rise with all those on the frontlines of the climate crisis who seek justice. Join us.
   buttons:
   - text: What's next?
     target: https://cop26coalition.org/gda/
