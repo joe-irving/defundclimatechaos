@@ -3,9 +3,9 @@ layout: post
 tags:
 - Art
 title: Make a climate justice lantern in 3 steps
-top_image: "/assets/images/lantern-ebay.jpeg"
+top_image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_39.jpg"
 top_quote: ''
-image: "/assets/images/bank-of-england-memorial-promo-draft-1.png"
+image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_39.jpg"
 credits: ''
 slug: climate-lanterns
 summary: At 6pm from Friday 29th October until the end of the Glasgow climate talks,
