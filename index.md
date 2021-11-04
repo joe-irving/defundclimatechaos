@@ -160,7 +160,7 @@ header:
   buttons:
   - text: What's next?
     target: https://cop26coalition.org/gda/
-  - text: Socials to share
+  - text: Share highlights
     target: "#feed"
   - text: Add to the memorial
     target: "#tribute"
