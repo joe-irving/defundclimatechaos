@@ -19,9 +19,7 @@ blocks:
     target: 'https://www.facebook.com/watch/?v=2178596408947820 '
   decoration: "[![](/assets/images/screenshot-2021-11-04-at-12-31-50.png)](https://www.youtube.com/watch?v=0_Oj6v5Wb80)"
   background_image: ''
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  embed: ''
 - map: false
   text: "# Latest highlights"
   id: highlights
