@@ -11,11 +11,13 @@ blocks:
   buttons:
   - text: Share on Instagram
     target: 'https://www.instagram.com/p/CVqhynShUZ0/ '
-  - text: Share on Twitter
+  - text: Twitter
     target: 'https://twitter.com/TippingPointorg/status/1454538402485972999 '
-  - text: Share on Facebook
+  - text: Facebook
     target: 'https://www.facebook.com/watch/?v=2178596408947820 '
-  decoration: ''
+  decoration: '    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
   background_image: ''
   embed: ''
 - map: false
