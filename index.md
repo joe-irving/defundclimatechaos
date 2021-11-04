@@ -181,7 +181,7 @@ header:
   - text: Share highlights
     target: "#feed"
   - text: Join Us
-    target: "/act"
+    target: "/#join"
   border_bottom:
     image: "/assets/images/money-border.gif"
     reflect: true
