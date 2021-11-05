@@ -48,7 +48,7 @@ Here’s how to make your own and join in.
 * At 6pm throughout the UN climate talks, light your lantern in your window, on your doorstep or at one of several [vigils and memorial events](https://defundclimatechaos.uk/#map).
   * If you want to join with others, [organise your own memorial](https://defundclimatechaos.uk/#resources)
 * Share a picture or short video message with your lantern on social media using **#ClimateMemorial** and **#DefundClimateChaos**
-  * You can also **submit your best photo** [**here**](https://airtable.com/shrCvUWA9EhoEnjhf)
+  * You can also **submit your best photo** [**here**](https://350org.widencollective.com/portals/nkryeayx/DefundClimateChaos)
 
 Just days before world leaders gather in Glasgow for last-chance COP26 climate talks, climate justice memorials will be laid outside some of the UK institutions with the most outsized impact on fuelling the climate crisis: banks, insurers and investors who fund fossil fuels.  Find out more at [defundclimatechaos.uk](defundclimatechaos.uk)
 
