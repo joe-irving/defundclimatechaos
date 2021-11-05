@@ -13,7 +13,7 @@ summary: At 6pm from Friday 29th October until the end of the Glasgow climate ta
   Here’s how to make your own and join us.
 
 ---
-At 6pm from Friday 29th October until the end of the Glasgow climate talks, thousands of people around the country will light a lantern to shine light on their hopes for climate justice.
+At 6pm every day from Friday 29th October until the end of the Glasgow climate talks, thousands of people around the country will light a lantern to shine light on their hopes for climate justice.
 
 Here’s how to make your own and join in.
 
@@ -45,7 +45,7 @@ Here’s how to make your own and join in.
 ### Step 3 - Light your lantern at 6pm
 
 * Tell your friends and neighbours and encourage them to make their own lanterns
-* At 6pm on Friday 29th October, light your lantern in your window, on your doorstep or at one of several [vigils and memorial events](https://defundclimatechaos.uk/#map).
+* At 6pm throughout the UN climate talks, light your lantern in your window, on your doorstep or at one of several [vigils and memorial events](https://defundclimatechaos.uk/#map).
   * If you want to join with others, [organise your own memorial](https://defundclimatechaos.uk/#resources)
 * Share a picture or short video message with your lantern on social media using **#ClimateMemorial** and **#DefundClimateChaos**
   * You can also **submit your best photo** [**here**](https://airtable.com/shrCvUWA9EhoEnjhf)
