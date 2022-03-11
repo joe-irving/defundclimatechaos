@@ -1,0 +1,14 @@
+{% for post in site.data.agms %}
+<div class="Chaos-Blog-Item">
+  <div class="top">
+    <div class="thumbnail">
+      <img src="{{ post.image }}" alt="">
+
+    </div>
+    <div class="description">
+      <h3><a target="_blank" href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.description }}</p>
+    </div>
+  </div>
+</div>
+{% endfor %}
