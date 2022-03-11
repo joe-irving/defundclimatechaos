@@ -1,27 +1,25 @@
 ---
 header:
-- url: "/#trainings"
-  weight: 4
-  title: Trainings
-- url: "/#join"
-  weight: 3
-  title: Updates
-- url: "/#resources"
-  title: Resources
-  weight: 2
+- weight: 4
+  title: Demands
 - url: "/#actions"
   title: Take Action
   weight: 1
-footer:
 - url: "/#join"
-  weight: 5
-  title: Sign Up
-- url: "/trainings"
-  title: Trainings
-  weight: 3
-- url: "/resources"
-  title: Resources
   weight: 2
+  title: Join
+- weight: 3
+  title: People's AGM
+footer:
 - url: "/partners"
   title: Partners
   weight: 1
+- url: "/resources"
+  title: Resources
+  weight: 2
+- url: "/trainings"
+  title: Trainings
+  weight: 3
+- url: "/#join"
+  weight: 5
+  title: Sign Up
