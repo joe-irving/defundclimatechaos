@@ -7,7 +7,7 @@ blocks:
     target: "#actions"
     image: ''
   - text: Our Demands
-    target: ''
+    target: "/demands"
     image: ''
   decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
   text: |-
