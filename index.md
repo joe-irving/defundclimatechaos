@@ -82,12 +82,13 @@ header:
   image:
     link: "/assets/images/money-faucet.png"
     location: left
-  text: |-
-    ### Turn off the money pipeline to fossil fuels. Now.
-
-    UK banks, investors and insurers are fuelling climate chaos by pumping billions of pounds into fossil fuels each year.
-
-    On **October 29th**, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
+  text: "### Turn off the money pipeline to fossil fuels. Now.\n\n**Money is fuelling
+    climate chaos**. Climate justice means keeping fossil fuels in the ground, right
+    now. We need to stop new coal, oil, gas and fracking project\n\nUK banks, investors
+    and insurers are fuelling climate chaos by pumping billions of pounds into climate
+    wrecking projects each year. Without that support, companies like Shell and BP,
+    can't operate.\n\nPeople around the world are rising up to demand that governments
+    and corporations **#DefundClimateChaos** and fund a **Global** **Just Transition** "
   buttons:
   - text: Act Now
     target: "#actions"
