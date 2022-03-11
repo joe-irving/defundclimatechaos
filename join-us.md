@@ -2,7 +2,7 @@
 layout: page
 tags: []
 title: Join Us
-top_image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_9.jpg"
+top_image: "/assets/images/bank-of-england.png"
 top_quote: ''
 image: ''
 credits: ''

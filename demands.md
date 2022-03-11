@@ -2,7 +2,7 @@
 layout: page
 tags: []
 title: Demands
-top_image: "/assets/images/20211029_standard_chartered_uk_london_ad_9.jpg"
+top_image: "/assets/images/no-one-is-ilegal-on-stolen-land.png"
 top_quote: ''
 image: ''
 credits: ''
