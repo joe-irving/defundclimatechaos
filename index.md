@@ -6,21 +6,27 @@ blocks:
   - text: Join an action
     target: "#actions"
     image: ''
+  - text: Our Demands
+    target: ''
+    image: ''
   decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
-  text: "# What’s happening?\n\nOn October 29, the youth climate movement is rising
-    up to demand that bankers, insurers and fund managers **Defund Climate Chaos**.\n\nJust
-    before the Glasgow climate talks, join communities on the frontlines of climate
-    breakdown in laying climate justice memorials outside the UK’s biggest funders
-    of fossil fuel projects. \n\nIt’s past time to turn off the money pipeline to
-    oil, coal and gas companies and for UK finance to start investing in climate justice
-    and a safer future for us all."
+  text: |-
+    # What’s happening?
+
+    People across the UK are rising up to demand that bankers, insurers and fund managers **Defund Climate Chaos**, pay **Climate Reparations** and fund a **Global Just Transition**.
+
+    This Spring, as the finance industry comes together to hold their Annual General Meetings, we will join communities on the frontlines of climate breakdown taking action against UK’s biggest funders of fossil fuel projects.
+
+    > "We will target you, we will regulate you, we will prosecute you, we will dismantle the economic systems and systems of power that you maintain, we will force you to make reparations for the climate crisis and extractivism that you continue to enable around the world."
+
+    It’s past time to turn off the money pipeline to oil, coal and gas companies and for UK finance to start investing in climate justice and a safer future for us all.
   map: false
   background_image: ''
   id: what
 - text: |-
     # AGM Actions
 
-    This is the timeline of actions in London on the 29th October:
+    Actions will be happening across the UK this spring - sign up to find out more about taking action at Barclays, HSBC, Lloyd's of London, Shell and Standard Chartered AGMs.
 
     {% include agms.html %}
   map: false
@@ -58,7 +64,7 @@ blocks:
   text: |-
     # Join
 
-    Sign up below to join the Defund Climate Chaos coalition as a group or individual
+    Sign up below to join the Defund Climate Chaos coalition as a group (Grassroots, NGO, Union) or individual.
   decoration: ''
   map: false
   background_image: ''
@@ -80,13 +86,14 @@ header:
   image:
     link: "/assets/images/money-faucet.png"
     location: left
-  text: "### Turn off the money pipeline to fossil fuels. Now.\n\n**Money is fuelling
-    climate chaos**. Climate justice means keeping fossil fuels in the ground, right
-    now. We need to stop new coal, oil, gas and fracking project\n\nUK banks, investors
-    and insurers are fuelling climate chaos by pumping billions of pounds into climate
-    wrecking projects each year. Without that support, companies like Shell and BP,
-    can't operate.\n\nPeople around the world are rising up to demand that governments
-    and corporations **#DefundClimateChaos** and fund a **Global** **Just Transition** "
+  text: |-
+    ## Turn off the money pipeline to fossil fuels. Now.
+
+    **Money is fuelling climate chaos**. Climate justice means keeping fossil fuels in the ground, right now. We need to stop new coal, oil, gas and fracking project
+
+    **UK banks, investors and insurers are fuelling climate chaos** by pumping billions of pounds into climate wrecking projects each year. Without that support, companies like Shell and BP, can't operate.
+
+    People around the world are rising up to demand that governments and corporations **#DefundClimateChaos**, pay **Climate Reparations** and fund a **Global** **Just Transition**
   buttons:
   - text: Act Now
     target: "#actions"

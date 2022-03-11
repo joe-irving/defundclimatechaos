@@ -1,13 +1,14 @@
 ---
 header:
-- url: "/#actions"
-  title: Take Action
-  weight: 1
+- weight: 3
+  title: People's AGM
+  url: https://actionnetwork.org/events/peoples-agm/
 - url: "/#join"
   weight: 2
   title: Join
-- weight: 3
-  title: People's AGM
+- url: "/#actions"
+  title: Take Action
+  weight: 1
 footer:
 - url: "/partners"
   title: Partners
