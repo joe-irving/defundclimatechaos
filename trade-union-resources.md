@@ -14,3 +14,5 @@ published: false
 # Some resources
 
 etc
+
+{% assign resources = site.data.resources | where: "category", "Trade Unions" %}{% include nested-blog-list.html data=resources %}
