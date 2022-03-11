@@ -3,6 +3,9 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - buttons:
+  - text: Our Demands
+    target: ''
+    image: ''
   - text: Join an action
     target: "#actions"
     image: ''
