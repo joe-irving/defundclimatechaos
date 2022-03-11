@@ -87,6 +87,11 @@ fields:
       config:
         required: false
       label: target
+    - name: image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
     config:
       min: 
       max: 
