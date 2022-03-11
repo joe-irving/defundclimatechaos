@@ -50,13 +50,10 @@ blocks:
   id: why
 - buttons: []
   text: |-
-    # Get updates
+    # Join
 
-    Sign up to get all the latest news and materials you'll need to take action on October 29.
-
-    [Find an event on the map](https://defundclimatechaos.uk/#map) to attend near you or [sign up to host your own event](https://actionnetwork.org/events/04aef390f9ed2e182154029889a339e3e6b27d36/edit).
-
-    {% include signup-form.html %}
+    * Group
+    * Individual
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   map: false
   background_image: ''
