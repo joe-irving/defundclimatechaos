@@ -55,6 +55,7 @@ fields:
       format: markdown
   label: Summary
 pages:
+- demands.md
 - faqs.md
 - partners.md
 - resources.md
