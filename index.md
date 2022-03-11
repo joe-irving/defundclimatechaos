@@ -5,6 +5,7 @@ blocks:
 - buttons:
   - text: Join an action
     target: "#actions"
+    image: ''
   decoration: "![](/assets/images/image-2021-10-10-at-9-13-11-am.png)"
   text: "# What’s happening?\n\nOn October 29, the youth climate movement is rising
     up to demand that bankers, insurers and fund managers **Defund Climate Chaos**.\n\nJust
@@ -30,6 +31,7 @@ blocks:
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
+    image: ''
   text: |-
     # Why?
 
@@ -46,7 +48,10 @@ blocks:
   map: false
   background_image: ''
   id: why
-- buttons: []
+- buttons:
+  - text: Group
+    target: "/group"
+    image: "/assets/images/group-clipart-clip-art-group-768x768.png"
   text: |-
     # Join
 
