@@ -8,7 +8,6 @@ image: ''
 credits: ''
 permalink: tu-resource
 summary: ''
-published: false
 
 ---
 # Some resources

@@ -56,10 +56,10 @@ blocks:
   id: why
 - buttons:
   - text: Individual
-    target: "/signup"
+    target: "/joinus"
     image: "/assets/images/person-clipart-transparent-background-9.png"
   - text: Group
-    target: "/group"
+    target: "/Partners"
     image: "/assets/images/group-clipart-clip-art-group-768x768.png"
   text: |-
     # Join
