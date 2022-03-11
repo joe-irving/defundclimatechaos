@@ -22,8 +22,6 @@ We are working closely with these allied networks all around the world as part o
 
 Become a partner and [add your group to the list](#register-your-groups-support) of groups supporting the youth climate movement's call to action.
 
-{% include partner-list.html background='light' %}
-
 ## Register your group's support
 
 <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrgvGc0v5EnhbWxu?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
