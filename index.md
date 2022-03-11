@@ -26,7 +26,7 @@ blocks:
 - text: |-
     # AGM Actions
 
-    This is the timeline of actions in London on the 29th October:
+    Actions will be happening across the UK this spring - sign up to find out more about taking action at Barclays, HSBC, Lloyd's of London, Shell and Standard Chartered AGMs.
 
     {% assign posts=site.data.agms  %}{% include blog-list.html data=site.agms logo=true thumbnail=true date=false %}
   map: false
