@@ -22,9 +22,7 @@ blocks:
 
     This is the timeline of actions in London on the 29th October:
 
-    {{ site.data.agms }}
-
-    {% assign posts=site.data.agms  %}{% include blog-list.html data=site.agms %}
+    {% assign posts=site.data.agms  %}{% include blog-list.html data=site.agms logo=true thumbnail=true date=false %}
   map: false
   id: actions
   buttons: []
