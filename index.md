@@ -3,8 +3,6 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - buttons:
-  - text: Register an action
-    target: https://actionnetwork.org/events/new?event_campaign_id=13806
   - text: Join an action
     target: "#actions"
   decoration: "![](/assets/images/image-2021-10-10-at-9-13-11-am.png)"
