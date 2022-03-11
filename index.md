@@ -58,7 +58,7 @@ blocks:
   text: |-
     # Join
 
-    Sign up below to join the Defund Climate Chaos coalition as a group or individual
+    Sign up below to join the Defund Climate Chaos coalition as a group (Grassroots, NGO, Union) or individual.
   decoration: ''
   map: false
   background_image: ''
@@ -80,13 +80,14 @@ header:
   image:
     link: "/assets/images/money-faucet.png"
     location: left
-  text: "### Turn off the money pipeline to fossil fuels. Now.\n\n**Money is fuelling
-    climate chaos**. Climate justice means keeping fossil fuels in the ground, right
-    now. We need to stop new coal, oil, gas and fracking project\n\nUK banks, investors
-    and insurers are fuelling climate chaos by pumping billions of pounds into climate
-    wrecking projects each year. Without that support, companies like Shell and BP,
-    can't operate.\n\nPeople around the world are rising up to demand that governments
-    and corporations **#DefundClimateChaos** and fund a **Global** **Just Transition** "
+  text: |-
+    ## Turn off the money pipeline to fossil fuels. Now.
+
+    **Money is fuelling climate chaos**. Climate justice means keeping fossil fuels in the ground, right now. We need to stop new coal, oil, gas and fracking project
+
+    **UK banks, investors and insurers are fuelling climate chaos** by pumping billions of pounds into climate wrecking projects each year. Without that support, companies like Shell and BP, can't operate.
+
+    People around the world are rising up to demand that governments and corporations **#DefundClimateChaos** and fund a **Global** **Just Transition**
   buttons:
   - text: Act Now
     target: "#actions"
