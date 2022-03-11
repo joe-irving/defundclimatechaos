@@ -2,7 +2,7 @@
 layout: page
 tags: []
 title: Join Us
-top_image: "/assets/images/defund-climate-chaos-bank-of-england.jpg"
+top_image: ''
 top_quote: ''
 image: ''
 credits: ''
