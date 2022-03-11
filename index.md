@@ -6,7 +6,7 @@ blocks:
   - text: Join an action
     target: "#actions"
     image: ''
-  decoration: "![](/assets/images/image-2021-10-10-at-9-13-11-am.png)"
+  decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
   text: "# What’s happening?\n\nOn October 29, the youth climate movement is rising
     up to demand that bankers, insurers and fund managers **Defund Climate Chaos**.\n\nJust
     before the Glasgow climate talks, join communities on the frontlines of climate
