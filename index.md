@@ -13,7 +13,7 @@ blocks:
   text: |-
     # What’s happening?
 
-    People across the UK are rising up to demand that bankers, insurers and fund managers [**Defund Climate Chaos**, pay **Climate Reparations** and fund a **Global Just Transition**](/demands).
+    People across the UK are rising up to demand that bankers, insurers and fund managers **Defund Climate Chaos**, pay **Climate Reparations** and fund a **Global Just Transition**.
 
     This Spring, as the finance industry comes together to hold their Annual General Meetings, we will join communities on the frontlines of climate breakdown taking action against UK’s biggest funders of fossil fuel projects.
 
