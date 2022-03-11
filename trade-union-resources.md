@@ -8,11 +8,13 @@ image: ''
 credits: ''
 permalink: tu-resource
 summary: ''
-published: false
+published: true
 
 ---
 # Some resources
 
 etc
 
-{% assign resources = site.data.resources | where: "category", "Trade Unions" %}{% include nested-blog-list.html data=resources %}
+{% assign resources = site.data.resources | where: "category", "Trade Unions" %}
+
+{% include nested-blog-list.html data=resources %}
