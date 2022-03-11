@@ -49,6 +49,9 @@ blocks:
   background_image: ''
   id: why
 - buttons:
+  - text: Individual
+    target: "/signup"
+    image: "/assets/images/person-clipart-transparent-background-9.png"
   - text: Group
     target: "/group"
     image: "/assets/images/group-clipart-clip-art-group-768x768.png"
