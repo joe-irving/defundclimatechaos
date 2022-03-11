@@ -87,7 +87,7 @@ header:
 
     **UK banks, investors and insurers are fuelling climate chaos** by pumping billions of pounds into climate wrecking projects each year. Without that support, companies like Shell and BP, can't operate.
 
-    People around the world are rising up to demand that governments and corporations **#DefundClimateChaos** and fund a **Global** **Just Transition**
+    People around the world are rising up to demand that governments and corporations **#DefundClimateChaos**, pay **Climate Reparations** and fund a **Global** **Just Transition**
   buttons:
   - text: Act Now
     target: "#actions"
