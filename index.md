@@ -58,8 +58,7 @@ blocks:
   text: |-
     # Join
 
-    * Group
-    * Individual
+    Sign up below to join the Defund Climate Chaos coalition as a group or individual
   decoration: ''
   map: false
   background_image: ''
