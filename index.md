@@ -54,7 +54,7 @@ blocks:
 
     * Group
     * Individual
-  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
+  decoration: ''
   map: false
   background_image: ''
   id: join
