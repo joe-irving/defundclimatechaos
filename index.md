@@ -18,14 +18,8 @@ blocks:
   map: false
   background_image: ''
   id: what
-- map: true
-  text: ''
-  id: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
 - text: |-
-    # London Actions
+    # AGM Actions
 
     This is the timeline of actions in London on the 29th October:
 
@@ -48,21 +42,12 @@ blocks:
     Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they still fund fossil fuels.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
-  decoration: "![](/assets/images/alarm.png)"
+  decoration: <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   map: false
   background_image: ''
   id: why
-- buttons: []
-  text: |-
-    # Resources
-
-    Here are all the resources you’ll need to join or organise an action of your own to #DefundClimateChaos on October 29 (and beyond!):
-
-    {% include resources.html %}
-  decoration: ''
-  map: false
-  background_image: ''
-  id: ''
 - buttons: []
   text: |-
     # Get updates
@@ -87,19 +72,6 @@ blocks:
   map: false
   background_image: ''
   id: faqs
-- text: |-
-    # Partners
-
-    This day of action is supported by a number of UK groups.  We are working closely with allied networks all around the world as part of the [Defund Climate Chaos global day of action](http://defundclimatechaos.org).
-  buttons:
-  - text: Add your group
-    target: "/partners/#register-group"
-  - target: "/partners"
-    text: See all partners
-  decoration: "![](/assets/images/gb84256-web-res.jpg)"
-  map: false
-  background_image: ''
-  id: partners
 credits: ''
 header:
   full: true
@@ -108,8 +80,6 @@ header:
     location: left
   text: |-
     ### Turn off the money pipeline to fossil fuels. Now.
-
-    # {% include counter.html %}
 
     UK banks, investors and insurers are fuelling climate chaos by pumping billions of pounds into fossil fuels each year.
 
