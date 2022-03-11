@@ -22,7 +22,7 @@ blocks:
 
     This is the timeline of actions in London on the 29th October:
 
-    {% assign actions = site.actions | where: "london",true| sort: "start_date" %}{% include timeline.html data=actions %}
+    {% include blog-list.html data=site.agms %}
   map: false
   id: actions
   buttons: []
