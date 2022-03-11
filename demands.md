@@ -7,6 +7,9 @@ top_quote: ''
 image: ''
 credits: ''
 summary: ''
+menu:
+  header:
+    weight: 4
 
 ---
 **Keep It In the Ground -** Climate justice means keeping fossil fuels in the ground, right now. We need to stop new coal, oil, gas and fracking projects.

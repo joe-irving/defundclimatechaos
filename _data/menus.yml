@@ -1,7 +1,5 @@
 ---
 header:
-- weight: 4
-  title: Demands
 - url: "/#actions"
   title: Take Action
   weight: 1
