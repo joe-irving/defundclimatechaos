@@ -3,9 +3,9 @@ layout: post
 tags:
 - Art
 title: Make a climate justice lantern in 3 steps
-top_image: "/assets/images/lantern-ebay.jpeg"
+top_image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_10.jpg"
 top_quote: ''
-image: "/assets/images/bank-of-england-memorial-promo-draft-1.png"
+image: "/assets/images/20211029_bankofengland_uk_london_natasa_leoni_39.jpg"
 credits: ''
 slug: climate-lanterns
 summary: At 6pm from Friday 29th October until the end of the Glasgow climate talks,
@@ -13,7 +13,7 @@ summary: At 6pm from Friday 29th October until the end of the Glasgow climate ta
   Here’s how to make your own and join us.
 
 ---
-At 6pm from Friday 29th October until the end of the Glasgow climate talks, thousands of people around the country will light a lantern to shine light on their hopes for climate justice. 
+At 6pm every day from Friday 29th October until the end of the Glasgow climate talks, thousands of people around the country will light a lantern to shine light on their hopes for climate justice.
 
 Here’s how to make your own and join in.
 
@@ -30,7 +30,7 @@ Here’s how to make your own and join in.
 
 ### Step one - Design your lantern
 
-* Think about the climate crisis, the people, places and things that you want to protect. Pick something personal to you or that touched you.
+* Think about the climate crisis, the people, places and things that you want to protect. Pick something personal to you or that touched you. Perhaps you'll[ find some inspiration in this powerful audio montage](https://soundcloud.com/user-234996713/defund-climate-chaos-soundscap)?
 * Think of a simple a design mixing colours, words and images that will shine through lantern.  Think about how your words or design will shine through when lit from the inside.
 * Prepare your materials, eg. using strips of coloured tissue paper, cut outs from [this newspaper](https://bit.ly/ClimateLanternPack), pens and thin paper.
 
@@ -45,11 +45,13 @@ Here’s how to make your own and join in.
 ### Step 3 - Light your lantern at 6pm
 
 * Tell your friends and neighbours and encourage them to make their own lanterns
-* At 6pm on Friday 29th October, light your lantern in your window, on your doorstep or at one of several [vigils and memorial events](https://defundclimatechaos.uk/#map).
+* At 6pm throughout the UN climate talks, light your lantern in your window, on your doorstep or at one of several [vigils and memorial events](https://defundclimatechaos.uk/#map).
   * If you want to join with others, [organise your own memorial](https://defundclimatechaos.uk/#resources)
 * Share a picture or short video message with your lantern on social media using **#ClimateMemorial** and **#DefundClimateChaos**
-  * You can also **submit your best photo** [**here**](https://airtable.com/shrCvUWA9EhoEnjhf)
+  * You can also **submit your best photo** [**here**](https://350org.widencollective.com/portals/nkryeayx/DefundClimateChaos)
 
 Just days before world leaders gather in Glasgow for last-chance COP26 climate talks, climate justice memorials will be laid outside some of the UK institutions with the most outsized impact on fuelling the climate crisis: banks, insurers and investors who fund fossil fuels.  Find out more at [defundclimatechaos.uk](defundclimatechaos.uk)
 
-We invite you to light your lantern for climate justice **every evening from 6pm on Friday 29th until the end of the COP26** climate talks on November 12th.   
+We invite you to light your lantern for climate justice **every evening at 6pm until the end of the COP26** climate talks on November 12th.  
+
+We recommend, if you can, playing [this powerful soundscape for a moment of reflection](https://soundcloud.com/user-234996713/defund-climate-chaos-soundscap) while you light your lantern. 

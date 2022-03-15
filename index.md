@@ -10,15 +10,16 @@ blocks:
   id: ''
   buttons:
   - text: YouTube
-    target: https://youtu.be/0_Oj6v5Wb80
+    target: https://youtu.be/gP88uUEdQjw
   - text: Instagram
     target: 'https://www.instagram.com/p/CVqhynShUZ0/ '
   - text: Twitter
     target: 'https://twitter.com/TippingPointorg/status/1454538402485972999 '
   - text: Facebook
     target: 'https://www.facebook.com/watch/?v=2178596408947820 '
-  decoration: |-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  decoration: <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   background_image: ''
   embed: ''
 - map: false
@@ -77,11 +78,9 @@ blocks:
   text: |-
     # Join the movement
 
-    On 29th October, the youth climate movement around the world rose in their thousands at over 100 actions demanding that bankers, insurers and fund managers **Defund Climate Chaos**.
+    The day of action is over but our movement has so much more to do. Join us and get involved in collective organising to ensure that bankers, insurers and fund managers **Defund Climate Chaos**.
 
     {% include signup-form.html %}
-
-    On the eve of UN climate talks, communities on the frontline of climate impacts laid climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
   map: false
   background_image: ''
   id: join
@@ -93,7 +92,7 @@ blocks:
     Add your tribute to the National Climate Memorial today, and and see it appear below on the map!
 
     <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/form/your-message-for-the-national-climate-justice-memorial?format=js&source=widget'></script><div id='can-form-area-your-message-for-the-national-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
-  decoration: "![](/assets/images/alarm.png)"
+  decoration: "![](/assets/images/pacific-islander-holds-defund-climate-chaos-lantern-at-bank-of-england-memorial.jpeg)"
   map: false
   background_image: ''
   id: tribute
@@ -143,7 +142,7 @@ blocks:
     Some frequently asked questions and answers
 
     {% include accordion.html data=site.data.faqs %}
-  decoration: ''
+  decoration: "![](/assets/images/greta-tweet-about-29th-october-strike.jpeg)![](/assets/images/20211029_bankofengland_uk_london_natasa_leoni_39.jpg)"
   map: false
   background_image: ''
   id: faqs
@@ -171,11 +170,11 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    # What a whirlwind!
+    # #DefundClimateChaos
 
-    ##### October 29th was the largest day of action against fossil finance in history.  Throughout the day, people rose up in their thousands around the world outside major banks, investors and insurers fuelling climate chaos.
+    #### October 29th was the largest day of action against fossil finance in history.  Throughout the day, people rose up in their thousands around the world outside major banks, investors and insurers fuelling climate chaos.
 
-    ##### Here in the UK, we remember, we resist and we rise with all those on the frontlines of the climate crisis who seek justice. Join us.
+    #### Here in the UK, we remember, we resist and we rise with all those on the frontlines of the climate crisis who seek justice. Join us.
   buttons:
   - text: What's next?
     target: https://cop26coalition.org/gda/
