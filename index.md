@@ -3,6 +3,21 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - buttons:
+  - text: Individual
+    target: "/join-us"
+    image: "/assets/images/person-clipart-transparent-background-9.png"
+  - text: Group
+    target: "/partners"
+    image: "/assets/images/group-clipart-clip-art-group-768x768.png"
+  text: |-
+    # Join
+
+    Sign up below to join the Defund Climate Chaos coalition as a group (Grassroots, NGO, Union) or individual.
+  decoration: ''
+  map: false
+  background_image: ''
+  id: join
+- buttons:
   - text: Join an action
     target: "#actions"
     image: ''
@@ -58,21 +73,6 @@ blocks:
   map: false
   background_image: ''
   id: why
-- buttons:
-  - text: Individual
-    target: "/join-us"
-    image: "/assets/images/person-clipart-transparent-background-9.png"
-  - text: Group
-    target: "/partners"
-    image: "/assets/images/group-clipart-clip-art-group-768x768.png"
-  text: |-
-    # Join
-
-    Sign up below to join the Defund Climate Chaos coalition as a group (Grassroots, NGO, Union) or individual.
-  decoration: ''
-  map: false
-  background_image: ''
-  id: join
 - buttons: []
   text: |-
     # Find out more
