@@ -6,9 +6,6 @@ blocks:
   - text: Join an action
     target: "#actions"
     image: ''
-  - text: Our Demands
-    target: "/demands"
-    image: ''
   decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
   text: "# What’s happening?\n\nPeople across the UK are rising up to demand that
     bankers, insurers and fund managers **Defund Climate Chaos**, pay **Climate Reparations**
