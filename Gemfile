@@ -16,7 +16,7 @@ gem "json"
 gem "jekyll-get-json", "~> 1.0"
 
 # Theme
-gem 'jekyll-theme-chaos', '~> 0.1.0'
+gem 'jekyll-theme-chaos', git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "dcc-patches"
 
 
 

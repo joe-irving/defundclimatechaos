@@ -2,7 +2,7 @@
 header:
 - weight: 3
   title: People's AGM
-  url: https://actionnetwork.org/events/peoples-agm/
+  url: /peoples-agm
 - url: "/#join"
   weight: 2
   title: Join
