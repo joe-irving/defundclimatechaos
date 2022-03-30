@@ -54,6 +54,40 @@ fields:
     schema:
       format: markdown
   label: Summary
+- name: share
+  type: field_group
+  config: {}
+  fields:
+  - name: whatsapp
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Whatsapp
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+    description: General share text for the general share button
+  - name: tweet
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+      max: 280
+    label: Tweet
+  label: Share
 pages:
 - demands.md
 - faqs.md
