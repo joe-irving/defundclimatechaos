@@ -16,9 +16,9 @@ gem "json"
 gem "jekyll-get-json", "~> 1.0"
 
 # Theme
-gem 'jekyll-theme-chaos', git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "dcc-patches"
+gem 'jekyll-theme-chaos', git: "https://github.com/tippingpointuk/jekyll-theme-chaos"#, branch: "dcc-patches"
 
-
+gem 'action_network_rest'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
