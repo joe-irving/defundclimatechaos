@@ -2,13 +2,9 @@
 title: Defund Climate Chaos
 email: fossilfinance@defundclimatechaos.uk
 tagline: Turn off the money pipeline to fossil fuels. Now.
-description: |-
-  UK banks, investors and insurers are pumping billions of pounds into fossil
-  fuels that worsen the climate crisis.
-
-  On October 29th, ahead of UN climate talks, groups around the world and
-  UK are rising up to demand that the UK government and corporations
-  #DefundClimateChaos.
+description: 'UK banks, investors and insurers are pumping billions of pounds into
+  fossilfuels that worsen the climate crisis. People accross the UK are rising up
+  to demand that the UK finance industry and government #DefundClimateChaos.'
 url: https://defundclimatechaos.uk
 theme: jekyll-theme-chaos
 permalink: pretty
@@ -23,14 +19,18 @@ twitter: ''
 facebook: ''
 counter: 29-Oct-2021 9am
 timezone: Europe/London
-future: true # To allow future trainings etc
+future: true
 copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) for
   the base theme.
 defaults:
 - scope:
-    path: ''
+    path: google2b8ceaa38de54302.html
   values:
-    image: "/assets/images/og-image.png"
+    sitemap: false
+- scope:
+    path: admin/index.html
+  values:
+    sitemap: false
 collections:
   posts:
     permalink: "/stories/:title/"
@@ -45,15 +45,6 @@ collections:
     output: true
   templates:
     output: false
-defaults:
-- scope:
-    path: google2b8ceaa38de54302.html
-  values:
-    sitemap: false
-- scope:
-    path: admin/index.html
-  values:
-    sitemap: false
 airtable:
   faqs:
     app: app9apHbqOifmolTX
@@ -101,3 +92,7 @@ plugins:
 - jekyll-get-json
 - jekyll-airtable-import
 - jekyll-menus
+nav_links: []
+map:
+  lat: ''
+  lng: ''
