@@ -1,0 +1,101 @@
+---
+label: AN Page
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: page
+  hidden: true
+- type: text
+  name: title
+  label: Title
+- type: file
+  name: top_image
+  label: 'Header Image '
+  description: The image that fits above the content
+- name: top_quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Top Quote
+  description: The quote that appears before the content
+- type: file
+  name: image
+  label: Image in link previews
+- name: credits
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Credits
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+- name: share
+  type: field_group
+  config: {}
+  fields:
+  - name: whatsapp
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Whatsapp
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+    description: General share text for the general share button
+  - name: tweet
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+      max: 280
+    label: Tweet
+  label: Share
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+- name: logo_square
+  type: file
+  config:
+    maxSize: 64
+  label: Square Logo
+  description: For very small screens
