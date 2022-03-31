@@ -49,7 +49,7 @@ blocks:
   decoration: ''
   background_image: ''
 - buttons:
-  - target: "#what-s-happening-on-october-29th"
+  - target: "#what-s-happening-this-agm-season"
     text: Read more
     image: ''
     new_tab: false
