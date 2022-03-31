@@ -1,26 +1,40 @@
 require 'jekyll'
+require 'net/http'
+require 'json'
 
-module JsonCollection
+module GenerateLocation
   class Generator < ::Jekyll::Generator
     def generate(site)
-      collection_name="actions"
-      events_collection = Jekyll::Collection.new(site, collection_name)
-      site.data["events"]["events"].each_with_index do |event,i|
-        slug = event['browser_url'].gsub("https://actionnetwork.org/events/","")
-        london = event['location']['locality'].downcase.include? "london"
-        path = File.join(site.source, "_#{collection_name}", "#{slug}.md")
-        doc = Jekyll::Document.new(path, collection: events_collection, site: site)
-        event['layout'] = 'an-event'
-        event['image'] = event['featured_image_url']
-        event['london'] = london
-        # puts event['image']
+      site.collections['actions'].docs.each_with_index do |event,i|
+        event.data['start_date'] = dearray(event.data['start_date'])
+        event.data['end_date'] = dearray(event.data['end_date'])
 
-        doc.merge_data!(event)
-        doc.content = event["description"]
-
-        events_collection.docs << doc
+        uri = URI('https://geocode.maps.co/search')
+        params = { :q => event.data['address'] }
+        uri.query = URI.encode_www_form(params)
+        location_res = Net::HTTP.get_response(uri)
+        location_hash = {}
+        if location_res.is_a?(Net::HTTPSuccess)
+          location = JSON.parse(location_res.body)
+          if location.length > 0
+            event.data['geocode']= location[0]
+            location_hash = {
+              :location => {
+                :latitude => location[0]['lat'],
+                :longitude => location[0]['lon']
+              }
+            }
+          end
+        end
+        event.data['location'] = location_hash
       end
-      site.collections[collection_name] = events_collection
+    end
+    def dearray(array)
+      if array.kind_of?(Array)
+        array[0]
+      else
+        array
+      end
     end
   end
 end

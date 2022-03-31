@@ -35,7 +35,7 @@ blocks:
   background_image: ''
 - map: true
   text: ''
-  id: actions
+  id: maps
   buttons: []
   decoration: ''
   background_image: ''

@@ -1,4 +1,11 @@
 {% for post in site.data.agms %}
+{% capture url %}
+{% if post.actions.size > 0 %}
+{{ post.actions[0].url }}
+{% else %}
+#actions
+{% endif %}
+{% endcapture %}
 <div class="Chaos-Blog-Item">
   <div class="top">
     <div class="thumbnail">
@@ -7,8 +14,8 @@
     </div>
     <div class="description">
       <div class="header-line">
-        <h3><a target="_blank" href="{{ post.url }}">{{ post.title }}</a></h3>
-        <a target="_blank" href="{{ post.url }}"><span class="Chaos-Button">Join</span></a>
+        <h3><a href="{{ post.actions[0].url | default: '#map' | escape }}">{{ post.title }}</a></h3>
+        <a href="{{ post.actions[0].url | default: '#map' | escape }}"><span class="Chaos-Button">Join</span></a>
       </div>
       <p>{{ post.description }}</p>
     </div>
