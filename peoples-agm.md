@@ -9,7 +9,7 @@ share:
   tweet: ''
   whatsapp: ''
 tags: []
-logo: "/assets/images/people-s-agm.png"
+logo: "/assets/images/peoples-agm-and-dcc.png"
 logo_square: "/assets/images/people-s-agm.png"
 top_image: ''
 top_quote: ''

@@ -13,20 +13,22 @@ module GenerateLocation
         params = { :q => event.data['address'] }
         uri.query = URI.encode_www_form(params)
         location_res = Net::HTTP.get_response(uri)
-        location_hash = {}
+        # location_hash = {}
         if location_res.is_a?(Net::HTTPSuccess)
           location = JSON.parse(location_res.body)
           if location.length > 0
             event.data['geocode']= location[0]
-            location_hash = {
-              :location => {
-                :latitude => location[0]['lat'],
-                :longitude => location[0]['lon']
-              }
-            }
+            event.data['latitude'] ||= location[0]['lat']
+            event.data['longitude'] ||= location[0]['lon']
+            # location_hash = {
+            #   :location => {
+            #     :latitude => location[0]['lat'],
+            #     :longitude => location[0]['lon']
+            #   }
+            # }
           end
         end
-        event.data['location'] = location_hash
+        # event.data['location'] = location_hash
       end
     end
     def dearray(array)

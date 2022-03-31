@@ -1,14 +1,10 @@
 ---
 ---
 // Main Map
-$(document).ready(function(){
-  console.log("ready")
-})
-{% if site.actions %}
-{% assign actions = site.actions | sort: "start_date" %}
-{% else %}
+// $(document).ready(function(){
+//   console.log("ready")
+// })
 {% assign actions = site.actions %}
-{% endif %}
 
 var now = new Date()
 
@@ -66,21 +62,20 @@ var markerCluster = L.markerClusterGroup({
 });
 
 for (i in actionsData["events"]){
-  startDate = new Date(actionsData["events"][i]["start_date"])
-  if (startDate < (now + (60 * 60))){
-    actionsData["events"].splice(i,1);
+  action = actionsData["events"][i]
+  startDate = new Date(action["start_date"])
+  // var markerLocation = action;
+  if (!Object.keys(action).includes('latitude') || !Object.keys(action).includes('longitude')){
+    console.log(`No location for ${action['title']}`)
     continue
   }
-  if (!actionsData["events"][i]["location"]){
-    continue
-  }
-  var markerLocation = actionsData["events"][i]["location"]["location"];
-  if (!markerLocation){
-    continue
-  }
-  var newMarker = L.marker([markerLocation["latitude"], markerLocation["longitude"]],{icon: redMarker});
-  newMarker.bindPopup(/*html*/`<a href='${actionsData["events"][i]['url']}' target='_parent'>${actionsData["events"][i]['title']}</a>`)
-  newMarker.actionData = actionsData["events"][i]
+  var newMarker = L.marker([action["latitude"], action["longitude"]],{icon: redMarker});
+  newMarker.bindPopup(/*html*/`
+    <a href='${action['url']}' target='_parent'>
+      ${action['title']}
+    </a>
+  `)
+  newMarker.actionData = action
   newMarker.actionData['slug'] = actionsData["id"]
   newMarker.on("click",markerClicked );
   newMarker.addTo(markerCluster);
@@ -90,9 +85,10 @@ markerCluster.addTo(actionsMap)
 function getVisablePoints(bounds){
   var events = [];
   for (i in actionsData["events"]){
+    let action = actionsData["events"][i];
     let publish;
-    var markerLocation = actionsData["events"][i]["location"]["location"];
-    if (markerLocation){
+    var markerLocation = action;
+    if (Object.keys(action).includes('latitude') && Object.keys(action).includes('longitude')){
       var latlng = L.latLng(markerLocation["latitude"], markerLocation["longitude"]);
       if (bounds.contains(latlng)){
         publish = true;
@@ -101,7 +97,7 @@ function getVisablePoints(bounds){
       publish=true
     }
     if (publish){
-      events.push(actionsData["events"][i])
+      events.push(action)
     }
   }
   return events
@@ -111,7 +107,6 @@ function updateActionsList(actions){
   for (i in actions){
     var id = actions[i]["id"];
     var start = new Date(actions[i]["start_date"]);
-    console.log(start.getTime())
     var options = { hour: 'numeric', minute: 'numeric',timeZone: "Europe/London" }
     var startTime = start.getTime() ? new Intl.DateTimeFormat('en-GB', options).format(start) : "";
     var options = { weekday: 'short', month: 'short', day: 'numeric',timeZone: "Europe/London"  }

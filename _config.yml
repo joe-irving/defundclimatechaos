@@ -96,6 +96,8 @@ airtable:
     - End date
     - Slug
     - Address
+    - Latitude
+    - Longitude
     collection:
       slug: slug
       layout: event

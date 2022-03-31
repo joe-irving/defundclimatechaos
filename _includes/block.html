@@ -7,7 +7,7 @@
   {% capture buttons %}
   {% for button in include.block.buttons %}
     {% if forloop.first %}<div class="Chaos-Flex-Line">{% endif %}
-      <a href="{{ button.target | liquify | relative_url }}"><span class="Chaos-Button" {% if button.image.size > 0 %}style="display:flex;flex-direction:column;"{% endif %}>{% if button.image.size > 0 %}<img style="max-width:200px;box-shadow:none;" src="{{ button.image }}" alt="">{% endif %}<span  style="text-align:center;">{{button.text | liquify}}</span></span></a>
+      <a {% if button.new_tab%}target="_blank"{% endif %} href="{{ button.target | liquify | relative_url }}"><span class="Chaos-Button" {% if button.image.size > 0 %}style="display:flex;flex-direction:column;"{% endif %}>{% if button.image.size > 0 %}<img style="max-width:200px;box-shadow:none;" src="{{ button.image }}" alt="">{% endif %}<span  style="text-align:center;">{{button.text | liquify}}</span></span></a>
     {% if forloop.last  %}</div>{% endif %}
   {% endfor %}
   {% endcapture %}
