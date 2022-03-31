@@ -99,3 +99,5 @@ fields:
     maxSize: 64
   label: Square Logo
   description: For very small screens
+pages:
+- peoples-agm.md
