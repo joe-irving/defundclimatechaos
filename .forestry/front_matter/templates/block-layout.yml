@@ -36,9 +36,9 @@ fields:
         required: false
       label: Target
     config:
-      min: 
-      max: 
-      labelField: 
+      min:
+      max:
+      labelField:
     label: Buttons
   - name: border_bottom
     type: field_group
@@ -93,9 +93,9 @@ fields:
         maxSize: 64
       label: Image
     config:
-      min: 
-      max: 
-      labelField: 
+      min:
+      max:
+      labelField:
     label: Buttons
     showOnly:
       field: map
@@ -118,9 +118,9 @@ fields:
     showOnly:
       field: map
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Blocks
 - name: invert
   type: select
@@ -132,9 +132,9 @@ fields:
     - even
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Invert Color For Blocks which are...
 - name: credits
   type: textarea
@@ -151,6 +151,40 @@ fields:
     maxSize: 64
   label: Image
   description: Image displayed on link preveiws
+- name: share
+  type: field_group
+  config: {}
+  fields:
+  - name: whatsapp
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Whatsapp
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+    description: General share text for the general share button
+  - name: tweet
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+      max: 280
+    label: Tweet
+  label: Share
 pages:
 - index.md
 - index.md
