@@ -113,8 +113,14 @@ header:
     reflect: true
 invert: odd
 share:
-  whatsapp: "..."
-  text: ''
-  tweet: ''
+  whatsapp: 'People around the world are rising up to demand that governments and
+    corporations #DefundClimateChaos, pay #ClimateReparations and fund a #GlobalJustTransition
+    Take Action www.defundclimatechaos.uk'
+  text: 'People around the world are rising up to demand that governments and corporations
+    #DefundClimateChaos, pay #ClimateReparations and fund a #GlobalJustTransition
+    Take Action www.defundclimatechaos.uk'
+  tweet: 'People around the world are rising up to demand that governments and corporations
+    #DefundClimateChaos, pay #ClimateReparations and fund a #GlobalJustTransition
+    Take Action www.defundclimatechaos.uk'
 
 ---
