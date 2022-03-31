@@ -79,6 +79,7 @@ for (i in actionsData["events"]){
     continue
   }
   var newMarker = L.marker([markerLocation["latitude"], markerLocation["longitude"]],{icon: redMarker});
+  newMarker.bindPopup(/*html*/`<a href='${actionsData["events"][i]['url']}' target='_parent'>${actionsData["events"][i]['title']}</a>`)
   newMarker.actionData = actionsData["events"][i]
   newMarker.actionData['slug'] = actionsData["id"]
   newMarker.on("click",markerClicked );
