@@ -37,12 +37,9 @@ layout: page
 
 {% capture address %}
 <address class="">
-  {{ page.location.venue }},
-  {% for l in page.location.address_lines %}{{ l }},{% endfor %}
-  {{ page.location.locality  }},
-  {{ page.location.postal_code  }}
+  {{ page.address }}
 </address>
-<p><a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{ page.location.location.latitude }}%2C{{ page.location.location.longitude }}">Get directions...</a></p>
+<p><a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{ page.latitude }}%2C{{ page.longitude }}">Get directions...</a></p>
 {% endcapture %}
 {% capture map %}
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -51,16 +48,16 @@ layout: page
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
-<div id="Single-Action-Map" map_location="{{ page.location | jsonify | url_encode | replace: "+", "%20" }}"></div>
+<div id="Single-Action-Map" lat="{{ page.latitude }}" lon="{{ page.longitude }}"></div>
 <script type="text/javascript" src="/assets/js/an-event-page.js"> </script>
 {% endcapture %}
 
 
 {% capture form %}
-{% unless page.embed.error %}
-{{page.embed.html}}
-{% elsif page.browser_url %}
-{%  assign an_event_slug = page.browser_url | split: "://" | last | split: "/" | last %}
+{% if page.embed %}
+{{page.embed}}
+{% elsif page.booking_link contains "actionnetwork.org" %}
+{%  assign an_event_slug = page.booking_link | split: "://" | last | split: "/" | last %}
 <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
 <script src='https://actionnetwork.org/widgets/v4/event/{{ an_event_slug }}?format=js&source=widget'></script>
 <div id='can-event-area-{{ an_event_slug }}' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
@@ -68,24 +65,8 @@ layout: page
 <div class="Chaos-Flex-Line">
   <a href="{{ page.browser_url }}"><span class="Chaos-Button">Sign Up</span></a>
 </div>
-{% endunless %}
+{% endif %}
 {% endcapture %}
 
-<h1>{{ page.title }}</h1>
-
-{{ share_buttons }}
-{{ date }}
-
-<h2>What</h2>
-
-{{ page.description }}
-
-<h2>RSVP</h2>
-
-{{form}}
-
-{% if page.location.venue.length > 0 %}
-<h2>Where</h2>
-{{ address }}
-{{map}}
-{% endif %}
+{% assign t = site.templates | where: "slug",  "an-event" | first  %}
+{{ t.content | liquify | markdownify }}

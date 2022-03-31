@@ -98,10 +98,11 @@ airtable:
     - Address
     - Latitude
     - Longitude
+    - Content
     collection:
       slug: slug
-      layout: event
-      content: description
+      layout: an-event
+      content: content
   trainings:
     app: app9apHbqOifmolTX
     table: tblr8deZvWPtDpT8z

@@ -1,9 +1,9 @@
 ---
 title: Action Network Page
-slug: ''
+slug: 'an-page'
 
 ---
-# {{ page.title }}
+# {{ title }}
 
 {{ share_buttons }}
 
