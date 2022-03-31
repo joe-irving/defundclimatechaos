@@ -35,6 +35,12 @@ blocks:
   buttons: []
   decoration: ''
   background_image: ''
+- map: true
+  text: ''
+  id: actions
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
