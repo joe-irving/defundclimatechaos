@@ -30,7 +30,13 @@ blocks:
     {% include agms.html %}
   map: false
   id: actions
-  buttons: []
+  buttons:
+  - target: "#map"
+    image: ''
+    text: All Actions
+  - text: Add your action
+    target: https://airtable.com/shr2NN3oP7uvqgyiu
+    image: ''
   decoration: ''
   background_image: ''
 - map: true
@@ -108,5 +114,9 @@ header:
     image: "/assets/images/money-border.gif"
     reflect: true
 invert: odd
+share:
+  whatsapp: "..."
+  text: ''
+  tweet: ''
 
 ---
