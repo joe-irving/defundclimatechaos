@@ -6,6 +6,7 @@ blocks:
   - text: Join An Action
     target: "#actions"
     image: ''
+    new_tab: false
   decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
   text: |-
     # What’s happening?
@@ -34,9 +35,11 @@ blocks:
   - target: "#map"
     image: ''
     text: All Actions
+    new_tab: false
   - text: Add your action
     target: https://airtable.com/shr2NN3oP7uvqgyiu
     image: ''
+    new_tab: true
   decoration: ''
   background_image: ''
 - map: true
@@ -49,6 +52,7 @@ blocks:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
     image: ''
+    new_tab: false
   text: |-
     # Why?
 
@@ -69,9 +73,11 @@ blocks:
   - text: Individual
     target: "/join-us"
     image: "/assets/images/person-clipart-transparent-background-9.png"
+    new_tab: false
   - text: Group
     target: "/partners"
     image: "/assets/images/group-clipart-clip-art-group-768x768.png"
+    new_tab: false
   text: |-
     # Join
 

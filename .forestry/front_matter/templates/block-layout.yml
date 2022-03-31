@@ -35,9 +35,6 @@ fields:
       config:
         required: false
       label: Target
-    - name: new_tab
-      type: boolean
-      label: New Tab?
     config:
       min: 
       max: 
@@ -95,6 +92,9 @@ fields:
       config:
         maxSize: 64
       label: Image
+    - name: new_tab
+      type: boolean
+      label: New Tab?
     config:
       min: 
       max: 
