@@ -7,20 +7,18 @@ blocks:
     target: "#actions"
     image: ''
   decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
-  text: "# What’s happening?\n\nPeople across the UK are rising up to demand that
-    bankers, insurers and fund managers **Defund Climate Chaos**, pay **Climate Reparations**
-    and fund a **Global Just Transition**.\n\nThis Spring, as the finance industry
-    comes together to hold their Annual General Meetings - these are where the Executives
-    and Major Shareholders come together to celebrate profits, approve bonuses and
-    ignore taking action to stop climate chaos. \n\nThis year we're taking mass action
-    to disrupt business as usual at their AGMs. You can join communities on the frontlines
-    of climate breakdown to take action against UK’s biggest funders of fossil fuel
-    projects.\n\n> \"We will target you, we will regulate you, we will prosecute you,
-    we will dismantle the economic systems and systems of power that you maintain,
-    we will force you to make reparations for the climate crisis and extractivism
-    that you continue to enable around the world.\"\n\nIt’s past time to turn off
-    the money pipeline to oil, coal and gas companies and for UK finance to start
-    investing in climate justice and a safer future for us all."
+  text: |-
+    # What’s happening?
+
+    People across the UK are rising up to demand that bankers, insurers and fund managers **Defund Climate Chaos**, pay **Climate Reparations** and fund a **Global Just Transition**.
+
+    Every Spring, the finance industry comes together to hold their Annual General Meetings - where they celebrate profits, approve bonuses and ignore taking action to stop climate chaos.
+
+    This year, we're taking mass action to disrupt business as usual at their AGMs. You can join communities on the frontlines of climate breakdown to take action against UK’s biggest funders of fossil fuel projects.
+
+    > "We will target you, we will regulate you, we will prosecute you, we will dismantle the economic systems and systems of power that you maintain, we will force you to make reparations for the climate crisis and extractivism that you continue to enable around the world."
+
+    It’s past time to turn off the money pipeline to oil, coal and gas companies and for UK finance to start investing in climate justice and a safer future for us all.
   map: false
   background_image: ''
   id: what
