@@ -10,4 +10,5 @@ fields:
   label: slug
   hidden: true
 pages:
+- _templates/action-network-page.md
 - _templates/an-event.md
