@@ -36,9 +36,9 @@ fields:
         required: false
       label: Target
     config:
-      min:
-      max:
-      labelField:
+      min: 
+      max: 
+      labelField: 
     label: Buttons
   - name: border_bottom
     type: field_group
@@ -93,9 +93,9 @@ fields:
         maxSize: 64
       label: Image
     config:
-      min:
-      max:
-      labelField:
+      min: 
+      max: 
+      labelField: 
     label: Buttons
     showOnly:
       field: map
@@ -118,9 +118,9 @@ fields:
     showOnly:
       field: map
   config:
-    min:
-    max:
-    labelField:
+    min: 
+    max: 
+    labelField: 
   label: Blocks
 - name: invert
   type: select
@@ -132,9 +132,9 @@ fields:
     - even
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Invert Color For Blocks which are...
 - name: credits
   type: textarea
