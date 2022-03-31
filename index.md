@@ -2,7 +2,10 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
-- buttons: []
+- buttons:
+  - text: Join An Action
+    target: "#actions"
+    image: ''
   decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
   text: |-
     # What’s happening?
