@@ -99,5 +99,10 @@ fields:
     maxSize: 64
   label: Square Logo
   description: For very small screens
+- name: an_id
+  type: text
+  config:
+    required: false
+  label: Action Network ID
 pages:
 - peoples-agm.md
