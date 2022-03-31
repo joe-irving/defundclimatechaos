@@ -93,6 +93,12 @@ fields:
   config:
     maxSize: 64
   label: Logo
+- name: logo_square
+  type: file
+  config:
+    maxSize: 64
+  label: Square Logo
+  description: For very small screens
 pages:
 - demands.md
 - faqs.md
