@@ -88,6 +88,11 @@ fields:
       max: 280
     label: Tweet
   label: Share
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
 pages:
 - demands.md
 - faqs.md
