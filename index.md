@@ -40,6 +40,16 @@ blocks:
   buttons: []
   decoration: ''
   background_image: ''
+- map: false
+  text: ''
+  id: ''
+  buttons:
+  - text: Add Your Action
+    target: https://airtable.com/shr2NN3oP7uvqgyiu
+    image: ''
+    new_tab: false
+  decoration: ''
+  background_image: ''
 - buttons:
   - target: "#what-s-happening-this-agm-season"
     text: Read more
