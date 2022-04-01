@@ -28,7 +28,7 @@ blocks:
 
     Actions will be happening across the UK this spring - sign up to find out more about taking action at Barclays, HSBC, Lloyd's of London, Shell and Standard Chartered AGMs.
 
-    Or [add your own local Barclays or #StopTMX action to the map](https://airtable.com/shr2NN3oP7uvqgyiu).
+    Or [add your own local Barclays or Stop Insuring the Trans Mountain Pipeline action to the map](https://airtable.com/shr2NN3oP7uvqgyiu).
   map: false
   id: actions
   buttons: []
