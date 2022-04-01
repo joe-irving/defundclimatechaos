@@ -41,7 +41,11 @@ blocks:
   decoration: ''
   background_image: ''
 - map: false
-  text: ''
+  text: "**Barclays Lies** (_30 April - 4 May_) - Take action outside your local Barclays
+    branch to call out their Greenwash and demand they stop funding fossil fuel expansion.\n\n
+    \ \n**#StopTMX** (_9 May - 13 May_) - Stand in solidarity with Land Defenders
+    resisting the Trans Mountain tar sands pipeline, by taking action on the street
+    or online, to stop the project being insured through Lloyd’s of London."
   id: ''
   buttons:
   - text: Add Your Action
