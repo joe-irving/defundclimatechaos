@@ -81,9 +81,11 @@ blocks:
     image: "/assets/images/group-clipart-clip-art-group-768x768.png"
     new_tab: false
   text: |-
-    # Join
+    # Join Us
 
-    Sign up below to join the Defund Climate Chaos coalition as a group (Grassroots, NGO, Union) or individual.
+    Youth from communities on the frontlines of wildfires and floods, Land Defenders, trade unions, and local campaign groups, we are all joining together to transform the finance system.
+
+    Sign up below to join the Defund Climate Chaos coalition, either as a group (Grassroots, NGO, Union) or individual.
   decoration: ''
   map: false
   background_image: ''
