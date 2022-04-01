@@ -110,9 +110,9 @@ header:
   text: |-
     ## Turn off the money pipeline to fossil fuels. Now.
 
-    **Money is fuelling climate chaos**. Climate justice means keeping fossil fuels in the ground, right now. We need to stop new coal, oil, gas and fracking project
+    **Money is fuelling climate chaos**. Climate justice means keeping fossil fuels in the ground. We need to stop new coal, oil, gas and fracking project
 
-    **UK banks, investors and insurers are fuelling climate chaos** by pumping billions of pounds into climate wrecking projects each year. Without that support, companies like Shell and BP, can't operate.
+    **UK banks, investors and insurers are fuelling climate chaos** by pumping billions of pounds into climate wrecking projects. Without that support, companies like Shell and BP, can't fuel climate breakdown.
 
     People around the world are rising up to demand that governments and corporations **#DefundClimateChaos**, pay **Climate Reparations** and fund a **Global** **Just Transition**
 
