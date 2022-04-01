@@ -76,7 +76,7 @@ for (i in actionsData["events"]){
     </a>
   `)
   newMarker.actionData = action
-  newMarker.actionData['slug'] = actionsData["id"]
+  // newMarker.actionData['slug'] = actionsData["id"]
   newMarker.on("click",markerClicked );
   newMarker.addTo(markerCluster);
 }
@@ -105,22 +105,23 @@ function getVisablePoints(bounds){
 function updateActionsList(actions){
   var actionslisthtml = "";
   for (i in actions){
-    var id = actions[i]["id"];
-    var start = new Date(actions[i]["start_date"]);
-    var options = { hour: 'numeric', minute: 'numeric',timeZone: "Europe/London" }
-    var startTime = start.getTime() ? new Intl.DateTimeFormat('en-GB', options).format(start) : "";
-    var options = { weekday: 'short', month: 'short', day: 'numeric',timeZone: "Europe/London"  }
-    var startDate = start.getTime() ? new Intl.DateTimeFormat('en-GB', options).format(start) : "";
+    let action = actions[i];
+    var id = action["slug"];
+    // var start = new Date(actions[i]["start_date"]+" UTC+0100");
+    // var options = { hour: 'numeric', minute: 'numeric'}
+    // var startTime = start.getTime() ? new Intl.DateTimeFormat('en-GB', options).format(start) : "";
+    // var options = { weekday: 'short', month: 'short', day: 'numeric'}
+    // var startDate = start.getTime() ? new Intl.DateTimeFormat('en-GB', options).format(start) : "";
     actionslisthtml = actionslisthtml.concat(/*html*/`
       <div class="Chaos-Blog-Item Action"  id="${ id }">
-        <div class="top ">
+        <div class="top">
           <div class="description">
             <div class="header-line">
-              <h3><a target="_parent" href="${actions[i]["url"]}">${ actions[i]["title"] }</a></h3>
-              <a target="_parent" href="${actions[i]["url"]}"><span class="Chaos-Button">Join</span></a>
+              <h3><a target="_parent" href="${action["url"]}">${ action["title"] }</a></h3>
+              <a target="_parent" href="${action["url"]}"><span class="Chaos-Button">Join</span></a>
             </div>
-            <p><time>${ startTime }</time> on ${ startDate }</p>
-            <address>${actions[i]['address'] }</address>
+            <p><time>${ action.start.time }</time> on ${ action.start.date }</p>
+            <address>${action['address'] }</address>
           </div>
         </div>
       </div>
@@ -146,8 +147,8 @@ function mapMoved() {
   // updateActionBox(actions[0]);
 }
 function markerClicked(e){
- var lastMarker = $(`.Action-List .Action.first`).attr('id');
- var thisMarker = e.target.actionData.slug ;
+  var lastMarker = $(`.Action-List .Action.first`).attr('id');
+  var thisMarker = e.target.actionData.slug ;
 
  $(`#${ lastMarker }`).removeClass('first');
  $(`#${ thisMarker }`).addClass('first');

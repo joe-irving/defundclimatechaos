@@ -1,13 +1,24 @@
 require 'jekyll'
 require 'net/http'
 require 'json'
+require 'time'
 
 module GenerateLocation
   class Generator < ::Jekyll::Generator
+    def get_date_hash(date)
+      return {:date=>nil,:time=>nil} unless date
+      date_object = Time.parse(date)
+      {
+        :date => date_object.strftime("%A %e %B"),
+        :time => date_object.strftime("%I:%M %P"),
+      }
+    end
     def generate(site)
       site.collections['actions'].docs.each_with_index do |event,i|
         event.data['start_date'] = dearray(event.data['start_date'])
+        event.data['start'] = get_date_hash(event.data['start_date'])
         event.data['end_date'] = dearray(event.data['end_date'])
+        event.data['end'] = get_date_hash(event.data['end_date'])
 
         uri = URI('https://geocode.maps.co/search')
         params = { :q => event.data['address'] }
@@ -32,11 +43,8 @@ module GenerateLocation
       end
     end
     def dearray(array)
-      if array.kind_of?(Array)
-        array[0]
-      else
-        array
-      end
+      return array unless array.kind_of?(Array)
+      array[0]
     end
   end
 end
