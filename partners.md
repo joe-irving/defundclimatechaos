@@ -10,17 +10,19 @@ order:
 credits: ''
 tags: []
 summary: ''
+share:
+  whatsapp: ''
+  text: ''
+  tweet: ''
+logo: ''
+logo_square: ''
 
 ---
 # Partners
 
-The youth climate movement has had enough, and they’re not the only ones. The 29th October is happening because groups across the world are coming together to make it happen.
+Youth from communities on the frontlines of wildfires and floods, Indigenous frontline defenders, trade unions and local community groups, we are joining together to transform the finance system.
 
-Youth from communities on the frontlines of wildfires and floods, Indigenous frontline defenders, massive organisations and local community groups will all be out on the streets on the 29th Oct.
-
-We are working closely with these allied networks all around the world as part of the[ Defund Climate Chaos global day of action](/).
-
-Become a partner and [add your group to the list](#register-your-groups-support) of groups supporting the youth climate movement's call to action.
+Join us and become a partner in the Defund Climate Chaos coalition.
 
 ## Register your group's support
 
