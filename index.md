@@ -65,7 +65,7 @@ blocks:
     Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they still fund fossil fuels.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
-  decoration: <iframe width="560" height="315" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
+  decoration: <iframe width="560" height="315" style="max-width: 90vw;" src="https://www.youtube.com/embed/0_Oj6v5Wb80"
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
     encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   map: false
