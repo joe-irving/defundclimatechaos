@@ -9,13 +9,13 @@ slug: an-event
 {{ image }}
 {{ date }}
 
-## RSVP
-
-{{form}}
-
 ## What
 
 {{ content }}
+
+## RSVP
+
+{{form}}
 
 ## Where
 
