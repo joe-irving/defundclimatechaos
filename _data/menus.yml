@@ -2,10 +2,10 @@
 header:
 - weight: 3
   title: People's AGM
-  url: /peoples-agm
+  url: "/peoples-agm"
 - url: "/#join"
   weight: 2
-  title: Join
+  title: Join Us
 - url: "/#actions"
   title: Take Action
   weight: 1
