@@ -31,11 +31,7 @@ blocks:
     Or [add your own local Barclays or #StopTMX action to the map](https://airtable.com/shr2NN3oP7uvqgyiu).
   map: false
   id: actions
-  buttons:
-  - text: Add your action
-    target: https://airtable.com/shr2NN3oP7uvqgyiu
-    image: ''
-    new_tab: true
+  buttons: []
   decoration: ''
   background_image: ''
 - map: true
