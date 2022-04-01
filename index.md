@@ -46,7 +46,7 @@ blocks:
     \ \n**#StopTMX** (_9 May - 13 May_) - Stand in solidarity with Land Defenders
     resisting the Trans Mountain tar sands pipeline, by taking action on the street
     or online, to stop the project being insured through Lloyd’s of London."
-  id: ''
+  id: add-action
   buttons:
   - text: Add Your Action
     target: https://airtable.com/shr2NN3oP7uvqgyiu
