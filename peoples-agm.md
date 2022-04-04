@@ -18,7 +18,7 @@ logo: "/assets/images/peoples-agm-and-dcc.png"
 logo_square: "/assets/images/people-s-agm.png"
 top_image: ''
 top_quote: ''
-image: ''
+image: "/assets/images/people-s_agm_v1_-1500_x_900_px-_4.png"
 credits: ''
 summary: ''
 
