@@ -42,11 +42,21 @@ blocks:
   background_image: ''
 - map: false
   text: |-
+    ### People's AGM
+
+    Hear from communities on the frontline of fossil fuel projects funded and insured by companies in the UK. Take action together and discus how we can make this AGM season one that focuses on climate justice rather than bumper bonuses.
+
+    ### UK Wide Actions
+
     **#BarcLIES** (_30 April - 4 May_) - Take action outside your local Barclays branch to call out their Greenwash and demand they stop funding fossil fuel expansion.
 
     **#StopTMX** (_9 May - 13 May_) - Stand in solidarity with Land Defenders resisting the Trans Mountain tar sands pipeline, by taking action on the street or online, to stop the project being insured through Lloyd’s of London.
   id: add-action
   buttons:
+  - text: RSVP for People's AGM
+    target: https://defundclimatechaos.uk/peoples-agm/
+    image: ''
+    new_tab: false
   - text: Add Your Action
     target: https://airtable.com/shr2NN3oP7uvqgyiu
     image: ''
