@@ -5,9 +5,14 @@ slug: peoples-agm
 an_id: 0f31de16-2191-4e78-a61a-dcf5333f59fd
 style: peoples-agm
 share:
-  text: ''
-  tweet: ''
-  whatsapp: ''
+  text: 'Financial companies are getting ready for their annual general meetings,
+    where CEOS and shareholders celebrate their millions. I''m attending the #PeoplesAGM
+    to demand the UK''s finance sector #DefundClimateChaos so the world can have #ClimateJustice  -
+    join us'
+  tweet: 'I''m attending the #PeoplesAGM to demand the UK''s finance sector #DefundClimateChaos
+    so the world can have #ClimateJustice  - join us here: https://defundclimatechaos.uk/peoples-agm/'
+  whatsapp: 'I''m attending the #PeoplesAGM to demand the UK''s finance sector #DefundClimateChaos
+    so the world can have #ClimateJustice  - join us here: https://defundclimatechaos.uk/peoples-agm/'
 tags: []
 logo: "/assets/images/peoples-agm-and-dcc.png"
 logo_square: "/assets/images/people-s-agm.png"
