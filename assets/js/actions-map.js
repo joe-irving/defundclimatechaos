@@ -65,7 +65,7 @@ for (i in actionsData["events"]){
   action = actionsData["events"][i]
   startDate = new Date(action["start_date"])
   // var markerLocation = action;
-  if (!Object.keys(action).includes('latitude') || !Object.keys(action).includes('longitude')){
+  if (action['map_exclude']){
     console.log(`No location for ${action['title']}`)
     continue
   }

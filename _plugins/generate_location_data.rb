@@ -39,6 +39,9 @@ module GenerateLocation
             # }
           end
         end
+        if !event.data['latitude'] || !event.data['longitude'] || event.data['address'].include?('TBC') || event.data['address'].include?('Online')
+          event.data['map_exclude'] = true
+        end
         # event.data['location'] = location_hash
       end
     end
