@@ -20,6 +20,9 @@ share:
 logo: ''
 logo_square: ''
 menu:
+  header:
+    weight: 3
+    title: Clean Up Standard Chartered
   footer:
     weight: 6
     title: Google Reveiw Storm
