@@ -19,6 +19,10 @@ share:
     this guide'
 logo: ''
 logo_square: ''
+menu:
+  footer:
+    weight: 6
+    title: Google Reveiw Storm
 
 ---
 ## What is the digital action?
