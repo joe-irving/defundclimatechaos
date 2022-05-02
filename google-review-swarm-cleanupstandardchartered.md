@@ -2,10 +2,10 @@
 layout: page
 tags: []
 title: 'Google Review Swarm  #CleanUpStandardChartered'
-top_image: ''
+top_image: "/assets/images/defund-climate-chaos-bank-of-england.jpg"
 top_quote: If we all work together, we'll be able to see that rating start to get
   lower and lower.
-image: ''
+image: "/assets/images/dcc-og-image.jpeg"
 credits: ''
 permalink: google-review-swarm
 summary: Add as many Google Reviews as you can on Google Maps to lower the star rates
@@ -30,7 +30,7 @@ menu:
 ---
 # **Google Review Swarm**
 
-# **#CleanUpStandardChartered**
+### **#CleanUpStandardChartered**
 
 ## What is the digital action?
 
