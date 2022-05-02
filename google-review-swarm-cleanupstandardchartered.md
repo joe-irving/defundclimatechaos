@@ -30,7 +30,7 @@ menu:
 ---
 # **Google Review Swarm**
 
-### **#CleanUpStandardChartered**
+### #CleanUpStandardChartered
 
 ## What is the digital action?
 
