@@ -49,9 +49,9 @@ Anytime.
 
 * In order to review somewhere on Google, **you will need a Google account**. If you haven’t got on, you can create one fast, free and easy. Google has a [support page on how to do so here](https://support.google.com/accounts/answer/27441?hl=en), but get in touch if you’d like some extra help.
 * Make sure you’re signed into your Google account before you leave your review.
-* Go on Google maps and search for Standard Chartered locations in the country you want to leave the review in. You can also use some of the links at the bottom of this page.!\[Graphical user interface, text, application
+* Go on Google maps and search for Standard Chartered locations in the country you want to leave the review in. You can also use some of the links at the bottom of this page.
 
-Description automatically generated\](https://lh4.googleusercontent.com/KF5dBRz4T6ULlEpfXW5X3fI8uKj0bC1f_7Bv6AUTrbo0i2myCrsGIr1spd0Eqk8KttWY-PvbqsfcO2GNUxiIuN81OCVOSGk3fb2q0A9l2iPXh7NM19s1R0kIJ4XC82lCd8U1CnzI =290.00270569324493x286)
+![https://lh4.googleusercontent.com/KF5dBRz4T6ULlEpfXW5X3fI8uKj0bC1f_7Bv6AUTrbo0i2myCrsGIr1spd0Eqk8KttWY-PvbqsfcO2GNUxiIuN81OCVOSGk3fb2q0A9l2iPXh7NM19s1R0kIJ4XC82lCd8U1CnzI](https://lh4.googleusercontent.com/KF5dBRz4T6ULlEpfXW5X3fI8uKj0bC1f_7Bv6AUTrbo0i2myCrsGIr1spd0Eqk8KttWY-PvbqsfcO2GNUxiIuN81OCVOSGk3fb2q0A9l2iPXh7NM19s1R0kIJ4XC82lCd8U1CnzI)
 
 * Click on the Standard Chartered office you want to review. There will be information about the building, such as its opening hours, contact info, and photos. If you scroll down this, you will find the review summary.
 * From here, you simply click ‘Write a review’ or click on “Rate & Review” and get going!
@@ -63,9 +63,9 @@ Description automatically generated\](https://lh4.googleusercontent.com/KF5dBRz4
 
 ## How to amplify a Google review:
 
-Once you’ve finished your Google reviews, amplify them by sharing them - with friends, family, us, or on social media. !\[Text
+Once you’ve finished your Google reviews, amplify them by sharing them - with friends, family, us, or on social media. 
 
-Description automatically generated\](https://lh3.googleusercontent.com/Jt9s26QpF0GXtDwPORi9b7nj7M75sTTQUGyjr1WaCk3kgQHNQHa42CX-kNpXjl4J2-w84oG46aNdTMYBzfxkqe3Yg7MO6O2pd-Ye_WyBORZ2FGA1FxFJ5sOPceagL9ceLAXqZ2YK =160x239)
+![https://lh3.googleusercontent.com/Jt9s26QpF0GXtDwPORi9b7nj7M75sTTQUGyjr1WaCk3kgQHNQHa42CX-kNpXjl4J2-w84oG46aNdTMYBzfxkqe3Yg7MO6O2pd-Ye_WyBORZ2FGA1FxFJ5sOPceagL9ceLAXqZ2YK](https://lh3.googleusercontent.com/Jt9s26QpF0GXtDwPORi9b7nj7M75sTTQUGyjr1WaCk3kgQHNQHa42CX-kNpXjl4J2-w84oG46aNdTMYBzfxkqe3Yg7MO6O2pd-Ye_WyBORZ2FGA1FxFJ5sOPceagL9ceLAXqZ2YK)
 
 * **You can share your own review, and like and share other people’s reviews using these buttons at the bottom of reviews.**
 * **The more people who like and share these reviews, the more people will see them.**
