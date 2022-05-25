@@ -60,8 +60,8 @@ share:
 logo: ''
 logo_square: ''
 header:
-  text: "# Today we remember, we resist and we rise with all those on the frontlines
-    of the climate crisis who seek justice."
+  text: "## We remember, we resist and we rise with all those on the frontlines of
+    the climate crisis who seek justice."
   buttons: []
   border_bottom:
     image: ''
