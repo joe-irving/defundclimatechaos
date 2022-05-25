@@ -2,6 +2,15 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
+- map: false
+  text: |-
+    {% assign posts = site.data.resources | where: "category", "Digital Action" %}
+
+    {% include blog-list.html date=false share_buttons=true %}
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons:
   - text: See map
     target: "#tribute-map"
