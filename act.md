@@ -1,9 +1,6 @@
 ---
 layout: page
 image: "/assets/images/og-image.png"
-top_quote: |-
-  Today we remember, we resist and we rise with all those on the
-  frontlines of the climate crisis who seek justice.
 blocks:
 - buttons:
   - text: See map
@@ -54,7 +51,7 @@ credits: ''
 invert: even
 title: Act
 tags: []
-top_image: "/assets/images/1-4-21_no_more_fossil_fools_bank_of_englandwilliam_joshua_templeton_photographer-8.jpg"
+#top_image: "/assets/images/1-4-21_no_more_fossil_fools_bank_of_englandwilliam_joshua_templeton_photographer-8.jpg"
 permalink: act
 summary: ''
 share:
