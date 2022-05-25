@@ -22,8 +22,8 @@ blocks:
   id: join
 - map: true
 - buttons:
-    - text: See map
-      target: "#tribute-map"
+  - text: See map
+    target: "#tribute-map"
   text: |-
     # Add your tribute
 
@@ -34,8 +34,8 @@ blocks:
   map: false
   background_image: ''
   id: tribute
-- embed: |-
-    <iframe src="/boe-memorial" id="tribute-map" class="Chaos-Map" style="height: 80vh;width: 100%;border: none;padding: 0;margin: 0;"  height=100% width=100% frameborder="0"></iframe>
+- embed: '<iframe src="/boe-memorial" id="tribute-map" class="Chaos-Map" style="height:
+    80vh;width: 100%;border: none;padding: 0;margin: 0;"  height=100% width=100% frameborder="0"></iframe>'
 - map: false
   text: |-
     # What's next? 6 November
@@ -57,7 +57,7 @@ blocks:
     ### Other cities?
 
     [Join Global Day for Climate Justice where you are](https://cop26coalition.org/gda/) - 100s of marches and rallies around the world.
-  id: 'next'
+  id: next
   buttons:
   - target: https://cop26coalition.org/gda/
     text: Find an action near you on 6 November
@@ -76,7 +76,7 @@ blocks:
     Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they still fund fossil fuels.
 
     Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
-  decoration:
+  decoration: 
   map: false
   background_image: ''
   id: why
@@ -119,5 +119,16 @@ blocks:
   id: partners
 credits: ''
 invert: even
+title: Act
+tags: []
+top_image: "/assets/images/1-4-21_no_more_fossil_fools_bank_of_englandwilliam_joshua_templeton_photographer-8.jpg"
+permalink: act
+summary: ''
+share:
+  whatsapp: ''
+  text: ''
+  tweet: ''
+logo: ''
+logo_square: ''
 
 ---
