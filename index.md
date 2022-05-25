@@ -3,66 +3,30 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - buttons:
-  - text: Join An Action
+  - text: Join us
+    target: "#join"
+    image: ''
+    new_tab: false
+  - text: Take Action
     target: "#actions"
     image: ''
     new_tab: false
   decoration: "![](/assets/images/20211029_lloyds_of_london_uk_london_ad_8.jpg)"
   text: |-
-    # What’s happening?
+    # What’s Defund Climate Chaos?
 
-    People across the UK are rising up to demand that bankers, insurers and fund managers **Defund Climate Chaos**, pay **Climate Reparations** and fund a **Global Just Transition**.
+    People across the UK are rising up to demand that bankers, insurers and fund managers **Defund Climate Chaos**, pay [**Climate Reparations**](https://climatereparations.uk/ "Climate Reparations Coalition") and fund a **Global Just Transition**.
 
-    Every Spring, the finance industry comes together to hold their Annual General Meetings - where they celebrate profits, approve bonuses and ignore taking action to stop climate chaos.
-
-    This year, we're taking mass action to disrupt business as usual at their AGMs. You can join communities on the frontlines of climate breakdown to take action against UK’s biggest funders of fossil fuel projects.
+    This year we disrupted business as usual at the AGMs of funders and insurers of climate chaos. A whole choir sang through HSBC's AGM, we shouted directly confronted the Barclays chairman stopping him speaking, Standard Chartered were met with devil-horned hecklers and Shell had to stop business as usual as 70 people stormed their AGM. **We halted business as usual.**
 
     > "We will target you, we will regulate you, we will prosecute you, we will dismantle the economic systems and systems of power that you maintain, we will force you to make reparations for the climate crisis and extractivism that you continue to enable around the world."
 
     It’s past time to turn off the money pipeline to oil, coal and gas companies and for UK finance to start investing in climate justice and a safer future for us all.
+
+    Back in October 29th, we rose up in the biggest mobilisation against financing of fossil fuels, with thousands taking to the streets across the UK. Join us for the next mass action.
   map: false
   background_image: ''
   id: what
-- text: |-
-    # AGM Actions
-
-    Actions will be happening across the UK this spring - sign up to find out more about taking action at Barclays, HSBC, Lloyd's of London, Shell and Standard Chartered AGMs.
-
-    Or [add your own local Barclays or Stop Insuring the Trans Mountain Pipeline action to the map](/#add-action).
-  map: false
-  id: actions
-  buttons: []
-  decoration: ''
-  background_image: ''
-- map: true
-  text: ''
-  id: maps
-  buttons: []
-  decoration: ''
-  background_image: ''
-- map: false
-  text: |-
-    ### People's AGM
-
-    Hear from communities on the frontline of fossil fuel projects funded and insured by companies in the UK. Take action together and discus how we can make this AGM season one that focuses on climate justice rather than bumper bonuses.
-
-    ### UK Wide Actions
-
-    **#BarcLIES** (_30 April - 4 May_) - Take action outside your local Barclays branch to call out their Greenwash and demand they stop funding fossil fuel expansion.
-
-    **#StopTMX** (_9 May - 13 May_) - Stand in solidarity with Land Defenders resisting the Trans Mountain tar sands pipeline, by taking action on the street or online, to stop the project being insured through Lloyd’s of London.
-  id: add-action
-  buttons:
-  - text: RSVP for People's AGM
-    target: https://defundclimatechaos.uk/peoples-agm/
-    image: ''
-    new_tab: false
-  - text: Add Your Action
-    target: https://airtable.com/shr2NN3oP7uvqgyiu
-    image: ''
-    new_tab: false
-  decoration: ''
-  background_image: ''
 - buttons:
   - target: "#what-s-happening-this-agm-season"
     text: Read more
@@ -128,7 +92,7 @@ header:
 
     **UK banks, investors and insurers are fuelling climate chaos** by pumping billions of pounds into climate wrecking projects. Without that support, companies like Shell and BP, can't fuel climate breakdown.
 
-    People around the world are rising up to demand that governments and corporations **#DefundClimateChaos**, pay **Climate Reparations** and fund a **Global** **Just Transition**
+    People around the world are rising up to demand that governments and corporations **#DefundClimateChaos**, pay **Climate Reparations** and fund a **Global** **Just Transition**.
 
     {% include an-email-only-form.html endpoint="https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures" jump="actions" %}
   buttons: []
