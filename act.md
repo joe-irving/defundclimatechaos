@@ -48,10 +48,9 @@ blocks:
   background_image: ''
   id: faqs
 credits: ''
-invert: even
+invert: odd
 title: Act
 tags: []
-#top_image: "/assets/images/1-4-21_no_more_fossil_fools_bank_of_englandwilliam_joshua_templeton_photographer-8.jpg"
 permalink: act
 summary: ''
 share:
