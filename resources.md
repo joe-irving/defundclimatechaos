@@ -8,6 +8,9 @@ top_quote: 'Here are all the resources you’ll need to join or organise an acti
   your own to #DefundClimateChaos on October 29 (and beyond!):'
 main_nav_exclude: false
 credits: ''
+menu:
+  header:
+    weight: 3
 
 ---
 # Resources
