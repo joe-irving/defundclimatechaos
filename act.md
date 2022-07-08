@@ -9,6 +9,12 @@ blocks:
   decoration: ''
   background_image: "/assets/images/stopeacop.jpg"
 - map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+- map: false
   text: |-
     {% assign posts = site.data.resources | where: "category", "Digital Action" %}
 
