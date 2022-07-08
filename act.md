@@ -46,8 +46,8 @@ blocks:
   decoration: ''
   background_image: "/assets/images/whatsapp-logo-transparent-background-323098.jpg"
 - map: false
-  text: ''
-  id: ''
+  text: "### Trade Union Motion"
+  id: StopEACOP_TUmotion
   buttons: []
   decoration: ''
   background_image: ''
