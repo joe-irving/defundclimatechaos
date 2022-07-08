@@ -46,7 +46,10 @@ blocks:
   decoration: ''
   background_image: "/assets/images/whatsapp-logo-transparent-background-323098.jpg"
 - map: false
-  text: "### Trade Union Motion"
+  text: |-
+    # Trade Union Motion
+
+    If you are part of a Trade Union, you can support the #StopEACOP campaign by passing this motion at your local branch.
   id: StopEACOP_TUmotion
   buttons: []
   decoration: ''
