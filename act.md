@@ -16,11 +16,11 @@ blocks:
     new_tab: false
     text: Email Insurers
   - text: WhatApp Chat
-    target: StopEACOP_whatsapp
+    target: act/StopEACOP_whatsapp
     image: ''
     new_tab: false
   - text: Trade Union Motion
-    target: StopEACOP_TUmotion
+    target: act/StopEACOP_TUmotion
     image: ''
     new_tab: false
   decoration: ''
