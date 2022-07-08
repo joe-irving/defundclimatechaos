@@ -99,11 +99,7 @@ header:
     are on the cusp of building a massive crude oil pipeline right through the heart
     of Africa – displacing communities, endangering wildlife and tipping the world
     closer to full-blown climate catastrophe."
-  buttons:
-  - text: Cut Off Insurance
-    target: ''
-  - text: Pass Trade Union Mosion
-    target: ''
+  buttons: []
   border_bottom:
     image: ''
     reflect: false
