@@ -9,7 +9,7 @@ blocks:
     Right now, Total is reaching out to UK insurance companies, asking them to support this deadly project. **Take Action today to help #StopEACOP**
   id: ''
   buttons:
-  - target: ''
+  - target: StopEACOP_write
     image: ''
     new_tab: false
     text: Email Insurers
