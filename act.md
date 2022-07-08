@@ -17,7 +17,7 @@ blocks:
     target: ''
     image: ''
     new_tab: false
-  - text: ''
+  - text: Trade Union Motion
     target: ''
     image: ''
     new_tab: false
