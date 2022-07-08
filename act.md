@@ -10,7 +10,9 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    ### Cut Off Insurance
+    ![](/assets/images/stopeacop.jpg)
+
+    # Cut Off Insurance
 
     Right now, UK insurers are thinking about backing the EACOP. But people across the world are demanding they rule it out.
   id: ''
