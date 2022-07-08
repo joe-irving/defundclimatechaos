@@ -97,7 +97,9 @@ header:
     are on the cusp of building a massive crude oil pipeline right through the heart
     of Africa – displacing communities, endangering wildlife and tipping the world
     closer to full-blown climate catastrophe."
-  buttons: []
+  buttons:
+  - text: Pass Trade Union Mosion
+    target: ''
   border_bottom:
     image: ''
     reflect: false
