@@ -21,6 +21,15 @@ blocks:
   background_image: ''
 - map: false
   text: |-
+    ## Join our #StopEACOP Insurance Chat
+
+    Get involved in ongoing actions to cut off vital insurance and help #StopEACOP.
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: "/assets/images/whatsapp-logo-transparent-background-323098.jpg"
+- map: false
+  text: |-
     {% assign posts = site.data.resources | where: "category", "Digital Action" %}
 
     {% include blog-list.html date=false share_buttons=true %}
