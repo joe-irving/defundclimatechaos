@@ -44,6 +44,12 @@ blocks:
   decoration: ''
   background_image: "/assets/images/whatsapp-logo-transparent-background-323098.jpg"
 - map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+- map: false
   text: |-
     {% assign posts = site.data.resources | where: "category", "Digital Action" %}
 
@@ -110,10 +116,7 @@ share:
 logo: ''
 logo_square: ''
 header:
-  text: "## French oil giant Total and the China National Offshore Oil Corporation
-    are on the cusp of building a massive crude oil pipeline right through the heart
-    of Africa – displacing communities, endangering wildlife and tipping the world
-    closer to full-blown climate catastrophe."
+  text: "## #StopEACOP"
   buttons: []
   border_bottom:
     image: ''
