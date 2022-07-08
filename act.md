@@ -60,6 +60,8 @@ blocks:
   background_image: ''
 - map: false
   text: |-
+    # Digital Actions
+
     {% assign posts = site.data.resources | where: "category", "Digital Action" %}
 
     {% include blog-list.html date=false share_buttons=true %}
