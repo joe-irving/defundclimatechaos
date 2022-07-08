@@ -11,7 +11,7 @@ blocks:
     Right now, Total is reaching out to UK insurance companies, asking them to support this deadly project. **Take Action today to help stop the East Africa Crude Pipeline #StopEACOP**
   id: ''
   buttons:
-  - target: StopEACOP_write
+  - target: act/StopEACOP_write
     image: ''
     new_tab: false
     text: Email Insurers
