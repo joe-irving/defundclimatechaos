@@ -98,6 +98,8 @@ header:
     of Africa – displacing communities, endangering wildlife and tipping the world
     closer to full-blown climate catastrophe."
   buttons:
+  - text: Cut Off Insurance
+    target: ''
   - text: Pass Trade Union Mosion
     target: ''
   border_bottom:
