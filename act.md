@@ -36,9 +36,9 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    ## Join our #StopEACOP Insurance Chat
+    ## [Join our #StopEACOP Insurance Chat](https://chat.whatsapp.com/BDmbTdiobPeHdzFpJFA7Sz)
 
-    Get involved in ongoing actions to cut off vital insurance and help #StopEACOP.
+    [Get involved in ongoing actions to cut off vital insurance and help #StopEACOP.](https://chat.whatsapp.com/BDmbTdiobPeHdzFpJFA7Sz)
   id: ''
   buttons: []
   decoration: ''
