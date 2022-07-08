@@ -22,7 +22,7 @@ blocks:
     image: ''
     new_tab: false
   - text: Trade Union Motion
-    target: act/StopEACOP_TUmotion
+    target: act/StopEACOPtu
     image: ''
     new_tab: false
   decoration: ''
@@ -54,7 +54,7 @@ blocks:
     If you are part of a Trade Union, you can support the #StopEACOP campaign by passing this motion at your local branch.
 
     \[Insert Motion here\]
-  id: StopEACOP_TUmotion
+  id: StopEACOPtu
   buttons: []
   decoration: ''
   background_image: ''
