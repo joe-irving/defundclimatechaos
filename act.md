@@ -9,9 +9,16 @@ blocks:
   decoration: ''
   background_image: "/assets/images/stopeacop.jpg"
 - map: false
-  text: ''
+  text: |-
+    French oil giant Total and the China National Offshore Oil Corporation are on the cusp of building a massive crude oil pipeline right through the heart of Africa – displacing communities, endangering wildlife and tipping the world closer to full-blown climate catastrophe.
+
+    UK insurers and bankers are thinking about supporting the pipeline. Take action today and join the global movement to #StopEACOP.
   id: ''
-  buttons: []
+  buttons:
+  - target: ''
+    image: ''
+    new_tab: false
+    text: Email Inurers
   decoration: ''
   background_image: ''
 - map: false
