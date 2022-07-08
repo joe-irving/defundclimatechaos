@@ -3,27 +3,9 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - map: false
-  text: ''
+  text: "![](/assets/images/stopeacop.jpg)"
   id: ''
   buttons: []
-  decoration: ''
-  background_image: "/assets/images/stopeacop.jpg"
-- map: false
-  text: ''
-  id: ''
-  buttons:
-  - target: ''
-    image: ''
-    new_tab: false
-    text: Email Inurers
-  - text: Adopt an Insurer
-    target: ''
-    image: ''
-    new_tab: false
-  - text: Pass a Trade Union Motion
-    target: ''
-    image: ''
-    new_tab: false
   decoration: ''
   background_image: ''
 - map: false
