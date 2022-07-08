@@ -3,13 +3,24 @@ layout: page
 image: "/assets/images/og-image.png"
 blocks:
 - map: false
-  text: "Building the longest heated oil pipeline in the world is risky work, and
-    Total can’t do it alone. They are seeking insurance from some of the world’s largest
-    multinational commercial insurance companies to get this project off the ground.
-    \n\nRight now, Total is reaching out to UK insurance companies, asking them to
-    support this deadly project. "
+  text: |-
+    Building the longest heated oil pipeline in the world is risky work, and Total can’t do it alone. They are seeking insurance from some of the world’s largest multinational commercial insurance companies to get this project off the ground.
+
+    Right now, Total is reaching out to UK insurance companies, asking them to support this deadly project. **Take Action today to help #StopEACOP**
   id: ''
-  buttons: []
+  buttons:
+  - target: ''
+    image: ''
+    new_tab: false
+    text: Email Insurers
+  - text: ''
+    target: ''
+    image: ''
+    new_tab: false
+  - text: ''
+    target: ''
+    image: ''
+    new_tab: false
   decoration: ''
   background_image: ''
 - map: false
