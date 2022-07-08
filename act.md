@@ -13,8 +13,8 @@ blocks:
     image: ''
     new_tab: false
     text: Email Insurers
-  - text: Join WhatApp Chat
-    target: ''
+  - text: WhatApp Chat
+    target: StopEACOP_whatsapp
     image: ''
     new_tab: false
   - text: Trade Union Motion
