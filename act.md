@@ -13,7 +13,7 @@ blocks:
     image: ''
     new_tab: false
     text: Email Insurers
-  - text: Adopt an Insurer
+  - text: Join WhatApp Chat
     target: ''
     image: ''
     new_tab: false
