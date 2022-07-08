@@ -10,6 +10,15 @@ blocks:
   background_image: ''
 - map: false
   text: |-
+    ### Cut Off Insurance
+
+    Right now, UK insurers are thinking about backing the EACOP. But people across the world are demanding they rule it out.
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+- map: false
+  text: |-
     {% assign posts = site.data.resources | where: "category", "Digital Action" %}
 
     {% include blog-list.html date=false share_buttons=true %}
