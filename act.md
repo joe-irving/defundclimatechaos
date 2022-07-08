@@ -75,8 +75,7 @@ share:
 logo: ''
 logo_square: ''
 header:
-  text: "## We remember, we resist and we rise with all those on the frontlines of
-    the climate crisis who seek justice."
+  text: "## "
   buttons: []
   border_bottom:
     image: ''
