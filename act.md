@@ -15,6 +15,10 @@ blocks:
     UK insurers and bankers are thinking about supporting the pipeline. Take action today and join the global movement to #StopEACOP.
   id: ''
   buttons:
+  - text: Adopt an Insurer
+    target: ''
+    image: ''
+    new_tab: false
   - target: ''
     image: ''
     new_tab: false
