@@ -29,7 +29,7 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    # Cut Off Insurance
+    ## Cut Off Insurance
 
     Right now, UK insurers are thinking about backing the EACOP. But people across the world are demanding they rule it out.
 
@@ -49,9 +49,11 @@ blocks:
   background_image: "/assets/images/whatsapp-logo-transparent-background-323098.jpg"
 - map: false
   text: |-
-    # Trade Union Motion
+    ## Trade Union Motion
 
     If you are part of a Trade Union, you can support the #StopEACOP campaign by passing this motion at your local branch.
+
+    \[Insert Motion here\]
   id: StopEACOP_TUmotion
   buttons: []
   decoration: ''
@@ -123,7 +125,9 @@ share:
 logo: ''
 logo_square: ''
 header:
-  text: "## #StopEACOP"
+  text: "## Money is fuelling climate chaos. Climate justice means keeping fossil
+    fuels in the ground. We can support struggles across the globe by cutting off
+    the money and insurance for new projects."
   buttons: []
   border_bottom:
     image: ''
