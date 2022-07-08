@@ -20,7 +20,7 @@ blocks:
     image: ''
     new_tab: false
   - text: Trade Union Motion
-    target: ''
+    target: StopEACOP_TUmotion
     image: ''
     new_tab: false
   decoration: ''
