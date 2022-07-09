@@ -5,6 +5,10 @@ admin_path: admin
 webhook_url: ''
 sections:
 - type: document
+  path: _data/motions.yaml
+  label: Motions
+  match: "**/*"
+- type: document
   path: index.md
   label: Home Page
 - type: directory
