@@ -9,6 +9,12 @@ fields:
   - type: text
     name: title
     label: title
-  - type: text
-    name: content
-    label: content
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
