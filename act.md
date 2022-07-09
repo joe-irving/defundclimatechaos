@@ -53,7 +53,7 @@ blocks:
 
     If you are part of a Trade Union, you can support the #StopEACOP campaign by passing this motion at your local branch.
 
-    \[Insert Motion here\]
+    {% include motions.html limit=1 %}
   id: StopEACOPtu
   buttons: []
   decoration: ''
