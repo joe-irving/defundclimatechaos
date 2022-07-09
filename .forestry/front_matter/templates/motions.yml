@@ -1,0 +1,14 @@
+---
+label: Motions
+hide_body: true
+fields:
+- type: field_group_list
+  name: Motions
+  label: Motions
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
