@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+{% include head.html %}
+<body>
+    {% include header.html %}
+    <header class="Bank-Header" style="background-image: url('{{ page.background_image }}');">
+        <div class="Bank-Header-Overlay">
+            <div class="Bank-Header-Content">
+                <h1 class="Bank-Header-Title">{{ page.title }}</h1>
+                <h2 class="Bank-Header-Subtitle">{{ page.tagline }}</h2>
+            </div>
+        </div>
+    </header>
+    <main class="Banks-Main">
+        <div class="Banks-Blurb Banks-Container">
+            <div class="Banks-Blurb-Box  Banks-Content-Section Banks-Box Red-1">
+                <div class="Banks-Blurb-Content">
+                    {{ page.take_action | markdownify }}
+                    <a href="#action" class="Banks-Take-Action">Take action</a>
+                </div>
+                <div class="Banks-Blurb-Image">
+                    <img src="/assets/images/alarm.png" alt="Alarm Clock">
+                </div>
+            </div>
+        </div>
+        <div class="Banks-Actions-Container Banks-Container Banks-Container-Light">
+            <div class="Banks-Actions Banks-Content-Section">
+                <h2 id="act">Take Action</h2>
+                {% for action in page.actions %}
+                <div class="Banks-Action Banks-Box Red-{{ forloop.index }}">
+                    <div class="Banks-Action-Impact">
+                        <h3>{{ action.impact }}</h3>
+                    </div>
+                    <div class="Banks-Action-Header">
+                        <h3>{{ action.heading }}</h3>
+                    </div>
+                    <div class="Banks-Action-Time Stats">
+                        <p>
+                            <span class="Banks-Action-Clock"></span>
+                            {{ action.time }} minute{% if action.time == 1 %}s{% endif %}
+                            to complete
+                        </p>
+                    </div>
+                    <div class="Banks-Action-Click-Counter Stats">
+                        <p>
+                            <span class="Banks-Action-Raised-Fist"></span>
+                            Clicked <span class="Banks-Action-Counter-Feild" id="Banks-Action-Counter-{{ action.counter_id }}"></span>
+                            times
+                        </p>
+                    </div>
+                    <div class="Banks-Action-Blurb">
+                        <div class="Banks-Action-Blurb-Content">
+                            {{ action.blurb }}
+                        </div>
+                        <div class="Banks-Action-Blurb-Buttons Chaos-Flex-Line">
+                            {% for button in action.buttons %}
+                            <a href="{{ button.target }}"><span class="Chaos-Button">{{ button.text }}</span></a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div id="facts" class="Banks-Facts-Container Banks-Container Banks-Container-Dark">
+            <div class="Banks-Facts  Banks-Content-Section">
+                <h2>{{ page.title }} facts</h2>
+                <div class="Banks-Facts-Headline">
+                    {% for headline in page.facts.headline %}
+                    <div class="Banks-Facts-Heading-Fact  Banks-Box Red-1">
+                        {{ headline | markdownify }}
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="Banks-Facts-Content">
+                    <div class="Banks-Facts-Blockquote">
+                        <blockquote>
+                            {{ page.facts.quote }}
+                        </blockquote>
+                    </div>
+                    <div class="Banks-Facts-Content-Content">
+                        {{ page.facts.content | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id='resources'  class="Banks-Resources-Container Banks-Container">
+            <div class="Banks-Resouces  Banks-Content-Section">
+                <h2>Continue Reading</h2>
+                {% for resource in page.resources %}
+                <a class="Banks-Resource" href="{{ resource.target }}">
+                    <span>
+                        {{ resource.text }}
+                    </span>
+                    <span class="Banks-Resource-External External-Link-Logo">
+                    </span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+    
+    {% include footer.html %}
+</body>
+<script src={{ "/assets/js.js"  | relative_url  }}></script>
+{% if page.hide_nav %}
+<script type="text/javascript">
+  document.onload = function(e){
+    hasScrolled();
+  };
+</script>
+{% endif %}
+</html>
