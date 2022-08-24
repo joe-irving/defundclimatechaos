@@ -1,0 +1,74 @@
+---
+label: Bank Digital Action
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: tagline
+  label: tagline
+- type: file
+  name: background_image
+  label: background_image
+- type: boolean
+  name: hide_nav
+  label: hide_nav
+- type: textarea
+  name: take_action
+  label: take_action
+- type: field_group_list
+  name: actions
+  label: actions
+  fields:
+  - type: text
+    name: impact
+    label: impact
+  - type: text
+    name: heading
+    label: heading
+  - type: number
+    name: time
+    label: time
+  - type: textarea
+    name: blurb
+    label: blurb
+  - type: field_group_list
+    name: buttons
+    label: buttons
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: target
+      label: target
+  - type: number
+    name: counter_id
+    label: counter_id
+- type: field_group
+  name: facts
+  label: facts
+  fields:
+  - type: list
+    name: headline
+    label: headline
+  - type: textarea
+    name: quote
+    label: quote
+  - type: textarea
+    name: content
+    label: content
+- type: field_group_list
+  name: resources
+  label: resources
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: target
+    label: target
