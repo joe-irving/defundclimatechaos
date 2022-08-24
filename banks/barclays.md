@@ -2,7 +2,7 @@
 layout: bank
 title: Barclays
 tagline: The biggest fossil fuel bankroller in Europe
-background_image: https://www.cityam.com/wp-content/uploads/2022/03/Credit-Denise-Laura-Baker.jpeg?w=1600
+background_image: /assets/images/BarclaysOil-Credit-Denise-Laura-Baker.png
 hide_nav: true
 share:
     intro: |
@@ -28,7 +28,7 @@ actions:
     buttons:
         -   text: Sign the petition now
             target: https://actionnetwork.org/petitions/national-trust-drop-barclays?source=dccuk_website&
-    counter_id: 5
+    counter_id: 13
 -   impact: Make Barclays sweat
     heading: Comment on their socials
     time: 5
@@ -40,8 +40,26 @@ actions:
         3. Paste your your message as a reply to the post
     buttons:
         -   text: Start commenting
-            target: https://example.com
-    counter_id: 5
+            target: SHOW_COMMENTS
+    counter_id: 9
+    data:
+        instagram_post: https://www.instagram.com/barclaysuk/
+        instagram_comments:
+            - |-
+                Barclays big secret 🤫: You’re still lending BILLIONS of dollars a year to the world’s worst fossil fuel companies. The same fossil fuel companies driving up our energy bills, making record profits, and making the climate crisis worse. When will you stop funding climate destruction? {{ page_url }} #DefundClimateChaos #StopJackdaw
+            - |-
+                It’ll be much easier to take you seriously when you stop lending billions of dollars to the fossil fuel industry. $167 BILLION since 2016?! 😡 Until you stop funding fossil fuels you’re part of the problem. {{ page_url }} #DefundClimateChaos
+            - |-
+                I refuse to listen to anything you have to say while you’re still bankrolling fossil fuel companies. It’s ridiculous 🤬. You can’t go on lending billions of dollars to the people causing the climate crisis, and expect to be taken seriously. #DefundClimateChaos
+            - |-
+                Barclays is lending billions to fossil fuel companies. The companies causing climate change and making my bills sky-rocket. You’re just as responsible for climate destruction as the fossil fuel companies. When will you stop?
+            - |-
+                Hey Barclays - STOP giving billions of dollars to fossil fuel companies. You’re ruining our planet. #DefundClimateChaos
+            - |-
+                When are you going to stop giving money to Shell? 😡 They’re causing the climate crisis AND at this very moment trying to drill in the North Sea for oil that won’t bring my bills down. Shame on you Barclays. {{ page_url }} #StopJackdaw
+            - |-
+                We must protect future generations. But you’re bankrolling the fossil fuel companies behind the climate crisis. You should be ashamed of yourself 🚨
+        action_network_endpoint: https://actionnetwork.org/api/v2/advocacy_campaigns/098a8d42-ea6b-4331-b767-5d0d1e6c6183/outreaches
 -   impact: Call in the big guns
     heading: Email the Bank of England
     time: 7
@@ -52,7 +70,7 @@ actions:
     buttons:
         -   text: Email them now
             target: https://actionnetwork.org/letters/email-the-bank-of-england?source=dccuk_website
-    counter_id: 5      
+    counter_id: 10  
 facts:
     headline: 
         - |-
