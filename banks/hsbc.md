@@ -116,6 +116,5 @@ resources:
   target: https://example.com
 - text: See how activits are pressuring HSBC
   target: https://example.com
-published: false
 
 ---
