@@ -84,3 +84,4 @@ fields:
     label: target
 pages:
 - banks/barclays.md
+- banks/hsbc.md
