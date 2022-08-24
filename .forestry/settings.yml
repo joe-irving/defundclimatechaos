@@ -14,6 +14,7 @@ sections:
   match: "**/*.md"
   exclude: _*/**
   templates:
+  - bank-digital-action
   - stories
   - block-layout
   - page
