@@ -5,6 +5,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: bank
+  hidden: true
 - type: text
   name: title
   label: title
@@ -20,6 +22,10 @@ fields:
 - type: textarea
   name: take_action
   label: take_action
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: field_group_list
   name: actions
   label: actions
@@ -36,6 +42,10 @@ fields:
   - type: textarea
     name: blurb
     label: blurb
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: field_group_list
     name: buttons
     label: buttons
