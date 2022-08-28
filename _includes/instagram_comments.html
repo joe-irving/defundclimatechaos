@@ -8,7 +8,7 @@
             </div>
             <div
                 class="Copy-Comment-Click Status-Box Copy-Button"
-                onclick="commentClicked(this)"
+                onclick="outreachClicked(this)"
                 data-target="{{ page.title }}"
                 data-message="{{ comment | liquify }}"
                 data-endpoint="{{ include.action_network_endpoint }}"
@@ -36,3 +36,4 @@
     </div>
     {% endfor %}
 </div>
+<script src="{{ "/assets/js/banks.js"  | relative_url  }}"></script>

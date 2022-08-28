@@ -40,7 +40,7 @@ actions:
     buttons:
         -   text: Start tweeting
             target: /act/barclays
-    counter_id: 9
+    counter_id: 16
     data:
         action_network_endpoint: https://actionnetwork.org/api/v2/advocacy_campaigns/098a8d42-ea6b-4331-b767-5d0d1e6c6183/outreaches
 -   impact: Call in the big guns
@@ -69,6 +69,6 @@ facts:
     content: |-
         Barclays have ploughed $167 billion into fossil fuels since 2016. You read that right, billions. That’s why they’re the worst in Europe. And they’re continuing to pour billions into NEW fossil fuels. That means more oil rigs, more habitats destroyed, and more climate change. You’re in a toxic relationship with Barclays. It’s time to get out.
 resources:
-    - text: Banking alternatives to Barclays
-      target: https://example.com
+    - text: Take more action against Barclays
+      target: https://www.sharklays.co.uk/Home/Rate
 ---

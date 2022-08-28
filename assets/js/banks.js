@@ -16,13 +16,13 @@ function hideComments(button){
     }
 }
 
-function commentClicked(comment){
-    console.log('copy button clicked!')
-    var target = comment.getAttribute('data-target');
-    var endpoint = comment.getAttribute('data-endpoint');
-    var message = comment.getAttribute('data-message');
-    recordOutreach(endpoint, target, message, 'anonymous', function(res){
-        console.log(res)
+function outreachClicked(element){
+    var target = element.getAttribute('data-target');
+    var endpoint = element.getAttribute('data-endpoint');
+    var message = element.getAttribute('data-message');
+    var email = element.getAttribute('data-email') || 'anonymous';
+    recordOutreach(endpoint, target, message, email, function(res){
+        console.log(`Response from Action Network: ${res}`)
     })
 }
 

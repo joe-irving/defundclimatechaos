@@ -22,7 +22,7 @@ tweets:
 
 Use the example to tweet [@Barclays](https://twitter.com/barclaysuk). Click on the boxes and it will take you straight to twitter with this content ready to tweet. Feel free to personalise them or write your own tweet!
 
-{% include tweetslight.html tweets = page.tweets %}
+{% include tweetslight.html tweets = page.tweets target='hsbc'  action_network_endpoint="https://actionnetwork.org/api/v2/advocacy_campaigns/c1923129-e6ea-4148-8e31-e1bce3d25913/outreaches" %}
 
 ## What next?
 

@@ -70,9 +70,6 @@ facts:
 
     Yup, HSBC are one of the worst out there. They’re giving billions to fossil fuel companies every year. That includes billions to groups like Saudi Aramco, the Saudi government’s oil company. They’re the worst fossil fuel drillers in the world - they said they want to drill “every last drop”. HSBC are also the worst in Europe for funding NEW fossil fuels. That means more oil rigs, more habitats destroyed, and more climate change. It’s time to join the movement and ditch HSBC 💪🏾
 resources:
-- text: See how activits are pressuring HSBC
-  target: https://example.com
-- text: See how activits are pressuring HSBC
-  target: https://example.com
-
+- text: Alternative Banks to HSBC
+  target: https://switchit.green/switchit/hsbc/?results=1
 ---

@@ -1,6 +1,14 @@
 <div markdown="0">
   {% for tweet in include.tweets %}
-  <a class="Click-To-Tweet-Light-Link Click-To-Tweet-Show" target="_blank" href="https://twitter.com/intent/tweet?text={{ tweet | url_encode }}">
+  <a
+    class="Click-To-Tweet-Light-Link Click-To-Tweet-Show"
+    target="_blank"
+    href="https://twitter.com/intent/tweet?text={{ tweet | url_encode }}"
+    onclick="outreachClicked(this)"
+    data-target="{{ include.target }}"
+    data-message="{{ tweet | liquify }}"
+    data-endpoint="{{ include.action_network_endpoint }}"
+  >
     <section class="Click-To-Tweet-Light">
         {% assign words = tweet | liquify | replace: "\n" "<br>" | split: " " %}
         {% for word in words %}
@@ -20,15 +28,10 @@
   <script>
     function hideTweets(maxTweets){
       let tweets = document.getElementsByClassName('Click-To-Tweet-Show');
-      console.log("tweets...")
-      console.log(tweets)
-      console.log("...tweets")
 
       let hideNoTweets = tweets.length - maxTweets;
-      console.log(`Looping ${hideNoTweets} tweets and removing them}`)
       for (var i = 0; i < hideNoTweets; i++){
         let randomTweet = Math.floor(Math.random() * tweets.length)
-        console.log(tweets[randomTweet])
         tweets[randomTweet].classList.add('Click-To-Tweet-Hide')
         tweets[randomTweet].classList.remove('Click-To-Tweet-Show')
       }
@@ -55,6 +58,7 @@
       }
     })
   </script>
+  <script src="{{ "/assets/js/banks.js"  | relative_url  }}"></script>
   <style>
       /* Tweet formatting */
       .Click-To-Tweet-Light {
