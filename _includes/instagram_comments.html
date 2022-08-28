@@ -1,29 +1,38 @@
-<div class="Instagram-Comments-Copy hide">
-    {% for comment in include.data.instagram_comments %}
+<div class="Instagram-Comments-Copy {% if include.hide == true %}hide{% endif %}">
+    {% for comment in include.comments %}
     <div class="Instagram-Comment-Container">
         <div class="Instagram-Comment-Copy">
-            <svg
-                aria-hidden="true"
-                focusable="false"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                version="1.1"
-                class="Copy-Button"
-                onclick="commentClicked(this)"
-                data-target="{{ page.title }}"
-                data-message="{{ comment | liquify }}"
-                data-endpoint="{{ action.data.action_network_endpoint }}">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7.05556V2H7.27778V3.5H4.5V7.05556H3ZM9.72222 2V3.5H12.5V5H14V2H9.72222ZM6 15V13.5H4.5V9.94444H3V15H6Z"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 5V18H17V5H6ZM7.5 6.5H15.5V16.5H7.5V6.5Z"></path>
-            </svg>
             <div
                 class="Instagram-Comment-Content">
                 <div class="Copy-Me">{{ comment | liquify }}</div>
             </div>
+            <div
+                class="Copy-Comment-Click Status-Box Copy-Button"
+                onclick="commentClicked(this)"
+                data-target="{{ page.title }}"
+                data-message="{{ comment | liquify }}"
+                data-endpoint="{{ include.action_network_endpoint }}"
+            >
+                <span class="Copy-Button-Content Status-Box-Content">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    version="1.1">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7.05556V2H7.27778V3.5H4.5V7.05556H3ZM9.72222 2V3.5H12.5V5H14V2H9.72222ZM6 15V13.5H4.5V9.94444H3V15H6Z"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 5V18H17V5H6ZM7.5 6.5H15.5V16.5H7.5V6.5Z"></path>
+                    </svg>
+                    <span>
+                        Click here to copy the above comment
+                    </span>
+                </span>   
+            </div>
+            <div class="Copied-Sucess Status-Box">
+                <span class="Sucess-Box Status-Box-Content"><span>&#x2714; Copied comment to clipboard! Now paste it into {{ include.target }}'s latest <a href="{{ include.post_link }}" target="_blank">Instagram Post</a></span></span>
+            </div>
         </div>
-        <div class="Copied-Sucess Red">
-            <span class="Sucess-Box">&#x2714; Copied comment to clipboard! Now paste it into {{ page.title }}'s latest <a href="{{ include.data.instagram_post }}" target="_blank">Instagram Post</a></span>
-        </div>
+        
     </div>
     {% endfor %}
 </div>

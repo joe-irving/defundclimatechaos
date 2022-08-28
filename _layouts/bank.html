@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 {% include head.html %}
 {% capture page_url %}{% unless include.page.url contains "://" %}{{ site.url }}{{ include.page.url | relative_url}}{% else %}{{ include.page.url }}{% endunless %}{% endcapture %}
 <body>
@@ -8,66 +9,41 @@
             <div class="Bank-Header-Content">
                 <h1 class="Bank-Header-Title">{{ page.title }}</h1>
                 <h2 class="Bank-Header-Subtitle">{{ page.tagline }}</h2>
+                <div class="Chaos-Flex-Line">
+                    <div class="Banks-Toggle">
+                        {% for bank in site.banks %}
+                        <a class='Bank-Toggle {% if bank.slug == page.slug %}Current-Bank{% endif %}' href="{{ bank.url }}">
+                            <div
+                                class="Bank-Toggle-Title"
+                                data-bank="{{bank.slug}}"
+                                style="background-image: url('{{ bank.logo }}');"
+                                title="{{bank.title}}">
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
         </div>
     </header>
     <main class="Banks-Main">
-        <div class="Banks-Blurb Banks-Container">
+        <div id="intro" class="Banks-Blurb Banks-Container">
             <div class="Banks-Blurb-Box  Banks-Content-Section Banks-Box Red-1">
                 <div class="Banks-Blurb-Content">
                     {{ page.take_action | markdownify }}
-                    <a href="#action" class="Banks-Take-Action">Take action</a>
+                    <a href="#act" class="Banks-Take-Action">&#8659; Take action</a>
                 </div>
                 <div class="Banks-Blurb-Image">
                     <img src="/assets/images/alarm.png" alt="Alarm Clock">
                 </div>
             </div>
         </div>
-        <div class="Banks-Share Banks-Container">
-            <div class="Banks-Content-Section">
-                <div class="Banks-Share-Intro">
-                    {{ page.share.intro | markdownify | liquify }}
-                </div>
-                {% capture share_url %}{% unless include.page.url contains "://" %}{{ site.url }}{{ include.page.url | relative_url}}{% else %}{{ include.page.url }}{% endunless %}{% endcapture %}
-                {% capture whatsapp %}{% if include.page.share.whatsapp.size > 0 %}{{ include.page.share.whatsapp | liquify }}{% else %}*{{ title }}*
-    
-                {{ share_url }}{% endif %}{% endcapture %}
-    
-                <div class="social-links">
-                    {% if page.share.facebook.size > 1 %}
-                    <a  target="_blank"  class="link" href="https://www.facebook.com/sharer/sharer.php?u={{ url| url_encode }}" title="Facebook">
-                        {% include logo-facebook %}
-                    </a>
-                    {% endif %}
-                    {% if page.share.twitter.size > 1 %}
-                    <a target="_blank" class="link" href="https://twitter.com/intent/tweet?text={% if include.page.share.tweet.size > 0 %}{{ include.page.share.tweet | url_encode }}{% endif %}&url={{ share_url | url_encode }}" title="Twitter">
-                        {% include logo-twitter %}
-                    </a>
-                    {% endif %}
-                    {% if page.share.whatsapp.size > 0 %}
-                    <a class="link "  target="_blank" href="https://wa.me/?text={{ whatsapp | liquify | url_encode }}">
-                    {% include logo-whatsapp.svg %}
-                    </a>
-                    {% endif %}
-                    {% if page.share.instagram_post.size > 1 %}
-                    <a href="{{ page.share.instagram_post }}" class=link title="Instagram">
-                        {% include logo-instagram %}
-                    </a>
-                    {% endif %}
-                    <span  class="link Web-Share-Button" share_text="{{ text  | strip_html  }}" share_title="{{ title | strip_html   }}" share_url="{{ url }}">
-                        <svg  share_text="{{ text  | strip_html  }}" share_title="{{ title  | strip_html  }}" share_url="{{ url }}" class="Web-Share-Button" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-                            <circle cx="245" cy="245" r="245"></circle>
-                            <path d="M137.499,304.69c15.674,0,29.948-6.083,40.611-16l78.128,36.678c-0.583,3.341-0.904,6.771-0.904,10.276   c0,32.913,26.782,59.695,59.695,59.695c32.913,0,59.695-26.782,59.695-59.695c0-32.913-26.782-59.695-59.695-59.695   c-18.454,0-34.978,8.422-45.937,21.621l-74.543-34.995c1.717-5.561,2.646-11.464,2.646-17.581c0-4.942-0.615-9.741-1.753-14.337   l75.93-35.646c10.906,11.704,26.437,19.043,43.657,19.043c32.913,0,59.695-26.782,59.695-59.695   c0-32.913-26.782-59.695-59.695-59.695c-32.913,0-59.695,26.782-59.695,59.695c0,4.681,0.559,9.232,1.583,13.606l-76.295,35.817   c-10.876-11.376-26.181-18.484-43.123-18.484c-32.913,0-59.695,26.782-59.695,59.695S104.586,304.69,137.499,304.69z    M315.028,306.574c16.03,0,29.07,13.04,29.07,29.07c0,16.03-13.04,29.07-29.07,29.07c-16.03,0-29.07-13.04-29.07-29.07   C285.958,319.614,298.998,306.574,315.028,306.574z M315.028,125.291c16.03,0,29.07,13.039,29.07,29.07   c0,16.03-13.04,29.07-29.07,29.07c-16.03,0-29.07-13.04-29.07-29.07C285.958,138.331,298.998,125.291,315.028,125.291z    M137.499,215.925c16.03,0,29.07,13.04,29.07,29.07s-13.039,29.07-29.07,29.07s-29.07-13.04-29.07-29.07   S121.468,215.925,137.499,215.925z"/>
-                        </svg>
-                    </span>
-                </div>
-            </div>        
-        </div>
-        <div class="Banks-Actions-Container Banks-Container Banks-Container-Light">
+        <div id="act" class="Banks-Actions-Container Banks-Container Banks-Container-Light">
             <div class="Banks-Actions Banks-Content-Section">
-                <h2 id="act">Take Action</h2>
+                <h2>Take Action</h2>
                 {% for action in page.actions %}
-                <div class="Banks-Action Banks-Box Red-{{ forloop.index }}">
+                {% capture next_action_url %}{{ site.url }}{{ page.url }}#{{ page.actions[forloop.index].slug }}{% endcapture %}
+                <div id='{{ action.slug }}' class="Banks-Action Banks-Box Red-{{ forloop.index }}">
                     <div class="Banks-Action-Impact">
                         <h3>{{ action.impact }}</h3>
                     </div>
@@ -116,7 +92,7 @@
                             {% if button.target == 'SHOW_COMMENTS' %}
                             <span class="Chaos-Button Banks-Action-Show-Hide-Comments" onClick="showComments(this)">{{ button.text }}</span>
                             {% else %}
-                            <a href="{{ button.target }}"><span class="Chaos-Button">{{ button.text }}</span></a>
+                            <a href="{{ button.target | liquify }}"><span class="Chaos-Button">{{ button.text }}</span></a>
                             {% endif %}
                             {% endfor %}
                         </div>
@@ -131,37 +107,114 @@
         <div id="facts" class="Banks-Facts-Container Banks-Container Banks-Container-Dark">
             <div class="Banks-Facts  Banks-Content-Section">
                 <h2>{{ page.title }} facts</h2>
-                <div class="Banks-Facts-Headline">
+                <div class="Banks-Facts-Grid">
                     {% for headline in page.facts.headline %}
-                    <div class="Banks-Facts-Heading-Fact  Banks-Box Red-1">
-                        {{ headline | markdownify }}
+                    <div class="Banks-Facts-Heading-Fact Red-1 Banks-Facts-Headline-{{ forloop.index }}">
+                        <h3>{{ headline.stat }}</h3>
+                        <h4>{{ headline.about }}</h4>
                     </div>
                     {% endfor %}
-                </div>
-                <div class="Banks-Facts-Content">
                     <div class="Banks-Facts-Blockquote">
                         <blockquote>
                             {{ page.facts.quote }}
                         </blockquote>
                     </div>
-                    <div class="Banks-Facts-Content-Content">
+                    <div class="Banks-Facts-Content">
                         {{ page.facts.content | markdownify }}
                     </div>
                 </div>
             </div>
         </div>
+        <div id="share" class="Banks-Share Banks-Container">
+            <div class="Banks-Content-Section">
+                <div class="Banks-Share-Intro">
+                    {{ page.share.intro | markdownify | liquify }}
+                </div>
+                {% capture share_url %}{{ site.url }}{{ page.url | relative_url}}{% endcapture %}
+                {% capture whatsapp %}{% if include.page.share.whatsapp.size > 0 %}{{ include.page.share.whatsapp | liquify }}{% else %}*{{ title }}*
+    
+                {{ share_url }}{% endif %}{% endcapture %}
+    
+                <div class="Banks-Share-Links Banks-Link-Blocks">
+                    {% if page.share.facebook.size > 1 %}
+                    <span  target="_blank"  class="Banks-Link-Block" href="https://www.facebook.com/sharer/sharer.php?u={{ url| url_encode }}" title="Facebook">
+                        {% include logo-facebook %}
+                    </span>
+                    {% endif %}
+                    {% if page.share.twitter.size > 1 %}
+                    <a target="_blank" class="Banks-Link-Block" href="https://twitter.com/intent/tweet?text={% if include.page.share.tweet.size > 0 %}{{ include.page.share.tweet | url_encode }}{% endif %}&url={{ share_url | url_encode }}" title="Twitter">
+                        <span class="content">
+                            <span class="logo">{% include logo-twitter %}</span>
+                            <span class="text">Share on Twitter</span>
+                        </span>
+                    </a>
+                    {% endif %}
+                    {% if page.share.whatsapp.size > 0 %}
+                    <a class="mobile Banks-Link-Block" target="_blank" href="https://wa.me/?text={{ whatsapp | liquify | url_encode }}">
+                        <span class="content">
+                            {% include logo-whatsapp-2 %}
+                            <span class="text">Share on WhatsApp</span>
+                        </span>
+                        <svg  class="Banks-Resource-External External-Link-Logo" viewBox="0 0 700 700">
+                            <path d="m489.86 0.24609h-0.28125c-11.043 0-19.984 8.9609-19.984 19.984 0 11.023 8.9414 19.984 19.984 19.984h0.29688 71.645l-325.57 325.57c-3.6211 3.6211-5.8633 8.6094-5.8633 14.141 0 11.043 8.9609 19.984 19.984 19.984 5.5117 0 10.516-2.2383 14.121-5.8438l325.57-325.57v71.645 0.28125c0 11.043 8.9414 19.984 19.984 19.984 11.043 0 19.984-8.9414 19.984-19.984v-0.29688 0.015625-116.66c0.17578-0.96094 0.26172-2.1016 0.26172-3.2383 0-11.043-8.9414-19.984-19.984-19.984h-0.28125-119.89zm-399.65 119.89c-11.023 0-19.984 8.9414-19.984 19.984v399.65c0 11.043 8.9609 19.984 19.984 19.984h399.65c11.043 0 19.984-8.9414 19.984-19.984v-301.52-0.28125c0-11.043-8.9414-19.984-19.984-19.984s-19.984 8.9414-19.984 19.984v0.29688-0.015625 281.54h-359.7v-359.7h282.75 0.28125c11.043 0 19.984-8.9414 19.984-19.984s-8.9414-19.984-19.984-19.984h-0.29688z"/>
+                        </svg>
+                    </a>
+                    {% endif %}
+                    {% if page.share.instagram_post.size > 1 %}
+                    <a class="Banks-Link-Block" href="{{ page.share.instagram_post }}" title="Instagram">
+                        <span class="content">
+                            {% include logo-instagram-2 %}
+                            <span class="text">Share this Instagram Post</span>
+                        </span>
+                        <svg  class="Banks-Resource-External External-Link-Logo" viewBox="0 0 700 700">
+                            <path d="m489.86 0.24609h-0.28125c-11.043 0-19.984 8.9609-19.984 19.984 0 11.023 8.9414 19.984 19.984 19.984h0.29688 71.645l-325.57 325.57c-3.6211 3.6211-5.8633 8.6094-5.8633 14.141 0 11.043 8.9609 19.984 19.984 19.984 5.5117 0 10.516-2.2383 14.121-5.8438l325.57-325.57v71.645 0.28125c0 11.043 8.9414 19.984 19.984 19.984 11.043 0 19.984-8.9414 19.984-19.984v-0.29688 0.015625-116.66c0.17578-0.96094 0.26172-2.1016 0.26172-3.2383 0-11.043-8.9414-19.984-19.984-19.984h-0.28125-119.89zm-399.65 119.89c-11.023 0-19.984 8.9414-19.984 19.984v399.65c0 11.043 8.9609 19.984 19.984 19.984h399.65c11.043 0 19.984-8.9414 19.984-19.984v-301.52-0.28125c0-11.043-8.9414-19.984-19.984-19.984s-19.984 8.9414-19.984 19.984v0.29688-0.015625 281.54h-359.7v-359.7h282.75 0.28125c11.043 0 19.984-8.9414 19.984-19.984s-8.9414-19.984-19.984-19.984h-0.29688z"/>
+                        </svg>
+                    </a>
+                    {% endif %}
+                    {% if page.share.other == true %}
+                    <span class="mobile Banks-Link-Block" share_text="{{ text  | strip_html  }}" share_title="{{ title | strip_html   }}" share_url="{{ url }}">
+                        <span class="content"></span>
+                        <span class="logo Web-Share-Button">
+                            <svg share_text="{{ text  | strip_html  }}" share_title="{{ title  | strip_html  }}" share_url="{{ url }}" class="Web-Share-Button" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                                <circle cx="245" cy="245" r="245"></circle>
+                                <path d="M137.499,304.69c15.674,0,29.948-6.083,40.611-16l78.128,36.678c-0.583,3.341-0.904,6.771-0.904,10.276   c0,32.913,26.782,59.695,59.695,59.695c32.913,0,59.695-26.782,59.695-59.695c0-32.913-26.782-59.695-59.695-59.695   c-18.454,0-34.978,8.422-45.937,21.621l-74.543-34.995c1.717-5.561,2.646-11.464,2.646-17.581c0-4.942-0.615-9.741-1.753-14.337   l75.93-35.646c10.906,11.704,26.437,19.043,43.657,19.043c32.913,0,59.695-26.782,59.695-59.695   c0-32.913-26.782-59.695-59.695-59.695c-32.913,0-59.695,26.782-59.695,59.695c0,4.681,0.559,9.232,1.583,13.606l-76.295,35.817   c-10.876-11.376-26.181-18.484-43.123-18.484c-32.913,0-59.695,26.782-59.695,59.695S104.586,304.69,137.499,304.69z    M315.028,306.574c16.03,0,29.07,13.04,29.07,29.07c0,16.03-13.04,29.07-29.07,29.07c-16.03,0-29.07-13.04-29.07-29.07   C285.958,319.614,298.998,306.574,315.028,306.574z M315.028,125.291c16.03,0,29.07,13.039,29.07,29.07   c0,16.03-13.04,29.07-29.07,29.07c-16.03,0-29.07-13.04-29.07-29.07C285.958,138.331,298.998,125.291,315.028,125.291z    M137.499,215.925c16.03,0,29.07,13.04,29.07,29.07s-13.039,29.07-29.07,29.07s-29.07-13.04-29.07-29.07   S121.468,215.925,137.499,215.925z"/>
+                            </svg>
+                        </span>
+                        <span class="text">Share elsewhere</span>
+                    </span>
+                    {% endif %}
+                    {% if page.share.email.subject.size > 0 or  page.share.email.body.size > 0 %}
+                    <a class="Banks-Link-Block" href="mailto:?subject={{ page.share.email.subject }}&body={{ page.share.email.body | liquify }}" title="Email">
+                        <span class="content">
+                            {% include logo-email-2 %}
+                            <span class="text">Email someone</span>
+                        </span>
+                        <svg  class="Banks-Resource-External External-Link-Logo" viewBox="0 0 700 700">
+                            <path d="m489.86 0.24609h-0.28125c-11.043 0-19.984 8.9609-19.984 19.984 0 11.023 8.9414 19.984 19.984 19.984h0.29688 71.645l-325.57 325.57c-3.6211 3.6211-5.8633 8.6094-5.8633 14.141 0 11.043 8.9609 19.984 19.984 19.984 5.5117 0 10.516-2.2383 14.121-5.8438l325.57-325.57v71.645 0.28125c0 11.043 8.9414 19.984 19.984 19.984 11.043 0 19.984-8.9414 19.984-19.984v-0.29688 0.015625-116.66c0.17578-0.96094 0.26172-2.1016 0.26172-3.2383 0-11.043-8.9414-19.984-19.984-19.984h-0.28125-119.89zm-399.65 119.89c-11.023 0-19.984 8.9414-19.984 19.984v399.65c0 11.043 8.9609 19.984 19.984 19.984h399.65c11.043 0 19.984-8.9414 19.984-19.984v-301.52-0.28125c0-11.043-8.9414-19.984-19.984-19.984s-19.984 8.9414-19.984 19.984v0.29688-0.015625 281.54h-359.7v-359.7h282.75 0.28125c11.043 0 19.984-8.9414 19.984-19.984s-8.9414-19.984-19.984-19.984h-0.29688z"/>
+                        </svg>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>        
+        </div>
         <div id='resources'  class="Banks-Resources-Container Banks-Container">
-            <div class="Banks-Resouces  Banks-Content-Section">
+            <div class="Banks-Resouces Banks-Content-Section">
                 <h2>Continue Reading</h2>
-                {% for resource in page.resources %}
-                <a class="Banks-Resource" href="{{ resource.target }}">
-                    <span>
-                        {{ resource.text }}
-                    </span>
-                    <span class="Banks-Resource-External External-Link-Logo">
-                    </span>
-                </a>
-                {% endfor %}
+                <div class="Banks-Link-Blocks ">
+                    {% for resource in page.resources %}
+                    <a class="Banks-Resource" href="{{ resource.target }}" target="_blank">
+                        <span class="Banks-Link-Block">
+                            <span class="link-text">
+                                {{ resource.text }}
+                            </span>
+                            <svg  class="Banks-Resource-External External-Link-Logo" viewBox="0 0 700 700">
+                                <path d="m489.86 0.24609h-0.28125c-11.043 0-19.984 8.9609-19.984 19.984 0 11.023 8.9414 19.984 19.984 19.984h0.29688 71.645l-325.57 325.57c-3.6211 3.6211-5.8633 8.6094-5.8633 14.141 0 11.043 8.9609 19.984 19.984 19.984 5.5117 0 10.516-2.2383 14.121-5.8438l325.57-325.57v71.645 0.28125c0 11.043 8.9414 19.984 19.984 19.984 11.043 0 19.984-8.9414 19.984-19.984v-0.29688 0.015625-116.66c0.17578-0.96094 0.26172-2.1016 0.26172-3.2383 0-11.043-8.9414-19.984-19.984-19.984h-0.28125-119.89zm-399.65 119.89c-11.023 0-19.984 8.9414-19.984 19.984v399.65c0 11.043 8.9609 19.984 19.984 19.984h399.65c11.043 0 19.984-8.9414 19.984-19.984v-301.52-0.28125c0-11.043-8.9414-19.984-19.984-19.984s-19.984 8.9414-19.984 19.984v0.29688-0.015625 281.54h-359.7v-359.7h282.75 0.28125c11.043 0 19.984-8.9414 19.984-19.984s-8.9414-19.984-19.984-19.984h-0.29688z"/>
+                            </svg>
+                        </span>
+                    </a>
+                    {% endfor %}
+                </div>
+                
             </div>
         </div>
     </main>
@@ -169,11 +222,4 @@
 </body>
 <script src="{{ "/assets/js/banks.js"  | relative_url  }}"></script>
 <script src={{ "/assets/js.js"  | relative_url  }}></script>
-{% if page.hide_nav %}
-<script type="text/javascript">
-  document.onload = function(e){
-    hasScrolled();
-  };
-</script>
-{% endif %}
 </html>

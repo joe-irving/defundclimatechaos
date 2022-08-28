@@ -52,6 +52,11 @@ collections:
     output: true
   templates:
     output: false
+  banks:
+    output: true
+  digital_actions:
+    output: true
+    permalink: "/act/:slug/"
 airtable:
   faqs:
     app: app9apHbqOifmolTX
