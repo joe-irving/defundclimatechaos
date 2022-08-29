@@ -133,4 +133,6 @@ map:
   lng: ''
 exclude:
 - api
+include:
+- _redirects
 jekyll_get_json: []
