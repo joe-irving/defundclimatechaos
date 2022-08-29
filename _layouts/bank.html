@@ -2,6 +2,7 @@
 <html>
 {% include head.html %}
 {% capture page_url %}{% unless include.page.url contains "://" %}{{ site.url }}{{ include.page.url | relative_url}}{% else %}{{ include.page.url }}{% endunless %}{% endcapture %}
+{% capture share_url %}{{ site.url }}{{ page.url }}{% endcapture %}
 <body>
     {% include header.html %}
     <header class="Bank-Header" style="background-image: url('{{ page.background_image }}');">

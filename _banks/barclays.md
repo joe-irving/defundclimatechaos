@@ -27,7 +27,7 @@ actions:
     blurb: Add your name to the petition to Hilary McGrady - CEO of the National Trust to drop Barclays.
     buttons:
         -   text: Sign the petition now
-            target: https://actionnetwork.org/petitions/national-trust-drop-barclays?source=dccuk_website&redirect={{ next_action_url | url_encode }}
+            target: https://actionnetwork.org/petitions/national-trust-drop-barclays?source={{ source_code }}&redirect={{ next_action_url | url_encode }}
     counter_id: 13
 -   impact: Make Barclays sweat
     heading: Comment on their socials
@@ -41,8 +41,6 @@ actions:
         -   text: Start tweeting
             target: /act/barclays
     counter_id: 16
-    data:
-        action_network_endpoint: https://actionnetwork.org/api/v2/advocacy_campaigns/098a8d42-ea6b-4331-b767-5d0d1e6c6183/outreaches
 -   impact: Call in the big guns
     heading: Email the Bank of England
     slug: email-boe
@@ -53,7 +51,7 @@ actions:
         That’s why thousands of us are flooding the Bank of England, demanding that they take a stand, and stop banks funding fossil fuels. Send an email/tweet to the Bank of England now. There’s example text waiting for you if you’re not sure what to say:
     buttons:
         -   text: Email them now
-            target: https://actionnetwork.org/letters/email-the-bank-of-england?source=dccuk_website_{{ page.url | slugify }}
+            target: https://actionnetwork.org/letters/email-the-bank-of-england?source={{ source_code }}
     counter_id: 10  
 facts:
     headline:

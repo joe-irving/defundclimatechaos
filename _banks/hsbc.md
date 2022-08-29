@@ -34,7 +34,7 @@ actions:
     HSBC.
   buttons:
   - text: Sign the petition now
-    target: https://actionnetwork.org/petitions/vivobarefoot/?source=dccuk_website&
+    target: https://actionnetwork.org/petitions/vivobarefoot/?source={{ source_code }}
   counter_id: 12
 - impact: Make HSBC sweat
   heading: Comment on their socials
@@ -58,7 +58,7 @@ actions:
     That’s why thousands of us are flooding the Bank of England, demanding that they take a stand, and stop banks funding fossil fuels. Send an email/tweet to the Bank of England now. There’s example text waiting for you if you’re not sure what to say:
   buttons:
   - text: Email them now
-    target: https://actionnetwork.org/letters/email-the-bank-of-england?source=dccuk_website
+    target: https://actionnetwork.org/letters/email-the-bank-of-england?source={{ source_code }}
   counter_id: 10
 facts:
   headline:
