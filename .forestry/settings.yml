@@ -38,8 +38,6 @@ sections:
   label: Banks
   create: all
   match: "**/*"
-  templates:
-  - bank-digital-action
 - type: document
   path: _data/motions.yaml
   label: Motions
