@@ -7,6 +7,11 @@ fields:
   label: layout
   default: bank
   hidden: true
+- type: boolean
+  name: hide_nav
+  label: hide_nav
+  hidden: true
+  default: true
 - type: text
   name: title
   label: title
@@ -18,15 +23,16 @@ fields:
   label: logo
 - type: file
   name: background_image
-  label: background_image
-- type: boolean
-  name: hide_nav
-  label: hide_nav
-  hidden: true
-  default: true
+  label: Background Image
+  description: Behind the header
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Share Image
 - type: field_group
   name: share
-  label: share
+  label: Share this page content
   fields:
   - type: textarea
     name: intro
@@ -36,7 +42,7 @@ fields:
     label: whatsapp
   - type: text
     name: instagram_post
-    label: instagram_post
+    label: Link to an Instagram Post to share
   - type: field_group
     name: email
     label: email
@@ -49,18 +55,19 @@ fields:
       label: body
 - type: textarea
   name: take_action
-  label: take_action
+  label: Why should people take action?
   config:
     wysiwyg: true
     schema:
       format: markdown
 - type: field_group_list
   name: actions
-  label: actions
+  label: Main 3 Actions
   fields:
   - type: text
     name: impact
-    label: impact
+    label: A few words on the inpact of the action
+    description: e.g. Make them sweat
   - type: text
     name: heading
     label: heading
