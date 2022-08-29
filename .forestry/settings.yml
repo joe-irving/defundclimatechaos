@@ -38,6 +38,8 @@ sections:
   label: Banks
   create: all
   match: "**/*"
+  templates:
+  - bank-page
 - type: document
   path: _data/motions.yaml
   label: Motions
