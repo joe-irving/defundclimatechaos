@@ -82,6 +82,3 @@ fields:
   - type: text
     name: target
     label: target
-pages:
-- banks/barclays.md
-- banks/hsbc.md

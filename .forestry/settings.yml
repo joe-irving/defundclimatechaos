@@ -33,6 +33,11 @@ sections:
   create: all
   templates:
   - stories
+- type: directory
+  path: _banks
+  label: Banks
+  create: all
+  match: "**/*"
 - type: document
   path: _data/motions.yaml
   label: Motions
