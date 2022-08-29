@@ -96,27 +96,35 @@ fields:
   fields:
   - type: field_group_list
     name: headline
-    label: headline
+    label: Top Line Statistics
     fields:
     - type: text
       name: stat
       label: stat
+      description: e.g. <strong>$166B</strong>
     - type: text
       name: about
       label: about
+      description: A short sentence about, e.g. Into fossil Fuels since 2016
   - type: textarea
     name: quote
     label: quote
+    description: A quote, that appears on the left
   - type: textarea
     name: content
-    label: content
+    label: Longer Content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+    description: A bit more detail about the bank
 - type: field_group_list
   name: resources
   label: resources
   fields:
   - type: text
     name: text
-    label: text
+    label: Button Text
   - type: text
     name: target
-    label: target
+    label: A Link to the resource
