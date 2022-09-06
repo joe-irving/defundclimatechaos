@@ -1,0 +1,130 @@
+---
+label: Bank Page
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: bank
+  hidden: true
+- type: boolean
+  name: hide_nav
+  label: hide_nav
+  hidden: true
+  default: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: tagline
+  label: tagline
+- type: file
+  name: logo
+  label: logo
+- type: file
+  name: background_image
+  label: Background Image
+  description: Behind the header
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Share Image
+- type: field_group
+  name: share
+  label: Share this page content
+  fields:
+  - type: textarea
+    name: intro
+    label: intro
+  - type: textarea
+    name: whatsapp
+    label: whatsapp
+  - type: text
+    name: instagram_post
+    label: Link to an Instagram Post to share
+  - type: field_group
+    name: email
+    label: email
+    fields:
+    - type: text
+      name: subject
+      label: subject
+    - type: textarea
+      name: body
+      label: body
+- type: textarea
+  name: take_action
+  label: Why should people take action?
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group_list
+  name: actions
+  label: Main 3 Actions
+  fields:
+  - type: text
+    name: impact
+    label: A few words on the inpact of the action
+    description: e.g. Make them sweat
+  - type: text
+    name: heading
+    label: heading
+  - type: number
+    name: time
+    label: time
+  - type: text
+    name: blurb
+    label: blurb
+  - type: field_group_list
+    name: buttons
+    label: buttons
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: target
+      label: target
+  - type: number
+    name: counter_id
+    label: counter_id
+- type: field_group
+  name: facts
+  label: facts
+  fields:
+  - type: field_group_list
+    name: headline
+    label: Top Line Statistics
+    fields:
+    - type: text
+      name: stat
+      label: stat
+      description: e.g. <strong>$166B</strong>
+    - type: text
+      name: about
+      label: about
+      description: A short sentence about, e.g. Into fossil Fuels since 2016
+  - type: textarea
+    name: quote
+    label: quote
+    description: A quote, that appears on the left
+  - type: textarea
+    name: content
+    label: Longer Content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+    description: A bit more detail about the bank
+- type: field_group_list
+  name: resources
+  label: resources
+  fields:
+  - type: text
+    name: text
+    label: Button Text
+  - type: text
+    name: target
+    label: A Link to the resource

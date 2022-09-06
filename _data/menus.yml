@@ -3,9 +3,6 @@ header:
 - url: "/#join"
   weight: 2
   title: Join Us
-- url: "/act"
-  title: Take Action
-  weight: 1
 footer:
 - url: "/partners"
   title: Partners

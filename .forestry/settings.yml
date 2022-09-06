@@ -39,7 +39,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - bank-digital-action
+  - bank-page
 - type: document
   path: _data/motions.yaml
   label: Motions
