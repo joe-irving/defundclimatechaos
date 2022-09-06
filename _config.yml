@@ -50,6 +50,7 @@ collections:
     output: true
   resources:
     output: true
+    permalink: "/resources/:slug/"
   templates:
     output: false
   banks:
