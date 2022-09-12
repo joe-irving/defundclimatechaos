@@ -20,8 +20,14 @@ tweets:
 ---
 # Tweet at Barclays
 
-Use the example to tweet [@Barclays](https://twitter.com/barclaysuk). Click on the boxes and it will take you straight to twitter with this content ready to tweet. Feel free to personalise them or write your own tweet!
+Use the example to tweet [@Barclays](https://twitter.com/barclaysuk).
 
+1. Pick your favourite tweet below.
+2. {% include resize.html desktop='Click' mobile='Tap' %} on the tweet to take you to Twitter.
+3. Feel free to personalise it in any way
+4. Do it all again
+
+{% assign page_url = "https://defundclimatechaos.uk/banks/barclays" %}
 {% include tweetslight.html tweets = page.tweets target='hsbc'  action_network_endpoint="https://actionnetwork.org/api/v2/advocacy_campaigns/c1923129-e6ea-4148-8e31-e1bce3d25913/outreaches" %}
 
 ## What next?

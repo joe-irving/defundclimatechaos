@@ -3,6 +3,7 @@
 {% include head.html %}
 {% capture page_url %}{% unless include.page.url contains "://" %}{{ site.url }}{{ include.page.url | relative_url}}{% else %}{{ include.page.url }}{% endunless %}{% endcapture %}
 {% capture share_url %}{{ site.url }}{{ page.url }}{% endcapture %}
+{% capture source_code %}dccuk_website_{% if page.url != '/' %}{{ page.url | slugify }}{% endif %}{% endcapture %}
 <body>
     {% include header.html %}
     <header class="Bank-Header" style="background-image: url('{{ page.background_image }}');">
@@ -41,22 +42,27 @@
         </div>
         <div id="act" class="Banks-Actions-Container Banks-Container Banks-Container-Light">
             <div class="Banks-Actions Banks-Content-Section">
-                <h2>Take Action</h2>
+                <h1>Take Action</h1>
+                <div class="intro">
+                    {{ page.take_action_instructions | liquify | markdownify }}
+                </div>
                 {% for action in page.actions %}
                 {% capture next_action_url %}{{ site.url }}{{ page.url }}#{{ page.actions[forloop.index].slug }}{% endcapture %}
+                {% capture thank_you_url %}{{ site.url }}{{ page.url }}#{{ action.slug }}-thank-you{% endcapture %}
+
+                <h2 class="Banks-Action-Impact">{{ action.impact }}</h2>
                 <div id='{{ action.slug }}' class="Banks-Action Banks-Box Red-{{ forloop.index }}">
-                    <div class="Banks-Action-Impact">
-                        <h3>{{ action.impact }}</h3>
-                    </div>
                     <div class="Banks-Action-Header">
                         <h3>{{ action.heading }}</h3>
                     </div>
                     <div class="Banks-Action-Time Stats">
-                        <p>
-                            <span class="Banks-Action-Clock">&#9202;</span>
+                            <span class="Banks-Action-Clock">
+                                <svg viewBox="0 0 700 600">
+                                    <path d="m579.66 192.46-49.102-58.062c-2.4766-2.9492-5.9531-4.7734-9.8438-5.0703-3.832-0.35547-7.6055 0.88281-10.551 3.3594l-14.207 12.023c-2.9492 2.4766-4.7734 6.0117-5.0703 9.8438-0.29297 3.832 0.88281 7.6055 3.3594 10.551l9.668 11.438-19.629 16.625c-28.176-27.059-64.254-45.859-104.45-52.523v-49.043h25.172c9.9023 0 17.98-8.0742 17.98-17.98l-0.007813-28.824c0-9.9023-8.0742-17.98-17.98-17.98h-117.25c-9.9023 0-17.98 8.0742-17.98 17.98v28.766c0 9.9023 8.0742 17.98 17.98 17.98h27.352v49.043c-37.078 6.1289-70.68 22.637-97.793 46.391l-20.043-17.332 8.8438-10.258c2.5352-2.8867 3.7734-6.6602 3.4766-10.492-0.29297-3.832-2.0625-7.3672-4.9531-9.9023l-14.09-12.203c-2.8867-2.5352-6.6016-3.7148-10.492-3.4766-3.832 0.29297-7.3672 2.0039-9.9023 4.9531l-49.809 57.473c-2.5352 2.8867-3.7734 6.6602-3.4766 10.492 0.29297 3.832 2.0039 7.3672 4.9531 9.9023l14.09 12.203c2.7109 2.3594 6.0703 3.5352 9.4297 3.5352 4.0664 0 8.0742-1.7109 10.906-5.0117l9.7852-11.316 19.395 16.801c-22.457 32.066-35.723 71.09-35.723 113.18 0 108.99 88.656 197.65 197.65 197.65 108.99 0 197.65-88.656 197.65-197.65 0-38.848-11.316-75.098-30.711-105.69l20.219-17.094 8.7227 10.375c2.4766 2.9492 5.9531 4.7148 9.8438 5.0703 0.41406 0.058594 0.82422 0.058594 1.2383 0.058594 3.418 0 6.6602-1.1797 9.3125-3.418l14.266-12.023c6.1836-5.1328 6.9531-14.27 1.7656-20.34zm-291.91-116.78c-1.1797 0-2.1797-1.0039-2.1797-2.1797v-28.707c0-1.1797 1.0039-2.1797 2.1797-2.1797h117.25c1.1797 0 2.1797 1.0039 2.1797 2.1797v28.766c0 1.1797-1.0039 2.1797-2.1797 2.1797h-117.25zm43.211 62.898v-47.039h33.129v47.039c-1.4141-0.11719-2.7695-0.17578-4.1836-0.23438-1.0625-0.058593-2.0625-0.11719-3.125-0.17578-2.8867-0.11719-5.7773-0.23438-8.6641-0.23438h-0.58984-0.58984c-2.8867 0-5.7773 0.058594-8.7227 0.23438-1.0039 0.058594-2.0625 0.11719-3.0664 0.17578-1.418 0.058594-2.832 0.11719-4.1875 0.23438zm-185.68 66.906-12.023-10.434 47.984-55.41 12.023 10.434-11.73 13.559-27.41 31.598zm31.242-11.852 10.434-12.023 18.688 16.211c-1.8281 1.8867-3.6562 3.832-5.4219 5.8359-0.82422 1.0039-1.6523 2.0039-2.4766 3.0078-0.88281 1.0039-1.7695 2.0039-2.6523 3.0664zm352.8 141.95c0 100.27-81.582 181.85-181.85 181.85-100.27 0.003906-181.79-81.582-181.79-181.85 0-38.078 11.789-73.508 31.949-102.75l0.64844 0.58984 4.9531-7.4844c2.1211-3.1836 4.4805-6.3086 6.957-9.3125 4.3633-5.0117 9.0195-9.8438 13.91-14.383l4.0664-3.6562c26.879-23.461 60.656-39.141 97.852-43.562 2.5938-0.29297 5.1875-0.53125 7.7812-0.76562 0.94141-0.058594 1.8867-0.17578 2.8867-0.23438 7.25-0.41406 14.559-0.41406 21.809 0 0.94141 0.058594 1.8867 0.11719 2.8281 0.23438 2.5938 0.17578 5.1875 0.47266 7.7812 0.76562 39.672 4.7148 75.453 22.223 103.1 48.336l-0.64844 0.53125 6.6602 6.0703c3.0664 2.8281 6.0117 5.8945 8.7812 9.0195 3.7734 4.5391 7.3672 9.1953 10.668 14.09l4.6562 7.1328c17.105 27.703 27.008 60.422 27.008 95.375zm-23.812-118.89c-1.5898-2.1211-3.2422-4.2461-4.9531-6.25-0.70703-0.82422-1.4727-1.5898-2.1797-2.418-1.0039-1.1797-2.0625-2.3594-3.0664-3.5352l18.863-15.914 10.258 12.145zm49.043-4.8359-7.8398-9.3125-39.434-46.684 12.145-10.258 47.336 56zm-207.08-41.027c-90.84 0-164.7 73.922-164.7 164.7s73.922 164.7 164.7 164.7 164.7-73.922 164.7-164.7-73.859-164.7-164.7-164.7zm7.957 313.43v-15.977c0-4.3633-3.5352-7.8984-7.8984-7.8984-4.3633 0-7.8984 3.5352-7.8984 7.8984v15.977c-75.805-4.0078-136.76-64.961-140.77-140.77h15.977c4.3633 0 7.8984-3.5352 7.8984-7.8984 0-4.3633-3.5352-7.8984-7.8984-7.8984h-15.977c4.0078-75.805 64.961-136.76 140.77-140.77v15.977c0 4.3633 3.5352 7.8984 7.8984 7.8984 4.3633 0 7.8984-3.5352 7.8984-7.8984v-16.039c75.805 4.0078 136.76 64.961 140.77 140.77h-15.977c-4.3633 0-7.8984 3.5352-7.8984 7.8984 0 4.3633 3.5352 7.8984 7.8984 7.8984h15.977c-4.0078 75.867-64.957 136.82-140.77 140.83zm99.211-148.67c0 4.3633-3.5352 7.8984-7.8984 7.8984h-99.27c-4.3633 0-7.8984-3.5352-7.8984-7.8984v-110.7c0-4.3633 3.5352-7.8984 7.8984-7.8984 4.3633 0 7.8984 3.5352 7.8984 7.8984v102.75h91.309c4.4219 0 7.9609 3.5391 7.9609 7.957z"/>
+                                </svg>
+                            </span>
                             {{ action.time }} minute{% if action.time == 1 %}s{% endif %}
                             to complete
-                        </p>
                     </div>
                     <div class="Banks-Action-Click-Counter Stats">
                         <span class="Banks-Action-Raised-Fist">
@@ -75,12 +81,10 @@
                                 </svg>
                         </span>
                         <span class="Text">
-                            Clicked
-                            <span
+                            Clicked <span
                                 class="Banks-Action-Counter-Feild loading"
                                 id="Banks-Action-Counter-{{ action.counter_id }}"
-                                data-counter-id="{{ action.counter_id }}"></span>
-                            times
+                                data-counter-id="{{ action.counter_id }}"></span> times
                         </span>
 
                     </div>
@@ -93,10 +97,17 @@
                             {% if button.target == 'SHOW_COMMENTS' %}
                             <span class="Chaos-Button Banks-Action-Show-Hide-Comments" onClick="showComments(this)">{{ button.text }}</span>
                             {% else %}
-                            <a href="{{ button.target | liquify }}"><span class="Chaos-Button">{{ button.text }}</span></a>
+                            <a href="{{ button.target | liquify }}" target="_blank"><span class="Chaos-Button">{{ button.text }}</span></a>
                             {% endif %}
                             {% endfor %}
                         </div>
+                    </div>
+                </div>
+                <div id="{{ action.slug }}-thank-you" class="Banks-Action-Thank-You">
+                    <div>{{ action.thank_you | liquify | markdownify }}</div>
+                    <div class="Share-Actions">
+                        {% assign share_data = action.share | default: page.share %}
+                        {% include banks-share-buttons.html share=share_data %}
                     </div>
                 </div>
                 {% if action.data.instagram_comments.size > 0 %}
@@ -117,7 +128,8 @@
                     {% endfor %}
                     <div class="Banks-Facts-Blockquote">
                         <blockquote>
-                            {{ page.facts.quote }}
+                            “{{ page.facts.quote.text }}”
+                            <ul><li>{{ page.facts.quote.by }}</li></ul>
                         </blockquote>
                     </div>
                     <div class="Banks-Facts-Content">
@@ -135,72 +147,13 @@
                 {% capture whatsapp %}{% if include.page.share.whatsapp.size > 0 %}{{ include.page.share.whatsapp | liquify }}{% else %}*{{ title }}*
     
                 {{ share_url }}{% endif %}{% endcapture %}
-    
-                <div class="Banks-Share-Links Banks-Link-Blocks">
-                    {% if page.share.facebook.size > 1 %}
-                    <span  target="_blank"  class="Banks-Link-Block" href="https://www.facebook.com/sharer/sharer.php?u={{ url| url_encode }}" title="Facebook">
-                        {% include logo-facebook %}
-                    </span>
-                    {% endif %}
-                    {% if page.share.twitter.size > 1 %}
-                    <a target="_blank" class="Banks-Link-Block" href="https://twitter.com/intent/tweet?text={% if include.page.share.tweet.size > 0 %}{{ include.page.share.tweet | url_encode }}{% endif %}&url={{ share_url | url_encode }}" title="Twitter">
-                        <span class="content">
-                            <span class="logo">{% include logo-twitter %}</span>
-                            <span class="text">Share on Twitter</span>
-                        </span>
-                    </a>
-                    {% endif %}
-                    {% if page.share.whatsapp.size > 0 %}
-                    <a class="mobile Banks-Link-Block" target="_blank" href="https://wa.me/?text={{ whatsapp | liquify | url_encode }}">
-                        <span class="content">
-                            {% include logo-whatsapp-2 %}
-                            <span class="text">Share on WhatsApp</span>
-                        </span>
-                        <svg  class="Banks-Resource-External External-Link-Logo" viewBox="0 0 700 700">
-                            <path d="m489.86 0.24609h-0.28125c-11.043 0-19.984 8.9609-19.984 19.984 0 11.023 8.9414 19.984 19.984 19.984h0.29688 71.645l-325.57 325.57c-3.6211 3.6211-5.8633 8.6094-5.8633 14.141 0 11.043 8.9609 19.984 19.984 19.984 5.5117 0 10.516-2.2383 14.121-5.8438l325.57-325.57v71.645 0.28125c0 11.043 8.9414 19.984 19.984 19.984 11.043 0 19.984-8.9414 19.984-19.984v-0.29688 0.015625-116.66c0.17578-0.96094 0.26172-2.1016 0.26172-3.2383 0-11.043-8.9414-19.984-19.984-19.984h-0.28125-119.89zm-399.65 119.89c-11.023 0-19.984 8.9414-19.984 19.984v399.65c0 11.043 8.9609 19.984 19.984 19.984h399.65c11.043 0 19.984-8.9414 19.984-19.984v-301.52-0.28125c0-11.043-8.9414-19.984-19.984-19.984s-19.984 8.9414-19.984 19.984v0.29688-0.015625 281.54h-359.7v-359.7h282.75 0.28125c11.043 0 19.984-8.9414 19.984-19.984s-8.9414-19.984-19.984-19.984h-0.29688z"/>
-                        </svg>
-                    </a>
-                    {% endif %}
-                    {% if page.share.instagram_post.size > 1 %}
-                    <a class="Banks-Link-Block" href="{{ page.share.instagram_post }}" title="Instagram">
-                        <span class="content">
-                            {% include logo-instagram-2 %}
-                            <span class="text">Share this Instagram Post</span>
-                        </span>
-                        <svg  class="Banks-Resource-External External-Link-Logo" viewBox="0 0 700 700">
-                            <path d="m489.86 0.24609h-0.28125c-11.043 0-19.984 8.9609-19.984 19.984 0 11.023 8.9414 19.984 19.984 19.984h0.29688 71.645l-325.57 325.57c-3.6211 3.6211-5.8633 8.6094-5.8633 14.141 0 11.043 8.9609 19.984 19.984 19.984 5.5117 0 10.516-2.2383 14.121-5.8438l325.57-325.57v71.645 0.28125c0 11.043 8.9414 19.984 19.984 19.984 11.043 0 19.984-8.9414 19.984-19.984v-0.29688 0.015625-116.66c0.17578-0.96094 0.26172-2.1016 0.26172-3.2383 0-11.043-8.9414-19.984-19.984-19.984h-0.28125-119.89zm-399.65 119.89c-11.023 0-19.984 8.9414-19.984 19.984v399.65c0 11.043 8.9609 19.984 19.984 19.984h399.65c11.043 0 19.984-8.9414 19.984-19.984v-301.52-0.28125c0-11.043-8.9414-19.984-19.984-19.984s-19.984 8.9414-19.984 19.984v0.29688-0.015625 281.54h-359.7v-359.7h282.75 0.28125c11.043 0 19.984-8.9414 19.984-19.984s-8.9414-19.984-19.984-19.984h-0.29688z"/>
-                        </svg>
-                    </a>
-                    {% endif %}
-                    {% if page.share.other == true %}
-                    <span class="mobile Banks-Link-Block" share_text="{{ text  | strip_html  }}" share_title="{{ title | strip_html   }}" share_url="{{ url }}">
-                        <span class="content"></span>
-                        <span class="logo Web-Share-Button">
-                            <svg share_text="{{ text  | strip_html  }}" share_title="{{ title  | strip_html  }}" share_url="{{ url }}" class="Web-Share-Button" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-                                <circle cx="245" cy="245" r="245"></circle>
-                                <path d="M137.499,304.69c15.674,0,29.948-6.083,40.611-16l78.128,36.678c-0.583,3.341-0.904,6.771-0.904,10.276   c0,32.913,26.782,59.695,59.695,59.695c32.913,0,59.695-26.782,59.695-59.695c0-32.913-26.782-59.695-59.695-59.695   c-18.454,0-34.978,8.422-45.937,21.621l-74.543-34.995c1.717-5.561,2.646-11.464,2.646-17.581c0-4.942-0.615-9.741-1.753-14.337   l75.93-35.646c10.906,11.704,26.437,19.043,43.657,19.043c32.913,0,59.695-26.782,59.695-59.695   c0-32.913-26.782-59.695-59.695-59.695c-32.913,0-59.695,26.782-59.695,59.695c0,4.681,0.559,9.232,1.583,13.606l-76.295,35.817   c-10.876-11.376-26.181-18.484-43.123-18.484c-32.913,0-59.695,26.782-59.695,59.695S104.586,304.69,137.499,304.69z    M315.028,306.574c16.03,0,29.07,13.04,29.07,29.07c0,16.03-13.04,29.07-29.07,29.07c-16.03,0-29.07-13.04-29.07-29.07   C285.958,319.614,298.998,306.574,315.028,306.574z M315.028,125.291c16.03,0,29.07,13.039,29.07,29.07   c0,16.03-13.04,29.07-29.07,29.07c-16.03,0-29.07-13.04-29.07-29.07C285.958,138.331,298.998,125.291,315.028,125.291z    M137.499,215.925c16.03,0,29.07,13.04,29.07,29.07s-13.039,29.07-29.07,29.07s-29.07-13.04-29.07-29.07   S121.468,215.925,137.499,215.925z"/>
-                            </svg>
-                        </span>
-                        <span class="text">Share elsewhere</span>
-                    </span>
-                    {% endif %}
-                    {% if page.share.email.subject.size > 0 or  page.share.email.body.size > 0 %}
-                    <a class="Banks-Link-Block" href="mailto:?subject={{ page.share.email.subject }}&body={{ page.share.email.body | liquify }}" title="Email">
-                        <span class="content">
-                            {% include logo-email-2 %}
-                            <span class="text">Email someone</span>
-                        </span>
-                        <svg  class="Banks-Resource-External External-Link-Logo" viewBox="0 0 700 700">
-                            <path d="m489.86 0.24609h-0.28125c-11.043 0-19.984 8.9609-19.984 19.984 0 11.023 8.9414 19.984 19.984 19.984h0.29688 71.645l-325.57 325.57c-3.6211 3.6211-5.8633 8.6094-5.8633 14.141 0 11.043 8.9609 19.984 19.984 19.984 5.5117 0 10.516-2.2383 14.121-5.8438l325.57-325.57v71.645 0.28125c0 11.043 8.9414 19.984 19.984 19.984 11.043 0 19.984-8.9414 19.984-19.984v-0.29688 0.015625-116.66c0.17578-0.96094 0.26172-2.1016 0.26172-3.2383 0-11.043-8.9414-19.984-19.984-19.984h-0.28125-119.89zm-399.65 119.89c-11.023 0-19.984 8.9414-19.984 19.984v399.65c0 11.043 8.9609 19.984 19.984 19.984h399.65c11.043 0 19.984-8.9414 19.984-19.984v-301.52-0.28125c0-11.043-8.9414-19.984-19.984-19.984s-19.984 8.9414-19.984 19.984v0.29688-0.015625 281.54h-359.7v-359.7h282.75 0.28125c11.043 0 19.984-8.9414 19.984-19.984s-8.9414-19.984-19.984-19.984h-0.29688z"/>
-                        </svg>
-                    </a>
-                    {% endif %}
-                </div>
+
+                {% include banks-share-buttons.html share=page.share %}
             </div>        
         </div>
         <div id='resources'  class="Banks-Resources-Container Banks-Container">
             <div class="Banks-Resouces Banks-Content-Section">
-                <h2>Continue Reading</h2>
+                <h2>{{ page.resource_header | default: "Continue Reading" }}</h2>
                 <div class="Banks-Link-Blocks ">
                     {% for resource in page.resources %}
                     <a class="Banks-Resource" href="{{ resource.target }}" target="_blank">

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tweet at Barclays
+title: Comment on HSBC's Instagram
 slug: hsbc
 comments:
 - "Barclays big secret \U0001F92B: You’re still lending BILLIONS of dollars a
@@ -32,7 +32,7 @@ comments:
 Together, we’re calling out HSBC where everyone can see, on their social media. Use the example text below to comment on HSBC's latest instagram post.
 
 1. Pick your favourite message below and click copy
-2. Click the link to go to HSBC’s [latest Instagram post](http://tiny.cc/hsbc_uk).
+2. {% include resize.html desktop='Click' mobile='Tap' %} the link to go to HSBC’s [latest Instagram post](http://tiny.cc/hsbc_uk).
 3. Paste your your message as a reply to the post
 
 {% include instagram_comments.html comments=page.comments action_network_endpoint="https://actionnetwork.org/api/v2/advocacy_campaigns/098a8d42-ea6b-4331-b767-5d0d1e6c6183/outreaches" post_link="http://tiny.cc/hsbc_uk"  target="HSBC" %}

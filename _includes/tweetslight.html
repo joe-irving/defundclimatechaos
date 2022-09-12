@@ -3,7 +3,7 @@
   <a
     class="Click-To-Tweet-Light-Link Click-To-Tweet-Show"
     target="_blank"
-    href="https://twitter.com/intent/tweet?text={{ tweet | url_encode }}"
+    href="https://twitter.com/intent/tweet?text={{ tweet | liquify | url_encode }}"
     onclick="outreachClicked(this)"
     data-target="{{ include.target }}"
     data-message="{{ tweet | liquify }}"
@@ -24,7 +24,9 @@
     </section>
   </a>
   {% endfor %}
-  <span class="Chaos-Button Load-More-Tweets">Load More</span>
+  <div class="Chaos-Flex-Line">
+    <span class="Chaos-Button Load-More-Tweets">Load More</span>
+  </div>
   <script>
     function hideTweets(maxTweets){
       let tweets = document.getElementsByClassName('Click-To-Tweet-Show');

@@ -1,0 +1,9 @@
+--- 
+---
+{% capture header %}{% include header.html %}{% endcapture %}
+{% capture find_url_1 %}href="/{% endcapture %}
+{% capture find_url_2 %}src="/{% endcapture %}
+{% capture replace_url %}href="{{ site.url }}{{site.base_url}}/{% endcapture %}
+{% capture replace_url_2 %}src="{{ site.url }}{{site.base_url}}/{% endcapture %}
+
+{{ header | replace: find_url_1, replace_url | replace: find_url_2, replace_url_2 }}

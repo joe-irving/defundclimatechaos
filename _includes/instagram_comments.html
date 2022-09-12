@@ -29,7 +29,9 @@
                 </span>   
             </div>
             <div class="Copied-Sucess Status-Box">
-                <span class="Sucess-Box Status-Box-Content"><span>&#x2714; Copied comment to clipboard! Now paste it into {{ include.target }}'s latest <a href="{{ include.post_link }}" target="_blank">Instagram Post</a></span></span>
+                <a href="{{ include.post_link }}" target="_blank">
+                    <span class="Sucess-Box Status-Box-Content"><span>Copied &#x2714; {% include resize.html desktop='Click' mobile='Tap' %} again to go to {{ include.target }}'s latest Instagram Post.</span></span>
+                </a>
             </div>
         </div>
         
