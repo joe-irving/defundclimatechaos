@@ -14,6 +14,9 @@ share:
   tweet: "#DefundClimateChaos Demands here: "
 logo: ''
 logo_square: ''
+menu:
+  header:
+    weight: 4
 
 ---
 **Keep It In the Ground -** Achieving Climate justice means keeping fossil fuels in the ground. To keep below a 1.5oC increase and prevent irreparable social and ecological damage, we must prevent future fossil fuel extraction. We need to stop the further expansion of fossil fuel infrastructure and exploration. No more coal, oil, gas, fracking or biomass projects.  
