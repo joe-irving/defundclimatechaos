@@ -1,0 +1,126 @@
+---
+label: Bank Page 2
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: file
+  name: logo
+  label: logo
+- type: text
+  name: tagline
+  label: tagline
+- type: file
+  name: background_image
+  label: background_image
+- type: boolean
+  name: hide_nav
+  label: hide_nav
+- type: field_group
+  name: share
+  label: share
+  fields:
+  - type: textarea
+    name: intro
+    label: intro
+  - type: textarea
+    name: whatsapp
+    label: whatsapp
+  - type: text
+    name: instagram_post
+    label: instagram_post
+  - type: field_group
+    name: email
+    label: email
+    fields:
+    - type: text
+      name: subject
+      label: subject
+    - type: textarea
+      name: body
+      label: body
+- type: textarea
+  name: take_action
+  label: take_action
+- type: textarea
+  name: take_action_instructions
+  label: take_action_instructions
+- type: field_group_list
+  name: actions
+  label: actions
+  fields:
+  - type: text
+    name: impact
+    label: impact
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: slug
+    label: slug
+  - type: number
+    name: time
+    label: time
+  - type: textarea
+    name: blurb
+    label: blurb
+  - type: field_group_list
+    name: buttons
+    label: buttons
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: textarea
+      name: target
+      label: target
+  - type: number
+    name: counter_id
+    label: counter_id
+  - type: text
+    name: thank_you
+    label: thank_you
+- type: field_group
+  name: facts
+  label: facts
+  fields:
+  - type: field_group_list
+    name: headline
+    label: headline
+    fields:
+    - type: text
+      name: stat
+      label: stat
+    - type: text
+      name: about
+      label: about
+  - type: field_group
+    name: quote
+    label: quote
+    fields:
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: by
+      label: by
+  - type: textarea
+    name: content
+    label: content
+- type: text
+  name: resource_header
+  label: resource_header
+- type: field_group_list
+  name: resources
+  label: resources
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: target
+    label: target
