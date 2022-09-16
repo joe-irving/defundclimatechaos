@@ -86,9 +86,9 @@ actions:
     ## Can you triple your impact and share this with 3 people?
 facts:
   headline:
-  - stat: "£138B"
+  - stat: "£138 Billion"
     about: Invested in fossil fuels since 2016
-  - stat: "£4.6B"
+  - stat: "£4.6 Billion"
     about: Financed in new fossil fuel projects since Janurary 2022
   quote:
     text: |-
