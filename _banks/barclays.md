@@ -95,11 +95,10 @@ facts:
       Our investments are at complete odds with the messaging from the top of the business.
       We say we're green, whilst having Saudi Aramco as a huge client.
     by: Someone, 2019
-  content: Barclays have ploughed $167 billion into fossil fuels since 2016. You read
-    that right, billions. That’s why they’re the worst in Europe. And they’re continuing
-    to pour billions into NEW fossil fuels. That means more oil rigs, more habitats
-    destroyed, and more climate change. You’re in a toxic relationship with Barclays.
-    It’s time to get out.
+  content: |-
+    # "The worst in Europe"
+
+    Barclays have ploughed $167 billion into fossil fuels since 2016. You read that right, billions. That’s why they’re the worst in Europe. And they’re continuing to pour billions into NEW fossil fuels. That means more oil rigs, more habitats destroyed, and more climate change. You’re in a toxic relationship with Barclays. It’s time to get out.
 resource_header: Switch your bank
 resources:
 - text: Alternative Banks to Barclays
