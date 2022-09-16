@@ -33,4 +33,3 @@ header:
 blocks: []
 
 ---
-# Defund Climate Chaos for Trade Unions
