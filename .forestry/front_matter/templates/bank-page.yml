@@ -90,6 +90,70 @@ fields:
   - type: number
     name: counter_id
     label: counter_id
+  - name: thank_you
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Thank You Box Conent
+  - name: share
+    type: field_group
+    config: {}
+    fields:
+    - name: whatsapp
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Whatsapp Message
+    - name: instagram_post
+      type: text
+      config:
+        required: false
+      label: Instagram Post
+    - name: tweet
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Tweet to send
+    - name: email
+      type: field_group
+      config: {}
+      fields:
+      - name: subject
+        type: text
+        config:
+          required: false
+        label: Subject
+      - name: body
+        type: textarea
+        default: ''
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: Body
+      label: Email to send
+    label: Share This Action
+  - name: slug
+    type: text
+    config:
+      required: false
+    label: Slug
+    description: The anchor link to this section e.g. <strong>petition </strong>in
+      this field would mean it could be linked to with<br><br>/banks/bank/#petition<br><br>And
+      the thank you page could appear with<br><br>/banks/bank/#petition-thank-you
 - type: field_group
   name: facts
   label: facts
@@ -107,10 +171,6 @@ fields:
       label: about
       description: A short sentence about, e.g. Into fossil Fuels since 2016
   - type: textarea
-    name: quote
-    label: quote
-    description: A quote, that appears on the left
-  - type: textarea
     name: content
     label: Longer Content
     config:
@@ -118,6 +178,25 @@ fields:
       schema:
         format: markdown
     description: A bit more detail about the bank
+  - name: quote
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: The Quote
+    - name: by
+      type: text
+      config:
+        required: false
+      label: Who said this?
+    label: quote
 - type: field_group_list
   name: resources
   label: resources
@@ -128,3 +207,8 @@ fields:
   - type: text
     name: target
     label: A Link to the resource
+- name: resource_header
+  type: text
+  config:
+    required: false
+  label: Resources Header
