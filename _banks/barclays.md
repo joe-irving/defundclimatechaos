@@ -28,7 +28,7 @@ take_action: |
   When fossil fuel companies need cash, Barclays is always there. Together, we're demanding that Barclays stops bankrolling climate destruction.
 take_action_instructions: |-
   There are 3 actions below that you can take, ranging in impact.
-  
+
   1. Pick an action below
   2. {% include resize.html desktop='Click' mobile='Tap' %} the button to start
   3. Follow the instructions on the next page
@@ -38,10 +38,12 @@ actions:
   slug: petition
   time: 2
   blurb: Add your name to the petition to Hilary McGrady - CEO of the National Trust
-    to drop Barclays. {% include resize.html desktop='Click' mobile='Tap' %} to button below to sign
+    to drop Barclays. {% include resize.html desktop='Click' mobile='Tap' %} to button
+    below to sign
   buttons:
   - text: Sign the petition now
-    target: https://actionnetwork.org/petitions/national-trust-drop-barclays?source={{ source_code }}&redirect={{ thank_you_url | url_encode }}
+    target: https://actionnetwork.org/petitions/national-trust-drop-barclays?source={{
+      source_code }}&redirect={{ thank_you_url | url_encode }}
   counter_id: 13
   thank_you: |-
     # Thank you!
@@ -52,8 +54,8 @@ actions:
   slug: tweet
   time: 5
   blurb: "Together, we’re calling out Barclays where everyone can see, on their social
-    media. \n\n{% include resize.html desktop='Click' mobile='Tap' %} on \"Start Tweeting\" below to get some example tweets to
-    choose from!\n"
+    media. \n\n{% include resize.html desktop='Click' mobile='Tap' %} on \"Start Tweeting\"
+    below to get some example tweets to choose from!\n"
   buttons:
   - text: Start tweeting
     target: "/act/barclays"
@@ -64,18 +66,19 @@ actions:
     ## Can you triple your impact and share this with 3 people?
 - impact: Call in the big guns
   heading: Email the Bank of England
-  slug: email-boe
+  slug: email
   time: 7
   blurb: "There’s one organisation that can stop UK banks like Barclays/HSBC handing
     over cash to fossil fuel companies - the Bank of England. They’re already thinking
     about acting, but the banks are desperately trying to stop them changing the rules.
     \n\nThat’s why thousands of us are flooding the Bank of England, demanding that
-    they take a stand, and stop banks funding fossil fuels. Send an email to
-    the Bank of England now. There’s example text waiting for you if you’re not sure
-    what to say:"
+    they take a stand, and stop banks funding fossil fuels. Send an email to the Bank
+    of England now. There’s example text waiting for you if you’re not sure what to
+    say:"
   buttons:
   - text: Email them now
-    target: https://actionnetwork.org/letters/email-the-bank-of-england?source={{ source_code }}&redirect={{ thank_you_url | url_encode }}
+    target: https://actionnetwork.org/letters/email-the-bank-of-england?source={{
+      source_code }}&redirect={{ thank_you_url | url_encode }}
   counter_id: 10
   thank_you: |-
     # Thanks for commenting!
@@ -87,7 +90,7 @@ facts:
     about: Invested in fossil fuels since 2016
   - stat: "£4.6B"
     about: Financed in new fossil fuel projects since Janurary 2022
-  quote: 
+  quote:
     text: |-
       Our investments are at complete odds with the messaging from the top of the business.
       We say we're green, whilst having Saudi Aramco as a huge client.
@@ -97,7 +100,6 @@ facts:
     to pour billions into NEW fossil fuels. That means more oil rigs, more habitats
     destroyed, and more climate change. You’re in a toxic relationship with Barclays.
     It’s time to get out.
-  
 resource_header: Switch your bank
 resources:
 - text: Alternative Banks to Barclays
