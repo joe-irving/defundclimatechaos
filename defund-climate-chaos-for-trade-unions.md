@@ -24,6 +24,8 @@ header:
     Alongside this, our climate is breaking down as the world faces extreme heatwaves, droughts, fires, and floods. At the heart of these crises is a rigged finance system. We can’t rely on the establishment to solve our problems. It’s up to us in every workplace and every community.
 
     It is time for Trade Unions, Climate Justice campaigners and communities to work closer together. With the growing discontent across society about the Cost of Living Crisis and the wave of strikes happening across the UK, we must seize the opportunity to build alliances and a mass movement working for better lives for all and protect our natural resources and planet.
+
+    {% include an-email-only-form.html endpoint="https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures" jump="actions" %}
   buttons: []
   border_bottom:
     image: ''
