@@ -53,9 +53,9 @@ Use the example to tweet [@Barclays](https://twitter.com/barclaysuk).
 
 ## What next?
 
-There’s one organisation that can stop UK banks like Barclays/HSBC handing over cash to fossil fuel companies - the Bank of England. They’re already thinking about acting, but the banks are desperately trying to stop them changing the rules.
+There’s one organisation that can stop UK banks like Barclays handing over cash to fossil fuel companies - the Bank of England. They’re already thinking about acting, but the banks are desperately trying to stop them changing the rules.
 
-That’s why thousands of us are flooding the Bank of England, demanding that they take a stand, and stop banks funding fossil fuels. Send an email/tweet to the Bank of England now. There’s example text waiting for you if you’re not sure what to say.
+That’s why thousands of us are flooding the Bank of England, demanding that they take a stand, and stop banks funding fossil fuels. Send an email to the Bank of England now. There’s example text waiting for you if you’re not sure what to say.
 
 {% capture target %}https://actionnetwork.org/letters/email-the-bank-of-england?source=dccuk_website_{{ page.url | slugify }}&redirect={{ "https://defundclimatechaos.uk/banks/barclays/#email-thank-you" | url_encode  }}{% endcapture %}
 {% include button.html link=target text='Email them now' target="_blank" %}
