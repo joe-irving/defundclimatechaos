@@ -100,3 +100,5 @@ fields:
   label: Square Logo
   description: For very small screens
 pages:
+- _digital_actions/barclays-twitter.md
+- _digital_actions/hsbc-insta-comments.md
