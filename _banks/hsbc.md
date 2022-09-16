@@ -6,9 +6,9 @@ logo: "/assets/images/HSBC.png"
 background_image: "/assets/images/positive_money.jpg"
 hide_nav: true
 share:
-  intro: 'More and more of us are uncovering the secret that HSBC is bankrolling
-    climate destruction. But millions of people still have no idea. Triple your impact
-    now by showing three friends what HSBC is doing. Share this page now:
+  intro: 'More and more of us are uncovering the secret that HSBC is bankrolling climate
+    destruction. But millions of people still have no idea. Triple your impact now
+    by showing three friends what HSBC is doing. Share this page now:
 
     '
   whatsapp: 'Turns out my bank is lending billions of dollars a year to fossil fuel
@@ -28,7 +28,7 @@ take_action: |-
   Yup, HSBC are one of the worst out there. They’re giving billions to fossil fuel companies every year. That includes billions to groups like Saudi Aramco, the Saudi government’s oil company. Together, we're demanding that HSBC stops bankrolling climate destruction.
 take_action_instructions: |-
   There are 3 actions below that you can take, ranging in impact.
-  
+
   1. Pick an action below
   2. Click the button to start
   3. Follow the instructions on the next page
@@ -40,7 +40,8 @@ actions:
     HSBC.
   buttons:
   - text: Sign the petition now
-    target: https://actionnetwork.org/petitions/vivobarefoot/?source={{ source_code }}&redirect={{ thank_you_url | url_encode }}
+    target: https://actionnetwork.org/petitions/vivobarefoot/?source={{ source_code
+      }}&redirect={{ thank_you_url | url_encode }}
   counter_id: 12
   slug: petition
 - impact: Make HSBC sweat
@@ -62,15 +63,13 @@ actions:
 
     ## Can you triple your impact and share this with 3 people?
   share:
-    whatsapp: 'Turns out my bank is lending billions of dollars a year to fossil fuel companies. Yours probably does too:'
+    whatsapp: 'Turns out my bank is lending billions of dollars a year to fossil fuel
+      companies. Yours probably does too:'
     email:
       subject: Climate criminal banks
-      body: 'Hi there. It turns out that my bank is lending billions of dollars a year to fossil fuel companies. Yours probably does too: {{ share_url }}'
+      body: 'Hi there. It turns out that my bank is lending billions of dollars a
+        year to fossil fuel companies. Yours probably does too: {{ share_url }}'
     tweet: Some tweet text
-  thank_you: |-
-    # Thanks for commenting!
-
-    ## Can you triple your impact and share this with 3 people?
 - impact: Call in the big guns
   heading: Email the Bank of England
   time: 7
@@ -80,7 +79,8 @@ actions:
     That’s why thousands of us are flooding the Bank of England, demanding that they take a stand, and stop banks funding fossil fuels. Send an email to the Bank of England now. There’s example text waiting for you if you’re not sure what to say:
   buttons:
   - text: Email them now
-    target: https://actionnetwork.org/letters/email-the-bank-of-england?source={{ source_code }}&redirect={{ thank_you_url | url_encode }}
+    target: https://actionnetwork.org/letters/email-the-bank-of-england?source={{
+      source_code }}&redirect={{ thank_you_url | url_encode }}
   counter_id: 10
   slug: email
   thank_you: |-
@@ -89,12 +89,12 @@ actions:
     ## Can you triple your impact and share this with 3 people?
 facts:
   headline:
-  - stat: "£103B"
+  - stat: "£103 Billion"
     about: TO FOSSIL FUELS SINCE 2016
-  quote: 
+  quote:
     text: "$130bn to fossil fuel companies [since 2016] is a pretty stunning amount.
-      I don’t think most of us know that. I don’t think I understood how involved HSBC
-      is before reading that."
+      I don’t think most of us know that. I don’t think I understood how involved
+      HSBC is before reading that."
     by: Someone, 2019
   content: "# HSBC HAS LENT £103 BILLION TO FOSSIL FUELS SINCE 2016 \U0001F92C\n\nYup,
     HSBC are one of the worst out there. They’re giving billions to fossil fuel companies
