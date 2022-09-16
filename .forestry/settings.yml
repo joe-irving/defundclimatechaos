@@ -40,6 +40,11 @@ sections:
   match: "**/*"
   templates:
   - bank-page
+- type: directory
+  path: _digital_actions
+  label: Digital Action Pages
+  create: all
+  match: "**/*"
 - type: document
   path: _data/motions.yaml
   label: Motions
