@@ -10,6 +10,20 @@ fields:
 - type: text
   name: title
   label: Title
+- name: comments
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Comments
+- name: tweets
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Tweets
 - type: file
   name: top_image
   label: 'Header Image '
@@ -99,13 +113,6 @@ fields:
     maxSize: 64
   label: Square Logo
   description: For very small screens
-- name: comments
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Comments
 pages:
 - _digital_actions/barclays-twitter.md
 - _digital_actions/hsbc-insta-comments.md
