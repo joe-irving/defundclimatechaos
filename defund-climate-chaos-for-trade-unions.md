@@ -30,7 +30,13 @@ header:
   border_bottom:
     image: ''
     reflect: false
-blocks: []
+blocks:
+- map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 
 ---
 # Defund Climate Chaos for Trade Unions
