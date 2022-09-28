@@ -3,7 +3,7 @@ title: Action Network Event
 slug: an-event
 
 ---
-# {{ title }}
+# _{{ title }}_
 
 {{ share_buttons }}
 {{ image }}
