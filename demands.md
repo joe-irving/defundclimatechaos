@@ -15,6 +15,8 @@ share:
 logo: ''
 logo_square: ''
 menu:
+  footer:
+    weight: 8
   header:
     weight: 4
 
