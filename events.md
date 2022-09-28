@@ -1,0 +1,5 @@
+---
+layout: page
+---
+{% assign events = site.actions | where: "future", 1 %}
+{% include events-gallery.html date_field='start_date' summary=true %}

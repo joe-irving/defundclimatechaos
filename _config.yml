@@ -105,14 +105,15 @@ airtable:
     - Latitude
     - Longitude
     - Content
+    - Future
     collection:
       slug: slug
       layout: an-event
       content: content
   trainings:
     app: app9apHbqOifmolTX
-    table: tblr8deZvWPtDpT8z
-    view: viwmoConiofljNaYn
+    table: tblVEvKXgQXEwyNKh
+    view: viwG1BYPfTrElrkwC
     fields:
     - Content
     - Title
@@ -135,6 +136,8 @@ map:
   lng: ''
 exclude:
 - api
+- .forestry
+- .git
 include:
 - _redirects
 jekyll_get_json: []
