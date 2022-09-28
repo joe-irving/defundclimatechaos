@@ -101,6 +101,7 @@ fields:
   description: For very small screens
 pages:
 - demands.md
+- events.md
 - faqs.md
 - google-review-swarm-cleanupstandardchartered.md
 - join-us.md
