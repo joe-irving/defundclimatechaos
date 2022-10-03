@@ -58,6 +58,8 @@ collections:
   digital_actions:
     output: true
     permalink: "/act/:slug/"
+  briefings:
+    output: true
 airtable:
   faqs:
     app: app9apHbqOifmolTX
@@ -80,6 +82,25 @@ airtable:
     table: tblGAJiIeFlD6PxNI
     view: viwBQ8s617LvMdODw
     combine: true
+  briefings:
+    app: app9apHbqOifmolTX
+    table: tblGAJiIeFlD6PxNI
+    view: viwU1ycAZj7RWLyzf
+    collection:
+      slug: briefings
+      layout: briefing
+      content: content
+    fields:
+      - title
+      - Motion
+      - Video
+      - YouTube ID
+      - description
+      - Content
+      - Image
+      - Tags
+      - Category
+      - Google Doc ID
   partners:
     app: app9apHbqOifmolTX
     table: tbl3erzSL6dZfNkZi
@@ -106,6 +127,7 @@ airtable:
     - Longitude
     - Content
     - Future
+    - Type
     collection:
       slug: slug
       layout: an-event
@@ -126,9 +148,27 @@ airtable:
       slug: title
       layout: event
       content: content
+
+action_network:
+  key: ENV_AN_API_KEY
+  actions: false
+  import:
+    - name: events
+      include_event_campaigns: false
+      layout: an-page-2
+    - name: petitions
+      layout: an-page-2
+    - name: forms
+      layout: an-page-2
+    - name: campaigns
+      layout: an-page-2
+    - name: advocacy_campaigns
+      layout: an-page-2
+
 plugins:
 - jekyll-airtable-import
 - jekyll-menus
+- jekyll-action-network
 nav_links: []
 google_analytics: G-LR3ETXLRXT
 map:

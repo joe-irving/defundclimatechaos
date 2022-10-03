@@ -51,7 +51,7 @@ layout: page
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
-<div id="Single-Action-Map" map_location="{{ page.location | jsonify | url_encode | replace: "+", "%20" }}"></div>
+<div id="Single-Action-Map" map_location="{{ page.location | url_encode | replace: "+", "%20" }}"></div>
 <script type="text/javascript" src="/assets/js/an-event-page.js"> </script>
 {% endcapture %}
 
@@ -71,21 +71,6 @@ layout: page
 {% endunless %}
 {% endcapture %}
 
-<h1>{{ page.title }}</h1>
-
-{{ share_buttons }}
-{{ date }}
-
-<h2>What</h2>
-
-{{ page.description }}
-
-<h2>RSVP</h2>
-
-{{form}}
-
-{% if page.location.venue.length > 0 %}
-<h2>Where</h2>
-{{ address }}
-{{map}}
-{% endif %}
+{% capture template_name %}an-{{ page.action_type }}{% endcapture %}
+{% assign t = site.templates | where: "slug",  template_name | first  %}
+{{ t.template | markdownify | liquify }}

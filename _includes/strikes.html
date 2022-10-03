@@ -1,0 +1,27 @@
+<iframe src="/strikes" frameborder="0" id="{{ include.id | default: 'strike-map' }}"></iframe>
+<div class="Strikes-Return-Button Choas-Flex-Line"><a href="#{{ include.return_id | default: 'strikes' }}"><span class="Chaos-Button">Return</span></a></div>
+<style>
+    #strike-map {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 11;
+    }
+    #strike-map:target{
+        display: block;
+    }
+    #strike-map:target ~ .Strikes-Return-Button{
+        display: block;
+    }
+    .Strikes-Return-Button {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        z-index: 12;
+        margin: 1vh auto;
+    }
+</style>
