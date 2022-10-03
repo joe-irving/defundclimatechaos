@@ -32,10 +32,16 @@ header:
     reflect: false
 blocks:
 - map: false
-  text: ''
+  text: |-
+    # The main content of a block
+
+    etc
   id: ''
   buttons: []
-  decoration: ''
+  decoration: |-
+    ![](/assets/images/stopeacop.jpg)
+
+    The decoration - normally just an image
   background_image: ''
 
 ---
