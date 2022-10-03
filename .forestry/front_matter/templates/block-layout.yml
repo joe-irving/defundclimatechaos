@@ -188,6 +188,12 @@ fields:
       max: 280
     label: Tweet
   label: Share
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  description: The bit after defundclimatechaos.uk/
 pages:
 - act.md
 - defund-climate-chaos-for-trade-unions.md
