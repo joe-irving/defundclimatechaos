@@ -14,7 +14,6 @@ share:
   tweet: ''
 logo: ''
 logo_square: ''
-published: false
 
 ---
 
