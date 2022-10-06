@@ -36,15 +36,6 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    ## [Join our #StopEACOP Insurance Chat](https://chat.whatsapp.com/BDmbTdiobPeHdzFpJFA7Sz)
-
-    [Get involved in ongoing actions to cut off vital insurance and help #StopEACOP.](https://chat.whatsapp.com/BDmbTdiobPeHdzFpJFA7Sz)
-  id: StopEACOPwhatsapp
-  buttons: []
-  decoration: ''
-  background_image: "/assets/images/whatsapp-logo-transparent-background-323098.jpg"
-- map: false
-  text: |-
     ## Trade Union Motion
 
     If you are part of a Trade Union, you can support the #StopEACOP campaign by passing this motion at your local branch.
