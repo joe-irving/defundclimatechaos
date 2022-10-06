@@ -17,10 +17,6 @@ blocks:
     image: ''
     new_tab: false
     text: Email Insurers
-  - text: WhatApp Chat
-    target: "#StopEACOPwhatsapp"
-    image: ''
-    new_tab: false
   - text: Trade Union Motion
     target: "#StopEACOPtu"
     image: ''
