@@ -7,6 +7,7 @@ top_image: ''
 top_quote: ''
 image: ''
 credits: ''
+permalink: cost-of-living
 summary: ''
 share:
   whatsapp: ''
@@ -16,7 +17,6 @@ logo: ''
 logo_square: ''
 
 ---
-
 **The UK is in crisis. People nationwide are struggling with soaring bills and stagnant wages. Warm, affordable housing, sufficient and fair pay, the ability to feed our families - these aren’t luxuries - they are our rights.**
 
 **Alongside a cost of living crisis, our climate is in breakdown as the world faces extreme flooding, heatwaves, fires, and droughts. At the heart of these crises is a rigged financial system built upon greed. With our government turning a blind eye to our demands for a clean energy transition and a fair financial system for all, it’s up to us to bring this fight into our workplaces and communities.**
@@ -49,15 +49,13 @@ Russia’s invasion of Ukraine has only exacerbated the current cost of living c
 
 #### **Defund Climate Chaos**
 
-While people and planet suffer, global financiers are maximising their fossil fuel profits and buying political influence to avoid regulation - the UK finance sector donated £11million to the Conservative Party since the last general election alone and the [world’s 60 largest banks have loaned £3.9 trillion to fossil fuel companies](https://www.bankingonclimatechaos.org/) over the last six years.  
-  
-The City of London is a major source of funding and insurance of fossil fuel projects with many of these finance companies building their wealth off of colonial exploitation and extraction. As the cost of living crisis further marginalises UK working class and black & brown communities, financial institutions pay out millions to their executives and shareholders.   
-  
+While people and planet suffer, global financiers are maximising their fossil fuel profits and buying political influence to avoid regulation - the UK finance sector donated £11million to the Conservative Party since the last general election alone and the [world’s 60 largest banks have loaned £3.9 trillion to fossil fuel companies](https://www.bankingonclimatechaos.org/) over the last six years.
+
+The City of London is a major source of funding and insurance of fossil fuel projects with many of these finance companies building their wealth off of colonial exploitation and extraction. As the cost of living crisis further marginalises UK working class and black & brown communities, financial institutions pay out millions to their executives and shareholders.
+
 —----- BOX - **Fossil Finance Fat Cats** —----------- \[Expando Box\]
 
 * **Barclays** has poured £145 billion into fossil fuel finance - more than any other bank in Europe. Their CEO, Venkatakrishnan, made £874k in just two months alone last year.
-
-
 * **HSBC** has poured £113 billion into fossil fuel companies - the 13th biggest funder globally. HSBC's chief executive Noel Quinn’s total pay packet last year was over £10m.
 * **Standard Chartered,** a bank with colonial roots in South Africa, has financed fossil fuels to the tune of £34 billion. Their CEO Bill Winters' total pay package for 2021 was £4.7 million.
 * **Lloyd’s of London** which grew its wealth through its insurance of the transatlantic slave trade, insures 40% of global energy projects and refuses to rule out doing so in the future. Their CEO, John Neal, made £1.6 million last year.
@@ -71,7 +69,6 @@ The deadly profiteering driving climate chaos is best illustrated through the wo
 
 More than 60% of these carbon bomb projects are already operating. We need to stop the remaining 40% to reduce our risk of climate catastrophe. A major way to stop these new carbon bomb projects is cutting off funding and insurance for companies proposing them. **The City of London must immediately stop financing and insuring new fossil fuel extraction and new carbon-intensive infrastructure projects** (roads, airports, wood bioenergy, power plants and industrial livestock).
 
-  
 —--------- BOX **- Carbon Bombs** —---------- \[Expando Box\]
 
 Four projects currently seeking support from the UK’s finance sector are:
@@ -86,3 +83,5 @@ Four projects currently seeking support from the UK’s finance sector are:
 #### **People & Planet: Not Profit**
 
 **Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.**
+
+    <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
