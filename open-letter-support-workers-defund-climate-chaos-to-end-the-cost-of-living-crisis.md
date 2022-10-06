@@ -1,6 +1,17 @@
 ---
 layout: page
-tags: []
+tags:
+- 'fossil finance '
+- climate change
+- stopeacop
+- stopadani
+- barclays
+- hsbc
+- cost of living
+- climate reparations
+- standard chartered
+- Lloyd's of London
+- north sea oil
 title: 'Open Letter: Support Workers & Defund Climate Chaos to End the Cost of Living
   Crisis'
 top_image: ''
@@ -20,8 +31,6 @@ logo_square: ''
 **The UK is in crisis. People nationwide are struggling with soaring bills and stagnant wages. Warm, affordable housing, sufficient and fair pay, the ability to feed our families - these aren’t luxuries - they are our rights.**
 
 **Alongside a cost of living crisis, our climate is in breakdown as the world faces extreme flooding, heatwaves, fires, and droughts. At the heart of these crises is a rigged financial system built upon greed. With our government turning a blind eye to our demands for a clean energy transition and a fair financial system for all, it’s up to us to bring this fight into our workplaces and communities.**
-
-**\[Button sign the letter\] - Drop down to form at the bottom of page.**
 
 #### **Cost of living Crisis = Climate Crisis**
 
