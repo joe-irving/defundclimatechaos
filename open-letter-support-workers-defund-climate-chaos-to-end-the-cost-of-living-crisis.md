@@ -21,9 +21,14 @@ credits: ''
 permalink: cost-of-living
 summary: ''
 share:
-  whatsapp: ''
-  text: ''
-  tweet: ''
+  whatsapp: "Cost of living Crisis = Climate Crisis. Not sure why? \nFind out and
+    bring this fight into your workplace and community: https://defundclimatechaos.uk/cost-of-living"
+  text: "Cost of living Crisis = Climate Crisis. Not sure why? \nFind out and bring
+    this fight into your workplace and community -> https://defundclimatechaos.uk/cost-of-living\n#CostofLivingCrisis
+    #ClimateEmergency"
+  tweet: "Cost of living Crisis = Climate Crisis. Not sure why? \nFind out and bring
+    this fight into your workplace and community -> https://defundclimatechaos.uk/cost-of-living\n#CostofLivingCrisis
+    #ClimateEmergency"
 logo: ''
 logo_square: ''
 
