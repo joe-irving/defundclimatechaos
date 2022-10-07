@@ -28,6 +28,8 @@ logo: ''
 logo_square: ''
 
 ---
+### **Open Letter: Support Workers & Defund Climate Chaos to End the Cost of Living Crisis**
+
 **The UK is in crisis. People nationwide are struggling with soaring bills and stagnant wages. Warm, affordable housing, sufficient and fair pay, the ability to feed our families - these aren’t luxuries - they are our rights.**
 
 **Alongside a cost of living crisis, our climate is in breakdown as the world faces extreme flooding, heatwaves, fires, and droughts. At the heart of these crises is a rigged financial system built upon greed. With our government turning a blind eye to our demands for a clean energy transition and a fair financial system for all, it’s up to us to bring this fight into our workplaces and communities.**
@@ -93,4 +95,4 @@ Four projects currently seeking support from the UK’s finance sector are:
 
 **Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.**
 
-    <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
