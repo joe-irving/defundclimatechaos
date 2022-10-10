@@ -113,8 +113,11 @@ function updateActionsList(actions){
   for (i in actions){
     let action = actions[i];
     var id = action["slug"];
-    let url = `https://strikemap.co.uk/strikes/${action['id']}`
-    let title = `${action['trade_unions_taking_action']} against ${action['employer_name']} about ${action['action_reason']}`
+    let url = `https://strikemap.co.uk/strikes/${action['id']}`;
+    let title = action['trade_unions_taking_action'];
+    let blurb = `${action['trade_unions_taking_action']} against ${action['employer_name']} about ${action['action_reason']}`;
+    // let maxBlurb = 200;
+    // let blurb = action['more_information'] && action['more_information'].length > maxBlurb ? action['more_information'].substring(0, maxBlurb)+"…" : action['more_information'];
     // var start = new Date(actions[i]["start_date"]+" UTC+0100");
     // var options = { hour: 'numeric', minute: 'numeric'}
     // var startTime = start.getTime() ? new Intl.DateTimeFormat('en-GB', options).format(start) : "";
@@ -126,9 +129,9 @@ function updateActionsList(actions){
           <div class="description">
             <div class="header-line">
               <h3><a target="_parent" href="${url}">${ title }</a></h3>
-              <a target="_parent" href="${url}"><span class="Chaos-Button">Join</span></a>
+              <a class="Join-Button" target="_parent" href="${url}"><span class="Chaos-Button">Join</span></a>
             </div>
-            <p>${ action['more_information'] }</p>
+            <p>${ blurb }</p>
             <address>${action['action_postcode']}, ${action['constituency']}</address>
           </div>
         </div>
