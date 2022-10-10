@@ -71,7 +71,7 @@ blocks:
     {% include blog-list.html limit=3 %}
   id: ''
   buttons:
-  - text: Missed our Fossil Finance briefing? Watch the Recording
+  - text: Watch Recording - Defund Climate Chaos briefing
     target: https://youtu.be/H53vjdPbkgM
     image: ''
     new_tab: false
