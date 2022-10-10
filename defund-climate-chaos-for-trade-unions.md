@@ -68,7 +68,7 @@ blocks:
     # Join our Trade Union briefings
 
     {% assign posts = site.actions | where: "type", "Trade Union Briefing" %}
-    {% include blog-list.html limit=3 %}
+    {% include blog-list.html limit=3 date_field="start_date" %}
   id: ''
   buttons:
   - text: Watch Fossil Finances TU briefing
@@ -101,7 +101,7 @@ blocks:
     We have ran other briefings in collaboration with Tipping Point UK and different groups & coalitions. Access recordings and model motions here:
 
     {% assign posts = site.briefings %}
-    {% include blog-list.html %}
+    {% include blog-list.html date=false %}
   id: briefings
   buttons: []
   decoration: ''
