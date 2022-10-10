@@ -71,7 +71,7 @@ blocks:
     {% include blog-list.html limit=3 %}
   id: ''
   buttons:
-  - text: Watch Recording - Defund Climate Chaos briefing
+  - text: Watch Defund Climate Chaos TU briefing
     target: https://youtu.be/H53vjdPbkgM
     image: ''
     new_tab: false
