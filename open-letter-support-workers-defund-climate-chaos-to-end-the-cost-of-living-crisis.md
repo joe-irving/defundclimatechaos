@@ -15,8 +15,9 @@ tags:
 title: 'Open Letter: Support Workers & Defund Climate Chaos to End the Cost of Living
   Crisis'
 top_image: ''
-top_quote: ''
-image: ''
+top_quote: 'Open Letter: Support Workers & Defund Climate Chaos to End the Cost of
+  Living Crisis'
+image: "/assets/images/dcc-og-image.jpeg"
 credits: ''
 permalink: cost-of-living
 summary: ''
@@ -33,10 +34,6 @@ logo: ''
 logo_square: ''
 
 ---
-## **Open Letter:** 
-
-## **Support Workers & Defund Climate Chaos to End the Cost of Living Crisis**
-
 **The UK is in crisis. People nationwide are struggling with soaring bills and stagnant wages. Warm, affordable housing, sufficient and fair pay, the ability to feed our families - these aren’t luxuries - they are our rights.**
 
 **Alongside a cost of living crisis, our climate is in breakdown as the world faces extreme flooding, heatwaves, fires, and droughts. At the heart of these crises is a rigged financial system built upon greed. With our government turning a blind eye to our demands for a clean energy transition and a fair financial system for all, it’s up to us to bring this fight into our workplaces and communities.**
@@ -70,7 +67,6 @@ Russia’s invasion of Ukraine has only exacerbated the current cost of living c
 While people and planet suffer, global financiers are maximising their fossil fuel profits and buying political influence to avoid regulation - the UK finance sector donated £11million to the Conservative Party since the last general election alone and the [world’s 60 largest banks have loaned £3.9 trillion to fossil fuel companies](https://www.bankingonclimatechaos.org/) over the last six years.
 
 The City of London is a major source of funding and insurance of fossil fuel projects with many of these finance companies building their wealth off of colonial exploitation and extraction. As the cost of living crisis further marginalises UK working class and black & brown communities, financial institutions pay out millions to their executives and shareholders.
-
 
 {% include accordion-start.html title="Fossil Finance Fat Cats" %}
 
