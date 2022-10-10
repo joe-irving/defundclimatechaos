@@ -71,7 +71,7 @@ blocks:
     {% include blog-list.html limit=3 %}
   id: ''
   buttons:
-  - text: Watch Defund Climate Chaos TU briefing
+  - text: Watch Fossil Finances TU briefing
     target: https://youtu.be/H53vjdPbkgM
     image: ''
     new_tab: false
