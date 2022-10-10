@@ -99,8 +99,10 @@ Four projects currently seeking support from the UK’s finance sector are:
 
 {% include accordion-end.html %}
 
+{% include floating-jump-link.html jump="sign" text="Sign now" %}
+
 #### **People & Planet: Not Profit**
 
 **Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.**
-
+<span id=sign></span>
 <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
