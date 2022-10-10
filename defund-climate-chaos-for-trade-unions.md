@@ -79,7 +79,7 @@ blocks:
   id: ''
   buttons:
   - text: Watch Recording
-    target: https://youtu.be/6TxYeXfgph8
+    target: https://youtu.be/H53vjdPbkgM
     image: ''
     new_tab: false
   decoration: "# Image?"
