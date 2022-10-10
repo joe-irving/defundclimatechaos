@@ -78,7 +78,7 @@ blocks:
     {% include blog-list.html limit=3 %}
   id: ''
   buttons:
-  - text: Watch Recording
+  - text: Missed our Fossil Finance briefing? Watch the Recording
     target: https://youtu.be/H53vjdPbkgM
     image: ''
     new_tab: false
