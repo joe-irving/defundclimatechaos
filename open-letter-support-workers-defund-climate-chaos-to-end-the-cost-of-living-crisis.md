@@ -71,7 +71,8 @@ While people and planet suffer, global financiers are maximising their fossil fu
 
 The City of London is a major source of funding and insurance of fossil fuel projects with many of these finance companies building their wealth off of colonial exploitation and extraction. As the cost of living crisis further marginalises UK working class and black & brown communities, financial institutions pay out millions to their executives and shareholders.
 
-—----- BOX - **Fossil Finance Fat Cats** —----------- \[Expando Box\]
+
+{% include accordion-start.html title="Fossil Finance Fat Cats" %}
 
 * **Barclays** has poured £145 billion into fossil fuel finance - more than any other bank in Europe. Their CEO, Venkatakrishnan, made £874k in just two months alone last year.
 * **HSBC** has poured £113 billion into fossil fuel companies - the 13th biggest funder globally. HSBC's chief executive Noel Quinn’s total pay packet last year was over £10m.
@@ -79,7 +80,7 @@ The City of London is a major source of funding and insurance of fossil fuel pro
 * **Lloyd’s of London** which grew its wealth through its insurance of the transatlantic slave trade, insures 40% of global energy projects and refuses to rule out doing so in the future. Their CEO, John Neal, made £1.6 million last year.
 * **BlackRock & Vanguard** are the biggest shareholders in most major fossil fuel companies and continue to back further expansion. Their combined managed assets of £16 trillion makes them richer than most countries.
 
-—-----------------------------------------------------------------------
+{% include accordion-end.html %}
 
 #### **Stop Dropping Carbon Bombs**
 
@@ -87,7 +88,7 @@ The deadly profiteering driving climate chaos is best illustrated through the wo
 
 More than 60% of these carbon bomb projects are already operating. We need to stop the remaining 40% to reduce our risk of climate catastrophe. A major way to stop these new carbon bomb projects is cutting off funding and insurance for companies proposing them. **The City of London must immediately stop financing and insuring new fossil fuel extraction and new carbon-intensive infrastructure projects** (roads, airports, wood bioenergy, power plants and industrial livestock).
 
-—--------- BOX **- Carbon Bombs** —---------- \[Expando Box\]
+{% include accordion-start.html title="Carbon Bombs" %}
 
 Four projects currently seeking support from the UK’s finance sector are:
 
@@ -96,10 +97,10 @@ Four projects currently seeking support from the UK’s finance sector are:
 3. The **Trans Mountain Pipeline Extension** is currently being built in Canada; [if completed this would increase transportation of tar sands by 590,000 barrels each day](https://www.stand.earth/people-vs-big-oil/trans-mountain-pipeline). This pipeline extension facilitates large-scale expansion of tar sands extraction in Alberta, which will lock Canada into a fossil fuel economy. It is fiercely opposed by First Nations along its route, making it a violation to the climate and to Indigenous Rights. Lloyd’s of London is amongst the insurers listed on the project’s most recent public certificate. Lloyd’s, and the syndicates that operate in its marketplace, have been under intense pressure to rule out underwriting the project, with sixteen insurers taking action and cutting ties with the project to date.
 4. The UK government just approved [Shell's Jackdaw gas field and plans to approve dozens of new oil and gas fields by 2025](https://www.stopcambo.org.uk/). The climate impacts of these projects would be devastating. Extracting new **oil & gas from the North Sea** will lock us into decades more reliance on polluting and expensive fossil fuels. Gas is now 9 times more expensive than renewable energy and the UK government is fast tracking approvals for new oil and gas despite the UK having the best renewable resources in Europe. Barclays and HSBC continue to be major funders of Shell, investing over £11 billion since the Paris Climate Agreement was signed.
 
-—-----------------------------------------------------------------------
+{% include accordion-end.html %}
 
 #### **People & Planet: Not Profit**
 
 **Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.**
 
-<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
