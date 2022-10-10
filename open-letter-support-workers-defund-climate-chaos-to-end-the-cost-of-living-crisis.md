@@ -33,7 +33,9 @@ logo: ''
 logo_square: ''
 
 ---
-### **Open Letter: Support Workers & Defund Climate Chaos to End the Cost of Living Crisis**
+## **Open Letter:** 
+
+## **Support Workers & Defund Climate Chaos to End the Cost of Living Crisis**
 
 **The UK is in crisis. People nationwide are struggling with soaring bills and stagnant wages. Warm, affordable housing, sufficient and fair pay, the ability to feed our families - these aren’t luxuries - they are our rights.**
 

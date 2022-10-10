@@ -32,64 +32,66 @@ header:
     reflect: false
 blocks:
 - map: false
-  text: |-
-    # Sign the open Letter
-
-    etc
+  text: "# Sign the open Letter"
   id: ''
-  buttons: 
-    - text: Sign now
-      target: https://actionnetwork.org/petitions/
+  buttons:
+  - text: Sign now
+    target: https://defundclimatechaos.uk/cost-of-living
+    image: ''
+    new_tab: false
   decoration: |-
     ![](/assets/images/stopeacop.jpg)
 
     The decoration - normally just an image
   background_image: ''
 - map: false
-  text: |-
-    # Join a picket line
-
-    Our current economic system functions to ensure that corporations, banks, and economic institutions profit from crises - the Cost of Living Crisis and climate crisis, are the same crisis. Our economic system is designed by and for the wealthy elite at the expense of working people. Profits at the top are made at the expense of the rest of us, and depend upon the exploitation of people and planet by banks, investors, insurers and fossil fuel corporations. 
-
-    Today’s economic system is pushing millions of people in the UK into poverty as costs spiral, tomorrow it will crash our climate and starve billions. Support workers’ strikes and show solidarity on their picket lines.
-
-    {% include strikes.html id="strike-map" %}
-
-  id: 'strikes'
-  buttons: 
-    - text: View map
-      target: "#strike-map"
-  decoration: |-
-    [![](/assets/images/strike_map.png)](#strike-map)
+  text: "# Join a picket line\n\nOur current economic system functions to ensure that
+    corporations, banks, and economic institutions profit from crises - the Cost of
+    Living Crisis and climate crisis, are the same crisis. Our economic system is
+    designed by and for the wealthy elite at the expense of working people. Profits
+    at the top are made at the expense of the rest of us, and depend upon the exploitation
+    of people and planet by banks, investors, insurers and fossil fuel corporations.
+    \n\nToday’s economic system is pushing millions of people in the UK into poverty
+    as costs spiral, tomorrow it will crash our climate and starve billions. Support
+    workers’ strikes and show solidarity on their picket lines.\n\n{% include strikes.html
+    id=\"strike-map\" %}"
+  id: strikes
+  buttons:
+  - text: View map
+    target: "#strike-map"
+    image: ''
+    new_tab: false
+  decoration: "[![](/assets/images/strike_map.png)](#strike-map)"
   background_image: ''
 - map: false
   text: |-
-    # Join a briefing
+    # Join our Trade Union briefings
 
     {% assign posts = site.actions | where: "type", "Trade Union Briefing" %}
     {% include blog-list.html limit=3 %}
-
   id: ''
-  buttons: 
-    - text: Watch Recording
-      target: https://youtu.be/6TxYeXfgph8
-  decoration: |-
-    # Image?
+  buttons:
+  - text: Watch Fossil Finances TU briefing
+    target: https://youtu.be/H53vjdPbkgM
+    image: ''
+    new_tab: false
+  decoration: "# Image?"
   background_image: ''
 - map: false
   text: |-
     # Pass a motion
 
-    Our current economic system functions to ensure that corporations, banks, and economic institutions profit from crises - the Cost of Living Crisis and climate crisis, are the same crisis. Our economic system is designed by and for the wealthy elite at the expense of working people. Profits at the top are made at the expense of the rest of us, and depend upon the exploitation of people and planet by banks, investors, insurers and fossil fuel corporations. 
-
-    Today’s economic system is pushing millions of people in the UK into poverty as costs spiral, tomorrow it will crash our climate and starve billions. Support workers’ strikes and show solidarity on their picket lines.
-
+    We must put an end to the expansion of fossil fuels and tackle the UK finance sector that is funding it across the world. Trade Unionists can use this model motion to progress those demands in their Branches, Trades Councils and their national trade unions.
   id: ''
-  buttons: 
-    - text: Download the motion
-      target: https://docs.google.com/document/d/1sdOMdCni24zmyyCjnLLJwXN5Vfd2xQy5/preview
-    - text: How to pass a motion
-      target: https://docs.google.com/document/d/1O1spBc6rS2wDreCZyAI2cECS-iJD85hB6tljyM4df70/preview
+  buttons:
+  - text: Download the motion
+    target: https://docs.google.com/document/d/1sdOMdCni24zmyyCjnLLJwXN5Vfd2xQy5/preview
+    image: ''
+    new_tab: false
+  - text: How to pass a motion
+    target: https://docs.google.com/document/d/1O1spBc6rS2wDreCZyAI2cECS-iJD85hB6tljyM4df70/preview
+    image: ''
+    new_tab: false
   decoration: ''
   background_image: ''
 - map: false
@@ -102,7 +104,7 @@ blocks:
     {% include blog-list.html %}
   id: briefings
   buttons: []
-  decoration: ""
+  decoration: ''
   background_image: ''
 
 ---
