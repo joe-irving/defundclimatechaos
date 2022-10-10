@@ -68,7 +68,7 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    # Join a briefing
+    # Join our Trade Union briefings
 
     {% assign posts = site.actions | where: "type", "Trade Union Briefing" %}
     {% include blog-list.html limit=3 %}
