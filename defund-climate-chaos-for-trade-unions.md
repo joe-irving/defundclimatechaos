@@ -36,14 +36,11 @@ header:
     reflect: false
 blocks:
 - map: false
-  text: |-
-    # Sign the open Letter
-
-    etc
+  text: "# Sign the open Letter"
   id: ''
   buttons:
   - text: Sign now
-    target: https://actionnetwork.org/petitions/
+    target: https://defundclimatechaos.uk/cost-of-living
     image: ''
     new_tab: false
   decoration: |-
