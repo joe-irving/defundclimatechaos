@@ -7,7 +7,7 @@ top_quote: ''
 image: "/assets/images/dcc-og-image.jpeg"
 credits: ''
 summary: ''
-permalink: "/demands"
+permalink: demands
 share:
   whatsapp: Defund Climate Chaos Coalition Demands, check them out >
   text: Defund Climate Chaos Coalition Demands, check them out >
