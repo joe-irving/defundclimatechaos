@@ -68,5 +68,5 @@ layout: page
 {% endif %}
 {% endcapture %}
 
-{% assign t = site.templates | where: "slug",  "an-event" | first  %}
-{{ t.content | liquify | markdownify }}
+{% assign t = site.templates | find: "slug",  "an-event"  %}
+{{ t.template | liquify | markdownify }}
