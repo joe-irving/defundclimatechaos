@@ -104,7 +104,7 @@ blocks:
     {% include blog-list.html date=false %}
   id: briefings
   buttons: []
-  decoration: ''
+  decoration: "![](/assets/images/tp-tu-support.jpg)"
   background_image: ''
 
 ---
