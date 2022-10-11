@@ -23,39 +23,45 @@ menu:
 ---
 # Demands
 
-{% include accordion-start.html title="Keep It In the Ground" %}
+{% include accordion-start.html title="Keep it in the Ground - End fossil fuel expansion" %}
 
-Achieving Climate justice means keeping fossil fuels in the ground. To keep below a 1.5oC increase and prevent irreparable social and ecological damage, we must prevent future fossil fuel extraction. We need to stop the further expansion of fossil fuel infrastructure and exploration. No more coal, oil, gas, fracking or biomass projects.
+Achieving Climate justice means keeping fossil fuels in the ground. To keep below a 1.5°C increase and prevent irreparable social and ecological damage, we must prevent future fossil fuel extraction. We need to stop the further expansion of fossil fuel infrastructure and exploration. No more coal, oil, gas, fracking or biomass projects.
 
 {% include accordion-end.html %}
 
 {% include accordion-start.html title="Stop Funding Climate Chaos" %}
 
-**Stop Funding Climate Chaos -** Financial institutions must immediately stop financing and insuring new fossil fuel extraction and new carbon-intensive infrastructure projects.
+Financial institutions must immediately stop financing and insuring new fossil fuel extraction and new carbon-intensive infrastructure projects.
 
 {% include accordion-end.html %}
 
-{% include accordion-start.html title="Fossil Free Money" %}
+{% include accordion-start.html title="Defund Climate Chaos - Stop financing carbon bombs" %}
 
-**Fossil Free Money -** Public money must be divested out of polluting industries by central banks, pension funds, and government subsidies. This money should be reinvested in community-devised and owned solutions.
-
-{% include accordion-end.html %}
-
-{% include accordion-start.html title="Polluters Pay" %}
-
-**Polluters Pay -** People worldwide are already facing major loss and damage due to climate chaos. Polluters, financial institutions and those who profit from them must pay climate reparations for the harm they’re driving globally.
+Financial institutions must immediately stop financing and insuring new fossil fuel extraction and new carbon-intensive infrastructure projects.
 
 {% include accordion-end.html %}
 
-{% include accordion-start.html title="Fund a Global Green New Deal" %}
+{% include accordion-start.html title="Fossil Free Money - Divest public money" %}
 
-**Fund a Global Green New Deal -** A rapid transition to a more just world will require huge investments - working people should not foot this bill, especially those hardest hit by climate disasters. It's time to properly tax rich individuals and giant corporations; this means implementing loophole-free progressive taxation and a Financial Transaction Tax* and for public institutions to use all the tools at their disposal to fund the green transition.
+Public money must be divested out of polluting industries by central banks, pension funds, and government subsidies. This money should be reinvested in community-devised and owned solutions.
 
 {% include accordion-end.html %}
 
-{% include accordion-start.html title="People Not Profit -" %}
+{% include accordion-start.html title="Polluters Must Pay - Climate reparations now" %}
 
-**People Not Profit** - Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.
+People worldwide are already facing major loss and damage due to climate chaos. Polluters, financial institutions and those who profit from them must pay climate reparations for the harm they’re driving globally.
+
+{% include accordion-end.html %}
+
+{% include accordion-start.html title="Fund a Green New Deal - Tax the rich" %}
+
+A rapid transition to a more just world will require huge investments - working people should not foot this bill, especially those hardest hit by climate disasters. It's time to properly tax rich individuals and giant corporations; this means implementing loophole-free progressive taxation and a Financial Transaction Tax* and for public institutions to use all the tools at their disposal to fund the green transition.
+
+{% include accordion-end.html %}
+
+{% include accordion-start.html title="People Not Profit - Democratise our futur" %}
+
+Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.
 
 {% include accordion-end.html %}
 
