@@ -73,7 +73,7 @@ blocks:
     target: https://youtu.be/H53vjdPbkgM
     image: ''
     new_tab: false
-  decoration: "# Image?"
+  decoration: "# ![](/assets/images/dcc-tu-briefings1.jpg)"
   background_image: ''
 - map: false
   text: |-
