@@ -1,6 +1,6 @@
 ---
 label: Template
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: title
@@ -9,6 +9,15 @@ fields:
   name: slug
   label: slug
   hidden: true
+- name: template
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Template
 pages:
 - _templates/action-network-page.md
 - _templates/an-event.md
