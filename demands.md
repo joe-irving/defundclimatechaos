@@ -59,7 +59,7 @@ A rapid transition to a more just world will require huge investments - working 
 
 {% include accordion-end.html %}
 
-{% include accordion-start.html title="People Not Profit - Democratise our futur" %}
+{% include accordion-start.html title="People Not Profit - Democratise our future" %}
 
 Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.
 
