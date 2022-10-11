@@ -45,16 +45,16 @@ blocks:
     The decoration - normally just an image
   background_image: ''
 - map: false
-  text: "# Join a picket line\n\nOur current economic system functions to ensure that
-    corporations, banks, and economic institutions profit from crises - the Cost of
-    Living Crisis and climate crisis, are the same crisis. Our economic system is
-    designed by and for the wealthy elite at the expense of working people. Profits
-    at the top are made at the expense of the rest of us, and depend upon the exploitation
-    of people and planet by banks, investors, insurers and fossil fuel corporations.
-    \n\nToday’s economic system is pushing millions of people in the UK into poverty
-    as costs spiral, tomorrow it will crash our climate and starve billions. Support
-    workers’ strikes and show solidarity on their picket lines.\n\n{% include strikes.html
-    id=\"strike-map\" %}"
+  text: |-
+    # Join a picket line
+
+    Our current economic system functions to ensure that corporations, banks, and economic institutions profit from crises - the Cost of Living Crisis and climate crisis, are the same crisis. Our economic system is designed by and for the wealthy elite at the expense of working people. Profits at the top are made at the expense of the rest of us, and depend upon the exploitation of people and planet by banks, investors, insurers and fossil fuel corporations.
+
+    Today’s economic system is pushing millions of people in the UK into poverty as costs spiral, tomorrow it will crash our climate and starve billions. Support workers’ strikes and show solidarity on their picket lines.
+
+    Powered by [Strike Map UK](https://strikemap.co.uk/)
+
+    {% include strikes.html id="strike-map" %}
   id: strikes
   buttons:
   - text: View map
