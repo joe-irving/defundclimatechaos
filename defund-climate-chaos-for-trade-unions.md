@@ -36,7 +36,7 @@ blocks:
   id: ''
   buttons:
   - text: Sign now
-    target: https://defundclimatechaos.uk/cost-of-living
+    target: "/cost-of-living"
     image: ''
     new_tab: false
   decoration: |-
