@@ -67,8 +67,8 @@ blocks:
   text: |-
     # Join our Trade Union briefings
 
-    {% assign posts = site.actions | where: "type", "Trade Union Briefing" %}
-    {% include blog-list.html limit=3 date_field="start_date" %}
+    {% assign posts = site.actions | where: "type", "Trade Union Briefing" | where: "future", 1 %}
+    {% include blog-list.html limit=4 date_field="start_date" %}
   id: ''
   buttons:
   - text: Watch Fossil Finances TU briefing
