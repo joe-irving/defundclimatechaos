@@ -40,7 +40,7 @@ blocks:
     image: ''
     new_tab: false
   decoration: |-
-    ![](/assets/images/stopeacop.jpg)
+    ### ![](/assets/images/stopeacop.jpg)
 
     ### Support workers & Defund Climate Chaos to end the Cost of Living Crisis
   background_image: ''
