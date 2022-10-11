@@ -32,17 +32,15 @@ header:
     reflect: false
 blocks:
 - map: false
-  text: "# Sign the open Letter"
+  text: "# Sign our open Letter: \n\n# Support workers & Defund Climate Chaos to end
+    the Cost of Living Crisis"
   id: ''
   buttons:
   - text: Sign now
     target: "/cost-of-living"
     image: ''
     new_tab: false
-  decoration: |-
-    ![](/assets/images/stopeacop.jpg)
-
-    The decoration - normally just an image
+  decoration: "![](/assets/images/stopeacop.jpg)"
   background_image: ''
 - map: false
   text: |-
