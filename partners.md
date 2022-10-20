@@ -24,7 +24,7 @@ Youth from communities on the frontlines of wildfires and floods, Indigenous fro
 
 [Join us](#register) and become a partner in the Defund Climate Chaos coalition.
 
-{% include partners-list.html %}
+{% include partner-list.html %}
 
 ## Register your group's support
 
