@@ -22,8 +22,10 @@ logo_square: ''
 
 Youth from communities on the frontlines of wildfires and floods, Indigenous frontline defenders, trade unions and local community groups, we are joining together to transform the finance system.
 
-Join us and become a partner in the Defund Climate Chaos coalition.
+[Join us](#register) and become a partner in the Defund Climate Chaos coalition.
+
+{% include partners-list.html %}
 
 ## Register your group's support
 
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrgvGc0v5EnhbWxu?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<span id="register"></span><script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrgvGc0v5EnhbWxu?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
