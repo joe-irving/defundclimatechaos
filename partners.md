@@ -28,4 +28,6 @@ Youth from communities on the frontlines of wildfires and floods, Indigenous fro
 
 ## Register your group's support
 
-<span id="register"></span><script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrgvGc0v5EnhbWxu?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<span markdown=0 id="register"></span>
+
+<script markdown=0 src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe markdown=0 class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrgvGc0v5EnhbWxu?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
