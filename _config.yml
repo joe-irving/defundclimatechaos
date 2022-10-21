@@ -128,6 +128,7 @@ airtable:
     - Content
     - Future
     - Type
+    - Image
     collection:
       slug: slug
       layout: an-event
