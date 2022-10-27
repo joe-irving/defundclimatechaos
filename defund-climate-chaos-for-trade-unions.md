@@ -106,5 +106,9 @@ blocks:
   buttons: []
   decoration: "![](/assets/images/tp-tu-support.jpg)"
   background_image: ''
+menu:
+  header:
+    weight: 5
+    title: Trade Unions
 
 ---
