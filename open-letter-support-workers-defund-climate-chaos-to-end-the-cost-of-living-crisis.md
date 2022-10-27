@@ -40,7 +40,7 @@ logo_square: ''
 
 #### **Cost of living Crisis = Climate Crisis**
 
-The cost of living crisis and the climate crisis are symptoms of the same problem. Our governments have become tools of corporations and the wealthy, dependent upon the exploitation of people and planet. The Conservative party have announced energy price measures that will line the pockets of big energy firms with £150billion of public money - This money could finance clean energy and subsidise our soaring energy bills.
+The cost of living crisis and the climate crisis are symptoms of the same problem. Our governments have become tools of corporations and the wealthy, dependent upon the exploitation of people and planet. The Conservative party have announced energy price measures that will line the pockets of big energy firms with £150billion of public money - This money could finance clean energy and reduce our soaring energy bills..
 
 Our financial system ensures that the fossil fuel industry, corporations, and banks profit from these crises. As millions of people across the UK struggle to pay their energy bills, fossil fuel corporations and the financiers that back them are making record profits.
 
@@ -100,7 +100,6 @@ Four projects currently seeking support from the UK’s finance sector are:
 #### **People & Planet: Not Profit**
 
 **Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.**
-
 
 <span id=sign></span>
 <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
