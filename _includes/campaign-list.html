@@ -1,0 +1,62 @@
+<div class="Campaigns-List">
+    {% assign limit = include.limit | default: 3 %}
+    {% assign id_base = include.id_base | default: "campaign" %}
+    {% assign groups = 1 %}
+    <div class="Campaigns-List-Group Show" id="{{id_base}}-1">
+    {% for campaign in include.data %}
+        {% assign group_check = forloop.index0 | plus: 0.1 | minus: 0.1 | divided_by: limit %}
+        {% assign group_check_floor = group_check | floor %}
+        {% if group_check_floor == group_check and forloop.index0 != 0 %}
+            </div>
+            <div class="Campaigns-List-Group" id="{{id_base}}-{{ group_check_floor | plus: 1 }}">
+            {% assign groups = groups | plus: 1 %}
+        {% endif %}
+        <div class="Campaign-Listed Chaos-Blog-Item">
+            <a href="{{ campaign.link }}"><img src="{{ campaign.image }}" alt=""></a>
+            <div class="top">
+                <div class="description">
+                    <div class="header-line">
+                        <h3><a href="{{ campaign.link }}">{{ campaign.title }}</a></h3>
+                    </div>
+                    <p>{{ campaign.description }}</p>
+                </div>
+            </div>
+            
+        </div>
+    {% endfor %}
+    </div>
+</div>
+<div class="Campaigns-Page-Links">
+    {% for page_num in (1..groups) %}
+    <span class="Campaigns-Page-Link"><a onClick="showCampaignGroup('{{ id_base }}-{{ page_num }}')">{{ page_num }}</a></span>
+    {% endfor %}
+</div>
+
+<style>
+    .Campaigns-List-Group:not(.Show){
+        display: none;
+    }
+    .Campaigns-List-Group.Show{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .Campaign-Listed{
+        max-width: 250px;
+    }
+    .Campaigns-Page-Links{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+</style>
+
+<script>
+    function showCampaignGroup(id){
+        let showingGroup = document.querySelector(".Campaigns-List-Group.Show");
+        showingGroup.classList.remove('Show');
+        let newShowGroup = document.getElementById(id);
+        newShowGroup.classList.add('Show');
+    }
+</script>

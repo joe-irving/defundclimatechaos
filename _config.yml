@@ -149,6 +149,16 @@ airtable:
       slug: title
       layout: event
       content: content
+  campaigns:
+    app: app9apHbqOifmolTX
+    table: tbllOtliZXqlwJavx
+    view: viw3ts1xG41SMu4zO
+    fields:
+      - Title
+      - Description
+      - Link
+      - Image
+      - Status
 
 action_network:
   key: ENV_AN_API_KEY

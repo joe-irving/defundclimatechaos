@@ -2,6 +2,21 @@
 layout: page
 image: "/assets/images/og-image.png"
 blocks:
+- buttons: []
+  decoration: |-
+    {% assign campaign = site.data.campaigns | find: 'status', 'Pinned' %}
+
+    [![]({{ campaign.image }})]({{ campaign.link }})
+
+    ## [{{ campaign.title }}]({{ campaign.link }})
+
+    {{ campaign.description }}
+  text: |-
+    {% assign campaigns = site.data.campaigns | where: 'status', 'Published' %}
+    {% include campaign-list.html data=campaigns %}
+  map: false
+  background_image: ''
+  id: campaigns
 - buttons:
   - text: Join us
     target: "#join"
