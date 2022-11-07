@@ -103,3 +103,7 @@ Four projects currently seeking support from the UK’s finance sector are:
 
 <span id=sign></span>
 <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/sign-the-letter-3?format=js&source=widget'></script><div id='can-form-area-sign-the-letter-3' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
+{% for sig in site.data.col_letter_signatures %}
+{{ sig.first_name }} {{ sig.last_name }}, {{ sig.organisation }}
+{% endfor %}

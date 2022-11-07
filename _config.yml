@@ -159,6 +159,14 @@ airtable:
       - Link
       - Image
       - Status
+  col_letter_signatures:
+    app: app9apHbqOifmolTX
+    table: tblEQgp94sBMBMMst
+    view: viwEZtZG78T0GtPaj
+    fields:
+      - First Name
+      - Last Name
+      - organisation
 
 action_network:
   key: ENV_AN_API_KEY
