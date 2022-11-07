@@ -22,7 +22,7 @@ gem 'action_network_rest'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-airtable-import', git: "https://github.com/tippingpointuk/jekyll-airtable-import", branch: 'master'
+  gem 'jekyll-airtable-import', '~> 0.1.5'
   gem 'jekyll-liquify'
   gem 'jekyll-gdocfilter'
   gem 'jekyll-action-network'

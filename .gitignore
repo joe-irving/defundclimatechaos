@@ -9,3 +9,5 @@ api
 .sass-cache
 
 .env
+
+assets/airtable
