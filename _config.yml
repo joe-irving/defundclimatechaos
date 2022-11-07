@@ -164,8 +164,8 @@ airtable:
     table: tblEQgp94sBMBMMst
     view: viwEZtZG78T0GtPaj
     fields:
-      - First Name
-      - Last Name
+      - First name
+      - Last name
       - organisation
 
 action_network:
