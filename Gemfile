@@ -20,6 +20,8 @@ gem 'jekyll-theme-chaos', git: "https://github.com/tippingpointuk/jekyll-theme-c
 
 gem 'action_network_rest'
 
+gem "rqrcode", "~> 2.0"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-airtable-import', '~> 0.1.5'
