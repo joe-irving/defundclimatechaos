@@ -20,6 +20,9 @@ share:
 logo: ''
 logo_square: ''
 menu:
+  action:
+    weight: 4
+    title: Google Review Swarm
   footer:
     weight: 6
     title: Google Reveiw Storm
