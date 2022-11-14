@@ -38,6 +38,9 @@ share:
   tweet: ''
 logo: ''
 logo_square: ''
+menu:
+  action:
+    weight: 2
 
 ---
 # Tweet at Barclays

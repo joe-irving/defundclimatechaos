@@ -38,6 +38,10 @@ share:
 logo: ''
 logo_square: ''
 tweets: []
+menu:
+  action:
+    weight: 3
+    title: Comment on HSBC's socials
 
 ---
 # Comment on HSBC's Instagram
