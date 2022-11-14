@@ -1,0 +1,14 @@
+{% assign posts = site.posts %}
+{% include blog-list.html limit=3 %}
+
+{% comment %}
+Available arguments to pass:
+
+* limit: the max number of posts to show, defaults to all
+* date_field: the field in the posts data to use as the data, defaults to `date`
+* alternate_direction: alternates the side that the date is shown. defaults to false
+* thumbnail: bool. whether to show the post image as a thumbnail or not
+* logo: bool. whether to show the post image as a logo
+* share_buttons: bool. show buttons to directly share this posts before clicking on it, default false
+* summary: bool. include a post summary in the list. defaults to true
+{% endcomment %}

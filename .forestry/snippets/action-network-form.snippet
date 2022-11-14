@@ -1,0 +1,22 @@
+{% include an-form/base.html endpoint="the action network api endpoint" buton="Sign (or whatever button text" lines="email,postal_code,submit." %}
+
+{% comment %}
+
+The available form fields are:
+
+* city
+* country
+* custom--your-custom-field
+* email
+* first-name
+* organisation
+* phone-number
+* postal-code
+* street
+* submit
+
+A single line form would look like this: `lines="email,postal_code,submit."`
+
+And a mutli line form: `lines="first-name,last-name.email,postal_code.submit."`
+
+{% endcomment %}
