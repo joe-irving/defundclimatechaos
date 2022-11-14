@@ -81,26 +81,30 @@ airtable:
     app: app9apHbqOifmolTX
     table: tblGAJiIeFlD6PxNI
     view: viwBQ8s617LvMdODw
-    combine: true
-  briefings:
-    app: app9apHbqOifmolTX
-    table: tblGAJiIeFlD6PxNI
-    view: viwU1ycAZj7RWLyzf
     collection:
-      slug: briefings
-      layout: briefing
+      slug: resources
+      layout: resource
       content: content
-    fields:
-      - title
-      - Motion
-      - Video
-      - YouTube ID
-      - description
-      - Content
-      - Image
-      - Tags
-      - Category
-      - Google Doc ID
+    combine: true
+  # briefings:
+  #   app: app9apHbqOifmolTX
+  #   table: tblGAJiIeFlD6PxNI
+  #   view: viwU1ycAZj7RWLyzf
+  #   collection:
+  #     slug: briefings
+  #     layout: briefing
+  #     content: content
+  #   fields:
+  #     - title
+  #     - Motion
+  #     - Video
+  #     - YouTube ID
+  #     - description
+  #     - Content
+  #     - Image
+  #     - Tags
+  #     - Category
+  #     - Google Doc ID
   partners:
     app: app9apHbqOifmolTX
     table: tbl3erzSL6dZfNkZi

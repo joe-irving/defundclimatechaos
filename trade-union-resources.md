@@ -9,7 +9,6 @@ credits: ''
 permalink: tu-resource
 summary: ''
 published: true
-
 ---
 # Some resources
 

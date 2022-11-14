@@ -1,3 +1,9 @@
+{% comment %}
+Parameters
+----
+title - short text - required
+image - url - optional
+{% endcomment %}
 {% assign post_id = include.title | slugify  %}
 <div
 class="Chaos-Accordion-Item {% if forloop.first %}first{%endif %}"

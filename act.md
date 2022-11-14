@@ -126,5 +126,6 @@ menu:
   header:
     title: Take Action
     weight: 1
+    identifier: action
 
 ---

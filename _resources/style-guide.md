@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visual style guide
-main_nav_exclude: true
+main_nav_exclude: false
 summary: Unifying logo, colours, fonts and graphic elements to connect our actions
   together globally
 tags:
@@ -9,7 +9,6 @@ tags:
 - Art
 image: "/assets/images/og-image.png"
 slug: visuals
-
 ---
 # Visual Style
 

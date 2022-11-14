@@ -11,9 +11,9 @@ credits: ''
 menu:
   header:
     weight: 3
+    identifier: resources
 
 ---
 # Resources
 
-{% assign posts = site.data.resources %}
-{% include blog-list.html date=false share_buttons=true %}
+{% include nested-blog-list.html data=site.resources date=false share_buttons=true %}

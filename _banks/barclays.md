@@ -5,6 +5,9 @@ logo: "/assets/images/barclays_logo.png"
 tagline: The biggest fossil fuel bankroller in Europe
 background_image: "/assets/images/BarclaysOil-Credit-Denise-Laura-Baker.png"
 hide_nav: true
+menu:
+  action:
+    title: Target Barclays
 share:
   intro: 'More and more of us are uncovering the secret that Barclays is bankrolling
     climate destruction. But millions of people still have no idea. Triple your impact
