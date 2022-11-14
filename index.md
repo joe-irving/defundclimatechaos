@@ -42,7 +42,7 @@ blocks:
   background_image: ''
   id: what
 - buttons:
-  - target: "#what-s-happening-this-agm-season"
+  - target: "#what-should-big-finance-fund-instead"
     text: Read more
     image: ''
     new_tab: false
