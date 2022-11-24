@@ -100,7 +100,7 @@ blocks:
 
     We have ran other briefings in collaboration with Tipping Point UK and different groups & coalitions. Access recordings and model motions here:
 
-    {% assign posts = site.briefings %}
+    {% assign posts = site.resources | where: "category", "Trade Union Briefing" %}
     {% include blog-list.html date=false %}
   id: briefings
   buttons: []

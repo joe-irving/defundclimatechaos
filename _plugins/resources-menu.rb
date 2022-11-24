@@ -15,8 +15,8 @@ module ResourceMenu
                     "weight" => index
                 }
 
-                site.data['menus']['resources'] = [] unless site.data['menus']['resources']
-                site.data['menus']['resources'] << menu_item
+                # site.data['menus']['resources'] = [] unless site.data['menus']['resources']
+                # site.data['menus']['resources'] << menu_item
             end
         end
     end
