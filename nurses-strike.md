@@ -9,9 +9,9 @@ credits: ''
 permalink: tu/nhs
 summary: ''
 share:
-  whatsapp: ''
-  text: ''
-  tweet: ''
+  whatsapp: Join me in showing support for the nurses on strike
+  text: Support the NHS. Support the strike.
+  tweet: 'I support the #NHS strike. Will you join the fight?'
 logo: ''
 logo_square: ''
 invert: even
@@ -88,18 +88,6 @@ blocks:
     image: ''
     new_tab: false
   decoration: ''
-  background_image: ''
-- map: false
-  text: |-
-    # Other Trade Union briefings
-
-    We have ran other briefings in collaboration with Tipping Point UK and different groups & coalitions. Access recordings and model motions here:
-
-    {% assign posts = site.resources | where: "category", "Trade Union Briefing" %}
-    {% include blog-list.html date=false %}
-  id: briefings
-  buttons: []
-  decoration: "![](/assets/images/tp-tu-support.jpg)"
   background_image: ''
 published: false
 
