@@ -74,7 +74,7 @@ blocks:
     target: https://shop.rcn.org.uk/collections/free-campaigning-materials?page=1
     image: ''
     new_tab: true
-  decoration: "# "
+  decoration: "![](/assets/images/nhs-strike.jpg)"
   background_image: ''
 - map: false
   text: |-
