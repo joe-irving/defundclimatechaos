@@ -14,7 +14,7 @@ share:
   tweet: 'I support the #NHS strike. Will you join the fight?'
 logo: ''
 logo_square: ''
-invert: even
+invert: odd
 header:
   text: |-
     # Support the NHS. Support the strikes.
