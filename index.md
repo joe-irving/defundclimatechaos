@@ -1,6 +1,6 @@
 ---
 layout: page
-image: "/assets/images/og-image.png"
+image: ''
 blocks:
 - buttons: []
   decoration: "{% assign campaigns = site.data.campaigns | where: 'status', 'Published'
