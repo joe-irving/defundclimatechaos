@@ -6,7 +6,7 @@ top_image: ''
 top_quote: ''
 image: ''
 credits: ''
-permalink: tu
+permalink: tu/nhs
 summary: ''
 share:
   whatsapp: ''
@@ -39,10 +39,7 @@ blocks:
     target: "/cost-of-living"
     image: ''
     new_tab: false
-  decoration: |-
-    ### ![](/assets/images/stopeacop.jpg)
-
-    ### Support workers & Defund Climate Chaos to end the Cost of Living Crisis
+  decoration: ''
   background_image: ''
 - map: false
   text: |-
