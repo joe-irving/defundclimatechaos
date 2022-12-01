@@ -19,7 +19,7 @@ header:
   text: |-
     # Support the NHS. Support the strikes.
 
-    {% include an-email-only-form.html endpoint="https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures" jump="actions" %}
+    {% include an-email-only-form.html endpoint="https://actionnetwork.org/api/v2/petitions/65b32fbe-86ae-4037-8f56-73f5881ec34a/signatures" jump="actions" %}
   buttons: []
   border_bottom:
     image: ''
