@@ -195,6 +195,7 @@ fields:
   label: Permalink
   description: The bit after defundclimatechaos.uk/
 pages:
+- "./nurses-strike.md"
 - act.md
 - defund-climate-chaos-for-trade-unions.md
 - index.md
