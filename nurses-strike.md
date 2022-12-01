@@ -32,14 +32,17 @@ header:
     reflect: false
 blocks:
 - map: false
-  text: "# Sign our open Letter"
-  id: ''
+  text: |-
+    # Join the pickets in solidarity
+
+    Thousands of nurses will be walking out over pay and conditions. Join them on the picket lines to show your support for the NHS.
+  id: pickets
   buttons:
-  - text: Sign now
-    target: "/cost-of-living"
+  - text: See Map
+    target: https://strikemap.co.uk
     image: ''
     new_tab: false
-  decoration: ''
+  decoration: "![](/assets/images/strike_map.png)"
   background_image: ''
 - map: false
   text: |-
