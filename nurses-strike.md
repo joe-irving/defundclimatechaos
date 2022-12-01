@@ -36,13 +36,17 @@ blocks:
     # Join the pickets in solidarity
 
     Thousands of nurses will be walking out over pay and conditions. Join them on the picket lines to show your support for the NHS.
+
+    Powered by [Strike Map UK](https://strikemap.co.uk/)
+
+    {% include strikes.html id="map" %}
   id: pickets
   buttons:
   - text: See Map
-    target: https://strikemap.co.uk
+    target: "#map"
     image: ''
     new_tab: false
-  decoration: "![](/assets/images/strike_map.png)"
+  decoration: '[![](/assets/images/strike_map.png)](#map "View map")'
   background_image: ''
 - map: false
   text: |-
