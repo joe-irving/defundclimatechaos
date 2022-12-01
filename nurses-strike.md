@@ -6,7 +6,7 @@ top_image: ''
 top_quote: ''
 image: ''
 credits: ''
-permalink: tu/nhs
+permalink: nhs
 summary: ''
 share:
   whatsapp: Join me in showing support for the nurses on strike
@@ -40,7 +40,7 @@ blocks:
     target: "#strike-map"
     image: ''
     new_tab: false
-  decoration: '[![](/assets/images/strike_map.png)](#map "View map")'
+  decoration: '[![](/assets/images/strike_map.png)](#strike-map "View map")'
   background_image: ''
 - map: false
   text: |-
@@ -93,7 +93,7 @@ blocks:
 
     register your solidarity action here:
 
-    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="firstname,email.custom\[action-title\],custom\[action-start-date\].map.submit" %}
+    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
 published: false
 
 ---

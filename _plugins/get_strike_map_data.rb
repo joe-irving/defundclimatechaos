@@ -8,7 +8,10 @@ module StrikeMap
     class StrikeMap <  ::Jekyll::Generator
         def generate(site)
             uri = URI('https://strikemap.co.uk/api/search')
-            strikemap_res = Net::HTTP.get_response(uri)
+            https = Net::HTTP.new(uri.host, uri.port)
+            https.use_ssl = true
+            request = Net::HTTP::Post.new(uri.path)
+            strikemap_res = https.request(request)
             if !strikemap_res.is_a?(Net::HTTPSuccess)
                 puts strikemap_res
                 return
