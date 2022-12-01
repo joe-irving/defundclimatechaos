@@ -83,6 +83,17 @@ blocks:
     new_tab: false
   decoration: ''
   background_image: ''
+- map: false
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+  text: |-
+    # Register a solidarity action
+
+    register your solidarity action here:
+
+    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="firstname,email.custom\[action-title\],custom\[action-start-date\].map.submit" %}
 published: false
 
 ---
