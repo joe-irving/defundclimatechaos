@@ -39,33 +39,27 @@ blocks:
 
     Powered by [Strike Map UK](https://strikemap.co.uk/)
 
-    {% include strikes.html id="map" %}
+    {% include strikes.html id="strike-map" %}
   id: pickets
   buttons:
   - text: See Map
-    target: "#map"
+    target: "#strike-map"
     image: ''
     new_tab: false
   decoration: '[![](/assets/images/strike_map.png)](#map "View map")'
   background_image: ''
 - map: false
   text: |-
-    # Join a picket line
+    # Show your support online
 
-    Our current economic system functions to ensure that corporations, banks, and economic institutions profit from crises - the Cost of Living Crisis and climate crisis, are the same crisis. Our economic system is designed by and for the wealthy elite at the expense of working people. Profits at the top are made at the expense of the rest of us, and depend upon the exploitation of people and planet by banks, investors, insurers and fossil fuel corporations.
-
-    Today’s economic system is pushing millions of people in the UK into poverty as costs spiral, tomorrow it will crash our climate and starve billions. Support workers’ strikes and show solidarity on their picket lines.
-
-    Powered by [Strike Map UK](https://strikemap.co.uk/)
-
-    {% include strikes.html id="strike-map" %}
-  id: strikes
+    Share the example tweets {% include resize.html mobile="below" desktop="on the right" %}
+  id: online
   buttons:
-  - text: View map
-    target: "#strike-map"
+  - text: Facebook share
+    target: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdefundclimatechaos.uk%2Fnhs
     image: ''
     new_tab: false
-  decoration: "[![](/assets/images/strike_map.png)](#strike-map)"
+  decoration: ''
   background_image: ''
 - map: false
   text: |-
