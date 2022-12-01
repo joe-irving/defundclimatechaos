@@ -62,13 +62,15 @@ blocks:
     Put up posters in the window of your house, work or school to show support with striking nurses.
 
     The Royal College of Nursing has posters you can [order and have delivered](https://shop.rcn.org.uk/collections/free-campaigning-materials) completely for free.
+
+    Download the "Pay NHS heroes a hero's wage" pos
   id: posters
   buttons:
-  - text: Order posters
-    target: https://shop.rcn.org.uk/collections/free-campaigning-materials?page=1
+  - text: Download now
+    target: https://actionnetwork.org/user_files/user_files/000/085/026/original/Pay_NHS_Heroes.jpg
     image: ''
     new_tab: true
-  decoration: "![](/assets/images/nhs-strike.jpg)"
+  decoration: "![](/assets/images/supportnhsheros.png)"
   background_image: ''
 - map: false
   text: |-
