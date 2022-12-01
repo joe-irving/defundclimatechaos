@@ -63,31 +63,28 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    # Join our Trade Union briefings
+    # Posters to show support
 
-    {% assign posts = site.actions | where: "type", "Trade Union Briefing" | where: "future", 1 %}
-    {% include blog-list.html limit=4 date_field="start_date" %}
-  id: ''
+    Put up posters in the window of your house, work or school to show support with striking nurses.
+
+    The Royal College of Nursing has posters you can [order and have delivered](https://shop.rcn.org.uk/collections/free-campaigning-materials) completely for free.
+  id: posters
   buttons:
-  - text: Watch Fossil Finances TU briefing
-    target: https://youtu.be/H53vjdPbkgM
+  - text: Order posters
+    target: https://shop.rcn.org.uk/collections/free-campaigning-materials?page=1
     image: ''
-    new_tab: false
-  decoration: "# ![](/assets/images/dcc-tu-briefings1.jpg)"
+    new_tab: true
+  decoration: "# "
   background_image: ''
 - map: false
   text: |-
-    # Pass a motion
+    # Donate
 
-    We must put an end to the expansion of fossil fuels and tackle the UK finance sector that is funding it across the world. Trade Unionists can use this model motion to progress those demands in their Branches, Trades Councils and their national trade unions.
+    Could you contribute to the nurses strike fund?
   id: ''
   buttons:
-  - text: Download the motion
-    target: https://docs.google.com/document/d/1sdOMdCni24zmyyCjnLLJwXN5Vfd2xQy5/preview
-    image: ''
-    new_tab: false
-  - text: How to pass a motion
-    target: https://docs.google.com/document/d/1O1spBc6rS2wDreCZyAI2cECS-iJD85hB6tljyM4df70/preview
+  - text: Donate
+    target: "#"
     image: ''
     new_tab: false
   decoration: ''
