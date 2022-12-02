@@ -7,6 +7,7 @@ top_quote: ''
 image: ''
 credits: ''
 permalink: nhs
+style: nhs
 summary: ''
 share:
   whatsapp: Join me in showing support for the nurses on strike
