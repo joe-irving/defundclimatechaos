@@ -56,7 +56,7 @@ blocks:
     target: https://actionnetwork.org/user_files/user_files/000/085/108/original/NHS_Strike_Support_poster_A3.png
     image: ''
     new_tab: true
-  decoration: "![](/assets/images/supportnhsheros.png)"
+  decoration: "![](https://actionnetwork.org/user_files/user_files/000/085/108/original/NHS_Strike_Support_poster_A3.png)"
   background_image: ''
 - map: false
   id: ''
