@@ -28,9 +28,28 @@ header:
 blocks:
 - map: false
   text: |-
+    # Workshop: picket line conversations on health and climate justice
+
+    How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
+
+    Join this training to gain tips and confidence in having those conversations. This session will pay particular attention to the connections between health and climate justice to support your conversations and show solidarity on the picket lines.
+
+    **When**: 12th December, 6-7pm
+
+    **Where**: Zoom
+  id: ''
+  buttons:
+  - text: RSVP now
+    target: https://actionnetwork.org/events/climate-justice-conversations-on-the-picket-line-training-nhs-strike-special/
+    image: ''
+    new_tab: false
+  decoration: ''
+  background_image: ''
+- map: false
+  text: |-
     # Join the pickets in solidarity
 
-    Thousands of nurses will be walking out over pay and conditions. Join them on the picket lines to show your support for the NHS.
+    Thousands of nurses, ambulance and NHS workers will be walking out over pay and conditions and to save our NHS. Join them on the picket lines to show your support for the NHS.
 
     Powered by [Strike Map UK](https://strikemap.co.uk/)
 
@@ -42,6 +61,45 @@ blocks:
     image: ''
     new_tab: false
   decoration: '[![](/assets/images/strike_map.png)](#strike-map "View map")'
+  background_image: ''
+- map: false
+  text: |-
+    # Window posters
+
+    A really easy action you can take to support the NHS workers on strike is to print off our Pay NHS Heroes A Living Wage poster and put it up in your window.
+
+    Put them up at home, at work, at school, in local shop windows, anywhere and everywhere before 15th December!
+  id: posters
+  buttons:
+  - text: Download window poster
+    target: https://actionnetwork.org/user_files/user_files/000/085/026/original/Pay_NHS_Heroes.jpg
+    image: ''
+    new_tab: true
+  decoration: "![](/assets/images/supportnhsheros.png)"
+  background_image: ''
+- map: false
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+  text: "# Register a solidarity action\n\nLet's show striking NHS workers that we
+    stand with them with a massive wave of public support and solidarity.   Register
+    your support today and you'll receive resources and support to organise a solidarity
+    action. \n\n{% include an-form/base.html endpoint=\"https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions\"
+    button=\"Register\" lines=\"first-name,email.action-title,action-start-date.action-description.map.submit\"
+    %}"
+- map: false
+  text: |-
+    # Solidarity Action Guide
+
+    From window posters to massive banner drops and showing solidarity on the NHS picket lines, download our action guide for ideas and resources to help build a massive wave of public support for NHS workers on 15 and 20 December.
+  id: ''
+  buttons:
+  - text: Solidarity Action Guide
+    target: https://docs.google.com/document/d/1SdvgUohM9CrRod8QbWmyvCu9yBC4qLeCm7xI0XgxF6U/edit#
+    image: ''
+    new_tab: false
+  decoration: ''
   background_image: ''
 - map: false
   text: |-
@@ -58,23 +116,6 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    # Posters to show support
-
-    Put up posters in the window of your house, work or school to show support with striking nurses.
-
-    The Royal College of Nursing has posters you can [order and have delivered](https://shop.rcn.org.uk/collections/free-campaigning-materials) completely for free.
-
-    Download the "Pay NHS heroes a hero's wage" pos
-  id: posters
-  buttons:
-  - text: Download now
-    target: https://actionnetwork.org/user_files/user_files/000/085/026/original/Pay_NHS_Heroes.jpg
-    image: ''
-    new_tab: true
-  decoration: "![](/assets/images/supportnhsheros.png)"
-  background_image: ''
-- map: false
-  text: |-
     # Donate
 
     Could you contribute to the nurses strike fund?
@@ -86,17 +127,6 @@ blocks:
     new_tab: false
   decoration: ''
   background_image: ''
-- map: false
-  id: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
-  text: |-
-    # Register a solidarity action
-
-    register your solidarity action here:
-
-    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
 published: false
 
 ---
