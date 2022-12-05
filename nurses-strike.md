@@ -28,7 +28,7 @@ header:
 blocks:
 - map: false
   text: |-
-    # Join the pickets in solidarity
+    # Stand in solidarity with NHS picket lines
 
     Thousands of nurses, ambulance and NHS workers will be walking out over pay and conditions and to save our NHS. Join them on the picket lines to show your support for the NHS.
 
