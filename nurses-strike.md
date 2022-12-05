@@ -28,25 +28,6 @@ header:
 blocks:
 - map: false
   text: |-
-    # Workshop: picket line conversations on health and climate justice
-
-    How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
-
-    Join this training to gain tips and confidence in having those conversations. This session will pay particular attention to the connections between health and climate justice to support your conversations and show solidarity on the picket lines.
-
-    **When**: 12th December, 6-7pm
-
-    **Where**: Zoom
-  id: ''
-  buttons:
-  - text: RSVP now
-    target: https://actionnetwork.org/events/climate-justice-conversations-on-the-picket-line-training-nhs-strike-special/
-    image: ''
-    new_tab: false
-  decoration: ''
-  background_image: ''
-- map: false
-  text: |-
     # Join the pickets in solidarity
 
     Thousands of nurses, ambulance and NHS workers will be walking out over pay and conditions and to save our NHS. Join them on the picket lines to show your support for the NHS.
@@ -97,6 +78,25 @@ blocks:
   buttons:
   - text: Solidarity Action Guide
     target: https://docs.google.com/document/d/1SdvgUohM9CrRod8QbWmyvCu9yBC4qLeCm7xI0XgxF6U/edit#
+    image: ''
+    new_tab: false
+  decoration: ''
+  background_image: ''
+- map: false
+  text: |-
+    # Workshop: picket line conversations on health and climate justice
+
+    How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
+
+    Join this training to gain tips and confidence in having those conversations. This session will pay particular attention to the connections between health and climate justice to support your conversations and show solidarity on the picket lines.
+
+    **When**: 12th December, 6-7pm
+
+    **Where**: Zoom
+  id: ''
+  buttons:
+  - text: RSVP now
+    target: https://actionnetwork.org/events/climate-justice-conversations-on-the-picket-line-training-nhs-strike-special/
     image: ''
     new_tab: false
   decoration: ''
