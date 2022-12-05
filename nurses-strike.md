@@ -63,12 +63,12 @@ blocks:
   buttons: []
   decoration: ''
   background_image: ''
-  text: "# Register a solidarity action\n\nLet's show striking NHS workers that we
-    stand with them with a massive wave of public support and solidarity.   Register
-    your support today and you'll receive resources and support to organise a solidarity
-    action. \n\n{% include an-form/base.html endpoint=\"https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions\"
-    button=\"Register\" lines=\"first-name,email.action-title,action-start-date.action-description.map.submit\"
-    %}"
+  text: |-
+    # Register a solidarity action
+
+    Let's show striking NHS workers that the climate justice movement stands with them with a massive wave of public support and solidarity.   Register your support today and you'll receive resources and support to organise a solidarity action.
+
+    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
 - map: false
   text: |-
     # Solidarity Action Guide
