@@ -4,7 +4,7 @@ tags: []
 title: Nurses Strike
 top_image: ''
 top_quote: ''
-image: ''
+image: "/assets/images/pay-nhs-heroes-banner-1200px-wide.png"
 credits: ''
 permalink: nhs
 style: nhs
@@ -27,7 +27,7 @@ header:
   border_bottom:
     image: ''
     reflect: false
-  background_image: /assets/images/nurse.png
+  background_image: "/assets/images/nurse.png"
 blocks:
 - map: false
   text: |-
@@ -41,10 +41,12 @@ blocks:
   id: pickets
   buttons:
   - text: See Map
-    target: "#strike-map"
+    target: https://strikemap.co.uk/union/rcn
     image: ''
-    new_tab: false
-  decoration: '[![](/assets/images/strike_map.png)](#strike-map "View map")'
+    new_tab: true
+  decoration: |2-
+
+    [![](/assets/images/screenshot-2022-12-06-at-22-45-28-strikemap-uk-find-your-nearest-strike.png)](https://strikemap.co.uk/union/rcn "See picket locations")
   background_image: ''
 - map: false
   text: |-
@@ -70,10 +72,10 @@ blocks:
     {% include nhs-actions-map.html data=site.data.nhs_actions %}
   id: actions
   buttons: []
-  decoration: ""
+  decoration: ''
   background_image: ''
 - map: false
-  id: 'register-action'
+  id: register-action
   buttons: []
   decoration: ''
   background_image: ''
