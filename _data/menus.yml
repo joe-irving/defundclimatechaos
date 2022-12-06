@@ -3,6 +3,11 @@ header:
 - url: "/#join"
   weight: 2
   title: Join Us
+nhs_strike:
+- url: "/cost-of-living"
+  title: "Cost of living Crisis = Climate Crisis"
+- url: "/tu"
+  title: Trade unions
 footer:
 - url: "/partners"
   title: Partners

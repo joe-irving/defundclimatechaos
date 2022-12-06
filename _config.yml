@@ -173,7 +173,7 @@ airtable:
       - organisation
   nhs_actions:
     app: app9apHbqOifmolTX
-    table: app9apHbqOifmolTX
+    table: tblZXxejhil5SEO3e
     view: viwQQNQIqVJm5xHUG
     fields:
       - Title
@@ -181,6 +181,10 @@ airtable:
       - Latitude
       - Longitude
       - Description
+  tweets:
+    app: app9apHbqOifmolTX
+    table: tbl9Hb9hQA7ahFo5P
+    view: viwFbcwIg7A6ksIyS
 
 action_network:
   key: ENV_AN_API_KEY

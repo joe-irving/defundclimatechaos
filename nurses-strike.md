@@ -9,6 +9,7 @@ credits: ''
 permalink: nhs
 style: nhs
 summary: ''
+custom_menu: nhs_strike
 share:
   whatsapp: Join me in showing support for the nurses on strike
   text: Support the NHS. Support the strike.
@@ -17,14 +18,16 @@ logo: ''
 logo_square: ''
 invert: odd
 header:
+  full: true
   text: |-
     # Support the NHS. Support the strikes.
 
-    {% include an-email-only-form.html endpoint="https://actionnetwork.org/api/v2/petitions/65b32fbe-86ae-4037-8f56-73f5881ec34a/signatures" jump="pickets" %}
+    {% include an-form/base.html lines="first-name,email.organisation,postal-code.submit." endpoint="https://actionnetwork.org/api/v2/petitions/65b32fbe-86ae-4037-8f56-73f5881ec34a/signatures" %}
   buttons: []
   border_bottom:
     image: ''
     reflect: false
+  background_image: /assets/images/nurse.png
 blocks:
 - map: false
   text: |-
@@ -59,7 +62,18 @@ blocks:
   decoration: "![](/assets/images/Pay NHS Heroes poster small.png)"
   background_image: ''
 - map: false
-  id: ''
+  text: |-
+    # Solidarity Actions
+
+    Join one of the solidarity actions below in support of NHS workers on site.
+
+    {% include nhs-actions-map.html data=site.data.nhs_actions %}
+  id: actions
+  buttons: []
+  decoration: ""
+  background_image: ''
+- map: false
+  id: 'register-action'
   buttons: []
   decoration: ''
   background_image: ''
@@ -112,7 +126,9 @@ blocks:
     target: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdefundclimatechaos.uk%2Fnhs
     image: ''
     new_tab: false
-  decoration: ''
+  decoration: |-
+    {% assign tweets = site.data.tweets | where: "category", "NHS Strike" | map: "text"  %}
+    {% include tweetslight.html tweets=tweets %}
   background_image: ''
 - map: false
   text: |-
