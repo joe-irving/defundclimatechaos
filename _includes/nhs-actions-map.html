@@ -1,0 +1,27 @@
+{% assign nhs_map_count = nhs_map_count | default: 0 | plus: 1 %}
+<div class="nhs-actions-map" id="nhs-actions-map-{{ nhs_map_count }}"></div>
+<style>
+    .nhs-actions-map{
+        min-height: 30vh;
+    }
+</style>
+<script>
+    let nhsMapData = {{ include.data | jsonify }};
+
+    let nhsMap = L.map("nhs-actions-map-{{ nhs_map_count }}",{
+                    center: [55.0006601,-2.7039512],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                });
+    
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(nhsMap);
+
+    nhsMapData.forEach(function (point) {
+        L.marker([point.latitude, point.longitude]).addTo(nhsMap)
+    })
+</script>

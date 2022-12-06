@@ -53,10 +53,10 @@ blocks:
   id: posters
   buttons:
   - text: Download window poster
-    target: https://actionnetwork.org/user_files/user_files/000/085/026/original/Pay_NHS_Heroes.jpg
+    target: https://actionnetwork.org/user_files/user_files/000/085/083/original/Pay_NHS_Heroes_poster.png
     image: ''
     new_tab: true
-  decoration: "![](/assets/images/supportnhsheros.png)"
+  decoration: "![](/assets/images/Pay NHS Heroes poster small.png)"
   background_image: ''
 - map: false
   id: ''

@@ -171,6 +171,16 @@ airtable:
       - First name
       - Last name
       - organisation
+  nhs_actions:
+    app: app9apHbqOifmolTX
+    table: app9apHbqOifmolTX
+    view: viwQQNQIqVJm5xHUG
+    fields:
+      - Title
+      - Date
+      - Latitude
+      - Longitude
+      - Description
 
 action_network:
   key: ENV_AN_API_KEY
