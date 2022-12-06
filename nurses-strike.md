@@ -127,6 +127,5 @@ blocks:
     new_tab: false
   decoration: ''
   background_image: ''
-published: false
 
 ---
