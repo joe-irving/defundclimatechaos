@@ -145,11 +145,11 @@ blocks:
   text: |-
     # Donate
 
-    Could you contribute to the nurses strike fund?
+    Could you contribute to the nurses strike fund? Donate and find out other ways your can support on the Royal College of Nurses Strike Hub
   id: ''
   buttons:
   - text: Donate
-    target: "#"
+    target: https://www.rcn.org.uk/Get-Involved/Campaign-with-us/Fair-Pay-for-Nursing/Strike-hub
     image: ''
     new_tab: false
   decoration: ''
