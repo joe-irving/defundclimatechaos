@@ -1,7 +1,7 @@
 ---
 layout: page
 tags: []
-title: Nurses Strike
+title: Support NHS Strike
 top_image: ''
 top_quote: ''
 image: ''
