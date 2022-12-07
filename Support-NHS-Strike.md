@@ -68,7 +68,7 @@ blocks:
   text: |-
     # Solidarity Actions
 
-    Join one of the solidarity actions below in support of NHS workers on site.
+    Join one of the solidarity actions below in support of NHS workers on picket lines.  Don't see one where you live? Register one below.
 
     {% include nhs-actions-map.html data=site.data.nhs_actions %}
   id: actions
