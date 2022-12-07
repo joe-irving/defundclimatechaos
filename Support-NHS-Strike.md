@@ -49,14 +49,11 @@ blocks:
     [![](/assets/images/screenshot-2022-12-06-at-22-45-28-strikemap-uk-find-your-nearest-strike.png)](https://strikemap.co.uk/union/rcn "See picket locations")
   background_image: ''
 - map: false
-  text: |-
-    # Window posters
-
-    A really easy action you can take to support the NHS workers on strike is to print off our Pay NHS Heroes A Hero's Wage poster and put it up in your window.
-
-    Put them up at home, at work, at school, in local shop windows, anywhere and everywhere!
-
-    This beautiful linocut poster is by [Suzy Riot](https://suzyriot.com/)
+  text: "# Window posters\n\nA really easy action you can take to support the NHS
+    workers on strike is to print off our Pay NHS Heroes A Hero's Wage poster and
+    put it up in your window.\n\nPut them up at home, at work, at school, in local
+    shop windows, anywhere and everywhere!  Scroll on for online versions to share
+    on socials too. \n\nThis beautiful linocut poster was created by [Suzy Riot](https://suzyriot.com/)"
   id: posters
   buttons:
   - text: Download window poster
