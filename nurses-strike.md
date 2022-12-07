@@ -52,9 +52,11 @@ blocks:
   text: |-
     # Window posters
 
-    A really easy action you can take to support the NHS workers on strike is to print off our Pay NHS Heroes A Living Wage poster and put it up in your window.
+    A really easy action you can take to support the NHS workers on strike is to print off our Pay NHS Heroes A Hero's Wage poster and put it up in your window.
 
     Put them up at home, at work, at school, in local shop windows, anywhere and everywhere!
+
+    This beautiful linocut poster is by [Suzy Riot](https://suzyriot.com/)
   id: posters
   buttons:
   - text: Download window poster
