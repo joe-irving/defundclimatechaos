@@ -87,10 +87,11 @@ blocks:
 
     {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
 - map: false
-  text: |-
-    # Solidarity Action Guide
-
-    From window posters to massive banner drops and showing solidarity on the NHS picket lines, download our action guide for ideas and resources to help build a massive wave of public support for NHS workers on 15 and 20 December.
+  text: "# Solidarity Action Guide\n\nThere's lots of ways to show your solidarity
+    - from window posters to massive banner drops or simply showing up on the picket
+    lines with some solidari-tea and biscuits for strikers. \n\nDownload the action
+    guide for more ideas and resources to help build a massive wave of public support
+    for NHS workers on 15 and 20 December."
   id: ''
   buttons:
   - text: Solidarity Action Guide
