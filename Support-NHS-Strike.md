@@ -90,7 +90,7 @@ blocks:
   text: |-
     # Register a solidarity action
 
-    Let's show striking NHS workers that millions of us and our groups and movements stand with them.   Register today and you'll receive resources and support to organise a solidarity action where you live.
+    Let's show striking NHS workers that millions of us around the country stand with them.   Register today and you'll receive resources and support to organise an NHS solidarity action where you live.
 
     {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
 - map: false
