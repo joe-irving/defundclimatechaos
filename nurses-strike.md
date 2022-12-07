@@ -54,7 +54,7 @@ blocks:
 
     A really easy action you can take to support the NHS workers on strike is to print off our Pay NHS Heroes A Living Wage poster and put it up in your window.
 
-    Put them up at home, at work, at school, in local shop windows, anywhere and everywhere before 15th December!
+    Put them up at home, at work, at school, in local shop windows, anywhere and everywhere!
   id: posters
   buttons:
   - text: Download window poster
