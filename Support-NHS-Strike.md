@@ -97,7 +97,10 @@ blocks:
     target: https://docs.google.com/document/d/1SdvgUohM9CrRod8QbWmyvCu9yBC4qLeCm7xI0XgxF6U/edit#
     image: ''
     new_tab: false
-  decoration: ''
+  decoration: |-
+    ![](/assets/images/strike-opinion-lyndsay-main-image-630x420-original-in-activate-oct-file.jpeg)
+
+    > [The solidarity of members on the picket line was incredible](https://www.rcn.org.uk/magazines/Opinion/2022/November/The-solidarity-on-the-NHS-picket-line-was-incredible) (Image: RCN)
   background_image: ''
 - map: false
   text: |-
