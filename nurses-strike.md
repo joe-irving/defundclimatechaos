@@ -105,7 +105,9 @@ blocks:
   text: |-
     # Join our workshop
 
-    #### Picket line conversations on health and climate justice, 12th December 6pm
+    ### Picket line conversations on health and climate justice
+
+    #### 12th December 6pm
 
     How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
 
