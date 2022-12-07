@@ -2,10 +2,7 @@
 title: Defund Climate Chaos
 email: fossilfinance@defundclimatechaos.uk
 tagline: Turn off the money pipeline to fossil fuels. Now.
-description: 'UK banks, investors and insurers are pumping billions of pounds into
-  fossilfuels that worsen the climate crisis. People around the world are rising up
-  to demand that governments and corporations #DefundClimateChaos, pay Climate Reparations
-  and fund a Global Just Transition.'
+description: 'Stand in solidarity. Get resources. Take Action '
 url: https://defundclimatechaos.uk
 theme: jekyll-theme-chaos
 permalink: pretty
@@ -86,25 +83,6 @@ airtable:
       layout: resource
       content: content
     combine: true
-  # briefings:
-  #   app: app9apHbqOifmolTX
-  #   table: tblGAJiIeFlD6PxNI
-  #   view: viwU1ycAZj7RWLyzf
-  #   collection:
-  #     slug: briefings
-  #     layout: briefing
-  #     content: content
-  #   fields:
-  #     - title
-  #     - Motion
-  #     - Video
-  #     - YouTube ID
-  #     - description
-  #     - Content
-  #     - Image
-  #     - Tags
-  #     - Category
-  #     - Google Doc ID
   partners:
     app: app9apHbqOifmolTX
     table: tbl3erzSL6dZfNkZi
@@ -158,50 +136,48 @@ airtable:
     table: tbllOtliZXqlwJavx
     view: viw3ts1xG41SMu4zO
     fields:
-      - Title
-      - Description
-      - Link
-      - Image
-      - Status
+    - Title
+    - Description
+    - Link
+    - Image
+    - Status
   col_letter_signatures:
     app: app9apHbqOifmolTX
     table: tblEQgp94sBMBMMst
     view: viwEZtZG78T0GtPaj
     fields:
-      - First name
-      - Last name
-      - organisation
+    - First name
+    - Last name
+    - organisation
   nhs_actions:
     app: app9apHbqOifmolTX
     table: tblZXxejhil5SEO3e
     view: viwQQNQIqVJm5xHUG
     fields:
-      - Title
-      - Date
-      - Latitude
-      - Longitude
-      - Description
+    - Title
+    - Date
+    - Latitude
+    - Longitude
+    - Description
   tweets:
     app: app9apHbqOifmolTX
     table: tbl9Hb9hQA7ahFo5P
     view: viwFbcwIg7A6ksIyS
-
 action_network:
   key: ENV_AN_API_KEY
   actions: false
   import:
-    - name: events
-      include_event_campaigns: false
-      layout: an-page-2
-    - name: petitions
-      layout: an-page-2
-    - name: forms
-      layout: an-page-2
-    - name: campaigns
-      layout: an-page-2
-    - name: advocacy_campaigns
-      layout: an-page-2
-
+  - name: events
+    include_event_campaigns: false
+    layout: an-page-2
+  - name: petitions
+    layout: an-page-2
+  - name: forms
+    layout: an-page-2
+  - name: campaigns
+    layout: an-page-2
+  - name: advocacy_campaigns
+    layout: an-page-2
 plugins:
 - jekyll-airtable-import
 - jekyll-menus
@@ -213,8 +189,8 @@ map:
   lng: ''
 exclude:
 - api
-- .forestry
-- .git
+- ".forestry"
+- ".git"
 include:
 - _redirects
 jekyll_get_json: []
