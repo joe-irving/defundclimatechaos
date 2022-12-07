@@ -66,7 +66,11 @@ blocks:
   text: |-
     # Solidarity Actions
 
-    Join one of the solidarity actions below in support of NHS workers on picket lines.  Don't see one where you live? Register one below.
+    It’s a really hard decision for NHS nurses and ambulance workers to go out on strike. They want to be on the frontline saving lives, not standing out on the cold picket lines. We need to show them we are with them through a massive wave of public support and warm gratitude.
+
+    > No more empty praise, our nurses need a raise.
+
+    Don't see anything planned where you live yet? Scroll on get everything you need to organise some solidarity (and warm solidari-tea & biscuits!) for NHS pickets where you live.
 
     {% include nhs-actions-map.html data=site.data.nhs_actions %}
   id: actions
