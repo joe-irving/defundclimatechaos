@@ -124,6 +124,10 @@ blocks:
     Share the example tweets {% include resize.html mobile="below" desktop="on the right" %}
   id: online
   buttons:
+  - text: Social Media pack (coming soon)
+    target: ''
+    image: ''
+    new_tab: false
   - text: Tweet your support
     target: https://ctt.ac/3tf7e
     image: ''
