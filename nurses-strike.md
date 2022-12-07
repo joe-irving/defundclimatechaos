@@ -5,7 +5,7 @@ title: Nurses Strike
 top_image: ''
 top_quote: ''
 image: "/assets/images/pay-nhs-heroes-banner-1200px-wide.png"
-credits: ''
+credits: Original artwork by Suzy Riot
 permalink: nhs
 style: nhs
 summary: ''
