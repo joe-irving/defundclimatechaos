@@ -21,7 +21,7 @@ invert: odd
 header:
   full: true
   text: |-
-    # Support the NHS. Support the strikes.
+    # Protect the NHS. Support the strikers.
 
     {% include an-form/base.html lines="first-name,email.organisation,postal-code.submit." endpoint="https://actionnetwork.org/api/v2/petitions/65b32fbe-86ae-4037-8f56-73f5881ec34a/signatures" %}
   buttons: []
