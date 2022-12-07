@@ -100,15 +100,13 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    # Workshop: picket line conversations on health and climate justice
+    # Join our workshop
+
+    #### Picket line conversations on health and climate justice, 12th December 6pm
 
     How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
 
     Join this training to gain tips and confidence in having those conversations. This session will pay particular attention to the connections between health and climate justice to support your conversations and show solidarity on the picket lines.
-
-    **When**: 12th December, 6-7pm
-
-    **Where**: Zoom
   id: ''
   buttons:
   - text: RSVP now
