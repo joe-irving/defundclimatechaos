@@ -13,7 +13,8 @@ custom_menu: nhs_strike
 share:
   whatsapp: Join me in showing support for the nurses on strike
   text: Support the NHS. Support the strike.
-  tweet: 'I support the #NHS strike. Will you join the fight?'
+  tweet: 'I support the #NHS strikes for #FairPayForNursing. It''s time for a raise
+    not empty praise.  Will you join me and show your solidarity too?'
 logo: ''
 logo_square: ''
 invert: odd
