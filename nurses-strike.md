@@ -124,6 +124,10 @@ blocks:
     Share the example tweets {% include resize.html mobile="below" desktop="on the right" %}
   id: online
   buttons:
+  - text: Tweet your support
+    target: https://ctt.ac/3tf7e
+    image: ''
+    new_tab: false
   - text: Facebook share
     target: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdefundclimatechaos.uk%2Fnhs
     image: ''
