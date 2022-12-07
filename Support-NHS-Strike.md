@@ -31,11 +31,12 @@ header:
   background_image: "/assets/images/nurse.png"
 blocks:
 - map: false
-  text: "# Stand in solidarity with NHS picket lines\n\nThousands of nurses, ambulance
-    and NHS workers will be walking out over pay and conditions and to save our NHS.
-    Join them on the picket lines to show your support for the NHS.\n\nKeep scrolling
-    for ideas on how to show your support and solidarity on the picket lines on 15th,
-    20th, 21st December and beyond. \n\nPowered by [Strike Map UK](https://strikemap.co.uk/)\n\n{%
+  text: "# Stand in solidarity with NHS picket lines\n\nThousands of brave nurses,
+    ambulance and NHS workers will be walking out over pay and conditions and to save
+    our NHS. Join them on the picket lines to show your support and gratitude for
+    the NHS. \n\nNo more empty praise, our nurses need a raise.\n\nKeep scrolling
+    for ideas on how to show your solidarity on the picket lines on 15th, 20th, 21st
+    December and beyond.\n\nPowered by [Strike Map UK](https://strikemap.co.uk/)\n\n{%
     include strikes.html id=\"strike-map\" %}"
   id: pickets
   buttons:
