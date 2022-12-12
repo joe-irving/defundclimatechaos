@@ -71,7 +71,7 @@ blocks:
 
     It’s a really hard decision for NHS nurses and ambulance workers to go out on strike. They want to be on the frontline saving lives, not standing out on the cold picket lines. We need to show them we are with them through a massive wave of public support and warm gratitude.
 
-    Don't see anything planned where you live yet? Scroll on get everything you need to organise some solidarity (and warm solidari-tea & biscuits!) for NHS pickets where you live.
+    Don't see anything planned where you live yet? Scroll on to get everything you need to organise some solidarity (and warm solidari-tea & biscuits!) for NHS nurses where you live.
 
     {% include nhs-actions-map.html data=site.data.nhs_actions %}
   id: actions
