@@ -36,8 +36,6 @@ blocks:
 
     Thousands of brave nurses, ambulance and NHS workers will be walking out over pay and conditions and to save our NHS. Join them on the picket lines to show your support and gratitude for the NHS.
 
-    This is a crisis.  No more empty praise, our nurses need a raise.
-
     Find your nearest strike and keep scrolling for ideas on how to show your solidarity on the picket lines on **15th, 20th, 21st December** and beyond.
 
     Powered by [Strike Map UK](https://strikemap.co.uk/)
@@ -72,8 +70,6 @@ blocks:
     # Solidarity Actions
 
     It’s a really hard decision for NHS nurses and ambulance workers to go out on strike. They want to be on the frontline saving lives, not standing out on the cold picket lines. We need to show them we are with them through a massive wave of public support and warm gratitude.
-
-    > No more empty praise, our nurses need a raise.
 
     Don't see anything planned where you live yet? Scroll on get everything you need to organise some solidarity (and warm solidari-tea & biscuits!) for NHS pickets where you live.
 
