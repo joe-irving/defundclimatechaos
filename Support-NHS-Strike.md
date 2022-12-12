@@ -67,6 +67,24 @@ blocks:
   background_image: ''
 - map: false
   text: |-
+    # Solidarity Action Guide
+
+    There's lots of ways to show your solidarity - from window posters to massive banner drops or simply showing up on the picket lines with some solidari-tea and biscuits for strikers.
+
+    Read the action guide for more ideas and resources to help build a massive wave of public support for NHS workers on 15 and 20 December.
+  id: solidarity
+  buttons:
+  - text: Solidarity Action Guide
+    target: https://docs.google.com/document/d/1SdvgUohM9CrRod8QbWmyvCu9yBC4qLeCm7xI0XgxF6U/edit#
+    image: ''
+    new_tab: false
+  decoration: |-
+    ![](/assets/images/strike-opinion-lyndsay-main-image-630x420-original-in-activate-oct-file.jpeg)
+
+    > "[The solidarity of members on the picket line was incredible](https://www.rcn.org.uk/magazines/Opinion/2022/November/The-solidarity-on-the-NHS-picket-line-was-incredible)" (Image: RCN)
+  background_image: ''
+- map: false
+  text: |-
     # Solidarity Actions
 
     It’s a really hard decision for NHS nurses and ambulance workers to go out on strike. They want to be on the frontline saving lives, not standing out on the cold picket lines. We need to show them we are with them through a massive wave of public support and warm gratitude.
@@ -89,23 +107,6 @@ blocks:
     Let's show striking NHS workers that millions of us around the country stand with them.   Register today and you'll receive resources and support to organise an NHS solidarity action where you live.
 
     {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
-- map: false
-  text: "# Solidarity Action Guide\n\nThere's lots of ways to show your solidarity
-    - from window posters to massive banner drops or simply showing up on the picket
-    lines with some solidari-tea and biscuits for strikers. \n\nDownload the action
-    guide for more ideas and resources to help build a massive wave of public support
-    for NHS workers on 15 and 20 December."
-  id: solidarity
-  buttons:
-  - text: Solidarity Action Guide
-    target: https://docs.google.com/document/d/1SdvgUohM9CrRod8QbWmyvCu9yBC4qLeCm7xI0XgxF6U/edit#
-    image: ''
-    new_tab: false
-  decoration: |-
-    ![](/assets/images/strike-opinion-lyndsay-main-image-630x420-original-in-activate-oct-file.jpeg)
-
-    > "[The solidarity of members on the picket line was incredible](https://www.rcn.org.uk/magazines/Opinion/2022/November/The-solidarity-on-the-NHS-picket-line-was-incredible)" (Image: RCN)
-  background_image: ''
 - map: false
   text: |-
     # Join our workshop
