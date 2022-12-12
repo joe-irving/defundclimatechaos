@@ -99,7 +99,7 @@ blocks:
     lines with some solidari-tea and biscuits for strikers. \n\nDownload the action
     guide for more ideas and resources to help build a massive wave of public support
     for NHS workers on 15 and 20 December."
-  id: ''
+  id: solidarity
   buttons:
   - text: Solidarity Action Guide
     target: https://docs.google.com/document/d/1SdvgUohM9CrRod8QbWmyvCu9yBC4qLeCm7xI0XgxF6U/edit#
