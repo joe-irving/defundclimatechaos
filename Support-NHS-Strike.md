@@ -109,11 +109,9 @@ blocks:
     {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
 - map: false
   text: |-
-    # Join our workshop
+    # Watch our workshop
 
-    ### Picket line conversations on health and climate justice
-
-    #### 12th December 6pm
+    ### [Picket line conversations on health and climate justice](https://youtu.be/LRnXpkpLlKU)
 
     How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
 
