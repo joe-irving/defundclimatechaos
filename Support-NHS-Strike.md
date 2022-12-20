@@ -117,11 +117,7 @@ blocks:
 
     Join this training to gain tips and confidence in having those conversations. This session will pay particular attention to the connections between health and climate justice to support your conversations and show solidarity on the picket lines.
   id: ''
-  buttons:
-  - text: RSVP now
-    target: https://actionnetwork.org/events/climate-justice-conversations-on-the-picket-line-training-nhs-strike-special/
-    image: ''
-    new_tab: false
+  buttons: []
   decoration: ''
   background_image: ''
 - map: false
