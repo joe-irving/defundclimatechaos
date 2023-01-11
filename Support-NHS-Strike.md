@@ -85,43 +85,6 @@ blocks:
   background_image: ''
 - map: false
   text: |-
-    # Solidarity Actions
-
-    It’s a really hard decision for NHS nurses and ambulance workers to go out on strike. They want to be on the frontline saving lives, not standing out on the cold picket lines. We need to show them we are with them through a massive wave of public support and warm gratitude.
-
-    Don't see anything planned where you live yet? Scroll on to get everything you need to organise some solidarity (and warm solidari-tea & biscuits!) for NHS nurses where you live.
-
-    {% include nhs-actions-map.html data=site.data.nhs_actions %}
-  id: actions
-  buttons: []
-  decoration: ''
-  background_image: ''
-- map: false
-  id: register-action
-  buttons: []
-  decoration: ''
-  background_image: ''
-  text: |-
-    # Register a solidarity action
-
-    Let's show striking NHS workers that millions of us around the country stand with them.   Register today and you'll receive resources and support to organise an NHS solidarity action where you live.
-
-    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
-- map: false
-  text: |-
-    # Watch our workshop
-
-    ### Click here: [Picket line conversations on health and climate justice](https://youtu.be/LRnXpkpLlKU)
-
-    How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
-
-    Join this training to gain tips and confidence in having those conversations. This session will pay particular attention to the connections between health and climate justice to support your conversations and show solidarity on the picket lines.
-  id: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
-- map: false
-  text: |-
     # Show your support online
 
     Share the example tweets {% include resize.html mobile="below" desktop="on the right" %}
@@ -145,6 +108,19 @@ blocks:
   background_image: ''
 - map: false
   text: |-
+    # Watch our workshop
+
+    ### Click here: [Picket line conversations on health and climate justice](https://youtu.be/LRnXpkpLlKU)
+
+    How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
+
+    Join this training to gain tips and confidence in having those conversations. This session will pay particular attention to the connections between health and climate justice to support your conversations and show solidarity on the picket lines.
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
+- map: false
+  text: |-
     # Donate
 
     Could you contribute to the nurses strike fund? Donate and find out other ways your can support on the Royal College of Nurses Strike Hub
@@ -154,6 +130,30 @@ blocks:
     target: https://www.rcn.org.uk/Get-Involved/Campaign-with-us/Fair-Pay-for-Nursing/Strike-hub
     image: ''
     new_tab: false
+  decoration: ''
+  background_image: ''
+- map: false
+  id: register-action
+  buttons: []
+  decoration: ''
+  background_image: ''
+  text: |-
+    # Register a solidarity action
+
+    Let's show striking NHS workers that millions of us around the country stand with them.   Register today and you'll receive resources and support to organise an NHS solidarity action where you live.
+
+    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/forms/d917ffed-2525-455e-94e5-afc7cd1be39b/submissions" button="Register" lines="first-name,email.action-title,action-start-date.action-description.map.submit" %}
+- map: false
+  text: |-
+    # Solidarity Actions
+
+    It’s a really hard decision for NHS nurses and ambulance workers to go out on strike. They want to be on the frontline saving lives, not standing out on the cold picket lines. We need to show them we are with them through a massive wave of public support and warm gratitude.
+
+    Don't see anything planned where you live yet? Scroll on to get everything you need to organise some solidarity (and warm solidari-tea & biscuits!) for NHS nurses where you live.
+
+    {% include nhs-actions-map.html data=site.data.nhs_actions %}
+  id: actions
+  buttons: []
   decoration: ''
   background_image: ''
 
