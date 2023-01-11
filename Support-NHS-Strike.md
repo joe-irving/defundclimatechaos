@@ -36,7 +36,7 @@ blocks:
 
     Thousands of brave nurses, ambulance and NHS workers will be walking out over pay and conditions and to save our NHS. Join them on the picket lines to show your support and gratitude for the NHS.
 
-    Find your nearest strike and keep scrolling for ideas on how to show your solidarity on the picket lines on **15th, 20th, 21st December** and beyond.
+    Find your nearest strike and keep scrolling for ideas on how to show your solidarity on the picket lines on **18th, 19th and 23rd December** and beyond.
 
     Powered by [Strike Map UK](https://strikemap.co.uk/)
 
