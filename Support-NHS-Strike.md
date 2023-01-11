@@ -71,7 +71,7 @@ blocks:
 
     There's lots of ways to show your solidarity - from window posters to massive banner drops or simply showing up on the picket lines with some solidari-tea and biscuits for strikers.
 
-    Read the action guide for more ideas and resources to help build a massive wave of public support for NHS workers on 15 and 20 December.
+    Read the action guide for more ideas and resources to help build a massive wave of public support for NHS workers.
   id: solidarity
   buttons:
   - text: Solidarity Action Guide
