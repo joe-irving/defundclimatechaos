@@ -111,7 +111,7 @@ blocks:
   text: |-
     # Watch our workshop
 
-    ### Click here to watch our training [Picket line conversations on health and climate justice](https://youtu.be/LRnXpkpLlKU)
+    ### Click here: [Picket line conversations on health and climate justice](https://youtu.be/LRnXpkpLlKU)
 
     How do you start conversations to connect health workers concerns with climate justice on the picket line? How do you link the climate crisis with cost of living crisis & the workers' demands? What are the pitfalls to avoid?
 
