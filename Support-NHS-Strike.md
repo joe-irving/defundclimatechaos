@@ -81,7 +81,7 @@ blocks:
   decoration: |-
     ![](/assets/images/screenshot-2023-01-12-at-12-32-32.png)
 
-    Image: ReelNews
+    Image: [ReelNews ](https://www.youtube.com/watch?v=7HD9_idrM8Y&t=1s)
   background_image: ''
 - map: false
   text: |-
