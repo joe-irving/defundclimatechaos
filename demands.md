@@ -51,6 +51,8 @@ People worldwide are already facing major loss and damage due to climate chaos. 
 
 A rapid transition to a more just world will require huge investments - working people should not foot this bill, especially those hardest hit by climate disasters. It's time to properly tax rich individuals and giant corporations; this means implementing loophole-free progressive taxation and a Financial Transaction Tax* and for public institutions to use all the tools at their disposal to fund the green transition.
 
+\*Financial Transaction Tax = A tax on the financial transactions of banks, for more information see [https://www.robinhoodtax.org.uk/how-it-works](https://www.robinhoodtax.org.uk/how-it-works "https://www.robinhoodtax.org.uk/how-it-works")
+
 {% include accordion-end.html %}
 
 {% include accordion-start.html title="People Not Profit - Democratise our future" %}
@@ -58,5 +60,3 @@ A rapid transition to a more just world will require huge investments - working 
 Together, through public ownership and direct democracy, we need to transform our energy and financial sectors to build a system that works for everyone and ensures green low-cost energy access for all.
 
 {% include accordion-end.html %}
-
-\*Financial Transaction Tax = A tax on the financial transactions of banks, for more information see [https://www.robinhoodtax.org.uk/how-it-works](https://www.robinhoodtax.org.uk/how-it-works "https://www.robinhoodtax.org.uk/how-it-works")
