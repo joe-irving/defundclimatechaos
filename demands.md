@@ -29,12 +29,6 @@ Achieving Climate justice means keeping fossil fuels in the ground. To keep belo
 
 {% include accordion-end.html %}
 
-{% include accordion-start.html title="Stop Funding Climate Chaos" %}
-
-Financial institutions must immediately stop financing and insuring new fossil fuel extraction and new carbon-intensive infrastructure projects.
-
-{% include accordion-end.html %}
-
 {% include accordion-start.html title="Defund Climate Chaos - Stop financing carbon bombs" %}
 
 Financial institutions must immediately stop financing and insuring new fossil fuel extraction and new carbon-intensive infrastructure projects.
