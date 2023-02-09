@@ -15,7 +15,7 @@ blocks:
     image: ''
     new_tab: false
     text: Take Action
-  - text: Trade Union Motion
+  - text: Pass a Trade Union Motion
     target: "#StopEACOPtu"
     image: ''
     new_tab: false
