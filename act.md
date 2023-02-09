@@ -8,15 +8,13 @@ blocks:
 
     French oil giant Total and the China National Offshore Oil Corporation are on the cusp of building a massive crude oil pipeline right through the heart of Africa – displacing communities, endangering wildlife and tipping the world closer to full-blown climate catastrophe.
 
-    Building the longest heated oil pipeline in the world is risky work, and Total can’t do it alone. They are seeking insurance from some of the world’s largest multinational commercial insurance companies to get this project off the ground.
-
-    Right now, Total is reaching out to UK insurance companies, asking them to support this deadly project. **Take Action today to help stop the East Africa Crude Pipeline #StopEACOP**
+    Building the longest heated oil pipeline in the world is risky work, and Total can’t do it alone. They are seeking insurance and funding from some of the world’s largest insurance companies and banks to get this project off the ground.
   id: stopeacop
   buttons:
-  - target: "#StopEACOPwrite"
+  - target: "#StopEACOPact"
     image: ''
     new_tab: false
-    text: Email Insurers
+    text: Take Action
   - text: Trade Union Motion
     target: "#StopEACOPtu"
     image: ''
@@ -126,6 +124,5 @@ menu:
   header:
     title: Take Action
     weight: 1
-    # identifier: action
 
 ---
