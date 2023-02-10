@@ -26,6 +26,8 @@ blocks:
     ## Week of Action - 20th-24th Feb
 
     Right now, UK insurers and banks are thinking about backing the EACOP. But people across the world are demanding they rule it out.
+
+    {% assign events = site.actions | where: "future", 1 | where: "Category", "StopEACOP Feb2023"  %} {% include events-gallery.html date_field='start_date' summary=true %}
   id: StopEACOPact
   buttons: []
   decoration: ''
