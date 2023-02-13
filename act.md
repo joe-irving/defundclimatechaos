@@ -44,6 +44,15 @@ blocks:
   buttons: []
   decoration: ''
   background_image: ''
+- map: false
+  text: |-
+    ## Money is fuelling climate chaos. Climate justice means keeping fossil fuels in the ground. We can support struggles across the globe by cutting off the money and insurance for new projects.
+
+    {% include an-email-only-form.html endpoint="[https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures](https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures "https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures")" jump="actions" %}
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons: []
   text: |-
     # Resources
@@ -79,10 +88,7 @@ share:
 logo: ''
 logo_square: ''
 header:
-  text: |-
-    ## Money is fuelling climate chaos. Climate justice means keeping fossil fuels in the ground. We can support struggles across the globe by cutting off the money and insurance for new projects.
-
-    {% include an-email-only-form.html endpoint="https://actionnetwork.org/api/v2/petitions/e0c7e2f4-925f-448c-9558-57c1997b5408/signatures" jump="actions" %}
+  text: ''
   buttons: []
   border_bottom:
     image: ''
