@@ -112,6 +112,7 @@ airtable:
     - Type
     - Image
     - Category
+    - Online
     collection:
       slug: slug
       layout: an-event

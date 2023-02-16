@@ -8,16 +8,21 @@ template: |-
     {{ image }}
     {{ date }}
 
+    {% if page.online == 1 %}_This event is online._{% endif %}
+
     ## What
 
     {{ content }}
 
     ## RSVP
 
-    {{form}}
+    {{ form }}
 
+    {% if page.online != 1 %}
     ## Where
 
     {{ address }}
-    {{map}}
+
+    {{ map }}
+    {% endif %}
 ---

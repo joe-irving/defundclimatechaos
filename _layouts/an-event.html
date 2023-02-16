@@ -60,7 +60,11 @@ layout: page
 {%  assign an_event_slug = page.booking_link | split: "://" | last | split: "/" | last %}
 <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css'/>
 <script src='https://actionnetwork.org/widgets/v4/event/{{ an_event_slug }}?format=js&source=widget'></script>
-<div id='can-event-area-{{ an_event_slug }}' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+<div id='can-event-area-{{ an_event_slug }}' style='width: 100%'>
+  <div class="Chaos-Flex-Line">
+    <a href="{{ page.booking_link }}" target="_blank"><span class="Chaos-Button">Sign Up</span></a>
+  </div>
+</div>
 {% else %}
 <div class="Chaos-Flex-Line">
   <a href="{{ page.booking_link }}" target="_blank"><span class="Chaos-Button">Sign Up</span></a>
