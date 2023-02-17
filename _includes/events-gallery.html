@@ -29,7 +29,7 @@
     <div
     class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
     {% if post.image.size > 0 and include.thumbnail!=true %}
-    <a href="{{ post.url | relative_url  }}"><img src="{{ post.image  | relative_url  }}" /></a>
+    <a href="{{ post.url | relative_url  }}" target="_blank"><img src="{{ post.image  | relative_url  }}" /></a>
     {% endif %}
         <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">
                 {% if include.date!=false %}
@@ -48,7 +48,7 @@
 
                 <div class="description">
                     <div class="header-line">
-                      <h3><a href="{{ url }}">{{ post.title }}</a></h3>
+                      <h3><a href="{{ url }}"  target="_blank">{{ post.title }}</a></h3>
                     </div>
                     <p><time>{{ post.start_date | date: "%l:%M %p" }}</time> to <time>{{ post.end_date | date: "%l:%M %p" }}</time></p>
 
