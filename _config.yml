@@ -94,12 +94,11 @@ airtable:
     - Summary
     - Invert Logo Colour
   actions:
-    app: app9apHbqOifmolTX
-    table: tblVEvKXgQXEwyNKh
-    view: viwQUUUl3inwcW4A5
+    app: appkGWTk8kcXcA4zD
+    table: tblX2cLwp5FuYOYcR
+    view: viwjbMhJhzrKDGh6b
     fields:
     - Title
-    - AGM
     - Booking link
     - Start date
     - End date
@@ -109,10 +108,9 @@ airtable:
     - Longitude
     - Content
     - Future
-    - Type
     - Image
-    - Category
     - Online
+    - Event Type
     collection:
       slug: slug
       layout: an-event

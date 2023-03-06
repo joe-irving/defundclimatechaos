@@ -15,6 +15,8 @@ module GenerateLocation
     end
     def generate(site)
       site.collections['actions'].docs.each_with_index do |event,i|
+        next unless event.data['address']
+        
         event.data['start_date'] = dearray(event.data['start_date'])
         event.data['start'] = get_date_hash(event.data['start_date'])
         event.data['end_date'] = dearray(event.data['end_date'])

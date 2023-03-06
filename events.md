@@ -20,7 +20,12 @@ menu:
     title: Events
 
 ---
-# Upcoming events
+# Upcoming Events and actions
 
-{% assign events = site.actions | where: "future", 1 %}
+{% assign events = site.actions | where: "future", 1 | where: "event_type", "Protest" %}
+{% include events-gallery.html date_field='start_date' summary=true %}
+
+# Upcoming Trainings
+
+{% assign events = site.actions | where: "future", 1 | where: "event_type", "Training" %}
 {% include events-gallery.html date_field='start_date' summary=true %}
