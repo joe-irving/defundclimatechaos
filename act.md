@@ -17,9 +17,9 @@ blocks:
     Building the longest heated oil pipeline in the world is risky work, and Total can’t do it alone. They are seeking insurance and funding from some of the world’s largest insurance companies and banks to get this project off the ground.
   id: stopeacop
   buttons:
-  - target: "#StopEACOPact"
+  - target: https://actionnetwork.org/forms/take-regular-action-to-stopeacop-2
     image: ''
-    new_tab: false
+    new_tab: true
     text: Take Action
   - text: Pass a Trade Union Motion
     target: "#StopEACOPtu"
