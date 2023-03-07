@@ -28,7 +28,7 @@
 
     <div
     class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
-    {% if post.image.size > 0 and include.thumbnail!=true %}
+    {% if post.image.size > 0 and include.thumbnail!=true and include.image!=false %}
     <a href="{{ post.url | relative_url  }}" target="_blank"><img src="{{ post.image  | relative_url  }}" /></a>
     {% endif %}
         <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">

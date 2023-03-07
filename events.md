@@ -32,4 +32,4 @@ menu:
 # Upcoming Trainings
 
 {% assign events = site.actions | where: "future", 1 | where: "event_type", "Training" %}
-{% include events-gallery.html date_field='start_date' summary=true %}
+{% include events-gallery.html date_field='start_date' summary=true image=false  %}
