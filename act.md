@@ -9,7 +9,7 @@ blocks:
   decoration: ''
   background_image: ''
 - text: |-
-    # Upcoming Events and actions
+    # Events & Actions
 
     {% assign protest = site.actions | where: "future", 1 | where: "event_type", "Protest" %}
     {% assign films = site.actions | where: "future", 1 | where: "event_type", "Film" %}
@@ -18,10 +18,15 @@ blocks:
     {% assign events = meetings | concat: whildwinds | concat: whildwinds | concat: films | concat: protest  %}
     {% include events-gallery.html date_field='start_date' summary=true %}
 
-    # Upcoming Trainings
+    # Trainings
 
     {% assign events = site.actions | where: "future", 1 | where: "event_type", "Training" %}
     {% include events-gallery.html date_field='start_date' summary=true image=false  %}
+  map: false
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - map: false
   text: |-
     # #StopEACOP
@@ -41,7 +46,6 @@ blocks:
     new_tab: false
   decoration: ''
   background_image: ''
-
 - map: false
   text: |-
     ## Trade Union Motion
