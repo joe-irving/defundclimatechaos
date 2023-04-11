@@ -111,6 +111,7 @@ airtable:
     - Image
     - Online
     - Event Type
+    - Group Names
     collection:
       slug: slug
       layout: an-event

@@ -50,6 +50,7 @@
                     <div class="header-line">
                       <h3><a href="{{ url }}"  target="_blank">{{ post.title }}</a></h3>
                     </div>
+                    {% if post.group_names.size < 5 %}<p>{% for group in post.group_names %}{{ group }}{% unless forloop.last %}, {% else %}.{% endunless %}{% endfor %}</p>{% endif %}
                     <p><time>{{ post.start_date | date: "%l:%M %p" }}</time> to <time>{{ post.end_date | date: "%l:%M %p" }}</time></p>
 
                     {% if post.authors %}
