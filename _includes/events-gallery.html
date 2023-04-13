@@ -8,6 +8,7 @@
     {% if event_unix < now %}{% continue %}{% endif %}
     {% assign this_month = post[date_field] | date: "%B" %}
     {% assign previous_index = forloop.index0 | minus: 1 %}
+    {% assign image = post.image | default: post.featured_image | default: post.featured_image_url %}
 
     {% capture url %}{{ post.booking_link | relative_url }}{% endcapture %}
 
@@ -28,8 +29,8 @@
 
     <div
     class="Chaos-Blog-Item {% if forloop.first %}first{%endif %}" id="{{ post_id }}-close">
-    {% if post.image.size > 0 and include.thumbnail!=true and include.image!=false %}
-    <a href="{{ post.url | relative_url  }}" target="_blank"><img src="{{ post.image  | relative_url  }}" /></a>
+    {% if image.size > 0 and include.thumbnail!=true and include.image!=false %}
+    <a href="{{ post.url | relative_url  }}" target="_blank"><img src="{{ image  | relative_url  }}" /></a>
     {% endif %}
         <div class="top {% if include.alternate_direction %}{% cycle '','reverse' %}{% endif %}">
                 {% if include.date!=false %}
@@ -38,10 +39,10 @@
                     <span class="month">{{ post[date_field] | date: "%b" }}</span>
                 </div>
                 {% endif %}
-                {% if include.thumbnail and post.image.size > 1 %}
+                {% if include.thumbnail and image.size > 1 %}
                 <!-- <a href="{{ url   }}" class="thumbnail"> -->
-                  <div class="thumbnail" style="background-image:url('{{ post.image  | relative_url  }}')">
-                    <!-- <a href="{{ url   }}"><img title="{{post.title}}"  src="{{ post.image  | relative_url  }}" /></a> -->
+                  <div class="thumbnail" style="background-image:url('{{ image  | relative_url  }}')">
+                    <!-- <a href="{{ url   }}"><img title="{{post.title}}"  src="{{ image  | relative_url  }}" /></a> -->
                   </div>
                 <!-- </a> -->
                 {% endif %}

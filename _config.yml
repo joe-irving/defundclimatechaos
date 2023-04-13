@@ -109,6 +109,8 @@ airtable:
     - Content
     - Future
     - Image
+    - Featured Image URL
+    - Featured Image
     - Online
     - Event Type
     - Group Names
