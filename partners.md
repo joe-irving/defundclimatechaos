@@ -2,11 +2,11 @@
 layout: page
 title: Partners
 top_image: ''
-top_quote: "“We’re not going to let the banks bring down the entire planet too”"
-image: "/assets/images/og-image.png"
+top_quote: “We’re not going to let the banks bring down the entire planet too”
+image: /assets/images/og-image.png
 main_nav_exclude: true
 footer_nav_include: true
-order: 
+order: null
 credits: ''
 tags: []
 summary: ''
@@ -16,8 +16,9 @@ share:
   tweet: ''
 logo: ''
 logo_square: ''
-
+_template: page
 ---
+
 # Partners
 
 Youth from communities on the frontlines of wildfires and floods, Indigenous frontline defenders, trade unions and local community groups, we are joining together to transform the finance system.

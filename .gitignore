@@ -11,3 +11,4 @@ api
 .env
 
 assets/airtable
+node_modules

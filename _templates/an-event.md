@@ -2,27 +2,29 @@
 title: Action Network Event
 slug: an-event
 template: |-
-    # _{{ title }}_
+  # _{{ title }}_
 
-    {{ share_buttons }}
-    {{ image }}
-    {{ date }}
+  {{ share_buttons }}
+  {{ image }}
+  {{ date }}
 
-    {% if page.online == 1 %}_This event is online._{% endif %}
+  {% if page.online == 1 %}_This event is online._{% endif %}
 
-    ## What
+  ## What
 
-    {{ content }}
+  {{ content }}
 
-    ## RSVP
+  ## RSVP
 
-    {{ form }}
+  {{ form }}
 
-    {% if page.online != 1 %}
-    ## Where
+  {% if page.online != 1 %}
+  ## Where
 
-    {{ address }}
+  {{ address }}
 
-    {{ map }}
-    {% endif %}
+  {{ map }}
+  {% endif %}
+_template: template
 ---
+

@@ -2,16 +2,16 @@
 layout: page
 tags: []
 title: Demands
-top_image: "/assets/images/no-one-is-ilegal-on-stolen-land.png"
+top_image: /assets/images/no-one-is-ilegal-on-stolen-land.png
 top_quote: ''
-image: "/assets/images/dcc-og-image.jpeg"
+image: /assets/images/dcc-og-image.jpeg
 credits: ''
 summary: ''
 permalink: demands
 share:
-  whatsapp: Defund Climate Chaos Coalition Demands, check them out >
-  text: Defund Climate Chaos Coalition Demands, check them out >
-  tweet: "#DefundClimateChaos Demands here: "
+  whatsapp: 'Defund Climate Chaos Coalition Demands, check them out >'
+  text: 'Defund Climate Chaos Coalition Demands, check them out >'
+  tweet: '#DefundClimateChaos Demands here: '
 logo: ''
 logo_square: ''
 menu:
@@ -19,8 +19,9 @@ menu:
     weight: 8
   header:
     weight: 4
-
+_template: page
 ---
+
 # Demands
 
 {% include accordion-start.html title="Keep it in the Ground - End fossil fuel expansion" %}

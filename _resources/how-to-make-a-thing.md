@@ -1,18 +1,20 @@
 ---
 layout: post
 tags:
-- Art
+  - Art
 title: Make a climate justice lantern in 3 steps
-top_image: "/assets/images/lantern-ebay.jpeg"
+top_image: /assets/images/lantern-ebay.jpeg
 top_quote: ''
-image: "/assets/images/bank-of-england-memorial-promo-draft-1.png"
+image: /assets/images/bank-of-england-memorial-promo-draft-1.png
 credits: ''
 slug: climate-lanterns
-summary: At 6pm from Friday 29th October until the end of the Glasgow climate talks,
-  thousands of people around the country will light a lantern for climate justice.
-  Here’s how to make your own and join us.
-
+summary: >-
+  At 6pm from Friday 29th October until the end of the Glasgow climate talks,
+  thousands of people around the country will light a lantern for climate
+  justice. Here’s how to make your own and join us.
+_template: resource
 ---
+
 At 6pm from Friday 29th October until the end of the Glasgow climate talks, thousands of people around the country will light a lantern to shine light on their hopes for climate justice. 
 
 Here’s how to make your own and join in.

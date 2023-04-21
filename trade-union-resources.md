@@ -9,7 +9,9 @@ credits: ''
 permalink: tu-resource
 summary: ''
 published: true
+_template: page
 ---
+
 # Some resources
 
 etc

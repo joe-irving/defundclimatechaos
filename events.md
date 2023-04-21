@@ -18,8 +18,9 @@ menu:
   footer:
     weight: 7
     title: Events
-
+_template: page
 ---
+
 # Upcoming Events and actions
 
 {% assign protest = site.actions | where: "future", 1 | where: "event_type", "Protest" %}

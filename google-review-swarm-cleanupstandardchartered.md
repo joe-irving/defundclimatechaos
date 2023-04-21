@@ -2,21 +2,26 @@
 layout: page
 tags: []
 title: 'Google Review Swarm  #CleanUpStandardChartered'
-top_image: "/assets/images/defund-climate-chaos-bank-of-england.jpg"
-top_quote: If we all work together, we'll be able to see that rating start to get
-  lower and lower.
-image: "/assets/images/dcc-og-image.jpeg"
+top_image: /assets/images/defund-climate-chaos-bank-of-england.jpg
+top_quote: >-
+  If we all work together, we'll be able to see that rating start to get lower
+  and lower.
+image: /assets/images/dcc-og-image.jpeg
 credits: ''
 permalink: google-review-swarm
-summary: Add as many Google Reviews as you can on Google Maps to lower the star rates
+summary: >-
+  Add as many Google Reviews as you can on Google Maps to lower the star rates
   of Standard Chartered across the world.
 share:
-  whatsapp: 'Join the Google Review storm to clean up Standard Chartered Bank, check
-    out this guide: '
-  text: Join the Google Review storm to clean up Standard Chartered Bank, check out
+  whatsapp: >-
+    Join the Google Review storm to clean up Standard Chartered Bank, check out
+    this guide: 
+  text: >-
+    Join the Google Review storm to clean up Standard Chartered Bank, check out
     this guide
-  tweet: 'Join the Google Review storm to #CleanUpStandardCharteredBank, check out
-    this guide'
+  tweet: >-
+    Join the Google Review storm to #CleanUpStandardCharteredBank, check out
+    this guide
 logo: ''
 logo_square: ''
 menu:
@@ -26,8 +31,9 @@ menu:
   footer:
     weight: 6
     title: Google Reveiw Storm
-
+_template: page
 ---
+
 # **Google Review Swarm**
 
 ### #CleanUpStandardChartered

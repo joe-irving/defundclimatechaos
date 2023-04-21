@@ -1,16 +1,18 @@
 ---
 layout: post
-date: 2021-09-17 15:04:56 +0100
+date: '2021-09-17 15:04:56 +0100'
 tags: []
 title: Protest Outside First Ever Barclays Bank
-image: "/assets/images/signal-2021-09-12-191857_001.jpeg"
-summary: Despite its stated commitment to reduce its lending to move to net-zero emissions
-  by 2050, Barclays has actually increased their lending to fossil fuels projects
-  last year.
+image: /assets/images/signal-2021-09-12-191857_001.jpeg
+summary: >-
+  Despite its stated commitment to reduce its lending to move to net-zero
+  emissions by 2050, Barclays has actually increased their lending to fossil
+  fuels projects last year.
 slug: 'By XR Buddhists '
 credits: ''
-
+_template: stories
 ---
+
 By Extinction Rebellion Buddhists
 
 Despite its stated commitment to [reduce its lending to move to net zero emissions by 2050](https://home.barclays/society/our-position-on-climate-change/), Barclays has actually [increased their lending to fossil fuels projects last year](https://www.cityam.com/barclays-fossil-fuel-financing-increases-despite-net-zero-pledge/).
