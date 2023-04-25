@@ -87,15 +87,14 @@ airtable:
       content: content
     combine: true
   partners:
-    app: app9apHbqOifmolTX
-    table: tbl3erzSL6dZfNkZi
-    view: viwcwyl4ejOXEUaS0
+    app: appkGWTk8kcXcA4zD
+    table: tblwg2zUDVgridVlT
+    view: viwv0cVtr8xDduQ2S
     fields:
-      - Title
-      - URL
-      - Image
-      - Summary
-      - Invert Logo Colour
+      - Group Name
+      - Website
+      - Group logo / image
+      - DCC Website Invert Logo
   actions:
     app: appkGWTk8kcXcA4zD
     table: tblX2cLwp5FuYOYcR

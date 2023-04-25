@@ -1,0 +1,19 @@
+<div class="Chaos-Logo-List">
+  {% for org in site.data.partners %}
+    <div class="Chaos-Logo-Item">
+      {% assign image = org["group_logo_/_image"] %}
+      {% if org.website %}<a href="{{  org.website }}" target="_blank">{% endif %}
+        {% if image %}
+          <img
+            class="{% if include.background == 'light' %}darken{% else %}lighten{% endif %} {% if org.dcc_website_invert_logo %}invert{% endif %}"
+            src="{{ image }}"
+            alt="{{ org.group_name }} Logo"
+            title="{{ org.group_name }}"
+            >
+        {% else %}
+          <p>{{ org.group_name }}</p>
+        {% endif  %}
+      {% if org.website %}</a>{% endif %}
+    </div>
+  {% endfor %}
+</div>
