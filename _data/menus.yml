@@ -1,23 +1,30 @@
 ---
-header:
-- url: "/#join"
-  weight: 2
-  title: Join Us
-nhs_strike:
-- url: "/cost-of-living"
-  title: "Cost of living Crisis = Climate Crisis"
-- url: "/tu"
-  title: Trade unions
-footer:
-- url: "/partners"
-  title: Partners
-  weight: 1
-- url: "/resources"
-  title: Resources
-  weight: 2
-- url: "/trainings"
-  title: Trainings
-  weight: 3
-- url: "/#join"
-  weight: 5
-  title: Sign Up
+menus:
+- type: header
+  items:
+  - url: "/act"
+    title: Take Action
+  - url: "/#join"
+    title: Join Us
+  - url: "/resources"
+    title: Resources
+  - url: "/demands"
+    title: Demands
+  - url: "/tu"
+    title: Trade Unions
+- type: footer
+  items:
+    - url: "/partners"
+      title: Partners
+    - url: "/resources"
+      title: Resources
+    - url: "/trainings"
+      title: Trainings
+    - url: "/#join"
+      title: Sign Up
+- type: nhs_strike
+  items:
+  - url: "/cost-of-living"
+    title: "Cost of living Crisis = Climate Crisis"
+  - url: "/tu"
+    title: Trade unions

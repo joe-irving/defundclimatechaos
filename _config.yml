@@ -185,7 +185,6 @@ action_network:
       layout: an-page-2
 plugins:
   - jekyll-airtable-import
-  - jekyll-menus
   - jekyll-action-network
 nav_links: []
 google_analytics: G-LR3ETXLRXT
