@@ -16,8 +16,8 @@ gem "json"
 gem "jekyll-get-json", "~> 1.0"
 
 # Theme
-# gem 'jekyll-theme-chaos', git: "https://github.com/tippingpointuk/jekyll-theme-chaos"#, branch: "dcc-patches"
-gem "jekyll-theme-chaos", path: '/home/joe/Documents/Work/TippingPointUK/Tools/Themes/jekyll-theme-chaos' 
+gem 'jekyll-theme-chaos', git: "https://github.com/tippingpointuk/jekyll-theme-chaos"
+# gem "jekyll-theme-chaos", path: '/home/joe/Documents/Work/TippingPointUK/Tools/Themes/jekyll-theme-chaos' 
 
 
 gem 'action_network_rest'
